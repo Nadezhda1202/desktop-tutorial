@@ -1,5 +1,11 @@
-# Welcome to GitHub Desktop!
+# База знаний
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+**Выберите в меню интересующий вас раздел Базы знаний или скачайте Техническую документацию:**
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+* [Полная инструкция Sherpa RPA](https://sherparpa.ru/docs/sherpa_rpa_full.pdf)
+* [Инструкция Sherpa Robot и Sherpa Assistant](https://sherparpa.ru/docs/sherpa_assistant_robot.pdf)
+* [Инструкция Sherpa Designer](https://sherparpa.ru/docs/sherpa_designer.pdf)
+* [Инструкция Шаблонизатор Sherpa RPA](https://sherparpa.ru/docs/sherpa_templates.pdf)
+* [Инструкция Sherpa Orchestrator](https://sherparpa.ru/docs/sherpa_orchestrator.pdf)
+
+**Техническая поддержка: support@sherparpa.ru**
