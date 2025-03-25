@@ -1,6 +1,6 @@
 # Развертывание платформы под управлением Оркестратора
 
-[Диаграмма развертывания](../o-platforme-sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa.md) платформы Sherpa RPA под управлением Оркестратора показывает варианты взаимодействия Оркестратора с другими компонентами платформы Sherpa RPA:
+[Диаграмма развертывания](../../o-platforme-sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa.md) платформы Sherpa RPA под управлением Оркестратора показывает варианты взаимодействия Оркестратора с другими компонентами платформы Sherpa RPA:
 
 * RDP сервер с учетными записями Unattended-пользователей – Sherpa Coordinator Service + Sherpa Unattended Robot
 * Рабочее место разработчика (Windows) — Sherpa Designer + Sherpa Robot

@@ -4,7 +4,7 @@
 
 Для создания нового триггера в Оркестраторе перейдите на экран “Триггеры”. Данный экран содержит таблицу “Триггеры”.&#x20;
 
-<figure><img src="../../../.gitbook/assets/изображение (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (19).png" alt=""><figcaption></figcaption></figure>
 
 Для работы с Триггерами на экране есть следующие кнопки:
 

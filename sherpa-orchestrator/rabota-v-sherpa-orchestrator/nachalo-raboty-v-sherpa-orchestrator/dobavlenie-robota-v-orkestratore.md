@@ -2,8 +2,6 @@
 
 Для добавления робота в Оркестратор перейдите на экран “Роботы”. Данный экран содержит две таблицы: “Группы роботов” и “Роботы”.&#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXczW86zSFi7qvGCUSF7l3xA7HgrfS-95sF-RX7jwjGCID9NIgrO7-BxsiEcs4Ha1vhtQwEcq1ljP_s_kZ54r8sibER1GaWxNxlDo8NgD4gf5MJFnQqct_AZe28grPRvI_KgKn36XWivAQHYPBCN3YfVSN_m?key=u7Z35bHVornQV1ePR8juZw" alt=""><figcaption></figcaption></figure>
-
 При необходимости создайте группу роботов, в которой будет находится робот. Нажмите кнопку “Создать” в таблице “Группы роботов” и заполните открывшуюся форму.
 
 <figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>

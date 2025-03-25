@@ -12,7 +12,7 @@
 
 Откроется всплывающее окно “Настройки виджета”:
 
-<figure><img src="../../../../.gitbook/assets/изображение (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (14).png" alt=""><figcaption></figcaption></figure>
 
 Заполните нужные поля для настройки виджета.
 

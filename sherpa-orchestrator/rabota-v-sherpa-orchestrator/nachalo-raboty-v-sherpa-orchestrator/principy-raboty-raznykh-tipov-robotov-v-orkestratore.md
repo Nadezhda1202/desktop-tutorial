@@ -45,7 +45,7 @@ Unattended-робота можно использовать:
 
 Для Attended-роботов указывать Координатора не требуется.
 
-Координатор устанавливается из соответствующего дистрибутива. [Установка Sherpa Coordinator описана здесь. ](../../ustanovka-sherpa-orchestrator/ustanovka-sherpa-rpa-coordinator/ustanovka-sherpa-rpa-coordinator-na-windows.md)Координатор не требует отдельной лицензии.
+Координатор устанавливается из соответствующего дистрибутива. [Установка Sherpa Coordinator описана здесь. ](../../razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-coordinator/ustanovka-sherpa-rpa-coordinator-na-windows.md)Координатор не требует отдельной лицензии.
 
 Робот с функцией Координатор (для Unattended-роботов) отображается в таблице Роботы. Координатор всегда находится во включенном состоянии, о чем сигнализирует зеленый индикатор. Данный сервис обеспечивает создание и удержание сессий пользовательских учетных записей для Unattended-роботов в рамках используемого терминального сервера.
 

@@ -2,7 +2,7 @@
 
 Для настройки корректной работы роботов через Citrix необходимо иметь клиентский компьютер, на котором будет запускаться Робот и удаленный рабочий стол (или удаленное оконное приложение), доступ к которому будет осуществляться с помощью Citrix. На клиентском компьютере можно установить любой тип Робота (Sherpa Designer + Attended Robot, просто Sherpa Attended Robot или Sherpa Unattended Robot). Именно с клиентского компьютера будет запускаться и работать сценарий работы. Далее следуйте инструкции.&#x20;
 
-1. &#x20;**Установите Sherpa Runtime в режиме Attended для всех пользователей** на компьютер, к которому будет осуществляться удаленное подключение. Инструкция по установке находится [здесь](../../../../../sherpa-orchestrator/ustanovka-sherpa-orchestrator/ustanovka-sherpa-rpa-runtime.md).
+1. &#x20;**Установите Sherpa Runtime в режиме Attended для всех пользователей** на компьютер, к которому будет осуществляться удаленное подключение. Инструкция по установке находится [здесь](../../../../../sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-runtime.md).
 2. **Установите плагин Native Citrix** на компьютер, с которого будет запускаться робот. Для этого запустите от администратора Sherpa Assistant, затем нажмите в трее правой кнопкой мыши на значок ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcqOzsMokmC_84nQVU3_I5BHDcw91hwXfQX0dFTbRYfGHP9-Y_Mk-GqftZcuQ5hNOn6Zn34hoHAtWVNXPnZxYEuW1j-ClX851iO93_eoC_nNcTBi3NbTAb8UekBVyepM6jzp_EwdPTsA4cJZETVhqOACZlM?key=qC7pvGnR1dRF3OFQVauZYg) выберите в контекстном меню, пункт “Плагины”, далее – “Установить плагин Native Citrix”.
 
 <figure><img src="../../../../../.gitbook/assets/КнткстМенюПлагиныCitrix.png" alt=""><figcaption></figcaption></figure>
