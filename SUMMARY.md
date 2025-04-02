@@ -114,6 +114,7 @@
     * [Outlook](sherpa-designer/spravochnik-blokov/outlook.md)
     * [Exchange](sherpa-designer/spravochnik-blokov/exchange.md)
     * [Файловая система](sherpa-designer/spravochnik-blokov/failovaya-sistema.md)
+    * [Пример заполнения полей в Блоке “Создать папку”](sherpa-designer/spravochnik-blokov/primer-zapolneniya-polei-v-bloke-sozdat-papku.md)
     * [Буфер обмена](sherpa-designer/spravochnik-blokov/bufer-obmena.md)
     * [Списки и словари](sherpa-designer/spravochnik-blokov/spiski-i-slovari.md)
     * [Таблицы Данных](sherpa-designer/spravochnik-blokov/tablicy-dannykh.md)
