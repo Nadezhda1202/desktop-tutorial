@@ -8,10 +8,18 @@
 
 По клику на иконку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLSwPtQVC_CWGdJC5sEIG5IjqYoWO9lCnhZ0CxghJ7fnAhGpOJAOU_9RG0IbhEXrTZ01b-i7_bQZY8w6XyFfuoFjSweEl4P5YaE-KaYeqgqS6Af9ZW46VoBYYf67s1cHfEzyzA_A?key=o0FHaGHt8wdv-FpDKfCXmTRa) справа от нужного метода, раскрывается соответствующая страница:
 
-1\) Создание Процесса
+1\) [Создание Процесса](#user-content-fn-1)[^1]
 
-2\) Чтение Процесса по GUID
+2\)[ Чтение Процесса по GUID](#user-content-fn-2)[^2]
 
-3\) Обновление Процесса
+3\) [Обновление Процесса](#user-content-fn-3)[^3]
 
-4\)  Удаление Процесса по GUID
+4\)  [Удаление Процесса по GUID](#user-content-fn-4)[^4]
+
+[^1]: /api/process/create
+
+[^2]: &#x20;/api/process/read/{guid}
+
+[^3]: /api/process/update
+
+[^4]: /api/process/delete/{guid}
