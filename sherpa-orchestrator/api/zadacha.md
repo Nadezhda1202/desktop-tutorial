@@ -2,28 +2,40 @@
 
 Позволяет управлять Задачами. Пользователь может создавать новую Задачу, получить информацию о Задаче, обновить информацию о Задаче, а также удалить Задачу.
 
-В верхней части страницы располагается таблица со всеми доступными статусами Задач:
+Таблица со всеми доступными статусами Задач:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1MUCckvXpVxNjvkhQhfVbPc0XWOfLp743gwczLtux6B9LuU1amMhxbFEEo-FgCAd_mfHKasCFbxOTljx9bFp9xEvROcbmoQ_Nd76q3VFPEtLDs8RD-8KCZkIH2LT-feFLws_-?key=o0FHaGHt8wdv-FpDKfCXmTRa" alt=""><figcaption></figcaption></figure>
 
-В нижней части располагаются вкладки с методами:
+Методы:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXddWx_ZbT9YozbQPBHc_33FubScB1yOukfMSc0NjvPUoQE6Dq5mubBnDgnNE3zxfAl5h0kSIuAqoqQfoj9l6DHGy85foy4_LE9RJF0Du-IbmpaFHBz3y3WDoP_MLhExK_l51wJPgw?key=o0FHaGHt8wdv-FpDKfCXmTRa" alt=""><figcaption></figcaption></figure>
+1\)[ Создание Задачи](#user-content-fn-1)[^1]
 
-По клику на иконку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLSwPtQVC_CWGdJC5sEIG5IjqYoWO9lCnhZ0CxghJ7fnAhGpOJAOU_9RG0IbhEXrTZ01b-i7_bQZY8w6XyFfuoFjSweEl4P5YaE-KaYeqgqS6Af9ZW46VoBYYf67s1cHfEzyzA_A?key=o0FHaGHt8wdv-FpDKfCXmTRa) справа от нужного метода, раскрывается соответствующая страница:
+2\) [Получение Задачи по GUID или имени](#user-content-fn-2)[^2]
 
-1\) Создание Задачи
+3\) [Получение детальной информации о конкретной Задаче из указанной Очереди по GUID или имени данной Очереди по указанным параметрам](#user-content-fn-3)[^3]
 
-2\) Получение Задачи по GUID или имени
+4\) [Получение списка Задач, связанных с GUID или именем Очереди](#user-content-fn-4)[^4]
 
-3\) Получение детальной информации о конкретной Задаче из указанной Очереди по GUID или имени данной Очереди по указанным параметрам
+5\) [Обновление Задачи](#user-content-fn-5)[^5]
 
-4\) Получение списка Задач, связанных с GUID или именем Очереди
+6\) [Удаление Задачи](#user-content-fn-6)[^6]
 
-5\) Обновление Задачи
+7\) [Управление Тегами](#user-content-fn-7)[^7]
 
-6\) Удаление Задачи
+8\) [Удаление Тегов из Задачи по GUID или имени](#user-content-fn-8)[^8]
 
-7\) Управление Тегами
+[^1]: /api/task/create&#x20;
 
-8\) Удаление Тегов из Задачи по GUID или имени
+[^2]: /api/task/read
+
+[^3]: /api/task/filter/read/{guid}\[/{filters}]&#x20;
+
+[^4]: /api/task/filter/list/{guid}\[/{filters}]
+
+[^5]: /api/task/update
+
+[^6]: /api/task/delete
+
+[^7]: /api/task/addTag
+
+[^8]: /api/task/removeTag
