@@ -305,7 +305,7 @@
       * [/api/queue/read/{guid}](sherpa-orchestrator/api/ochered/api-queue-read-guid.md)
       * [/api/queue/update](sherpa-orchestrator/api/ochered/api-queue-update.md)
       * [/api/queue/delete/{guid}](sherpa-orchestrator/api/ochered/api-queue-delete-guid.md)
-    * [Задача](sherpa-orchestrator/api/zadacha/README.md)
+    * [Задача](sherpa-orchestrator/api/zadacha.md)
       * [/api/task/create](sherpa-orchestrator/api/zadacha/api-task-create.md)
       * [/api/task/read](sherpa-orchestrator/api/zadacha/api-task-read.md)
       * [/api/task/filter/read/{guid}\[/{filters}\]](sherpa-orchestrator/api/zadacha/api-task-filter-read-guid-filters.md)
