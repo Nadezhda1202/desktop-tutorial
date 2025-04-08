@@ -2,20 +2,28 @@
 
 Позволяет управлять Группами Роботов. Пользователь может создавать и управлять Группами Роботов, а также управлять ассоциацией Роботов с этими Группами.
 
-На данной странице располагаются вкладки с методами:
+Методы:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQV8HZNQk3d9TqauCGv43OVSBHKcSUEZsjYDSADVhrYMYGM1k4TgnR0FyDEzGpSwf1jPPvycuard_aW3w8PhSN2xlKxYFEEcCJGaV4XXS2TYiiBL4JR4h1q62c_T_6RqeQNk5_3A?key=o0FHaGHt8wdv-FpDKfCXmTRa" alt=""><figcaption></figcaption></figure>
+1\) [Создание новой Группы Робота](#user-content-fn-1)[^1]
 
-По клику на иконку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLSwPtQVC_CWGdJC5sEIG5IjqYoWO9lCnhZ0CxghJ7fnAhGpOJAOU_9RG0IbhEXrTZ01b-i7_bQZY8w6XyFfuoFjSweEl4P5YaE-KaYeqgqS6Af9ZW46VoBYYf67s1cHfEzyzA_A?key=o0FHaGHt8wdv-FpDKfCXmTRa) справа от нужного метода, раскрывается соответствующая страница:
+2\) [Получение информации о Группе Роботов по GUID](#user-content-fn-2)[^2]
 
-1\) Создание новой Группы Робота
+3\) [Обновление информации о Группе Роботов по GUID](#user-content-fn-3)[^3]
 
-2\) Получение информации о Группе Роботов по GUID
+4\) [Удаление информации о Группе Роботов по GUID](#user-content-fn-4)[^4]
 
-3\) Обновление информации о Группе Роботов по GUID
+5\) [Добавление Робота по GUID в Группу Роботов по GUID](#user-content-fn-5)[^5]
 
-4\) Удаление информации о Группе Роботов по GUID
+6\) [Удаление Робота по GUID из Группы Роботов по GUID](#user-content-fn-6)[^6]
 
-5\) Добавление Робота по GUID в Группу Роботов по GUID
+[^1]: /api/robotGroup/create
 
-6\) Удаление Робота по GUID из Группы Роботов по GUID
+[^2]: /api/robotGroup/read/{guid}
+
+[^3]: /api/robotGroup/update
+
+[^4]: /api/robotGroup/delete/{guid}
+
+[^5]: /api/robotGroup/addRobot&#x20;
+
+[^6]: /api/robotGroup/delete/{guid}&#x20;
