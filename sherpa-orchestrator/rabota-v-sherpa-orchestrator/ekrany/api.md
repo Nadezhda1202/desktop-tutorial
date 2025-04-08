@@ -42,4 +42,4 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXepIfjanO0OANtvmFvAcp9yk6l-kJYlkaXAjsNpUmzET9-ZIm2-UoUcKp8H61tDNcLtOPKP1YUrHigpb3i37ynQ3tftqo0HgnK8CYiVBXBlI4RRH-48ctzwC_iOpwUDFlBb5bCBtQ?key=o0FHaGHt8wdv-FpDKfCXmTRa" alt=""><figcaption></figcaption></figure>
 
-Описание остальных методов можно найти [здесь](../../api/).
+Справочник API можно найти [здесь](../../api/).
