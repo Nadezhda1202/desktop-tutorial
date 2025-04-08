@@ -12,10 +12,18 @@
 
 Методы:
 
-1\) Создание Триггера
+1\) [Создание Триггера](#user-content-fn-1)[^1]
 
-2\) Получение информации о Триггере по GUID
+2\) [Получение информации о Триггере по GUID](#user-content-fn-2)[^2]
 
-3\) Обновление информации о Триггере по GUID
+3\) [Обновление информации о Триггере по GUID](#user-content-fn-3)[^3]
 
-4\) Удаление Триггера по GUID
+4\) [Удаление Триггера по GUID](#user-content-fn-4)[^4]
+
+[^1]: /api/schedule/create
+
+[^2]: &#x20;/api/schedule/read/{guid}
+
+[^3]: /api/schedule/update
+
+[^4]: /api/schedule/delete/{guid}
