@@ -19,7 +19,7 @@ Sherpa Desigher предоставляет следующие возможнос
 | Оперативная память: 2 GB                                                | Оперативная память: 4 GB                                             |
 | Microsoft .NET Framework 4.8+ PowerShell 5.1+                           | Microsoft .NET Framework 4.8+ PowerShell 5.1+                        |
 
-## Системные требования для Sherpa RPA для Linux <a href="#sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux" id="sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux"></a>
+## Системные требования для Sherpa Designer для Linux <a href="#sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux" id="sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux"></a>
 
 | **Минимальные системные требования:**                                | **Рекомендуемые системные требования:**                              |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
