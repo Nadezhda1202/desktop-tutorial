@@ -2,11 +2,11 @@
 
 Для добавления новой очереди в Оркестраторе перейдите на экран “Очереди”. Данный экран содержит две таблицы: “Очереди” и “Задачи”.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKpJratFenry7X5An0OTY4tj6CQIgjxdPcumBuK1KBEGg3ck-JXAv8neaje-4wC3kKtSxmxOvbEYcyyQR4F8e2yY9egJ5gBWjMWTeJnVGBgerbyjbjvqxqxNScSYk9cUjBLi5B5YV4lSa4_LGlSwM1UPlY?key=badYObIGwGYqyghIBmuxWQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (36).png" alt=""><figcaption></figcaption></figure>
 
 Нажмите кнопку “Создать” в таблице “Очереди” и заполните открывшуюся форму.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd_0ULItO_LMkYmOXi6a7zLzamixLQLjGgVNkvgwP0aNfcA9QupgHmu_SJt4gJY8sGJs_-mLkvY4eKbtb1Uhk7YElG53_fyvOsK9vEWBPwzlU-PQ1EoujhPon0jIT12LDk4uEPaZCosvO5OBEv7IDkuVlKK?key=badYObIGwGYqyghIBmuxWQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (37).png" alt=""><figcaption></figcaption></figure>
 
 * поле “Имя” (является обязательным для заполнения);
 * поле “Описание”  (при необходимости);
