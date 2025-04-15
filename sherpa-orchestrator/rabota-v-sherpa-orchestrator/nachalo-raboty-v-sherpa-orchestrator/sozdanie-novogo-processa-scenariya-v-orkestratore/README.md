@@ -1,45 +1,44 @@
 # Создание нового Процесса (сценария) в Оркестраторе
 
-Для добавления нового процесса в Оркестратор перейдите на экран “Процессы”. Данный экран содержит две таблицы: “Процессы” и “Версии процессов”. &#x20;
+Для добавления нового Процесса в Оркестратор перейдите на экран “Процессы”. Данный экран содержит две таблицы: “Процессы” и “Версии процессов”. &#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNlRh-w1GQNp09myyJ918Rj4MKKgCg-Vo4ny5IyZ1xv23n31gyTqnd0QL7TfpCZN_pF88LrGwl57uy94LVKhNqYSnxtpGqyQWxWbwd2DduBBTDzNxB1zijhAPcY-D5T2KAXVDdI09V7htG9UQD5p7B-uU?key=AlXLCZelkj_i53TYtSVPbQ" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (39).png" alt=""><figcaption></figcaption></figure>
 
-Нажмите на кнопку “Создать” в таблице “Процессы” и заполните открывшуюся форму:
+Нажмите на кнопку “Создать” над таблицей “Процессы” и заполните открывшуюся форму:
 
-* поле “Имя” (является обязательным для заполнения, по умолчанию, в поле указывается наименование процесса, текущая дата и время создания версии, эти данные, при необходимости, можно изменить на актуальное название);
-* поле “Запускать на версии Sherpa RPA Runtime не ниже чем” (укажите номер версии Sherpa RPA Runtime, ниже которой процесс не будет запускаться);
-* поле “Описание” (при необходимости);
-* поле "Папка доступа" (папка доступа для создаваемого процесса);
-* флаг "Доступен через Sherpa Assistant" (установите флаг, если необходимо, чтобы данный процесс был доступен через Sherpa Assistant).
+<figure><img src="../../../../.gitbook/assets/изображение (40).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+* поле “**Имя\***” (является обязательным для заполнения, по умолчанию) - наименование Процесса, текущая дата и время создания версии. Эти данные, при необходимости, можно изменить на актуальное название;
+* поле “**Запускать на версии Sherpa RPA Runtime не ниже чем**” - номер версии Sherpa RPA Runtime, ниже которой Процесс не будет запускаться;
+* поле “**Описание**” (при необходимости) - описание для создаваемого Процесса;
+* поле "**Папка доступа**" - папка доступа для создаваемого Процесса;
+* флаг "**Доступен через Sherpa Assistant**" (установите флаг, если необходимо) - данный Процесс доступен через Sherpa Assistant.
 
-После заполнения полей нажмите кнопку “ОК”, чтобы сохранить процесс. В таблице “Процессы” появился новый процесс. У нового процесса нет версий. Для создания версии процесса установите флаг рядом с процессом, версию которого Вы хотите создать.
+После заполнения полей нажмите на кнопку “ОК”, чтобы сохранить Процесс. В таблице “Процессы” появится новый Процесс. У нового Процесса нет версий. Для создания версии Процесса установите флаг рядом с Процессом, версию которого Вы хотите создать.
 
-<figure><img src="../../../../.gitbook/assets/Процесс2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (41).png" alt=""><figcaption></figcaption></figure>
 
-Если процесс не выбран, то Оркестратор предупредит Вас об этом сообщением.&#x20;
+Если Процесс не выбран, то Оркестратор предупредит Вас об этом сообщением:
 
-&#x20;&#x20;
+<figure><img src="../../../../.gitbook/assets/изображение (42).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7vZ4kdzlkwPH595Sg2xqz1c45Cwyd-MRxXhLrsCrsvBpaS_EHjscLbJxTS_Nw7visekjH0ClkHqCE45IJqktscH354qbOuV_o7t-c_7xxi6AVDY1ezCz7ZTDGehqCNsO203SoWRuo1qXGA7BYrhQI5V18?key=iLsscOkAYkVnzVdVDr-zyA" alt=""><figcaption></figcaption></figure>
+Над таблицей “Версии процессов” нажмите на кнопку “Создать” и заполните открывшуюся форму:
 
-В таблице “Версии процессов” нажмите кнопку “Создать” и заполните открывшуюся форму:
+<figure><img src="../../../../.gitbook/assets/изображение (43).png" alt=""><figcaption></figcaption></figure>
 
-* поле “Имя” (является обязательным  для заполнения);
-* поле “Описание” (при необходимости);
-* с помощью кнопки “Выберите файл процесса” прикрепите файл процесса, выбрав его из файлов на Вашем компьютере.
+* поле “**Имя\***” (является обязательным для заполнения);
+* поле “**Описание**” (при необходимости);
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZi-sV1Z0rjLn_TN_INda_tjO9sGghMymyzDRzfUXQB84UJOD8AeLJDavrVPYjAXwwSnwfcwZg_gOgLyYu420Y5b6G_C28Zk-AIt-4gLRcSoor_qeTT2Dfao_Guq5Ammv4Fd5a8XllV6RmVGOD4-GcNTYj?key=iLsscOkAYkVnzVdVDr-zyA" alt=""><figcaption></figcaption></figure>
+С помощью кнопки “Выберите файл процесса” прикрепите файл Процесса, выбрав его из файлов на Вашем компьютере. После прикрепления файла, рядом с ним появится кнопка "Скачать":
 
-Требуется обязательно приложить файл процесса (файл с расширением .robot). Без файла версия не будет сохранена.
+<figure><img src="../../../../.gitbook/assets/изображение (44).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJLpJIQTwbrLFMmCNIGRNgde90kmfnFeEal6oluHLPSi2-korgv7LToo-yyQxxXZlTKrD-iXovPD_L-tOeGnWFTJ9AbbBN-PLxWMaPdsS63dTBmj7PJAlPsHY_v5NxY49wIZ1QrtHXvSC8nbdc01h78C20?key=iLsscOkAYkVnzVdVDr-zyA" alt=""><figcaption></figcaption></figure>
+<table data-header-hidden><thead><tr><th width="54"></th><th></th></tr></thead><tbody><tr><td><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeETgJ5mDp5ZtlAhsOvC0VniVwBBYVEN-ayeSoAxiOH_hRCWHO9CVQFnykU1T-qUXQqrQUxvMzMjK3sTXKNqA7SEAwSavBI4yaO3xunorKsd7Uy_VPoVc21rjMsIG-Rp0REV4KzIA?key=5hWAJNsppjGb-yRqsK0TQEaq" alt="" data-size="line"></td><td>Требуется обязательно приложить файл Процесса (файл с расширением .robot). Без файла версия Процесса не будет сохранена.</td></tr></tbody></table>
 
-Для каждого процесса можно создавать несколько его версий. Текущая версия процесса выделена ярко-голубым цветом.&#x20;
+Для каждого Процесса можно создавать несколько его версий. Текущая версия Процесса выделена ярко-голубым цветом:
 
-<figure><img src="../../../../.gitbook/assets/Процесс.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (45).png" alt=""><figcaption></figcaption></figure>
 
-Для определения версии процесса текущей выберите версию с помощью мыши и нажмите кнопку “Сделать текущей”.&#x20;
+Для определения версии Процесса текущей выберите версию с помощью мыши и нажмите на кнопку “Сделать текущей”:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdcH0qZ4y4IfnUraSLVPMp8nDIo3dL2YcX1H_20KuY8EKowb5ZlHMpqSq37QdKLUe0V-HLFXhnxlM0enksggcdOT3S3oA6YFvgxFeyOY8NgKfyEf5xWK0dxXmmuEIEjEcqbm7tiVnulbSOkx-2A9uqwM-w?key=iLsscOkAYkVnzVdVDr-zyA" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2025-04-15_16-20-22.png" alt=""><figcaption></figcaption></figure>
