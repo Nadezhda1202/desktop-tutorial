@@ -262,7 +262,7 @@
       * [Создание Задачи в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-zadachi-v-orkestratore/README.md)
         * [Работа с Задачами в Sherpa Designer](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-zadachi-v-orkestratore/rabota-s-zadachami-v-sherpa-designer.md)
       * [Создание нового Процесса (сценария) в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-novogo-processa-scenariya-v-orkestratore/README.md)
-        * [Создание новой версии процесса в Sherpa Designer](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-novogo-processa-scenariya-v-orkestratore/sozdanie-novoi-versii-processa-v-sherpa-designer.md)
+        * [Создание новой версии Процесса в Sherpa Designer](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-novogo-processa-scenariya-v-orkestratore/sozdanie-novoi-versii-processa-v-sherpa-designer.md)
       * [Создание Работы с выбранными Роботом и Процессом](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-raboty-s-vybrannymi-robotom-i-processom.md)
       * [Создание и настройка Триггеров в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-i-nastroika-triggerov-v-orkestratore.md)
     * [Шифрование](sherpa-orchestrator/rabota-v-sherpa-orchestrator/shifrovanie.md)
