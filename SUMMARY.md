@@ -266,7 +266,7 @@
       * [Создание Работы с выбранными Роботом и Процессом](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-raboty-s-vybrannymi-robotom-i-processom.md)
       * [Создание и настройка Триггеров в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-i-nastroika-triggerov-v-orkestratore.md)
     * [Шифрование](sherpa-orchestrator/rabota-v-sherpa-orchestrator/shifrovanie.md)
-    * [Параметры пользователя](sherpa-orchestrator/rabota-v-sherpa-orchestrator/parametry-polzovatelya.md)
+    * [Параметры Пользователя](sherpa-orchestrator/rabota-v-sherpa-orchestrator/parametry-polzovatelya.md)
     * [Рабочая область Оркестратора](sherpa-orchestrator/rabota-v-sherpa-orchestrator/rabochaya-oblast-orkestratora.md)
     * [Экраны](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/README.md)
       * [Обзор](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/README.md)
