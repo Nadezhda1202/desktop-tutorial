@@ -6,7 +6,7 @@
 
 Экран “Роботы” содержит две таблицы: “Группы роботов” и “Роботы”.
 
-<figure><img src="../../../.gitbook/assets/изображение (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (80).png" alt=""><figcaption></figcaption></figure>
 
 Таблица “Группы роботов” включает следующую информацию:
 
