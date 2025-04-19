@@ -2,7 +2,7 @@
 
 Диаграмма развертывания Sherpa RPA под управлением Оркестратора выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В хорошем качестве можно скачать [здесь](https://drive.google.com/file/d/1pk9I-S76C23NwCPEY_UosRxBOy984k3T/view?usp=drive_link).
 

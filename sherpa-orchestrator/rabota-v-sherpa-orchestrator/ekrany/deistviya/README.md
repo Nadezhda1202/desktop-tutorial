@@ -29,7 +29,7 @@
 
 Вкладка “Кнопки действий” содержит следующие кнопки:
 
-<table data-header-hidden><thead><tr><th width="106"></th><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Элемент интерфейса</strong></td><td><strong>Описание</strong> </td></tr><tr><td>1.</td><td>Кнопка <img src="../../../../.gitbook/assets/2025-03-17_17-00-41 (1).png" alt=""></td><td>Позволяет удалить кнопку действия.</td></tr><tr><td>2.</td><td>Кнопка <img src="../../../../.gitbook/assets/2025-03-17_17-23-00.png" alt=""></td><td>Позволяет раскрыть форму создания кнопки.</td></tr><tr><td>3.</td><td>Кнопка <img src="../../../../.gitbook/assets/изображение (7) (1).png" alt=""></td><td>Позволяет добавить кнопку действия.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="106"></th><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Элемент интерфейса</strong></td><td><strong>Описание</strong> </td></tr><tr><td>1.</td><td>Кнопка <img src="../../../../.gitbook/assets/2025-03-17_17-00-41 (1).png" alt=""></td><td>Позволяет удалить кнопку действия.</td></tr><tr><td>2.</td><td>Кнопка <img src="../../../../.gitbook/assets/2025-03-17_17-23-00.png" alt=""></td><td>Позволяет раскрыть форму создания кнопки.</td></tr><tr><td>3.</td><td>Кнопка <img src="../../../../.gitbook/assets/изображение (7) (1) (1).png" alt=""></td><td>Позволяет добавить кнопку действия.</td></tr></tbody></table>
 
 Форма создания кнопки действия содержит следующие флаги и поля:
 
