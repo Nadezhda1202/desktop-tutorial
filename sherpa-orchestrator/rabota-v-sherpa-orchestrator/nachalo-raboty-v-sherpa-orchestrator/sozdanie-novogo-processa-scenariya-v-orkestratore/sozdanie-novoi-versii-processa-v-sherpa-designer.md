@@ -6,15 +6,15 @@
 
 После нажатия кнопки откроется окно с перечнем добавляемых Процессов и списком версий этих Процессов:
 
-<figure><img src="../../../../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выберите нужный Процесс и его версию, а затем нажмите кнопку “Опубликовать в выбранный процесс”:
 
-<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 После этого выбранный Процесс появляется в Оркестраторе:
 
-<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 После публикации в перечне версий выбранного Процесса появится новая версия, по умолчанию она не является текущей.&#x20;
 
