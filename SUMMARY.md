@@ -303,7 +303,7 @@
       * [Сообщения Роботов](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/soobsheniya-robotov.md)
       * [Аккаунты](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/akkaunty.md)
       * [Пользователи](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/polzovateli/README.md)
-        * [Авторизация пользователей](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/polzovateli/avtorizaciya-polzovatelei.md)
+        * [Авторизация Пользователей](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/polzovateli/avtorizaciya-polzovatelei.md)
       * [Роли](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/roli.md)
       * [Папки объектов](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/papki-obektov.md)
       * [Аудит](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/audit.md)
