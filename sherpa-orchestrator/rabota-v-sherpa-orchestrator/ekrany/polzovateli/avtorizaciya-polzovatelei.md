@@ -25,14 +25,14 @@
 `/opt/SherpaOrchestrator/backend/config/config.ini`,\
 заполнить соответствующие параметры:
 
-* l**dap\_server;**
-* **ldap\_port;**
-* **ldap\_encryption;**
-* **ldap\_base\_dn;**
-* **ldap\_group.**
+* l**dap\_serve**
+* **ldap\_port**
+* **ldap\_encryption**
+* **ldap\_base\_dn**
+* **ldap\_group**
 
 Затем перезапустить контейнер для установки через Docker\
-(при локальной установки по необходимости перезагрузить\
+(при локальной установке по необходимости перезагрузить\
 сервер).
 
 ## **OpenID-аутентификация**
@@ -40,27 +40,32 @@
 Для создания Пользователя с методом входа в систему\
 &#xNAN;**“OpenID-аутентификация”** необходимо установить флаг:\
 &#xNAN;**“Использовать LDAP-аутентификацию”**, а затем\
-заполнить поле **“oAuth id”**.
+заполнить поле **“oAuth id”:**
+
+<figure><img src="../../../../.gitbook/assets/изображение (101).png" alt=""><figcaption></figcaption></figure>
 
 Для подключения OpenID аутентификации необходимо\
 в файле `config.ini` , расположенном по пути:\
 `/opt/SherpaOrchestrator/backend/config/config.ini`,\
 заполнить соответствующие параметры:
 
-* **oAuthClientId;**
-* **oAuthClientSecret;**
-* **oAuthAuthUri;**
-* **oAuthTokenUri;**
-* **oAuthUserInfoUri.**
+* **oAuthClientId="clientId"**
+* **oAuthClientSecret="clientSecret"**
+* **oAuthAuthUri="https://OpenID.url/authorize"**
+* **oAuthTokenUri="https://OpenID.url/token"**
+* **oAuthUserInfoUri="https://OpenID.url/info"**
 
 При запросе токена Оркестратор передает параметр\
-`‘redirect_uri’`.\
-Если необходимо, то указать Callback URL вручную:\
+`‘redirect_uri’`.
+
+Если необходимо, то указать Callback URL вручную,\
+то необходимо указать:\
 `yourDomainURL/api/gui/system/oAuthHook` .
 
 В настройках Аккаунта или Пользователя выберите: \
-`"Use OpenID authentication"` .\
+`"Use OpenID authentication"` .
+
 Укажите идентификатор Пользователя в системе OpenID.
 
-В некоторых случаях, кроме настроек в Keycloak, может\
-потребоваться добавить в `setup.ini` следующую настройку: `oAuthUserLinkField="preferred_username"` .
+В некоторых случаях (кроме настроек в Keycloak), \
+необходимо добавить в файл `setup.ini` настройку: `oAuthUserLinkField="preferred_username"` .
