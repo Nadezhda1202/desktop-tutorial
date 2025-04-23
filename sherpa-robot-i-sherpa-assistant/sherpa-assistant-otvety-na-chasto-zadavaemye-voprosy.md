@@ -17,7 +17,7 @@
 
 2\) На рабочем столе правой кнопкой мышки кликнуть по ярлыку Sherpa Assistant и перейти в папку с программой:
 
-<figure><img src="../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Там найти программу `closerdpsession.exe` и сделать на нее ярлык на рабочий стол.&#x20;
 

@@ -4,13 +4,13 @@
 
 Экран “Роли” содержит таблицу “Роли”:
 
-<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (3).png" alt=""><figcaption></figcaption></figure>
 
 ## **Создание новой Роли**
 
 Для создания новой Роли необходимо нажать на кнопку “Создать” над таблицей “Роли” и заполнить открывшуюся форму:
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Форма создания новой Роли содержит две вкладки:
 
