@@ -122,7 +122,7 @@
       * [Получить значение ячейки (GetExcelCellValue)](sherpa-designer/spravochnik-blokov/excel-excel-automation/poluchit-znachenie-yacheiki-getexcelcellvalue.md)
       * [Записать значение в ячейку (SetExcelCellValue)](sherpa-designer/spravochnik-blokov/excel-excel-automation/zapisat-znachenie-v-yacheiku-setexcelcellvalue.md)
       * [Загрузить Таблицу Данных (LoadDataTable)](sherpa-designer/spravochnik-blokov/excel-excel-automation/zagruzit-tablicu-dannykh-loaddatatable.md)
-      * [Сохранить таблицу данных (SaveDataTable)](sherpa-designer/spravochnik-blokov/excel-excel-automation/sokhranit-tablicu-dannykh-savedatatable.md)
+      * [Сохранить Таблицу Данных (SaveDataTable)](sherpa-designer/spravochnik-blokov/excel-excel-automation/sokhranit-tablicu-dannykh-savedatatable.md)
       * [Добавить лист (AddWorksheet)](sherpa-designer/spravochnik-blokov/excel-excel-automation/dobavit-list-addworksheet.md)
       * [Удалить лист (DeleteWorksheet)](sherpa-designer/spravochnik-blokov/excel-excel-automation/udalit-list-deleteworksheet.md)
       * [Переименовать лист (RenameWorksheet)](sherpa-designer/spravochnik-blokov/excel-excel-automation/pereimenovat-list-renameworksheet.md)
