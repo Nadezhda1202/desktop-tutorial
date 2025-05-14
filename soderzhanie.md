@@ -136,118 +136,118 @@
     * [Работа с архивами](sherpa-designer/spravochnik-blokov/rabota-s-arkhivami.md)
     * [Бизнес-функции](sherpa-designer/spravochnik-blokov/biznes-funkcii.md)
     * [Изображения](sherpa-designer/spravochnik-blokov/izobrazheniya.md)
-    * Telegram
-    * Учетные данные Windows и CyberArk
-    * Машинное обучение
-    * Анализ текстов (NLP)
-  * Примеры Роботов
-    * 1С Приходная накладная
-    * 1С Приходная накладная (COM)
-    * Actions
-      * Actions. Часть 1 - Распознавание приходной накладной
-      * Actions. Часть 2 - Заведение приходной накладной
-    * AI Chat With Own Document
-      * Create Embeddings
-      * Search Embeddings
-    * Calc Example
-    * Calculator Action Button with Dialog
-    * Calculator Action Triggers
-    * Cmd Example
-    * Enroll Certificates
-      * Complete Enrollment
-      * Create Enrollment Order
-    * Find Suppliers
-    * Get Auto.ru
-    * Install RDP
-    * Print Certificates and Badges
-    * Save HeadHunter Resumes
-    * Save SuperJob Jobs
-    * Telegram Bot
-    * Telegram client
-    * Telegram Multi-User Bot
-    * Telegram Multi-User Client
-    * Whatsapp
-    * Крестики-нолики
-  * Настройка запуска Робота через Планировщик Windows
+    * [Telegram](sherpa-designer/spravochnik-blokov/telegram.md)
+    * [Учетные данные Windows и CyberArk](sherpa-designer/spravochnik-blokov/uchetnye-dannye-windows-i-cyberark.md)
+    * [Машинное обучение](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie.md)
+    * [Анализ текстов (NLP)](sherpa-designer/spravochnik-blokov/analiz-tekstov-nlp.md)
+  * [Примеры Роботов](sherpa-designer/primery-robotov/)
+    * [1С Приходная накладная](sherpa-designer/primery-robotov/1s-prikhodnaya-nakladnaya.md)
+    * [1С Приходная накладная (COM)](sherpa-designer/primery-robotov/1s-prikhodnaya-nakladnaya-com.md)
+    * [Actions](sherpa-designer/primery-robotov/actions/)
+      * [Actions. Часть 1 - Распознавание приходной накладной](sherpa-designer/primery-robotov/actions/actions.-chast-1-raspoznavanie-prikhodnoi-nakladnoi.md)
+      * [Actions. Часть 2 - Заведение приходной накладной](sherpa-designer/primery-robotov/actions/actions.-chast-2-zavedenie-prikhodnoi-nakladnoi.md)
+    * [AI Chat With Own Document](sherpa-designer/primery-robotov/ai-chat-with-own-document/)
+      * [Create Embeddings](sherpa-designer/primery-robotov/ai-chat-with-own-document/create-embeddings.md)
+      * [Search Embeddings](sherpa-designer/primery-robotov/ai-chat-with-own-document/search-embeddings.md)
+    * [Calc Example](sherpa-designer/primery-robotov/calc-example.md)
+    * [Calculator Action Button with Dialog](sherpa-designer/primery-robotov/calculator-action-button-with-dialog.md)
+    * [Calculator Action Triggers](sherpa-designer/primery-robotov/calculator-action-triggers.md)
+    * [Cmd Example](sherpa-designer/primery-robotov/cmd-example.md)
+    * [Enroll Certificates](sherpa-designer/primery-robotov/enroll-certificates/)
+      * [Complete Enrollment](sherpa-designer/primery-robotov/enroll-certificates/complete-enrollment.md)
+      * [Create Enrollment Order](sherpa-designer/primery-robotov/enroll-certificates/create-enrollment-order.md)
+    * [Find Suppliers](sherpa-designer/primery-robotov/find-suppliers.md)
+    * [Get Auto.ru](sherpa-designer/primery-robotov/get-auto.ru.md)
+    * [Install RDP](sherpa-designer/primery-robotov/install-rdp.md)
+    * [Print Certificates and Badges](sherpa-designer/primery-robotov/print-certificates-and-badges.md)
+    * [Save HeadHunter Resumes](sherpa-designer/primery-robotov/save-headhunter-resumes.md)
+    * [Save SuperJob Jobs](sherpa-designer/primery-robotov/save-superjob-jobs.md)
+    * [Telegram Bot](sherpa-designer/primery-robotov/telegram-bot.md)
+    * [Telegram client](sherpa-designer/primery-robotov/telegram-client.md)
+    * [Telegram Multi-User Bot](sherpa-designer/primery-robotov/telegram-multi-user-bot.md)
+    * [Telegram Multi-User Client](sherpa-designer/primery-robotov/telegram-multi-user-client.md)
+    * [Whatsapp](sherpa-designer/primery-robotov/whatsapp.md)
+    * [Крестики-нолики](sherpa-designer/primery-robotov/krestiki-noliki.md)
+  * [Настройка запуска Робота через Планировщик Windows](sherpa-designer/nastroika-zapuska-robota-cherez-planirovshik-windows.md)
   * [Перенос роботов с Windows на Linux](sherpa-designer/perenos-robotov-s-windows-na-linux.md)
-  * Sherpa Designer: ответы на часто задаваемые вопросы
-    * Настройка входных и выходных параметров в свойствах проекта
-* Шаблонизатор Sherpa RPA
-  * Интерфейс Шаблонизатора
-    * Основное меню Шаблонизатора
-      * Меню "Файл"
-      * Меню "Обработка"
-      * Кнопка "Открыть исходный файл"
-      * Кнопка "Обработать документ"
-      * Кнопка "Проверить"
-      * Кнопка "Добавить атрибут"
-      * Кнопка "Выполнить полное сканирование"
-        * Результат полного сканирования
-      * Кнопка "Умный помощник"
-      * Переключатель "Масштаб"
-      * Меню "Отображать"
-    * Центральная рабочая область Шаблонизатора
-    * Панель настроек Шаблонизатора
-      * Настройки
-      * Якоря
-      * Атрибуты
-      * Таблицы
-      * Чертежи таблиц
-  * Действия в Sherpa Designer после создания шаблона
-    * Значения переменных
-    * Работа с многостраничными документами
-  * Примеры
-    * Создание шаблона на примере документа «Справка о стоимости выполненных работ»
-      * Предобработка документа
-      * Создание шаблона
-      * Работа с таблицами
-      * Якоря
-      * Создание атрибутов
-    * Создание шаблона c фиксированными атрибутами на примере документа «Счет на оплату»
-* Sherpa Orchestrator
-  * Основные понятия
-  * Рекомендации по размещению Оркестратора
-  * Резервное копирование и восстановление
-  * Развертывание платформы под управлением Оркестратора
-    * Установка Sherpa RPA Coordinator
-      * Установка Sherpa RPA Coordinator на Windows
-      * Установка Sherpa Coordinator на ОС Astra Linux
-      * Установка Sherpa Coordinator на RedOS
-    * Установка Sherpa RPA Runtime
-  * Установка Sherpa Orchestrator
-    * Установка и настройка SSL сертификатов
-  * Работа в Sherpa Orchestrator
-    * Начало работы в Sherpa Orchestrator
-      * Настройки Оркестратора
-      * Создание новой Лицензии в Оркестраторе
-      * Добавление Робота в Оркестраторе
-      * Принципы Работы разных типов Роботов в Оркестраторе
-      * Создание Очереди в Оркестраторе
-      * Создание Задачи в Оркестраторе
-        * Работа с Задачами в Sherpa Designer
-      * Создание нового Процесса (сценария) в Оркестраторе
-        * Создание новой версии Процесса в Sherpa Designer
-      * Создание Работы с выбранными Роботом и Процессом
-      * Создание и настройка Триггеров в Оркестраторе
-    * Шифрование
-    * Параметры Пользователя
-    * Рабочая область Оркестратора
-    * Экраны
-      * Обзор
-        * NUMBER
-        * BAR CHART
-        * PIE CHART
-        * LINE CHART
-        * TIME LINE
-        * TABLE
-      * Роботы
-      * Процессы
-      * Пакеты
-      * Ресурсы
-      * Хранилище
-      * Работы
-      * Очереди
-      * Действия
+  * [Sherpa Designer: ответы на часто задаваемые вопросы](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/)
+    * [Настройка входных и выходных параметров в свойствах проекта](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/nastroika-vkhodnykh-i-vykhodnykh-parametrov-v-svoistvakh-proekta.md)
+* [Шаблонизатор Sherpa RPA](shablonizator-sherpa-rpa/)
+  * [Интерфейс Шаблонизатора](shablonizator-sherpa-rpa/interfeis-shablonizatora/)
+    * [Основное меню Шаблонизатора](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/)
+      * [Меню "Файл"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/menyu-fail.md)
+      * [Меню "Обработка"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/menyu-obrabotka.md)
+      * [Кнопка "Открыть исходный файл"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/knopka-otkryt-iskhodnyi-fail.md)
+      * [Кнопка "Обработать документ"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/knopka-obrabotat-dokument.md)
+      * [Кнопка "Проверить"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/knopka-proverit.md)
+      * [Кнопка "Добавить атрибут"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/knopka-dobavit-atribut.md)
+      * [Кнопка "Выполнить полное сканирование"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/knopka-vypolnit-polnoe-skanirovanie/)
+        * [Результат полного сканирования](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/knopka-vypolnit-polnoe-skanirovanie/rezultat-polnogo-skanirovaniya.md)
+      * [Кнопка "Умный помощник"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/knopka-umnyi-pomoshnik.md)
+      * [Переключатель "Масштаб"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/pereklyuchatel-masshtab.md)
+      * [Меню "Отображать"](shablonizator-sherpa-rpa/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/menyu-otobrazhat.md)
+    * [Центральная рабочая область Шаблонизатора](shablonizator-sherpa-rpa/interfeis-shablonizatora/centralnaya-rabochaya-oblast-shablonizatora.md)
+    * [Панель настроек Шаблонизатора](shablonizator-sherpa-rpa/interfeis-shablonizatora/panel-nastroek-shablonizatora/)
+      * [Настройки](shablonizator-sherpa-rpa/interfeis-shablonizatora/panel-nastroek-shablonizatora/nastroiki.md)
+      * [Якоря](shablonizator-sherpa-rpa/interfeis-shablonizatora/panel-nastroek-shablonizatora/yakorya.md)
+      * [Атрибуты](shablonizator-sherpa-rpa/interfeis-shablonizatora/panel-nastroek-shablonizatora/atributy.md)
+      * [Таблицы](shablonizator-sherpa-rpa/interfeis-shablonizatora/panel-nastroek-shablonizatora/tablicy.md)
+      * [Чертежи таблиц](shablonizator-sherpa-rpa/interfeis-shablonizatora/panel-nastroek-shablonizatora/chertezhi-tablic.md)
+  * [Действия в Sherpa Designer после создания шаблона](shablonizator-sherpa-rpa/deistviya-v-sherpa-designer-posle-sozdaniya-shablona/)
+    * [Значения переменных](shablonizator-sherpa-rpa/deistviya-v-sherpa-designer-posle-sozdaniya-shablona/znacheniya-peremennykh.md)
+    * [Работа с многостраничными документами](shablonizator-sherpa-rpa/deistviya-v-sherpa-designer-posle-sozdaniya-shablona/rabota-s-mnogostranichnymi-dokumentami.md)
+  * [Примеры](shablonizator-sherpa-rpa/primery/)
+    * [Создание шаблона на примере документа «Справка о стоимости выполненных работ»](shablonizator-sherpa-rpa/primery/sozdanie-shablona-na-primere-dokumenta-spravka-o-stoimosti-vypolnennykh-rabot/)
+      * [Предобработка документа](shablonizator-sherpa-rpa/primery/sozdanie-shablona-na-primere-dokumenta-spravka-o-stoimosti-vypolnennykh-rabot/predobrabotka-dokumenta.md)
+      * [Создание шаблона](shablonizator-sherpa-rpa/primery/sozdanie-shablona-na-primere-dokumenta-spravka-o-stoimosti-vypolnennykh-rabot/sozdanie-shablona.md)
+      * [Работа с таблицами](shablonizator-sherpa-rpa/primery/sozdanie-shablona-na-primere-dokumenta-spravka-o-stoimosti-vypolnennykh-rabot/rabota-s-tablicami.md)
+      * [Якоря](shablonizator-sherpa-rpa/primery/sozdanie-shablona-na-primere-dokumenta-spravka-o-stoimosti-vypolnennykh-rabot/yakorya.md)
+      * [Создание атрибутов](shablonizator-sherpa-rpa/primery/sozdanie-shablona-na-primere-dokumenta-spravka-o-stoimosti-vypolnennykh-rabot/sozdanie-atributov.md)
+    * [Создание шаблона с фиксированными атрибутами на примере документа «Счет на оплату»](shablonizator-sherpa-rpa/primery/sozdanie-shablona-c-fiksirovannymi-atributami-na-primere-dokumenta-schet-na-oplatu.md)
+* [Sherpa Orchestrator](sherpa-orchestrator/)
+  * [Основные понятия](sherpa-orchestrator/osnovnye-ponyatiya.md)
+  * [Рекомендации по размещению Оркестратора](sherpa-orchestrator/rekomendacii-po-razmesheniyu-orkestratora.md)
+  * [Резервное копирование и восстановление](sherpa-orchestrator/rezervnoe-kopirovanie-i-vosstanovlenie.md)
+  * [Развертывание платформы под управлением Оркестратора](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/)
+    * [Установка Sherpa Coordinator](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-coordinator/)
+      * [Установка Sherpa Coordinator на Windows](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-coordinator/ustanovka-sherpa-rpa-coordinator-na-windows.md)
+      * [Установка Sherpa Coordinator на Astra Linux](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-coordinator/ustanovka-sherpa-coordinator-na-os-astra-linux.md)
+      * [Установка Sherpa Coordinator на RedOS](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-coordinator/ustanovka-sherpa-coordinator-na-redos.md)
+    * [Установка Sherpa RPA Runtime](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-runtime.md)
+  * [Установка Sherpa Orchestrator](sherpa-orchestrator/ustanovka-sherpa-orchestrator/)
+    * [Установка и настройка SSL сертификатов](sherpa-orchestrator/ustanovka-sherpa-orchestrator/ustanovka-i-nastroika-ssl-sertifikatov.md)
+  * [Работа в Sherpa Orchestrator](sherpa-orchestrator/rabota-v-sherpa-orchestrator/)
+    * [Начало работы в Sherpa Orchestrator](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/)
+      * [Настройки Оркестратора](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/nastroiki-orkestratora.md)
+      * [Создание новой Лицензии в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-novoi-licenzii-v-orkestratore.md)
+      * [Добавление Робота в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/dobavlenie-robota-v-orkestratore.md)
+      * [Принципы Работы разных типов Роботов в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/principy-raboty-raznykh-tipov-robotov-v-orkestratore.md)
+      * [Создание Очереди в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-ocheredi-v-orkestratore.md)
+      * [Создание Задачи в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-zadachi-v-orkestratore/)
+        * [Работа с Задачами в Sherpa Designer](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-zadachi-v-orkestratore/rabota-s-zadachami-v-sherpa-designer.md)
+      * [Создание нового Процесса (сценария) в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-novogo-processa-scenariya-v-orkestratore/)
+        * [Создание новой версии Процесса в Sherpa Designer](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-novogo-processa-scenariya-v-orkestratore/sozdanie-novoi-versii-processa-v-sherpa-designer.md)
+      * [Создание Работы с выбранными Роботом и Процессом](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-raboty-s-vybrannymi-robotom-i-processom.md)
+      * [Создание и настройка Триггеров в Оркестраторе](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/sozdanie-i-nastroika-triggerov-v-orkestratore.md)
+    * [Шифрование](sherpa-orchestrator/rabota-v-sherpa-orchestrator/shifrovanie.md)
+    * [Параметры Пользователя](sherpa-orchestrator/rabota-v-sherpa-orchestrator/parametry-polzovatelya.md)
+    * [Рабочая область Оркестратора](sherpa-orchestrator/rabota-v-sherpa-orchestrator/rabochaya-oblast-orkestratora.md)
+    * [Экраны](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/)
+      * [Обзор](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/)
+        * [NUMBER](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/number.md)
+        * [BAR CHART](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/bar-chart.md)
+        * [PIE CHART](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/pie-chart.md)
+        * [LINE CHART](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/line-chart.md)
+        * [TIME LINE](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/time-line.md)
+        * [TABLE](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/table.md)
+      * [Роботы](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/roboty.md)
+      * [Процессы](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/processy.md)
+      * [Пакеты](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/pakety.md)
+      * [Ресурсы](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/resursy.md)
+      * [Хранилище](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/khranilishe.md)
+      * [Работы](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/raboty.md)
+      * [Очереди](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/ocheredi.md)
+      * [Действия](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/)
         * Дизайнер Формы
           * HTML
           * Label
@@ -273,7 +273,7 @@
       * Аудит
       * Лицензии
       * API
-  * API
+  * [API](sherpa-orchestrator/api/)
     * Робот
       * /api/robot/create
       * /api/robot/read/{guid}
@@ -349,7 +349,7 @@
       * /api/account/delete/{guid}
     * Пример вызова API на языке Python
   * Sherpa Orchestrator: ответы на часто задаваемые вопросы
-* Sherpa AI Server
+* [Sherpa AI Server](sherpa-ai-server/)
   * Установка Sherpa AI Server
   * Авторизация пользователя в Sherpa AI Server
   * Диаграмма развертывания Sherpa AI Server в связке с Роботами
@@ -367,14 +367,14 @@
     * Аудит
     * Лицензии
     * API
-* Sherpa Process Discovery
-  * Системные требования
-  * Диаграмма развертывания
-    * Последовательность шагов процесса
-    * Конфигурация сети
-    * Механизмы аутентификации
-* Обновления
-  * Обновления Sherpa Designer
+* [Sherpa Process Discovery](sherpa-process-discovery/)
+  * [Системные требования](sherpa-process-discovery/sistemnye-trebovaniya.md)
+  * [Диаграмма развертывания](sherpa-process-discovery/diagramma-razvertyvaniya/)
+    * [Последовательность шагов процесса](sherpa-process-discovery/diagramma-razvertyvaniya/posledovatelnost-shagov-processa.md)
+    * [Конфигурация сети](sherpa-process-discovery/diagramma-razvertyvaniya/konfiguraciya-seti.md)
+    * [Механизмы аутентификации](sherpa-process-discovery/diagramma-razvertyvaniya/mekhanizmy-autentifikacii.md)
+* [Обновления](obnovleniya/)
+  * [Обновления Sherpa Designer](obnovleniya/obnovleniya-sherpa-designer/)
     * Версия 1.33
     * Версия 1.32
     * Версия 1.31
@@ -383,7 +383,7 @@
     * Версия 1.28
     * Версия 1.27
     * Версия 1.26
-    * Архив обновлений
+    * [Архив обновлений](obnovleniya/obnovleniya-sherpa-designer/arkhiv-obnovlenii/)
       * Версия 1.25
       * Версия 1.24
       * Версия 1.23
@@ -394,7 +394,7 @@
       * Версия 1.15
       * Версия 1.12b
       * Добавлена поддержка Telegram
-  * Обновления Sherpa Orchestrator
+  * [Обновления Sherpa Orchestrator](obnovleniya/obnovleniya-sherpa-orchestrator/)
     * Версия 141854
     * Версия 141853
     * Версия 141852
@@ -406,14 +406,14 @@
     * Версия 141846
     * Версия 141845
     * Версия 141844
-* Лицензии
-  * Отличия Attended и Attended Floating Лицензий
-  * Активация Лицензий через Sherpa Assistant
-  * Управление Лицензиями Sherpa RPA через Sherpa Orchestrator
-  * Лицензии Sherpa AI Server
-* Безопасность
-  * Схема работы платформы Sherpa RPA c Yandex Vision через VPN
-* Обучение по разработке на Платформе Sherpa RPA
+* [Лицензии](licenzii/)
+  * [Отличия Attended и Attended Floating Лицензий](licenzii/otlichiya-attended-i-attended-floating-licenzii.md)
+  * [Активация Лицензий через Sherpa Assistant](licenzii/aktivaciya-licenzii-cherez-sherpa-assistant.md)
+  * [Управление Лицензиями Sherpa RPA через Sherpa Orchestrator](licenzii/upravlenie-licenziyami-sherpa-rpa-cherez-sherpa-orchestrator.md)
+  * [Лицензии Sherpa AI Server](licenzii/licenzii-sherpa-ai-server.md)
+* [Безопасность](bezopasnost/)
+  * [Схема работы платформы Sherpa RPA c Yandex Vision через VPN](bezopasnost/skhema-raboty-platformy-sherpa-rpa-c-yandex-vision-cherez-vpn.md)
+* [Обучение по разработке на Платформе Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/)
   * [Обучающий курс по разработке на Платформе Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
 * [Ссылки на дистрибутивы](ssylki-na-distributivy/)
   * [Дистрибутивы Sherpa RPA (Windows)](ssylki-na-distributivy/distributivy-sherpa-rpa-windows.md)
