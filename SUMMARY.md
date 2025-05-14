@@ -1,6 +1,7 @@
 # Table of contents
 
 * [База знаний](README.md)
+* [Содержание](soderzhanie.md)
 * [О платформе Sherpa RPA](o-platforme-sherpa-rpa/README.md)
   * [Основные понятия](o-platforme-sherpa-rpa/osnovnye-ponyatiya.md)
   * [Диаграмма развертывания Sherpa RPA](o-platforme-sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa/README.md)
