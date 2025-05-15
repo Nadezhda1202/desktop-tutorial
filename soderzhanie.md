@@ -268,105 +268,44 @@
       * [Аккаунты](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/akkaunty.md)
       * [Пользователи](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/polzovateli/)
         * [Авторизация Пользователей](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/polzovateli/avtorizaciya-polzovatelei.md)
-      * Роли
-      * Папки объектов
-      * Аудит
-      * Лицензии
-      * API
+      * [Роли](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/roli.md)
+      * [Папки объектов](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/papki-obektov.md)
+      * [Аудит](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/audit.md)
+      * [Лицензии](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/licenzii.md)
+      * [API](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/api.md)
   * [API](sherpa-orchestrator/api/)
-    * Робот
-      * /api/robot/create
-      * /api/robot/read/{guid}
-      * /api/robot/update
-      * /api/robot/delete/{guid}
-      * /api/robot/getStatus/{guid}
-      * /api/robot/setStatus
-    * Группы Роботов
-      * /api/robotGroup/create
-      * /api/robotGroup/read/{guid}
-      * /api/robotGroup/update
-      * /api/robotGroup/delete/{guid}
-      * /api/robotGroup/addRobot
-      * /api/robotGroup/delete/{guid}
-    * Процесс
-      * /api/process/create
-      * /api/process/read/{guid}
-      * /api/process/update
-      * /api/process/delete/{guid}
-    * Версия процесса
-      * /api/processVersion/create
-      * /api/processVersion/read/{guid}
-      * /api/processVersion/update
-      * /api/processVersion/delete/{guid}
-    * Работа
-      * /api/job/create
-      * /api/job/read/{guid}
-      * /api/job/update
-      * /api/job/delete/{guid}
-    * Очередь
-      * /api/queue/create
-      * /api/queue/read/{guid}
-      * /api/queue/update
-      * /api/queue/delete/{guid}
-    * Задача
-      * /api/task/create
-      * /api/task/read
-      * /api/task/filter/read/{guid}\[/{filters}]
-      * /api/task/filter/list/{guid}\[/{filters}]
-      * /api/task/update
-      * /api/task/delete
-      * /api/task/addTag
-      * /api/task/removeTag
-    * Триггер
-      * /api/schedule/create
-      * /api/schedule/read/{guid}
-      * /api/schedule/update
-      * /api/schedule/delete/{guid}
-    * Ресурс
-      * /api/asset/create
-      * /api/asset/read/{guid}
-      * /api/asset/update
-      * /api/asset/delete/{guid}
-    * Хранилище
-      * /api/folders/create
-      * /api/folders/read/{guid}
-      * /api/folders/list
-      * /api/folders/update
-      * /api/folders/delete/{guid}
-      * /api/files/create
-      * /api/files/read/{guid}
-      * /api/files/update
-      * /api/files/delete/{guid}
-    * Лог
-      * /api/log/create
-      * /api/log/read/{guid}
-      * /api/log/list
-      * /api/log/purge
-    * Аккаунт
-      * /api/account/create
-      * /api/account/read/{guid}
-      * /api/account/update
-      * /api/account/delete/{guid}
-    * Пример вызова API на языке Python
-  * Sherpa Orchestrator: ответы на часто задаваемые вопросы
+    * [Робот](sherpa-orchestrator/api/robot/)
+    * [Группы Роботов](sherpa-orchestrator/api/gruppy-robotov.md)
+    * [Процесс](sherpa-orchestrator/api/process.md)
+    * [Версия процесса](sherpa-orchestrator/api/versiya-processa.md)
+    * [Работа](sherpa-orchestrator/api/rabota.md)
+    * [Очередь](sherpa-orchestrator/api/ochered.md)
+    * [Задача](sherpa-orchestrator/api/zadacha.md)
+    * [Триггер](sherpa-orchestrator/api/trigger.md)
+    * [Ресурс](sherpa-orchestrator/api/resurs.md)
+    * [Хранилище](sherpa-orchestrator/api/khranilishe.md)
+    * [Лог](sherpa-orchestrator/api/log.md)
+    * [Аккаунт](sherpa-orchestrator/api/akkaunt.md)
+    * [Пример вызова API на языке Python](sherpa-orchestrator/api/primer-vyzova-api-na-yazyke-python.md)
+  * [Sherpa Orchestrator: ответы на часто задаваемые вопросы](sherpa-orchestrator/sherpa-orchestrator-otvety-na-chasto-zadavaemye-voprosy.md)
 * [Sherpa AI Server](sherpa-ai-server/)
-  * Установка Sherpa AI Server
-  * Авторизация пользователя в Sherpa AI Server
-  * Диаграмма развертывания Sherpa AI Server в связке с Роботами
-  * Работа в Sherpa AI Server
-    * Главный интерфейс Sherpa AI Server
-    * Чат
-    * История чатов
-    * Ассистенты
-    * Документы
-      * Работа в связке с Sherpa Designer
-    * Аккаунты
-    * Пользователи
-      * Авторизация пользователей
-    * Роли
-    * Аудит
-    * Лицензии
-    * API
+  * [Установка Sherpa AI Server](sherpa-ai-server/ustanovka-sherpa-ai-server.md)
+  * [Авторизация пользователя в Sherpa AI Server](sherpa-ai-server/avtorizaciya-polzovatelya-v-sherpa-ai-server.md)
+  * [Диаграмма развертывания Sherpa AI Server в связке с Роботами](sherpa-ai-server/diagramma-razvertyvaniya-sherpa-ai-server-v-svyazke-s-robotami.md)
+  * [Работа в Sherpa AI Server](sherpa-ai-server/rabota-v-sherpa-ai-server/)
+    * [Главный интерфейс Sherpa AI Server](sherpa-ai-server/rabota-v-sherpa-ai-server/glavnyi-interfeis-sherpa-ai-server.md)
+    * [Чат](sherpa-ai-server/rabota-v-sherpa-ai-server/chat.md)
+    * [История чатов](sherpa-ai-server/rabota-v-sherpa-ai-server/istoriya-chatov.md)
+    * [Ассистенты](sherpa-ai-server/rabota-v-sherpa-ai-server/assistenty.md)
+    * [Документы](sherpa-ai-server/rabota-v-sherpa-ai-server/dokumenty/)
+      * [Работа в связке с Sherpa Designer](sherpa-ai-server/rabota-v-sherpa-ai-server/dokumenty/rabota-v-svyazke-s-sherpa-designer.md)
+    * [Аккаунты](sherpa-ai-server/rabota-v-sherpa-ai-server/akkaunty.md)
+    * [Пользователи](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/)
+      * [Авторизация пользователей](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei.md)
+    * [Роли](sherpa-ai-server/rabota-v-sherpa-ai-server/roli.md)
+    * [Аудит](sherpa-ai-server/rabota-v-sherpa-ai-server/audit.md)
+    * [Лицензии](sherpa-ai-server/rabota-v-sherpa-ai-server/licenzii.md)
+    * [API](sherpa-ai-server/rabota-v-sherpa-ai-server/api.md)
 * [Sherpa Process Discovery](sherpa-process-discovery/)
   * [Системные требования](sherpa-process-discovery/sistemnye-trebovaniya.md)
   * [Диаграмма развертывания](sherpa-process-discovery/diagramma-razvertyvaniya/)
@@ -375,37 +314,8 @@
     * [Механизмы аутентификации](sherpa-process-discovery/diagramma-razvertyvaniya/mekhanizmy-autentifikacii.md)
 * [Обновления](obnovleniya/)
   * [Обновления Sherpa Designer](obnovleniya/obnovleniya-sherpa-designer/)
-    * Версия 1.33
-    * Версия 1.32
-    * Версия 1.31
-    * Версия 1.30
-    * Версия 1.29
-    * Версия 1.28
-    * Версия 1.27
-    * Версия 1.26
     * [Архив обновлений](obnovleniya/obnovleniya-sherpa-designer/arkhiv-obnovlenii/)
-      * Версия 1.25
-      * Версия 1.24
-      * Версия 1.23
-      * Версия 1.22
-      * Версия 1.21
-      * Версия 1.20
-      * Версия 1.19
-      * Версия 1.15
-      * Версия 1.12b
-      * Добавлена поддержка Telegram
   * [Обновления Sherpa Orchestrator](obnovleniya/obnovleniya-sherpa-orchestrator/)
-    * Версия 141854
-    * Версия 141853
-    * Версия 141852
-    * Версия 141851
-    * Версия 141850
-    * Версия 141849
-    * Версия 141848
-    * Версия 141847
-    * Версия 141846
-    * Версия 141845
-    * Версия 141844
 * [Лицензии](licenzii/)
   * [Отличия Attended и Attended Floating Лицензий](licenzii/otlichiya-attended-i-attended-floating-licenzii.md)
   * [Активация Лицензий через Sherpa Assistant](licenzii/aktivaciya-licenzii-cherez-sherpa-assistant.md)
