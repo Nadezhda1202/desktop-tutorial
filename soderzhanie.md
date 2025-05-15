@@ -115,7 +115,7 @@
     * [Диалоговые окна](sherpa-designer/spravochnik-blokov/dialogovye-okna.md)
     * [Word](sherpa-designer/spravochnik-blokov/word.md)
     * [Excel (Excel Automation)](sherpa-designer/spravochnik-blokov/excel-excel-automation/)
-    * [Outlook (Outlook Automation)](sherpa-designer/spravochnik-blokov/outlook.md)
+    * [Outlook (Outlook Automation)](sherpa-designer/spravochnik-blokov/outlook-outlook-automation/)
     * [Exchange (Exchange Automation)](sherpa-designer/spravochnik-blokov/exchange-exchange-automation/)
     * [Файловая система](sherpa-designer/spravochnik-blokov/failovaya-sistema/)
     * [Буфер обмена](sherpa-designer/spravochnik-blokov/bufer-obmena.md)
