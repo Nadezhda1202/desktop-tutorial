@@ -248,26 +248,26 @@
       * [Работы](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/raboty.md)
       * [Очереди](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/ocheredi.md)
       * [Действия](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/)
-        * Дизайнер Формы
-          * HTML
-          * Label
-          * Number input
-          * Text input
-          * Email
-          * Password
-          * Date
-          * Time
-          * Checkbox Group
-          * Radio Group
-          * PDF
-          * Data Table
-          * Image
-        * Пример создания действия и его настройки
-      * Триггеры
-      * Сообщения Роботов
-      * Аккаунты
-      * Пользователи
-        * Авторизация Пользователей
+        * [Дизайнер Формы](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/)
+          * [HTML](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/html.md)
+          * [Label](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/label.md)
+          * [Number input](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/number-input.md)
+          * [Text input](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/text-input.md)
+          * [Email](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/email.md)
+          * [Password](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/password.md)
+          * [Date](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/date.md)
+          * [Time](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/time.md)
+          * [Checkbox Group](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/checkbox-group.md)
+          * [Radio Group](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/radio-group.md)
+          * [PDF](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/pdf.md)
+          * [Data Table](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/data-table.md)
+          * [Image](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/dizainer-formy/image.md)
+        * [Пример создания действия и его настройки](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/deistviya/primer-sozdaniya-deistviya-i-ego-nastroiki.md)
+      * [Триггеры](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/triggery.md)
+      * [Сообщения Роботов](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/soobsheniya-robotov.md)
+      * [Аккаунты](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/akkaunty.md)
+      * [Пользователи](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/polzovateli/)
+        * [Авторизация Пользователей](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/polzovateli/avtorizaciya-polzovatelei.md)
       * Роли
       * Папки объектов
       * Аудит
