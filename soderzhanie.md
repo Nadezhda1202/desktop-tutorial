@@ -131,7 +131,7 @@
     * [Реестр](sherpa-designer/spravochnik-blokov/reestr.md)
     * [1С (1C Automation)](sherpa-designer/spravochnik-blokov/1s-1c-automation/)
     * [Базы данных](sherpa-designer/spravochnik-blokov/bazy-dannykh.md)
-    * [Google Sheets](sherpa-designer/spravochnik-blokov/google-sheets.md)
+    * [Google Sheets](sherpa-designer/spravochnik-blokov/google-sheets/)
     * [Удаленный рабочий стол RDP/Citrix](sherpa-designer/spravochnik-blokov/udalennyi-rabochii-stol-rdp-citrix.md)
     * [Работа с архивами](sherpa-designer/spravochnik-blokov/rabota-s-arkhivami.md)
     * [Бизнес-функции](sherpa-designer/spravochnik-blokov/biznes-funkcii.md)
