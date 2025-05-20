@@ -106,7 +106,7 @@
   * [REST Клиент](sherpa-designer/rest-klient.md)
   * [Справочник блоков](sherpa-designer/spravochnik-blokov/)
     * [Основные блоки](sherpa-designer/spravochnik-blokov/osnovnye-bloki.md)
-    * [Автоматизация приложений](sherpa-designer/spravochnik-blokov/avtomatizaciya-prilozhenii.md)
+    * [Автоматизация приложений](sherpa-designer/spravochnik-blokov/avtomatizaciya-prilozhenii-ui-automation/)
     * [Автоматизация браузеров](sherpa-designer/spravochnik-blokov/avtomatizaciya-brauzerov.md)
     * [Невидимый браузер (HTTP)](sherpa-designer/spravochnik-blokov/nevidimyi-brauzer-http.md)
     * [Автоматизация OCR](sherpa-designer/spravochnik-blokov/avtomatizaciya-ocr.md)
