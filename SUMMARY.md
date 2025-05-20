@@ -190,7 +190,7 @@
     * [Файловая система](sherpa-designer/spravochnik-blokov/failovaya-sistema/README.md)
       * [Пример заполнения полей в Блоке “Создать папку”](sherpa-designer/spravochnik-blokov/failovaya-sistema/primer-zapolneniya-polei-v-bloke-sozdat-papku.md)
     * [Буфер обмена](sherpa-designer/spravochnik-blokov/bufer-obmena.md)
-    * [Списки и словари](sherpa-designer/spravochnik-blokov/spiski-i-slovari.md)
+    * [Списки и словари (Collections)](sherpa-designer/spravochnik-blokov/spiski-i-slovari-collections.md)
     * [Таблицы Данных](sherpa-designer/spravochnik-blokov/tablicy-dannykh.md)
     * [Дата и время](sherpa-designer/spravochnik-blokov/data-i-vremya.md)
     * [Электронная почта](sherpa-designer/spravochnik-blokov/elektronnaya-pochta.md)
