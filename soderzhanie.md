@@ -136,7 +136,7 @@
     * [Работа с архивами](sherpa-designer/spravochnik-blokov/rabota-s-arkhivami.md)
     * [Бизнес-функции](sherpa-designer/spravochnik-blokov/biznes-funkcii.md)
     * [Изображения](sherpa-designer/spravochnik-blokov/izobrazheniya.md)
-    * [Telegram](sherpa-designer/spravochnik-blokov/telegram.md)
+    * [Telegram](sherpa-designer/spravochnik-blokov/telegram/)
     * [Учетные данные Windows и CyberArk](sherpa-designer/spravochnik-blokov/uchetnye-dannye-windows-i-cyberark.md)
     * [Машинное обучение](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie.md)
     * [Анализ текстов (NLP)](sherpa-designer/spravochnik-blokov/analiz-tekstov-nlp.md)
