@@ -119,7 +119,7 @@
     * [Exchange (Exchange Automation)](sherpa-designer/spravochnik-blokov/exchange-exchange-automation/)
     * [Файловая система](sherpa-designer/spravochnik-blokov/failovaya-sistema/)
     * [Буфер обмена](sherpa-designer/spravochnik-blokov/bufer-obmena.md)
-    * [Списки и словари](sherpa-designer/spravochnik-blokov/spiski-i-slovari-collections.md)
+    * [Списки и словари](sherpa-designer/spravochnik-blokov/spiski-i-slovari-collections/)
     * [Таблицы Данных](sherpa-designer/spravochnik-blokov/tablicy-dannykh.md)
     * [Дата и время](sherpa-designer/spravochnik-blokov/data-i-vremya.md)
     * [Электронная почта](sherpa-designer/spravochnik-blokov/elektronnaya-pochta.md)
