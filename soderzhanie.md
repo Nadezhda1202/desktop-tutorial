@@ -124,7 +124,7 @@
     * [Дата и время](sherpa-designer/spravochnik-blokov/data-i-vremya.md)
     * [Электронная почта](sherpa-designer/spravochnik-blokov/elektronnaya-pochta.md)
     * [PDF](sherpa-designer/spravochnik-blokov/pdf-pdf-automation/)
-    * [Текст](sherpa-designer/spravochnik-blokov/tekst.md)
+    * [Текст](sherpa-designer/spravochnik-blokov/tekst-string-automation/)
     * [FTP/SFTP](sherpa-designer/spravochnik-blokov/ftp-sftp/)
     * [Процессы/Службы/Окна](sherpa-designer/spravochnik-blokov/processy-sluzhby-okna.md)
     * [Терминалы](sherpa-designer/spravochnik-blokov/terminaly.md)
