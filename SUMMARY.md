@@ -10,7 +10,7 @@
     * [Системные требования](o-platforme-sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa/sistemnye-trebovaniya.md)
   * [Установка Sherpa RPA](o-platforme-sherpa-rpa/ustanovka-sherpa-rpa/README.md)
     * [Установка Sherpa RPA на Windows](o-platforme-sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-windows.md)
-    * [Установка Sherpa RPA на Astra Linux](o-platforme-sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-astra-linux.md)
+    * [Установка Sherpa RPA на Linux](o-platforme-sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-linux.md)
     * [Установка Sherpa RPA на RedOS](o-platforme-sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-redos.md)
   * [Начало работы](o-platforme-sherpa-rpa/nachalo-raboty/README.md)
     * [Регистрация лицензии](o-platforme-sherpa-rpa/nachalo-raboty/registraciya-licenzii.md)
