@@ -113,7 +113,7 @@
     * [Оркестратор](sherpa-designer/spravochnik-blokov/orkestrator.md)
     * [SAP](sherpa-designer/spravochnik-blokov/sap.md)
     * [Диалоговые окна](sherpa-designer/spravochnik-blokov/dialogovye-okna.md)
-    * [Word](sherpa-designer/spravochnik-blokov/word.md)
+    * [Word](sherpa-designer/spravochnik-blokov/word-word-automation/)
     * [Excel (Excel Automation)](sherpa-designer/spravochnik-blokov/excel-excel-automation/)
     * [Outlook (Outlook Automation)](sherpa-designer/spravochnik-blokov/outlook-outlook-automation/)
     * [Exchange (Exchange Automation)](sherpa-designer/spravochnik-blokov/exchange-exchange-automation/)
