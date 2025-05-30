@@ -1,0 +1,2 @@
+# Автоматизация OCR (OCR Automation)
+

@@ -109,7 +109,7 @@
     * [Автоматизация приложений](sherpa-designer/spravochnik-blokov/avtomatizaciya-prilozhenii-ui-automation/)
     * [Автоматизация браузеров](sherpa-designer/spravochnik-blokov/avtomatizaciya-brauzerov.md)
     * [Невидимый браузер (HTTP)](sherpa-designer/spravochnik-blokov/nevidimyi-brauzer-http.md)
-    * [Автоматизация OCR](sherpa-designer/spravochnik-blokov/avtomatizaciya-ocr.md)
+    * [Автоматизация OCR](sherpa-designer/spravochnik-blokov/avtomatizaciya-ocr-ocr-automation/)
     * [Оркестратор](sherpa-designer/spravochnik-blokov/orkestrator.md)
     * [SAP](sherpa-designer/spravochnik-blokov/sap.md)
     * [Диалоговые окна](sherpa-designer/spravochnik-blokov/dialogovye-okna.md)
