@@ -107,7 +107,7 @@
   * [Справочник блоков](sherpa-designer/spravochnik-blokov/)
     * [Основные блоки](sherpa-designer/spravochnik-blokov/osnovnye-bloki.md)
     * [Автоматизация приложений](sherpa-designer/spravochnik-blokov/avtomatizaciya-prilozhenii-ui-automation/)
-    * [Автоматизация браузеров](sherpa-designer/spravochnik-blokov/avtomatizaciya-brauzerov.md)
+    * [Автоматизация браузеров](sherpa-designer/spravochnik-blokov/avtomatizaciya-brauzerov-browser-automation/)
     * [Невидимый браузер (HTTP)](sherpa-designer/spravochnik-blokov/nevidimyi-brauzer-http.md)
     * [Автоматизация OCR](sherpa-designer/spravochnik-blokov/avtomatizaciya-ocr-ocr-automation/)
     * [Оркестратор](sherpa-designer/spravochnik-blokov/orkestrator.md)
