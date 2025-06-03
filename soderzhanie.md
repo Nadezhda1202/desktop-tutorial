@@ -105,7 +105,7 @@
       * [Извлечения данных из таблиц в Word и Excel](sherpa-designer/rabota-v-sherpa-designer/primery-avtomatizacii-populyarnykh-prilozhenii/izvlecheniya-dannykh-iz-tablic-v-word-i-excel.md)
   * [REST Клиент](sherpa-designer/rest-klient.md)
   * [Справочник блоков](sherpa-designer/spravochnik-blokov/)
-    * [Основные блоки](sherpa-designer/spravochnik-blokov/osnovnye-bloki.md)
+    * [Основные блоки](sherpa-designer/spravochnik-blokov/osnovnye-bloki-main-blocks/)
     * [Автоматизация приложений](sherpa-designer/spravochnik-blokov/avtomatizaciya-prilozhenii-ui-automation/)
     * [Автоматизация браузеров](sherpa-designer/spravochnik-blokov/avtomatizaciya-brauzerov-browser-automation/)
     * [Невидимый браузер (HTTP)](sherpa-designer/spravochnik-blokov/nevidimyi-brauzer-http.md)
