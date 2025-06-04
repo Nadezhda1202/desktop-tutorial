@@ -44,6 +44,7 @@
           * [Работа с Citrix](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/plaginy/ustanovka-plaginov/rabota-s-citrix.md)
       * [Инструменты](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/instrumenty.md)
       * [Удаленная отладка](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/udalennaya-otladka.md)
+  * [Подключение сторонних сервисов](sherpa-robot-i-sherpa-assistant/podklyuchenie-storonnikh-servisov.md)
   * [Sherpa Assistant: ответы на часто задаваемые вопросы](sherpa-robot-i-sherpa-assistant/sherpa-assistant-otvety-na-chasto-zadavaemye-voprosy.md)
 * [Sherpa Designer](sherpa-designer/README.md)
   * [Основные понятия](sherpa-designer/osnovnye-ponyatiya.md)
