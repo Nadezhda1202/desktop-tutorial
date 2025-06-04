@@ -104,6 +104,7 @@
       * [Автоматизация поиска в Яндексе](sherpa-designer/rabota-v-sherpa-designer/primery-avtomatizacii-populyarnykh-prilozhenii/avtomatizaciya-poiska-v-yandekse.md)
       * [Извлечения данных из таблиц в Word и Excel](sherpa-designer/rabota-v-sherpa-designer/primery-avtomatizacii-populyarnykh-prilozhenii/izvlecheniya-dannykh-iz-tablic-v-word-i-excel.md)
   * [REST Клиент](sherpa-designer/rest-klient.md)
+  * [Как разместить проект на GitHub с помощью Sherpa Designer](sherpa-designer/kak-razmestit-proekt-na-github-s-pomoshyu-sherpa-designer.md)
   * [Справочник блоков](sherpa-designer/spravochnik-blokov/README.md)
     * [Основные блоки (Main Blocks)](sherpa-designer/spravochnik-blokov/osnovnye-bloki-main-blocks/README.md)
       * [Старт (Start)](sherpa-designer/spravochnik-blokov/osnovnye-bloki-main-blocks/start-start.md)
