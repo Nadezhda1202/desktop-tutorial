@@ -139,7 +139,7 @@
     * [Telegram](sherpa-designer/spravochnik-blokov/telegram/)
     * [Учетные данные Windows и CyberArk](sherpa-designer/spravochnik-blokov/uchetnye-dannye-windows-i-cyberark-windows-credentials/)
     * [Машинное обучение](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie.md)
-    * [Анализ текстов (NLP)](sherpa-designer/spravochnik-blokov/analiz-tekstov-nlp.md)
+    * [Анализ текстов (NLP)](sherpa-designer/spravochnik-blokov/analiz-tekstov-nlp-text-analysis/)
   * [Примеры Роботов](sherpa-designer/primery-robotov/)
     * [1С Приходная накладная](sherpa-designer/primery-robotov/1s-prikhodnaya-nakladnaya.md)
     * [1С Приходная накладная (COM)](sherpa-designer/primery-robotov/1s-prikhodnaya-nakladnaya-com.md)
