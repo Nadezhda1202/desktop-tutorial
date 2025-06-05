@@ -16,7 +16,7 @@
 &#xNAN;**“LDAP-аутентификация”** необходимо установить флаг:\
 &#xNAN;**“Использовать LDAP аутентификацию”**.
 
-<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Затем заполнить поле **“Пользователи LDAP”**.&#x20;
 
