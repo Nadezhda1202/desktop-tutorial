@@ -803,7 +803,7 @@
     * [Пример вызова API на языке Python](sherpa-orchestrator/api/primer-vyzova-api-na-yazyke-python.md)
   * [Sherpa Orchestrator: ответы на часто задаваемые вопросы](sherpa-orchestrator/sherpa-orchestrator-otvety-na-chasto-zadavaemye-voprosy.md)
 * [Sherpa AI Server](sherpa-ai-server/README.md)
-  * [Установка Sherpa AI Server По умолчанию большинство сторонних сервисов функционирует через платформу](sherpa-ai-server/ustanovka-sherpa-ai-server-po-umolchaniyu-bolshinstvo-storonnikh-servisov-funkcioniruet-cherez-platf.md)
+  * [Установка Sherpa AI Server](sherpa-ai-server/ustanovka-sherpa-ai-server.md)
   * [Авторизация пользователя в Sherpa AI Server](sherpa-ai-server/avtorizaciya-polzovatelya-v-sherpa-ai-server.md)
   * [Диаграмма развертывания Sherpa AI Server в связке с Роботами](sherpa-ai-server/diagramma-razvertyvaniya-sherpa-ai-server-v-svyazke-s-robotami.md)
   * [Работа в Sherpa AI Server](sherpa-ai-server/rabota-v-sherpa-ai-server/README.md)
