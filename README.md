@@ -50,26 +50,15 @@ layout:
 {% endtab %}
 
 {% tab title="Социальные сети и видео" %}
-[VK](https://vk.com/sherparpa)
-
-\
-[News in Telegram](https://t.me/+Ox4kUmrOTqIxNWRi)
-
-\
-[Rutube](https://rutube.ru/channel/41535618/)\
-
-
-<figure><img src="https://rutube.ru/channel/41535618/videos/" alt=""><figcaption></figcaption></figure>
+[VK](https://vk.com/sherparpa)\
+[News in Telegram](https://t.me/+Ox4kUmrOTqIxNWRi)\
+[Rutube](https://rutube.ru/channel/41535618/)
 {% endtab %}
 
 {% tab title="Ресурсы и обучение" %}
 [Sherpa RPA Developers Chat](https://t.me/SherpaRPA_chat)
 
-
-
 [Академия Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
-
-
 
 [Дополнительные ресурсы](soderzhanie.md)
 {% endtab %}
