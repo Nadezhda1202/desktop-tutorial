@@ -28,18 +28,18 @@ layout:
 [o-platforme-sherpa-rpa](o-platforme-sherpa-rpa/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="sherpa-process-discovery/" %}
+[sherpa-process-discovery](sherpa-process-discovery/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="sherpa-ai-server/" %}
+[sherpa-ai-server](sherpa-ai-server/)
 {% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Ссылки и релизы" %}
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="ssylki-na-distributivy/" %}
+[ssylki-na-distributivy](ssylki-na-distributivy/)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
