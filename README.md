@@ -50,11 +50,11 @@ layout:
 {% endtab %}
 
 {% tab title="Социальные сети и видео" %}
-[VK](https://vk.com/sherparpa)
+{% embed url="https://vk.com/sherparpa" %}
 
 {% embed url="https://t.me/+Ox4kUmrOTqIxNWRi" %}
 
-[Rutube](https://rutube.ru/channel/41535618/)
+{% embed url="https://rutube.ru/channel/41535618/" %}
 {% endtab %}
 
 {% tab title="Ресурсы и обучение" %}
@@ -65,4 +65,3 @@ layout:
 [Дополнительные ресурсы](soderzhanie.md)
 {% endtab %}
 {% endtabs %}
-
