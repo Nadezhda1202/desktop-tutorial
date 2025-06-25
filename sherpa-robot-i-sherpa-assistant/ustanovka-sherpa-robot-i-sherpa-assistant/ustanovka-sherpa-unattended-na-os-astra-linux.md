@@ -1,6 +1,6 @@
 # Установка Sherpa Unattended на ОС Astra Linux
 
-Перед установкой программных продуктов платформы Sherpa RPA ознакомьтесь с [системными требованиями к компьютеру](../../o-platforme-sherpa-rpa/#sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux).
+Перед установкой программных продуктов платформы Sherpa RPA ознакомьтесь с [системными требованиями к компьютеру](../../sherpa-rpa/#sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux).
 
 Установка производится по инструкции.
 

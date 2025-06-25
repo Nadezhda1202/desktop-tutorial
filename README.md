@@ -24,8 +24,8 @@ layout:
 
 {% tabs %}
 {% tab title="Продукты Sherpa Robotics" %}
-{% content-ref url="o-platforme-sherpa-rpa/" %}
-[o-platforme-sherpa-rpa](o-platforme-sherpa-rpa/)
+{% content-ref url="sherpa-rpa/" %}
+[sherpa-rpa](sherpa-rpa/)
 {% endcontent-ref %}
 
 {% content-ref url="sherpa-process-discovery/" %}
