@@ -58,9 +58,9 @@ layout:
 {% endtab %}
 
 {% tab title="Ресурсы и обучение" %}
-[Sherpa RPA Developers Chat](https://t.me/SherpaRPA_chat)
+{% embed url="https://t.me/SherpaRPA_chat" %}
 
-[Академия Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
+{% embed url="https://docs.sherparpa.ru/obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa" %}
 
 [Дополнительные ресурсы](soderzhanie.md)
 {% endtab %}
