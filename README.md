@@ -24,8 +24,8 @@ layout:
 
 {% tabs %}
 {% tab title="Продукты Sherpa Robotics" %}
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="o-platforme-sherpa-rpa/" %}
+[o-platforme-sherpa-rpa](o-platforme-sherpa-rpa/)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
