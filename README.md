@@ -51,7 +51,11 @@ layout:
 
 {% tab title="Социальные сети и видео" %}
 [VK](https://vk.com/sherparpa)\
+
+
 [News in Telegram](https://t.me/+Ox4kUmrOTqIxNWRi)\
+
+
 [Rutube](https://rutube.ru/channel/41535618/)
 {% endtab %}
 
