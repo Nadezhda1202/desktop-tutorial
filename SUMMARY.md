@@ -1,6 +1,18 @@
 # Table of contents
 
 * [База знаний](README.md)
+  * [Sherpa RPA](https://docs.sherparpa.ru/o-platforme-sherpa-rpa)
+  * [Sherpa Process Discovery](https://docs.sherparpa.ru/sherpa-process-discovery)
+  * [Sherpa AI Server](https://docs.sherparpa.ru/sherpa-ai-server)
+  * [Ссылки на дистрибутивы](https://docs.sherparpa.ru/ssylki-na-distributivy)
+  * [Релизы](https://docs.sherparpa.ru/obnovleniya)
+  * [VK](https://vk.com/sherparpa)
+  * [News in Telegram](https://t.me/+Ox4kUmrOTqIxNWRi)
+  * [Sherpa RPA Developers Chat](https://t.me/SherpaRPA_chat)
+  * [Rutube](https://rutube.ru/channel/41535618/)
+  * [Академия Sherpa RPA](https://docs.sherparpa.ru/obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa)
+  * [Техническая поддержка](mailto:support@sherparpa.ru)
+  * [Дополнительные ресурсы](https://docs.sherparpa.ru/soderzhanie)
 * [Содержание](soderzhanie.md)
 * [О платформе Sherpa RPA](o-platforme-sherpa-rpa/README.md)
   * [Основные понятия](o-platforme-sherpa-rpa/osnovnye-ponyatiya.md)
