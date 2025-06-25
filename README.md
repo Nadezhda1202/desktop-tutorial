@@ -42,40 +42,35 @@ layout:
 [ssylki-na-distributivy](ssylki-na-distributivy/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="obnovleniya/" %}
+[obnovleniya](obnovleniya/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+[Техническая поддержка](mailto:support@sherparpa.ru)
 {% endtab %}
 
 {% tab title="Социальные сети и видео" %}
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+[VK](https://vk.com/sherparpa)
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+\
+[News in Telegram](https://t.me/+Ox4kUmrOTqIxNWRi)
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+\
+[Rutube](https://rutube.ru/channel/41535618/)\
+
+
+<figure><img src="https://rutube.ru/channel/41535618/videos/" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Ресурсы и обучение" %}
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+[Sherpa RPA Developers Chat](https://t.me/SherpaRPA_chat)
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+
+[Академия Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
+
+
+
+[Дополнительные ресурсы](soderzhanie.md)
 {% endtab %}
 {% endtabs %}
