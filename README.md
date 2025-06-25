@@ -7,7 +7,7 @@ coverY: 0
 layout:
   cover:
     visible: true
-    size: full
+    size: hero
   title:
     visible: true
   description:
@@ -36,7 +36,9 @@ layout:
 [sherpa-ai-server](sherpa-ai-server/)
 {% endcontent-ref %}
 {% endtab %}
+{% endtabs %}
 
+{% tabs %}
 {% tab title="Ссылки и релизы" %}
 {% content-ref url="ssylki-na-distributivy/" %}
 [ssylki-na-distributivy](ssylki-na-distributivy/)
@@ -48,7 +50,9 @@ layout:
 
 [Техническая поддержка](mailto:support@sherparpa.ru)
 {% endtab %}
+{% endtabs %}
 
+{% tabs %}
 {% tab title="Социальные сети и видео" %}
 {% embed url="https://vk.com/sherparpa" %}
 
@@ -56,12 +60,15 @@ layout:
 
 {% embed url="https://rutube.ru/channel/41535618/" %}
 {% endtab %}
+{% endtabs %}
 
-{% tab title="Ресурсы и обучение" %}
+{% tabs %}
+{% tab title="Дополнительные ресурсы и обучение" %}
 {% embed url="https://t.me/SherpaRPA_chat" %}
 
-{% embed url="https://docs.sherparpa.ru/obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa" %}
+[obuchenie-po-razrabotke-na-platforme-sherpa-rpa](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/ "mention")
 
 [Дополнительные ресурсы](soderzhanie.md)
 {% endtab %}
 {% endtabs %}
+
