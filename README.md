@@ -25,7 +25,7 @@ layout:
 ## Продукты Sherpa Robotics
 
 {% tabs %}
-{% tab title="Кликните дважды, чтобы перейти по ссылке:" %}
+{% tab title="Выберите нужный раздел:" %}
 {% content-ref url="sherpa-rpa/" %}
 [sherpa-rpa](sherpa-rpa/)
 {% endcontent-ref %}
@@ -43,7 +43,7 @@ layout:
 ## Ссылки, релизы и поддержка пользователей
 
 {% tabs %}
-{% tab title="Кликните дважды, чтобы перейти по ссылке:" %}
+{% tab title="Выберите нужный раздел:" %}
 {% content-ref url="ssylki-na-distributivy/" %}
 [ssylki-na-distributivy](ssylki-na-distributivy/)
 {% endcontent-ref %}
@@ -59,7 +59,7 @@ layout:
 ## Социальные сети и видео
 
 {% tabs %}
-{% tab title="Кликните дважды, чтобы перейти по ссылке:" %}
+{% tab title="Выберите нужный раздел:" %}
 {% embed url="https://vk.com/sherparpa" %}
 
 {% embed url="https://t.me/+Ox4kUmrOTqIxNWRi" %}
@@ -71,7 +71,7 @@ layout:
 ## Дополнительные ресурсы и обучение
 
 {% tabs %}
-{% tab title="Кликните дважды, чтобы перейти по ссылке:" %}
+{% tab title="Выберите нужный раздел:" %}
 {% embed url="https://t.me/SherpaRPA_chat" %}
 
 ### [Академия Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
