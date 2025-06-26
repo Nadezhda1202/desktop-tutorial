@@ -22,8 +22,10 @@ layout:
 
 # База знаний
 
-## Продукты Sherpa Robotics
+Продукты Sherpa Robotics
 
+{% tabs %}
+{% tab title="Выберите нужный раздел:" %}
 {% content-ref url="sherpa-rpa/" %}
 [sherpa-rpa](sherpa-rpa/)
 {% endcontent-ref %}
@@ -35,6 +37,8 @@ layout:
 {% content-ref url="sherpa-ai-server/" %}
 [sherpa-ai-server](sherpa-ai-server/)
 {% endcontent-ref %}
+{% endtab %}
+{% endtabs %}
 
 ## Ссылки, релизы и поддержка пользователей
 
@@ -56,38 +60,24 @@ layout:
 
 ## Социальные сети и видео
 
+{% tabs %}
+{% tab title="Выберите нужный раздел:" %}
 {% embed url="https://vk.com/sherparpa" %}
 
 {% embed url="https://t.me/+Ox4kUmrOTqIxNWRi" %}
 
 {% embed url="https://rutube.ru/channel/41535618/" %}
-
-{% embed url="https://www.youtube.com/@sherparpa" %}
+{% endtab %}
+{% endtabs %}
 
 ## Дополнительные ресурсы и обучение
 
 {% tabs %}
-{% tab title="Для поддержки разработчиков:" %}
+{% tab title="Выберите нужный раздел:" %}
 {% embed url="https://t.me/SherpaRPA_chat" %}
-{% endtab %}
-{% endtabs %}
 
-{% tabs %}
-{% tab title="Обучение:" %}
-{% embed url="https://sherparpa.ru/sherpa-learning/" %}
+{% embed url="https://docs.sherparpa.ru/obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa" %}
 
-{% content-ref url="obuchenie-po-razrabotke-na-platforme-sherpa-rpa/" %}
-[obuchenie-po-razrabotke-na-platforme-sherpa-rpa](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/)
-{% endcontent-ref %}
-{% endtab %}
-{% endtabs %}
-
-{% tabs %}
-{% tab title="Дополнительные ресурсы:" %}
 {% embed url="https://docs.sherparpa.ru/soderzhanie" %}
-
-{% content-ref url="kontakty.md" %}
-[kontakty.md](kontakty.md)
-{% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
