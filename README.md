@@ -22,7 +22,7 @@ layout:
 
 # База знаний
 
-Продукты Sherpa Robotics
+## Продукты Sherpa Robotics
 
 {% content-ref url="sherpa-rpa/" %}
 [sherpa-rpa](sherpa-rpa/)
@@ -76,8 +76,8 @@ layout:
 {% tab title="Обучение:" %}
 {% embed url="https://sherparpa.ru/sherpa-learning/" %}
 
-{% content-ref url="akademiya-sherpa-rpa/" %}
-[akademiya-sherpa-rpa](akademiya-sherpa-rpa/)
+{% content-ref url="obuchenie-po-razrabotke-na-platforme-sherpa-rpa/" %}
+[obuchenie-po-razrabotke-na-platforme-sherpa-rpa](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

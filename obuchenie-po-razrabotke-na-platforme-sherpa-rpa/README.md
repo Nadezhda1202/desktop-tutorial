@@ -4,5 +4,5 @@ description: >-
   Платформе Sherpa RPA
 ---
 
-# Обучение по разработке на Платформе Sherpa RPA
+# Академия Sherpa RPA
 
