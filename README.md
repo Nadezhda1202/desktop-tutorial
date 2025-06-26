@@ -62,23 +62,32 @@ layout:
 
 {% embed url="https://rutube.ru/channel/41535618/" %}
 
+{% embed url="https://www.youtube.com/@sherparpa" %}
+
 ## Дополнительные ресурсы и обучение
 
 {% tabs %}
-{% tab title="Чат для поддержки разработчиков:" %}
+{% tab title="Для поддержки разработчиков:" %}
 {% embed url="https://t.me/SherpaRPA_chat" %}
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="Академия Sherpa:" %}
+{% tab title="Обучение:" %}
 {% embed url="https://sherparpa.ru/sherpa-learning/" %}
+
+{% content-ref url="akademiya-sherpa-rpa/" %}
+[akademiya-sherpa-rpa](akademiya-sherpa-rpa/)
+{% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Дополнительные ресурсы:" %}
 {% embed url="https://docs.sherparpa.ru/soderzhanie" %}
+
+{% content-ref url="kontakty.md" %}
+[kontakty.md](kontakty.md)
+{% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
-
