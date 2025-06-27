@@ -843,6 +843,7 @@
   * [Установка Sherpa AI Server](sherpa-ai-server/ustanovka-sherpa-ai-server.md)
   * [Авторизация пользователя в Sherpa AI Server](sherpa-ai-server/avtorizaciya-polzovatelya-v-sherpa-ai-server.md)
   * [Диаграмма развертывания Sherpa AI Server в связке с Роботами](sherpa-ai-server/diagramma-razvertyvaniya-sherpa-ai-server-v-svyazke-s-robotami.md)
+  * [Установка и настройка SSL сертификатов](sherpa-ai-server/ustanovka-i-nastroika-ssl-sertifikatov.md)
   * [Работа в Sherpa AI Server](sherpa-ai-server/rabota-v-sherpa-ai-server/README.md)
     * [Главный интерфейс Sherpa AI Server](sherpa-ai-server/rabota-v-sherpa-ai-server/glavnyi-interfeis-sherpa-ai-server.md)
     * [Чат](sherpa-ai-server/rabota-v-sherpa-ai-server/chat.md)
