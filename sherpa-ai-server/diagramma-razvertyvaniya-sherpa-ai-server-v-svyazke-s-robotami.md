@@ -2,7 +2,9 @@
 
 <figure><img src="../.gitbook/assets/2025-04-10_14-36-15.png" alt=""><figcaption></figcaption></figure>
 
-В хорошем качестве можно скачать [здесь](https://drive.google.com/file/d/1BGgtGA2WmPNgwklzZ1Gne3Yerv3GOkqH/view?usp=drive_link).
+В хорошем качестве можно скачать здесь:
+
+{% file src="../.gitbook/assets/Диаграмма развертывания Sherpa RPA + Sherpa AI Server.pdf" %}
 
 Расширение схемы развертывания платформы Sherpa RPA описывает использование компонента Sherpa AI Server в составе платформы роботизации для реализации сценариев с использованием искусственного интеллекта и\
 больших языковых моделей.
