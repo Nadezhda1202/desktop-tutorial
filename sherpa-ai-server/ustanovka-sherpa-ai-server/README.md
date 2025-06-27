@@ -4,7 +4,7 @@
 
 Схема взаимодействия между компонентами Sherpa AI Server.
 
-<figure><img src="../.gitbook/assets/Sherpa-AI-server-cpu-installation.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Sherpa-AI-server-cpu-installation.png" alt=""><figcaption></figcaption></figure>
 
 Установка производится по инструкции представленной ниже.
 
@@ -154,7 +154,7 @@
 | Скопировать модель            | <p>$ sudo mkdir -p /opt/sais/model-store/meta-llama</p><p>$ cp Meta-Llama-3-8B-Instruct-Q4_K_S.gguf  /opt/sais/model-store/meta-llama</p><p> </p> |
 | Распакуйте архивы(5-10 минут) | <p>$ sudo tar -xf sais20CPU-20250425.tar.gz</p><p> sudo tar -xf sentence-transformers-model.tar.gz</p>                                            |
 
-<figure><img src="../.gitbook/assets/root.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/root.png" alt=""><figcaption></figcaption></figure>
 
 | <p>*если у текущего пользователя &#x3C;username></p><p>нет разрешений для docker group</p> | $ sudo usermod -aG docker \<username>                                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -174,7 +174,7 @@
 | Проверка | $ docker stats |
 | -------- | -------------- |
 
-<figure><img src="../.gitbook/assets/docker.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/docker.png" alt=""><figcaption></figcaption></figure>
 
 | При необходимости удалите архивы для экономии места            | $ rm  \<file\_name>                                                                                                                                                                                                                                                                                                                  |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
