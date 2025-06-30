@@ -126,7 +126,7 @@
     * [PDF](sherpa-designer/spravochnik-blokov/pdf-pdf-automation/)
     * [Текст](sherpa-designer/spravochnik-blokov/tekst-string-automation/)
     * [FTP/SFTP](sherpa-designer/spravochnik-blokov/ftp-sftp/)
-    * [Процессы/Службы/Окна](sherpa-designer/spravochnik-blokov/processy-sluzhby-okna.md)
+    * [Процессы/Службы/Окна](sherpa-designer/spravochnik-blokov/processy-sluzhby-okna-process-service/)
     * [Терминалы](sherpa-designer/spravochnik-blokov/terminaly-terminal-automation/)
     * [Реестр](sherpa-designer/spravochnik-blokov/reestr.md)
     * [1С (1C Automation)](sherpa-designer/spravochnik-blokov/1s-1c-automation/)
