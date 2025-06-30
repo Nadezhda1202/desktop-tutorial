@@ -134,7 +134,7 @@
     * [Google Sheets](sherpa-designer/spravochnik-blokov/google-sheets/)
     * [Удаленный рабочий стол RDP/Citrix](sherpa-designer/spravochnik-blokov/udalennyi-rabochii-stol-rdp-citrix/)
     * [Работа с архивами](sherpa-designer/spravochnik-blokov/rabota-s-arkhivami-archive/)
-    * [Бизнес-функции](sherpa-designer/spravochnik-blokov/biznes-funkcii.md)
+    * [Бизнес-функции](sherpa-designer/spravochnik-blokov/biznes-funkcii-business-methods/)
     * [Изображения](sherpa-designer/spravochnik-blokov/izobrazheniya.md)
     * [Telegram](sherpa-designer/spravochnik-blokov/telegram/)
     * [Учетные данные Windows и CyberArk](sherpa-designer/spravochnik-blokov/uchetnye-dannye-windows-i-cyberark-windows-credentials/)
