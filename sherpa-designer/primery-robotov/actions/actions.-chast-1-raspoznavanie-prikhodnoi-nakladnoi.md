@@ -50,7 +50,7 @@
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcrLDZs83DoFtGLDKPf9kBJMfNtQs0fhk5A8UlS3c9i8i7i6izjgcEaP5uQVOIp2iNIx7M7U-s7r-rNXHxXGO2UmXvwTLpcrq03drQyIVY_dbsKpiYwRpA7xpa3Cp9uFJtraHmJMGZnYeZB62zwQYP7T34S?key=seA-VcSXuVgZZHNoZg11MA" alt=""><figcaption></figcaption></figure>
 
 1. **Блок “Старт”** (с этого блока начинается любая диаграмма).
-2. **Блок “Распознать по шаблону”** позволят распознать документ по шаблону, заранее созданному в [Шаблонизаторе](../../../shablonizator-sherpa-rpa/). В данном блоке указаны следующие свойства:
+2. **Блок “Распознать по шаблону”** позволят распознать документ по шаблону, заранее созданному в [Шаблонизаторе](../../../shablonizator/). В данном блоке указаны следующие свойства:
 
 * Путь к файлу;
 * Путь к файлу шаблона (путь к файлу шаблона для распознавания).

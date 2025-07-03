@@ -4,20 +4,6 @@ description: >-
   максимальную пользу от наших продуктов.
 cover: .gitbook/assets/photo_2025-06-25_12-59-08 (1).jpg
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # База знаний

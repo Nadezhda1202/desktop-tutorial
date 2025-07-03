@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Настройки Оркестратора
 
 В конфиге Оркестратора (backend/config/config.ini) доступны следующие настройки:&#x20;
