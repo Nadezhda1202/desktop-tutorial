@@ -999,7 +999,4 @@
   * [Дистрибутивы Sherpa RPA (Windows)](ssylki-na-distributivy/distributivy-sherpa-rpa-windows.md)
   * [Дистрибутивы Sherpa RPA (Linux)](ssylki-na-distributivy/distributivy-sherpa-rpa-linux.md)
 * [Контакты](kontakty.md)
-
-* ### Changelog
-
 * [Change Log](changelog.md)
