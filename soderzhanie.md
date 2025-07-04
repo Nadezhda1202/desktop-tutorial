@@ -68,7 +68,7 @@
           * [Sherpa Regex](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-razrabotka/menyu-dopolnitelno/sherpa-regex.md)
           * [Редактор окон](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-razrabotka/menyu-dopolnitelno/redaktor-okon.md)
         * [Меню "Помощь"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-razrabotka/menyu-pomosh.md)
-      * [Панель "Инструменты"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty.md)
+      * [Панель "Инструменты"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/)
     * [Главная панель](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/)
       * [Блоки](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/bloki/)
         * [Редактор блоков](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/bloki/redaktor-blokov.md)
