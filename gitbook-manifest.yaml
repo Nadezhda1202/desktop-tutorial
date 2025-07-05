@@ -1,0 +1,85 @@
+# gitbook-manifest.yaml
+
+name: Book
+script: package.json
+scopes:
+  - space:views:read
+  - space:content:read
+  - space:content:write
+  - space:metadata:read
+  - space:metadata:write
+  - space:script:inject
+  - space:script:cookies
+  - space:git:sync
+  - space:visitor:auth
+  - site:metadata:read
+  - site:views:read
+  - site:script:inject
+  - site:script:cookies
+  - site:visitor:auth
+  - site:adaptive:read
+  - site:adaptive:write
+  - openapi:read
+  - openapi:write
+  - conversations:ingest
+
+organization: My book
+title: Sherpa RPA Knowledge Base
+
+# Главный входной файл (обычно README.md или другие файлы)
+root: README.md
+
+# Список файлов или разделов
+sections:
+  - title: База знаний
+    url: README.md
+    sections:
+      - title: Sherpa RPA
+        url: https://docs.sherparpa.ru/o-platforme-sherpa-rpa
+      - title: Sherpa Process Discovery
+        url: https://docs.sherparpa.ru/sherpa-process-discovery
+      - title: Sherpa AI Server
+        url: https://docs.sherparpa.ru/sherpa-ai-server
+      - title: Ссылки на дистрибутивы
+        url: https://docs.sherparpa.ru/ssylki-na-distributivy
+      - title: Релизы
+        url: https://docs.sherparpa.ru/obnovleniya
+      - title: VK
+        url: https://vk.com/sherparpa
+      - title: News in Telegram
+        url: https://t.me/+Ox4kUmrOTqIxNWRi
+      - title: Sherpa RPA Developers Chat
+        url: https://t.me/SherpaRPA_chat
+      - title: Rutube
+        url: https://rutube.ru/channel/41535618/
+      - title: Академия Sherpa RPA
+        url: https://docs.sherparpa.ru/obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa
+      - title: Техническая поддержка
+        url: mailto:support@sherparpa.ru
+      - title: Дополнительные ресурсы
+        url: https://docs.sherparpa.ru/soderzhanie
+  - title: Содержание
+    url: soderzhanie.md
+  - title: Sherpa RPA
+    url: sherpa-rpa/README.md
+    sections:
+      - title: Основные понятия
+        url: sherpa-rpa/osnovnye-ponyatiya.md
+      - title: Диаграмма развертывания Sherpa RPA
+        url: sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa/README.md
+        sections:
+          - title: Последовательность шагов процесса
+            url: sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa/posledovatelnost-shagov-processa.md
+          - title: Конфигурация сети
+            url: sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa/konfiguraciya-seti.md
+          - title: Системные требования
+            url: sherpa-rpa/diagramma-razvertyvaniya-sherpa-rpa/sistemnye-trebovaniya.md
+      - title: Установка Sherpa RPA
+        url: sherpa-rpa/ustanovka-sherpa-rpa/README.md
+        sections:
+          - title: Установка Sherpa RPA на Windows
+            url: sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-windows.md
+          - title: Установка Sherpa RPA на Linux
+            url: sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-linux.md
+          - title: Установка Sherpa RPA на RedOS
+            url: sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-redos.md
