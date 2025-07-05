@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": 
   {
-    "start": "node app.js",
+    "update-changelog": "generate_changelog.bat",
+    "build": "npm run update-changelog && gitbook build",
+    "start": "node book.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,5 @@
   "homepage": "https://github.com/Nadezhda1202/desktop-tutorial#readme",
   "devDependencies": {
     "gitbook-plugin-changelog": "^1.0.1"
-  }
+  }  
 }
