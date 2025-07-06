@@ -1,7 +1,6 @@
 {
-  "scripts": 
-  {
-    "update-changelog": "generate_changelog.bat",
+  "scripts": {
+    "update-changelog": "generate_changelog.ps1",
     "build": "npm run update-changelog && gitbook build"
   },
   "repository": {
@@ -14,6 +13,5 @@
   },
   "devDependencies": {
     "gitbook-plugin-changelog": "^1.0.1"
-  }  
+  }
 }
-

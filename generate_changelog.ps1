@@ -1,0 +1,1 @@
+powershell -NoProfile -ExecutionPolicy Bypass -Command {$ChangeLogFile='changelog.md';$Date=Get-Date -Format 'yyyy-MM-dd';Set-Content -Path $ChangeLogFile -Value '' -Encoding utf8;Add-Content -Path $ChangeLogFile -Value '# Changelog';Add-Content -Path $ChangeLogFile -Value "* $Date *";$Commits=git log -10 --pretty=format:'- %s';Add-Content -Path $ChangeLogFile -Value $Commits}
