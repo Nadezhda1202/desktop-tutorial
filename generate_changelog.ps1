@@ -1,4 +1,4 @@
-$f = 'changelog.md'
+$f = 'changelog.md' 
 $d = Get-Date -Format 'yyyy-MM-dd'
 Set-Content -Path $f -Value ("Update from " + $d)
 
