@@ -171,7 +171,7 @@
 
 Блок “**Получить задачу по умолчанию**”  получает Задачу, заданную текущей работой, которую выполняет Робот:
 
-<figure><img src="../../../../.gitbook/assets/изображение (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 На выходе Вы получите следующие данные:
 

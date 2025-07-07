@@ -38,7 +38,7 @@
 
 ## Значения селектора
 
-<figure><img src="../../../../../.gitbook/assets/изображение (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/изображение (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 Область, где показываются конкретные значения, выбранные Пользователем через селектор.
 

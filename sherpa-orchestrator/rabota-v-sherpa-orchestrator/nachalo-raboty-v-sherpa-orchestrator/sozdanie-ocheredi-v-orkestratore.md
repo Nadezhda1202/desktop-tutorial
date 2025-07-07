@@ -2,11 +2,11 @@
 
 Для добавления новой очереди в Оркестраторе перейдите на экран “Очереди”. Данный экран содержит две таблицы: “Очереди” и “Задачи”.
 
-<figure><img src="../../../.gitbook/assets/изображение (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (36) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нажмите кнопку “Создать” в таблице “Очереди” и заполните открывшуюся форму.
 
-<figure><img src="../../../.gitbook/assets/изображение (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (37) (1).png" alt=""><figcaption></figcaption></figure>
 
 * поле “Имя” (является обязательным для заполнения);
 * поле “Описание”  (при необходимости);

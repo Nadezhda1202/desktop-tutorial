@@ -8,4 +8,4 @@
 * [Меню “Отладка”](menyu-otladka/);
 * [Меню “Дополнительно"](menyu-dopolnitelno/).
 
-<figure><img src="../../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (43).png" alt=""><figcaption></figcaption></figure>
