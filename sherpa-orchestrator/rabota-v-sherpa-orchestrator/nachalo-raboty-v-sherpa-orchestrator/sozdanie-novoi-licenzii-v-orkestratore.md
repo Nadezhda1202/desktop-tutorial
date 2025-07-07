@@ -4,4 +4,4 @@
 
 <figure><img src="../../../.gitbook/assets/изображение (85).png" alt=""><figcaption></figcaption></figure>
 
-Процесс создания новой Лицензии можно найти [здесь](../../../licenzii/upravlenie-licenziyami-sherpa-rpa-cherez-sherpa-orchestrator.md).
+Процесс создания новой Лицензии можно найти [здесь](../../../licenzii/dopolnitelno/upravlenie-licenziyami-sherpa-rpa-cherez-sherpa-orchestrator.md).
