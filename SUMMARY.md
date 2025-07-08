@@ -996,6 +996,7 @@
     * [Управление Лицензиями Sherpa RPA через Sherpa Orchestrator](licenzii/upravlenie-licenziyami-sherpa-rpa-cherez-sherpa-orchestrator.md)
     * [Лицензии Sherpa AI Server](licenzii/licenzii-sherpa-ai-server.md)
 * [Безопасность](bezopasnost/README.md)
+  * [Sherpa RPA](bezopasnost/sherpa-rpa.md)
   * [Схема работы платформы Sherpa RPA c Yandex Vision через VPN](bezopasnost/skhema-raboty-platformy-sherpa-rpa-c-yandex-vision-cherez-vpn.md)
 * [Академия Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/README.md)
   * [Обучающий курс по разработке на Платформе Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
