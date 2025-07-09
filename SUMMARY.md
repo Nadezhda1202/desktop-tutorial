@@ -751,7 +751,7 @@
   * [Перенос роботов с Windows на Linux](sherpa-designer/perenos-robotov-s-windows-na-linux.md)
   * [Sherpa Designer: ответы на часто задаваемые вопросы](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/README.md)
     * [Настройка входных и выходных параметров в свойствах проекта](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/nastroika-vkhodnykh-i-vykhodnykh-parametrov-v-svoistvakh-proekta.md)
-* [Шаблонизатор](shablonizator/README.md)
+* [Sherpa IDP (Шаблонизатор)](shablonizator/README.md)
   * [Интерфейс Шаблонизатора](shablonizator/interfeis-shablonizatora/README.md)
     * [Основное меню Шаблонизатора](shablonizator/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/README.md)
       * [Меню "Файл"](shablonizator/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/menyu-fail.md)
