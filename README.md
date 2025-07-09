@@ -8,7 +8,7 @@ coverY: 0
 
 # База знаний
 
-## Продукты Sherpa Robotics
+## Продуктовые линейки Sherpa Robotics
 
 {% content-ref url="sherpa-rpa/" %}
 [sherpa-rpa](sherpa-rpa/)
@@ -21,6 +21,16 @@ coverY: 0
 {% content-ref url="sherpa-ai-server/" %}
 [sherpa-ai-server](sherpa-ai-server/)
 {% endcontent-ref %}
+
+## Продукты Sherpa RPA
+
+{% embed url="https://docs.sherparpa.ru/sherpa-robot-i-sherpa-assistant" %}
+
+{% embed url="https://docs.sherparpa.ru/sherpa-designer" %}
+
+{% embed url="https://docs.sherparpa.ru/sherpa-orchestrator" %}
+
+{% embed url="https://docs.sherparpa.ru/shablonizator" %}
 
 ## Ссылки, релизы и поддержка пользователей
 
