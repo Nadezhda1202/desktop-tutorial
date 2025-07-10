@@ -1,6 +1,8 @@
 # Дистрибутивы Sherpa RPA (Windows)
 
-## **1. Платформа Sherpa RPA (Sherpa Attended Robot + Sherpa Designer) для рабочих мест разработчиков**
+## **1. Платформа Sherpa RPA (Sherpa Attended Robot + Sherpa Designer)**&#x20;
+
+**Платформа Sherpa RPA для рабочих мест разработчиков:**
 
 {% embed url="https://sherparpa.ru/downloads/SherpaRPA.exe" %}
 
@@ -8,7 +10,9 @@
 
 {% embed url="https://sherparpa.ru/downloads/SherpaRPA.exe.SHA1SUM" %}
 
-## **2. Только Робот Sherpa Attended / Unattended (без Sherpa Designer) для установки на рабочие места конечных Пользователей, виртуальные машины или терминальные сервера**
+## **2. Робот Sherpa Attended / Unattended (без Sherpa Designer)**
+
+Поддержка только Роботов Sherpa Attended и Unattended (без Sherpa Designer) для установки на рабочие места конечных Пользователей, виртуальные машины или терминальные серверы.
 
 {% embed url="https://sherparpa.ru/downloads/SherpaRPARuntime.exe" %}
 
