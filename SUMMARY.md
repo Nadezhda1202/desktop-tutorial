@@ -991,6 +991,7 @@
   * [Attended робот](licenzii/attended-robot.md)
   * [Attended Floating робот](licenzii/attended-floating-robot.md)
   * [Unattended робот](licenzii/unattended-robot.md)
+  * [Sherpa AI Server](licenzii/sherpa-ai-server.md)
   * [Дополнительно](licenzii/dopolnitelno/README.md)
     * [Отличия Attended и Attended Floating Лицензий](licenzii/otlichiya-attended-i-attended-floating-licenzii.md)
     * [Активация Лицензий через Sherpa Assistant](licenzii/aktivaciya-licenzii-cherez-sherpa-assistant.md)
