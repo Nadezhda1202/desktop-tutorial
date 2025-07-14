@@ -1,96 +1,204 @@
 # Режим «Картинка в Картинке» (PiP)
 
-Режим PiP позволяет Пользователю запускать несколько интерфейсов одновременно. Это означает, что Пользователь может взаимодействовать с одним приложением (например, с веб-интерфейсом) в то время как Робот выполняет свои Задачи в другом окне. Это особенно полезно, когда необходимо выполнять Задачи в GUI-приложениях.
+**Режим PiP** — это особый режим подключению к своему собственному компьютеру через протокол RDP, позволяющий работать в мини-окне одновременно с основным окном сеанса. Например, Пользователь может взаимодействовать с веб-интерфейсом, пока Робот выполняет свои Задачи в другом окне.
 
-Можно запрограммировать Робота так, чтобы он отслеживал активность Пользователя. Например, если Пользователь начнет работать с каким-то приложением, Робот может автоматически приостанавливать свою Работу, что позволяет избежать наложения действий и конфликта между Пользователем и Роботом.&#x20;
+## 1. Основные возможности режима PiP
 
-Такой подход значительно упрощает многозадачность и позволяет Пользователям более эффективно использовать инструменты автоматизации в своей повседневной работе.
+**Многозадачность**: одновременное взаимодействие с несколькими приложениями (возможно в тех случаях, когда это поддерживается самим приложением; многие программы не предусматривают запуск нескольких своих экземпляров одновременно).
 
-### Настройка Робота в режиме PiP
+**Повышение эффективности**: Робот способен взаимодействовать с приложениями так, чтобы не мешать Пользователю.
 
-Для успешной работы с PiP, необходимо убедиться, что настроены следующие параметры:
+Режим PiP позволяет одновременно взаимодействовать с интерфейсами Робота и Пользователя на одном экране. Это значит, что:
 
-1. **Настройки групповой политики:**
+* Робот может выполнять свои задачи в фоновом режиме в отдельном окне.
+* Пользователь может в это же время управлять интерфейсом, вводить данные, кликать по элементам на экране или просматривать информацию.
 
-Пользователь должен открыть Local Group Policy и перейти по пути \`Computer Configuration\Administrative Templates\System\Credential Delegation\`. Далее, он должен убедиться, что параметр \`Allow delegating default credentials\` установлен в состояние Enabled.
+Допустим, у Пользователя запущены автоматизированные сценарии, а также ему нужно что-то проверить или изменить вручную. Благодаря режиму PiP всё происходит на одном экране и с возможностью переключения или совмещения.
 
-2. **Настройка прав Пользователя:**&#x20;
+В режиме PiP:
 
-Пользователь должен участвовать в следующих политиках:
+* Активный интерфейс — интерфейс, с которым в данный момент осуществляется управление. Например, Пользователь щелкает мышью по активному окну.
+* Автоматизированные действия — интерфейс, где действия могут выполняться Роботом либо на фоне, либо параллельно с ручным управлением.
 
-\`Computer Settings\Windows Settings\Security Settings\Local Policies\User Rights Assignment\Allow Log On Locally\`;
+Управление мышью:
 
-\`Computer Settings\Windows Settings\Security Settings\Local Policies\User Rights Assignment\Access this computer from the network\`.
+* В режиме PiP системное управление мышью часто переключается или имитируется для заданных окон.
+* При клике или перемещении мыши Пользователь напрямую управляет текущим активным окном, а Робот, если он запущен, может работать в другом окне.&#x20;
+* В некоторых сценариях используется блокировка мыши.
 
-<table data-header-hidden><thead><tr><th width="73"></th><th></th></tr></thead><tbody><tr><td><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe8yhWINCb2r_AVmVinYYwnXKAWWrXjr5E445GU4UcMdb_G4BfnqpQXHUItGF8A2EY5oyHR6L_NJ4jbZ3jpXEChO-yWcu85I9s_J3oSaZhGGTocUwYTkEBH4Sfyc3oi_R3GmpNrtQ?key=ewmckLbdFrl5Y1peGh6-_AjW" alt="" data-size="line"></td><td>Для активации функции PiP требуются права администратора.</td></tr></tbody></table>
+> В режиме PiP можно настроить автоматическое переключение главных окон или работу в "синхронном" режиме — это зависит от сценария.
 
-Для запуска PiP:
+## 2. Настройка Робота для работы в режиме PiP
 
-1. Пользователь должен создать файл PiPClient.dat в следующей директории:
+Для корректной работы в режиме PiP необходимо выполнить следующие шаги:
 
-&#x20;     c:\Users\User\AppData\Roaming\Sherpa RPA Data\Setting\\
+#### 2.1. Настройка групповой политики
 
-2. Далее, он должен найти и запустить программу LaunchPiPClient.exe из следующей папки:&#x20;
+* Откройте Local Group Policy Editor.
+* Перейдите по пути: \`Computer Configuration\` → \`Administrative Templates\` → \`System\` → \`Credential Delegation\`.
+* Включите параметр: Allow delegating default credentials.
+* Убедитесь, что он установлен в состояние Enabled.
 
-&#x20;      c:\Users\User\AppData\Roaming\Sherpa RPA\Robot\Remote\PiP\\
+#### 2.2. Настройка прав Пользователя
 
-### Запуск Робота в режиме PiP
+Пользователю нужны права:
 
-Робота можно запустить в режиме PiP с помощью горячих клавиш. Для этого Пользователь должен:
+* \`Allow Log On Locally\` &#x20;
+* \`Access this computer from the network\`
 
-1\. В Sherpa Assistant в окне «Роботы» выбрать нужного Робота и нажать на кнопку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfc2vAABbP4FzSHLkan_IirlSbTBKCReHlDZXHo2ZCSPBZlFP-OJrftBhlD50aRlI8-WJYGF8-bIx0KEqXILAd9MhEN47tCYvVBr8TzQnPRvAb-2Hh9ukCPMdf5Kn9A9br2Jky4_A?key=ewmckLbdFrl5Y1peGh6-_AjW):
+Эти политики можно установить через \`Computer Settings\` → \`Windows Settings\` → \`Security Settings\` → \`Local Policies\` → \`User Rights Assignment\`.
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfnHUDz5iBv0hYYb2Pc9EynIUQHKsksMpsZJvh5cYW1aUz0im0PIBIrexuFqbRsTO1VYrHCTq2yiBZ8jY4e1zE-GPlycjNLRKMBiTAelzfwr3QEHE3ZOGYd_WDaPoxRANeTeR8xwQ?key=ewmckLbdFrl5Y1peGh6-_AjW" alt=""><figcaption></figcaption></figure>
+> Для активации режима PiP требуются права администратора. После его активации любой Пользователь сможет пользоваться режимом PiP без необходимости обладать правами администратора.
 
-2\. Включить опцию "Всегда запускать в режиме PiP-клиента" и задать горячие клавиши:
+## 3. Запуск Робота в режиме PiP
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcoweyxGE956ugFnFgnVkNsVE4YfE6-Ndg6dJHU_Zt-pwH9V8z3lSqSipGUgBFX_MEr-WsWrJ0s3no_4PogbUwK0ZKg3zI95jlSB-bsGpS5kSd8PWalC2pCNjBf_N0KNjdcfBvs?key=ewmckLbdFrl5Y1peGh6-_AjW" alt=""><figcaption></figcaption></figure>
+Робота в режиме PiP можно запустить двумя способами:
 
-Поддерживается как синхронный, так и асинхронный запуск.
+#### 3.1. Через интерфейс Sherpa Designer:
 
-Также Робота Пользователь может запустить в режиме PiP через блок "Запустить робота" в Sherpa Designer. Для этого он должен:
+Пользователь может запустить в режиме PiP через блок "Запустить робота" в Sherpa Designer. Для этого он должен:
 
-1\. На панели «Отладка» нажать на кнопку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf0WtGJAizg3c5ILR2iL_Fdp_jVHRBO2s3vLSZU24kDfpH539PaXVsEHiFtw6iQvg2fB42InpTOlr-6dvud5NxgRg0wQZrF536cTJXIHEje8KPwqt4LBzmV2QGBgonY_rzkAGo9Fg?key=ewmckLbdFrl5Y1peGh6-_AjW).
+1\) На панели «Отладка» нажать на кнопку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXch9OxukQotZGwwsSJOlq5hithPHU8nNjlCBq39vw41ZFB7hT8Ng0WQ3nl6vlnvpDKl0k96g6DXZFDMpHAlioNZL52aL1S7nDaqjgvPP3-LB1MNCjFRr-p9skrs1oZxq6Y5C00Qqg?key=VkzMAJy7plKoC0RBMeOXBw).
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc0oLmrsjUa-l4fcnO-13ypkT-kyh7S7SIeGQpfXfza6KgbaHpNJvmVXoccGkdJbhMAvK3WfGWkVk6XJAIyLXxgHvXYrUnXnu7x9oIM6G0opWEHd4hXPM9fDFhKdChcRatGYuj9yQ?key=ewmckLbdFrl5Y1peGh6-_AjW" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfagfT5utUEr9o45RCt82tqdldfc16RzQ4kjUUUiM-fXBnELs9vUf13n9EQRPtRhOjuPqPBFNyN14iujR5jt49EJaPuwNrxBJoAtEy3G8IY_Md-Yj1A3jI7eDrUYL0f4Lp3UzvYvg?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
 
-2\. Нажать на "Запуск в режиме PiP (Картинка в Картинке)":
+2\) Нажать на "Запуск в режиме PiP (Картинка в Картинке)":
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf1gkU3iJYm7at6TBYk-0RQobUQ5OYv2dJkvKo9REtKFRfLvaTpoBUw68JAiAV7FHLQmFX6DzxFoMNKcBYAjwII_eKZMgUPqKWrJZY6AxIXllVFo2JhWc3YdAjPuOMxjNS_d7RPWw?key=ewmckLbdFrl5Y1peGh6-_AjW" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvcho68UGHz5YjSeBmlVBJC6F_lX9vwWJ4Z_BnALTGkuyeMx4uZ4d2aYR9zaYLdaVMP6N_1GIFKrMzWAfwk9i8h1Ow_03NE4LCuBhVTjJfOFToBSGwJ55oZwumm-1vEWpdQgn1BA?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
 
-3\. Подтвердить действие нажатием на кнопку “Да”:
+3\) Подтвердить действие нажатием на кнопку “Да”:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHy02iolBF8hOLhv6gQtQxz8XV5h32BFP2r1nlRbvRsX8Mf2LAukC99wT3lbBcTWFOPvgAmOylRP8RxWInae-D91Jm4_HqFENNZ9N3BvaVjUSEwxtHm729XCbCWblRSt_ymzqFLQ?key=ewmckLbdFrl5Y1peGh6-_AjW" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSLgTYXPTwXtB5UgpHilS2xp5J51efYJQnq6ctYy-wWX5QkiS52pNRrBxw-rwqoKmKS39cYo9CnQwCBqxmLcvH5tqOnyvm9qJr4VBW01TT9rC4F7cPsJh8EEfsqTHI_ek05UWOyw?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
 
-<table data-header-hidden><thead><tr><th width="58"></th><th></th></tr></thead><tbody><tr><td><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdhLsK94FWYaXy__d5PpuJle9X9VTsFu5hbCjLMhJwYF1DkG9VpQWERtUmMdIaNkve4jF2hR3ngQRNnIO__r4tRvIRYiovZwE1IHu7Jqrma_n-MIAemfBmDJNsCpqi93MGMzVsqNQ?key=ewmckLbdFrl5Y1peGh6-_AjW" alt="" data-size="line"></td><td>Если Робот не выполняет действия при работе с браузером, проверьте, не открыт ли браузер в основном сеансе.</td></tr></tbody></table>
+> Для корректной работы с браузерами, убедитесь, что браузер запущен не в основном сеансе, иначе Робот не сможет взаимодействовать с ним.
 
-### Блокировка мыши
+#### 3.2. Через интерфейс Sherpa Assistant:
 
-При работе в обычном режиме, Пользователь может мешать Работе Робота, особенно если на экране открыты сразу несколько вкладок и/или приложений. Для решения этой проблемы в режиме PiP настроена функция Блокировки мыши.
+Пользователь может запустить в режиме PiP через Sherpa Assistant, для этого:
+
+1\) В окне «Роботы» выбрать нужного Робота и нажать на кнопку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXehdddPEIIjITQ62I_Ts3xKFVd721sHz8ZYtdyTM3fwBk8d_6wUFnyqbppFBJUU7RinhhAkd_gvcaS0pXDsMtisBNpTovHX0zFSpNVK_HOuozC0BYi2vwzgcA1yrsCKCFYAtL_E-Q?key=VkzMAJy7plKoC0RBMeOXBw):
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI04dHhp2avVAHqjh9e6wZdcBz9qyCA4tKZill8TTUIAbxjPlNe7HB4EbMNA2E8gmAtq3Tm9JFbB2inGw215OkM1phQChxVEQUgARUOLJfMT4kxOWjitqEN9wTjHS8JiKWatv5kw?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
+
+Настройки запуска PiP-клиента:
+
+* “Всегда запускать в режиме PiP-клиента” – при включении этого параметра Робот будет всегда запускаться c отображением интерфейса PiP клиента, видимым для Пользователя.
+* “Всегда запускать PiP-клиент заблокированным” – Робот запускается в заблокированном состоянии (интерфейс PiP-клиента открыт, но Пользователь не может повлиять на работу Робота).
+* “Всегда запускать PiP-клиент в скрытом режиме” – Робот запускается, но окно PiP-клиента скрыто и не отображается на экране.
+
+2\) Включить нужный режим и задать горячие клавиши:
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbehARw7y7mBW6p8dyLkVPlcbETJOQwEqYwVWvntc9VK7p6q9sHKQ4ronx3LQVeDgZ9_Pt0Amp7EUrR8DAWJ0vR47pImdWXb0toUjWyhQvb1axd6fe3dRMWV70K1HpYgzUHqwZsQ?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
+
+Для доступа к Процессам, синхронизированным с Оркестратором необходимо выполнить авторизацию через Пользователя.
+
+Для этого необходимо:
+
+* в меню Sherpa Assistant в трее нужно выбрать пункт “Роботы”:
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQuzhtgrMDzf4FWQ9qvWxL8L0jD2_S7O5QrDL5g9mtjUGWIsx47Izq6gY5gaxULrb-BNK2aVYiThxHj77UCu8CWgHglIRDzB8Y1lvmlPZrovrmhVCGlmdOoB4_mwqyWRrYOZbPlQ?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
+
+* в верхней части окна нажать на кнопку “Настройки”:
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3kYrW5BTzs9WNzRYUzVv9SVaD1Trw0ruQeyM13QSjE6IiFxuk6fXQADewwWXddobWCU3fUEZL1g1yRxm_jSexj5oWmo30vFcji8cVeae4WoWaA6SEE8VJDu5GMhefxNiRcxNaoQ?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
+
+* во всплывающем окне “Настройки” ввести логин и пароль:
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfOfxvo4l1Y_C_59TqOOd3nXmlp5oU0u5NSiNCzfs1iOlVCA77p7GAcXu6YNrvv3OaMgLPgiXRUt1RnuFhRiS-FkiWZ4Axt8JkUCzWKLRUpH5sqJSS4zcOebPvTNQYmQoIc-XWB?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
+
+* нажать на кнопку “ОК”.
+
+После входа Пользователю станут доступны Процессы, синхронизированные с Оркестратором:
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJ3I7DRNZmAIYkiYeCTytZQJuBU1Ji9VgZAdDgXeBqHsVYdfxrMzylrspHGfKHo5cCP9zdyVfiUTvcV-uCdvDGpjrD5XIi1Izlxa1Hu_IAuv1rA-cl9VmEqC1bnRJ7819GIAC_Jw?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
+
+Также их можно увидеть на экране [Процессы](https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/processy):
+
+<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9dTwpDq_fWtkvGV5rge4s80XIykagAxoCoIRSmmbvkxSr48A3ymtYNQdlDThHjqPSNGEfVjDwAbMMHs2xnREFCDwHuQXNr49o0VoVTklaTECrxKWkok5hBJjfdZ6oBw2W6EM2qw?key=VkzMAJy7plKoC0RBMeOXBw" alt=""><figcaption></figcaption></figure>
+
+#### 3.3. Важные рекомендации и ограничения
+
+1\) При работе в обычном режиме, Пользователь может мешать Работе Робота, особенно если на экране открыты сразу несколько вкладок и/или приложений. Для решения этой проблемы в режиме PiP настроена функция Блокировки мыши.
 
 Блокировка мыши позволяет предотвратить случайные клики мыши в процессе Работы Робота. Однако стоит отметить, что такая функция может создать сложности для самого Робота, например, если требуется взаимодействие с интерфейсом. В таком случае, Робот не сможет выполнить все необходимые действия.
 
-### Работа с окнами и селекторами в режиме PiP
+2\) Если у Пользователя возникают проблемы с селекторами при запуске Java-приложения в режиме PiP, то рекомендуется проверить разрешение открывающегося окна в Логе Робота по пути: c:\Users\User\AppData\Roaming\Sherpa RPA Data\\!PiPClient\Log\\&#x20;
 
-Если у Пользователя возникают проблемы с селекторами при запуске\
-Java-приложения в режиме PiP, то рекомендуется проверить разрешение открывающегося окна в Логе Робота по пути:
-
-&#x20;c:\Users\User\AppData\Roaming\Sherpa RPA Data\\!PiPClient\Log\\
-
-Для запуска и проверки Логов:
-
-1. Кликните правой кнопкой по ярлыку Sherpa Assistant и перейдите в папку с программой;
-2. Запустите файл \`Remote\PiP\LaunchPiPClient.exe\`;
-3. Проверьте Логи в блоке «Найти печати» внутри PiP, чтобы убедитесь в правильной работе сценария.
-
-### Работа с Outlook
-
-Если Outlook открыт на основном рабочем столе, то для Робота, работающего в режиме PiP, может возникать ошибка. Работать с двумя экземплярами Outlook одновременно нельзя. Пользователю необходимо выбрать, где ему удобнее работать: в PiP или на основном рабочем столе.
+3\) Если Outlook открыт на основном рабочем столе, то для Робота, работающего в режиме PiP, может возникать ошибка. Работать с двумя экземплярами Outlook одновременно нельзя. Пользователю необходимо выбрать, где ему удобнее работать: в PiP или на основном рабочем столе.
 
 Текущие ограничения возникают из-за работы COM-объекта Outlook, который может подключаться только к первому экземпляру приложения. Если в системе Пользователя используется Exchange, то можно попробовать установить прямое взаимодействие с ним.
 
-### Запуск автоматизации приложений в невидимом режиме
+#### 3.4. Автоматизация приложений в невидимом режиме
 
-Автоматизация приложений, таких как Power BI, может быть эффективно реализована в невидимом режиме с помощью технологии PiP (Картинка в Картинке).&#x20;
+Автоматизация приложений, таких как Power BI, может быть эффективно реализована в невидимом режиме с помощью технологии PiP (Картинка в Картинке).
 
 Реализация режима PiP осуществляется через настройки Пользователя, предоставляя возможность управлять автоматизацией более удобно и эффективно. Для получения более подробной информации и пошаговых инструкций по настройке, вы можете обратиться к документации Microsoft (https://learn.microsoft.com/ru-ru/windows/win32/termserv/child-sessions).
+
+## 4. Сценарии использования
+
+#### 4.1. Пример 1: автоматический сценарий с кликами + ручной ввод
+
+* Робот выполняет серию кликов по интерфейсу (например, по кнопкам в веб-странице).
+* Пользователь вводит новые данные или проверяет результат, управляя интерфейсом вручную.
+
+> **Реализация**
+>
+> Робот запускается в режиме PiP с активным управлением мыши в определенной области, а сам Пользователь может, например, кликать по другим элементам или вводить текст.
+
+#### 4.2. Пример 2: тестирование и автоматизация интерф&#x435;_&#x439;са_
+
+* Робот в автоматическом режиме тестирует интерфейс программы.
+* Пока Скрипт работает, Пользователь (тестировщик) наблюдает и при необходимости вмешивается (например, останавливает сценарий или исправляет сценарий).
+
+> **Реализация**
+>
+> Внедрение мониторинга и паузы:
+>
+> * Включение режима наблюдения — сценарий демонстрируется в окне PiP.
+> * Внедрение кнопок "Пауза", "Стоп", "Продолжить", если сценарий ожидает подтверждения или ручного вмешательства.
+> * Внедрение автоматических проверок (например, поиск текста или изображений для подтверждения успешного завершения этапов).
+>
+> Обработка ошибок и некорректных ситуаций:
+>
+> * Добавление в сценарий проверок (например, на наличие элемента, на успешное выполнение действия).
+> * Добавление уведомления об остановке в случае ошибки, или настройка автоматической попытки перезапуска.
+>
+> Завершение теста и сбор отчетов:
+>
+> Вывод логов, скриншотов или отчетов.
+>
+> Сбор статистики.
+
+## 5. Переключение управления
+
+В режиме PiP можно настроить систему, чтобы Робот выполнял действия параллельно с Пользователем, или, наоборот, переключать управление (например, чтобы Робот работал пока Пользователь не остановит его принудительно).&#x20;
+
+#### 5.1. Параллельная работа Робота и Пользователя
+
+В данном случае Робот и Пользователь работают независимо и одновременно — Робот выполняет автоматические действия, а Пользователь при этом может вмешиваться или управлять интерфейсом вручную. Для параллельной работы запустите автоматические действия в фоновом режиме (например, в отдельном потоке).
+
+#### 5.2. Переключение управления между Роботом и Пользователем
+
+В этом случае Робот сначала управляет интерфейсом, а потом Пользователь может взять управление от Робота, или наоборот. Для переключения управления реализуйте флаг или переключатель, который останавливает автоматическую работу или включает её, позволяя управлять сценарием вручную или автоматом.
+
+## 6. Примеры сценариев работы PiP на практике
+
+<table data-header-hidden><thead><tr><th width="59.04998779296875"></th><th width="172.63330078125"></th><th width="222.0833740234375"></th><th width="223.51666259765625"></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Сценарий</strong></td><td><strong>Принцип работы</strong></td><td><strong>Цель</strong></td></tr><tr><td>1.</td><td>Обработка данных + ручной контроль</td><td>Робот собирает данные, а Пользователь при этом наблюдает и вмешивается при необходимости</td><td>Обеспечение контроля и быстрого реагирования</td></tr><tr><td>2.</td><td>Тестирование интерфейса</td><td>Робот автоматизирует повторяющиеся действия, а Пользователь наблюдает и проверяет</td><td>Быстрая проверка без остановки автоматизации</td></tr><tr><td>3.</td><td>Ведение сценария с одновременной ручной корректировкой</td><td>Пользователь вводит или корректирует данные в процессе выполнения Работы Роботом</td><td>Ускорение работы с граничной точностью</td></tr></tbody></table>
+
+## 7. FAQ по режиму PiP
+
+**Вопрос:** Можно ли запускать одновременно двух Роботов в режиме PiP? &#x20;
+
+**Ответ:** Нет. В режиме PiP может быть запущен только один Робот. В дальнейшем этот Робот сможет запускать других фоновых Роботов.
+
+
+
+**Вопрос:** Что делать, если Робот не может взаимодействовать с интерфейсом? &#x20;
+
+**Ответ:** Проверьте активное окно, права доступа, наличие селекторов. Зачастую это связано с некорректными настройками или блокировками.
+
+
+
+**Вопрос:** Можно ли работать в PiP с браузерами? &#x20;
+
+**Ответ:** Браузер должен быть запущен только в одном экземпляре в PIP режиме, иначе плагин не сможет работать с Роботом.
