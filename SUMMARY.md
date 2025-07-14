@@ -24,6 +24,7 @@
     * [Установка Sherpa RPA на Windows](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-windows.md)
     * [Установка Sherpa RPA на Linux](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-linux.md)
     * [Установка Sherpa RPA на RedOS](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-redos.md)
+    * [Установка Sherpa RPA на ОСнова](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-osnova.md)
   * [Начало работы](sherpa-rpa/nachalo-raboty/README.md)
     * [Регистрация лицензии](sherpa-rpa/nachalo-raboty/registraciya-licenzii.md)
     * [Автономная активация](sherpa-rpa/nachalo-raboty/avtonomnaya-aktivaciya.md)
