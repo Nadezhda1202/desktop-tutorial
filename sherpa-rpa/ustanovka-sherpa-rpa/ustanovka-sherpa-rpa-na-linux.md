@@ -1,4 +1,4 @@
-# Установка Sherpa RPA на Linux
+# Установка Sherpa RPA на Astra Linux
 
 ## 1. Установка .NET 8.0 <a href="#docs-internal-guid-f9793f2b-7fff-a245-1b5d-b6830db76dae" id="docs-internal-guid-f9793f2b-7fff-a245-1b5d-b6830db76dae"></a>
 
@@ -57,7 +57,3 @@
 * Для Sherpa Assistant:
 
 `/home/user/.config/sherpa-rpa/sherpa-robot/sherpa-assistant`
-
-## Видео установки&#x20;
-
-Также можно воспользоваться видео установки Sherpa RPA на Alt Linux по [ссылке](https://sherparpa.ru/ucontent/?0R) .

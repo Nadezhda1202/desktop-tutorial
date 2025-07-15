@@ -2,7 +2,7 @@
 
 **Вышел новый релиз Sherpa Designer: Версия 1.40.**
 
-1\) Протестирована и подтверждена корректная работа Роботов и Дизайнера на импортозамещенных операционных системах: [Astra Linux, Red OS, Alt Linux](../../sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-linux.md), [ОСнова](../../sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-osnova.md). Адаптация работы Роботов под данные ОС обеспечивает стабильность, защиту используемых данных и универсальность применения в различных средах, что важно для соблюдения требований безопасности.
+1\) Протестирована и подтверждена корректная работа Роботов и Дизайнера на импортозамещенных операционных системах: Astra Linux, [Red OS](../../sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-redos.md), Alt Linux, [ОСнова](../../sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-osnova.md). Адаптация работы Роботов под данные ОС обеспечивает стабильность, защиту используемых данных и универсальность применения в различных средах, что важно для соблюдения требований безопасности.
 
 2\) Добавлена возможность запускать Робота в [PiP-режиме](../../sherpa-designer/rabota-v-sherpa-designer/rezhim-kartinka-v-kartinke-pip.md) в скрытом (фоновом) режиме.&#x20;
 
