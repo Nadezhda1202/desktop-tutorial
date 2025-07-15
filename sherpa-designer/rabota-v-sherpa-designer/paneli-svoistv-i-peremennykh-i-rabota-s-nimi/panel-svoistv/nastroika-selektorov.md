@@ -95,6 +95,5 @@
 * [Запись селекторов всплывающего окна в Internet Explorer](https://sherparpa.ru/ucontent/?LSpu)
 * [Конвертация селекторов UIPath > Sherpa RPA в окне "Редактировать селектор"](https://sherparpa.ru/ucontent/?gHJc)
 * [Работа функции "Подсветить путь" в окне "Редактировать селектор"](https://sherparpa.ru/ucontent/?gMbc)
-* [Работа с браузером Firefox](https://sherparpa.ru/ucontent/?gadx)
 
 Полноценное руководство по работе с веб-селекторами находится [здесь](../../rukovodstvo-po-veb-selektoram/).
