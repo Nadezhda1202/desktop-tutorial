@@ -956,6 +956,7 @@
     * [Механизмы аутентификации](sherpa-process-discovery/diagramma-razvertyvaniya/mekhanizmy-autentifikacii.md)
 * [Релизы](obnovleniya/README.md)
   * [Обновления Sherpa Designer](obnovleniya/obnovleniya-sherpa-designer/README.md)
+    * [Версия 1.4](obnovleniya/obnovleniya-sherpa-designer/versiya-1.4.md)
     * [Версия 1.33](obnovleniya/obnovleniya-sherpa-designer/versiya-1.33.md)
     * [Версия 1.32](obnovleniya/obnovleniya-sherpa-designer/versiya-1.32.md)
     * [Версия 1.31](obnovleniya/obnovleniya-sherpa-designer/versiya-1.31.md)
