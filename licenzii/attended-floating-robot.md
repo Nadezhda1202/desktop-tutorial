@@ -10,7 +10,7 @@
 
 В контекстном меню выберите “Настройки…”:
 
-<figure><img src="../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне нажмите на вкладку “Регистрация”. Введите ключ продукта, который получили в поле “Введите лицензионный ключ продукта”:
 
