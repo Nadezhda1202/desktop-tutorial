@@ -47,15 +47,15 @@
 
 {% embed url="https://docs.microsoft.com/en-us/powershell/scripting/install/install-debian?view=powershell-7.2" %}
 
-**Выполняем в терминале:**
+**Выполните в терминале:**
 
 *   Скачайте установочный файл:
 
-    * Для ОСнова 2:
+    * **Для ОСнова 2:**
 
     `wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb`
 
-    * Для ОСнова 3:
+    * **Для ОСнова 3:**
 
     `wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb`
 * Установите скачанный файл:
@@ -94,17 +94,25 @@
 
 ## 4. Скачивание и запуск установщика
 
-Перед запуском необходимо удалить старую версию установщика, для этого:
+Удалите старую версию установщика и скачайте новую.
 
-* Выполните следующую команду: `rm -f SherpaRPA` ;
-* Далее скачайте последнюю версию установщика, с помощью команды: \
-  \
-  `wget https://sherparpa.ru/downloads/linux/SherpaRPA.php -O SherpaRPA` ;
+**Выполните в терминале:**
 
+* Удалите старую версию установщика:
 
+&#x20;`rm -f SherpaRPA` ;
 
-* Выставьте у файла флаг "Выполнения", используя команду: `chmod +x SherpaRPA` ;
-* Запустите установщик, выполнив команду: `./SherpaRPA` .
+* Скачайте последнюю версию установщика:
+
+`wget https://sherparpa.ru/downloads/linux/SherpaRPA.php -O SherpaRPA` ;
+
+* Выставьте у файла флаг "Выполнения":
+
+&#x20;`chmod +x SherpaRPA` ;
+
+* Запустите установщик:&#x20;
+
+`./SherpaRPA` .
 
 > Для скачивания и запуска установщика можно ввести в терминале эту строку. В ней собраны все выше описанные команды: rm -f SherpaRPA && wget https://sherparpa.ru/downloads/linux/SherpaRPA.php -O SherpaRPA && chmod +x SherpaRPA && ./SherpaRPA
 
@@ -133,3 +141,35 @@
 * Когда установка завершится, вы увидите окно, в котором сможете сразу запустить Sherpa Designer, нажав на кнопку "Запустить".
 
 <figure><img src="../../.gitbook/assets/изображение (9).png" alt=""><figcaption></figcaption></figure>
+
+## 5. Установка плагина в Yandex Browser
+
+Для работы Робота с Yandex Browser необходимо установить в него плагин:
+
+* Откройте браузер и зайдите в раздел “Дополнения”;
+* Перейдите в папку с установленным Роботом:
+
+`/home/user/.config/sherpa-rpa/sherpa-robot` ;
+
+* Перейдите в папку Chrome:&#x20;
+
+`/home/user/.config/sherpa-rpa/sherpa-robot /Chrome` ;
+
+* Перетащите файл `plugin.crx` в окно браузера;
+* Добавьте расширение;
+* Закройте браузер;
+* Запустите окно терминала в текущей папке и выполните следующие команды:
+
+`chmod +x install_host.sh` ;
+
+`./install_host.sh` ;
+
+* Запустите браузер.
+
+Если значок плагина Sherpa RPA стал синим, значит плагин успешно установлен.
+
+Так же плагин можно установить с сайта:&#x20;
+
+{% embed url="https://chrome.google.com/webstore/detail/sherpa-rpa/bdnlfnchnkjeempadnmcgbbkbacffobl" %}
+
+И после этого выполнить пункты 3, 4, 5.
