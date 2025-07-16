@@ -1,59 +1,145 @@
 # Установка Sherpa RPA на Astra Linux
 
+> Для установки необходимы права sudo.
+
 ## 1. Установка .NET 8.0 <a href="#docs-internal-guid-f9793f2b-7fff-a245-1b5d-b6830db76dae" id="docs-internal-guid-f9793f2b-7fff-a245-1b5d-b6830db76dae"></a>
 
-* Загрузите скрипт установки:
+Общие инструкции по установке приведены на сайте Microsoft:
 
-`wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh`
+{% embed url="https://docs.microsoft.com/ru-ru/dotnet/core/install/linux-debian" %}
 
-* Сделайте скрипт исполняемым:
+{% embed url="https://docs.microsoft.com/en-us/powershell/scripting/install/install-debian?view=powershell-7.2" %}
 
-`chmod +x dotnet-install.sh`
+**Выполните в терминале:**
 
-* Запустите установку .NET 8.0:
+* Загрузите файл конфигурации:
 
-`./dotnet-install.sh --channel 8.0`
+`wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb`
+
+* Установите пакет:
+
+`sudo dpkg -i packages-microsoft-prod.deb`
+
+* Удалите файл:
+
+`rm packages-microsoft-prod.deb`
+
+* Обновите список пакетов:
+
+`sudo apt-get update`
+
+* Установите .NET SDK 8.0:
+
+`sudo apt-get install -y dotnet-sdk-8.0`
+
+* Установите PowerShell:
+
+`sudo apt-get install -y powershell`
 
 Появится сообщение: “Installation finished successfully”.
 
-## 2. Настройка переменных окружения
+## 2. Включение прозрачности для подсветки выбора селекторов
 
-Далее необходимо добавить переменные `DOTNET_ROOT` и обновить `PATH`.
+Запускаем панель управления "fly-admin-center". Переходим в пункт "Оформление Fly":
 
-* Войдите как Пользователь с root‑правами: `su` ;
-* Откройте файл \`/etc/profile\`: `mcedit /etc/profile` ;
-* Перед строкой \``[ -n "$PATH" ]` ...\` добавьте следующие строки:
+<figure><img src="../../.gitbook/assets/изображение (206).png" alt=""><figcaption></figcaption></figure>
 
-`[ -n "$DOTNET_ROOT" ] || DOTNET_ROOT="$HOME/.dotnet"`
+Заходим во вкладку "Эффекты" и убеждаемся, что включены два параметра "Композит-менеджер" и "Прозрачность".
 
-`export DOTNET_ROOT`
+## 3. Настройка библиотеки libgdiplu**s**
 
-`PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"`
+Для работы эмуляции клавиатуры и мышки установите библиотеку libgdiplus.
 
-`export PATH`
+**Выполните в терминале:**
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcz3l4QACRjLcavieJcPW31ALdm6wWV1og5iERUFO0ayeiNYRWsI_rBkZ20UjZbAPrSY2KL_yEMh9gYCsoOvLzxwBf-LPThV-uimTLdTqmqvbDonq4WhYo1D-QFIJItQc8r3QMf-g?key=_oVS3d47PkNC9idSJKbD8g" alt=""><figcaption></figcaption></figure>
+`sudo apt install libgdiplus`
 
-* Перезагрузитесь: `reboot`
+Если Вы получили сообщение, что пакет не найден, то необходимо добавить репозиторий.
 
-## 3. Установка или обновление Sherpa RPA
+Это можно сделать в программе "Менеджер пакетов Synaptic":
 
-* Скачайте и сделайте исполняемым файл:
+`deb https://dl.astralinux.ru/astra/frozen/2.12_x86-64/2.12.45/repository stable main contrib non-free`
 
-`rm -f SherpaRPA && wget https://sherparpa.ru/downloads/linux/SherpaRPA.php -O SherpaRPA && chmod +x SherpaRPA && ./SherpaRPA` ;
+## 4. Установка Tesseract
 
-* В окне “Установка Sherpa RPA” нажмите на кнопку “Дальше”;
-* При необходимости выберите папку установки через нажатие на кнопку “Обзор”, затем нажмите на кнопку “Дальше”;
-* Дождитесь окончания установки и нажмите на кнопку “Запустить”.
+Для работы с Tesseract выполните в терминале следующую команду:
 
-## 4. Создание ярлыков
+`sudo apt install tesseract-ocr-rus`
 
-Поскольку автоматическая установка не поддерживается вашей ОС, необходимо создать ярлыки вручную:
+## 5. Установка Python
 
-* Для Sherpa Designer:
+Для работы с Python выполните в терминале следующую команду:
 
-`/home/user/.config/sherpa-rpa/sherpa-designer/diagram-designer`
+`sudo apt-get install -y libpython3.7-dev`
 
-* Для Sherpa Assistant:
+Если установка завершилась с ошибкой, то необходимо установить пакеты «Средства разработки». Это можно сделать в программе "Менеджер пакетов Synaptic".
 
-`/home/user/.config/sherpa-rpa/sherpa-robot/sherpa-assistant`
+## 6. Скачивание и запуск установщика
+
+**Выполните в терминале:**
+
+* Удалите старую версию установщика:
+
+`rm -f SherpaRPA`
+
+* Скачайте последнюю версию установщика:
+
+`wget https://sherparpa.ru/downloads/linux/SherpaRPA.php -O SherpaRPA`
+
+* Добавьте у файла флаг Выполнения:
+
+`chmod +x SherpaRPA`
+
+* Запустите установщик:
+
+`./SherpaRPA`
+
+> Для скачивания и запуска установщика можно ввести в терминале эту строку. В ней собраны все выше описанные команды: rm -f SherpaRPA && wget https://sherparpa.ru/downloads/linux/SherpaRPA.php -O SherpaRPA && chmod +x SherpaRPA && ./SherpaRPA
+
+* Если Робот был установлен ранее, то вы увидите окно, оповещающее об этом. В нём вы сможете выбрать пункт "Установить" (для обновления Робота) или пункт "Удалить" (для удаления Робота);
+
+<figure><img src="../../.gitbook/assets/изображение (208).png" alt=""><figcaption></figcaption></figure>
+
+* Выберите папку для установки Робота и нажать на кнопку "Дальше";
+
+<figure><img src="../../.gitbook/assets/изображение (209).png" alt=""><figcaption></figcaption></figure>
+
+* Далее появится окно, где будет виден процесс установки Робота;
+
+<figure><img src="../../.gitbook/assets/изображение (210).png" alt=""><figcaption></figcaption></figure>
+
+* Когда установка завершится, вы увидите окно, в котором сможете сразу запустить Sherpa Designer, нажав на кнопку "Запустить".
+
+<figure><img src="../../.gitbook/assets/изображение (211).png" alt=""><figcaption></figcaption></figure>
+
+## 7. Установка плагина в Yandex Browser
+
+Для работы Робота с Yandex Browser необходимо установить в него плагин:
+
+* Откройте браузер и зайдите в раздел “Дополнения”;
+* Затем запустите менеджер файлов и откройте папку с установленным Роботом:
+
+`/home/user/.config/sherpa-rpa/sherpa-robot` ;
+
+* Перейдите в папку Chrome:
+
+`/home/user/.config/sherpa-rpa/sherpa-robot /Chrome` ;
+
+* Перетащите файл `plugin.crx` в окно браузера;
+* Добавьте расширение;
+* Закройте браузер;
+* Запустите окно терминала в текущей папке и выполните:
+
+`chmod +x install_host.sh` ;
+
+`./install_host.sh` ;
+
+* Запустите браузер.&#x20;
+
+Если значок плагина Sherpa RPA стал синим, значит плагин успешно установлен.
+
+Так же плагин можно установить с сайта:
+
+{% embed url="https://chrome.google.com/webstore/detail/sherpa-rpa/bdnlfnchnkjeempadnmcgbbkbacffobl" %}
+
+И после этого выполнить пункты 3, 4, 5.

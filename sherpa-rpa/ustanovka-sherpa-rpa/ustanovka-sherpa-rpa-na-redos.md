@@ -10,9 +10,7 @@
 
 ## 1. Установка .NET **Core 8**
 
-* Установите .NET Core 8. \
-  \
-  Общие инструкции по установке приведены на сайте Microsoft:
+Общие инструкции по установке приведены на сайте Microsoft:
 
 {% embed url="https://docs.microsoft.com/ru-ru/dotnet/core/install/linux-debian" %}
 

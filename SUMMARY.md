@@ -23,6 +23,7 @@
   * [Установка Sherpa RPA](sherpa-rpa/ustanovka-sherpa-rpa/README.md)
     * [Установка Sherpa RPA на Windows](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-windows.md)
     * [Установка Sherpa RPA на Astra Linux](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-linux.md)
+    * [Установка Sherpa RPA на Alt Linux](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-alt-linux.md)
     * [Установка Sherpa RPA на RedOS](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-redos.md)
     * [Установка Sherpa RPA на ОСнова](sherpa-rpa/ustanovka-sherpa-rpa/ustanovka-sherpa-rpa-na-osnova.md)
   * [Начало работы](sherpa-rpa/nachalo-raboty/README.md)
