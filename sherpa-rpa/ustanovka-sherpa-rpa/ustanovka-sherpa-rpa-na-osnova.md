@@ -2,35 +2,42 @@
 
 > Для установки необходимы права sudo.
 
-Необходимо отключить защиту памяти.
+**Отключите защиту памяти:**
 
-Для постоянного отключения в конфигурационном файле /etc/default/grub дописать в строку GRUB\_CMDLINE\_LINUX\_DEFAULT="quiet mprotect=off" с последующим вызовом
+* Для постоянного отключения в конфигурационном файле /etc/default/grub допишите:
 
-&#x20;
+`GRUB_CMDLINE_LINUX_DEFAULT="quiet mprotect=off"`&#x20;
 
-sudo update-grub
+* Обновите GRUB:
 
-Перезагружаемся!
+`sudo update-grub`
 
-&#x20;
+* Перезагрузите компьютер.
 
-Добавляем репозиторий Debiаn для установки библиотеки libgdiplus
+**Добавьте репозиторий Debiаn для установки библиотеки libgdiplus:**
 
-Для ОСнова 2
+*   **Для ОСнова 2:**
 
-sudo wget https://dl.nppct.ru/onyx/stable/misc/apt/sources.list.d/zz-debian-10-buster.list
+    * Скачайте файл:
 
--P /etc/apt/sources.list.d/
+    `sudo wget https://dl.nppct.ru/onyx/stable/misc/apt/sources.list.d/zz-debian-10-buster.list`
 
-Для Основа 3
+    * Сохраните скачанный файл в каталог /etc/apt/sources.list.d/:
 
-sudo wget https://dl.nppct.ru/onyx3/stable/misc/apt/sources.list.d/zz-debian-12-bookworm.list
+    `-P /etc/apt/sources.list.d/`
+*   **Для ОСнова 3:**
 
--P /etc/apt/sources.list.d/
+    * Скачайте файл:&#x20;
 
-&#x20;
+    `sudo wget https://dl.nppct.ru/onyx3/stable/misc/apt/sources.list.d/zz-debian-12-bookworm.list`
 
-sudo apt update
+    * Сохраните скачанный файл в каталог /etc/apt/sources.list.d/:
+
+    `-P /etc/apt/sources.list.d/`
+
+**Скачайте списки пакетов из настроенных репозиториев:**
+
+`sudo apt update`
 
 ## 1. Установка .NET **Core 8**
 
