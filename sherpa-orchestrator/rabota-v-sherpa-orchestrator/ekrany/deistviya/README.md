@@ -4,7 +4,7 @@
 
 Экран “Действия” содержит таблицу “Действия”:
 
-<figure><img src="../../../../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Создание нового Действия
 

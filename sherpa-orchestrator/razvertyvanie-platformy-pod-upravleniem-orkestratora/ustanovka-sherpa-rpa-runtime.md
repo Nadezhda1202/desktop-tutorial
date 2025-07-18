@@ -11,15 +11,15 @@
 
 Затем нажмите кнопку “Дальше”:
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 После этого инсталлятор начнет установку программы, которая займет несколько минут:
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Когда установка будет завершена, инсталлятор проинформирует Вас с помощью диалогового окна. в котором можно нажать кнопку “Завершить”, чтобы завершить процесс установки.
 
-<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="50"></th><th></th></tr></thead><tbody><tr><td><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQDL839etRbMq_WnhDH2Cpc3EczsLiEc-9_tlcovPw79DZvQ5IOU4ORZ9qJI0UByRIStfcKHVDQ1t691kcoje1IXJJmURoZoHwSOFJcVrgZRiX9A764ne83DQwdIXH6yCKYqf2Wg?key=Xplr0gVoyx3tqpkkXjZLx1lq" alt="" data-size="line"></td><td>Sherpa RPA Runtime в режиме Attended может работать как для локального запуска Attended-роботов с использованием активированной Лицензии на рабочем месте, так и для удаленного запуска, работы через RDP-подключение из другого Attended или Unattended-робота, в этом случае Лицензия не нужна.</td></tr></tbody></table>
 
