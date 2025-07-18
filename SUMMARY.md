@@ -949,6 +949,7 @@
     * [Аудит](sherpa-ai-server/rabota-v-sherpa-ai-server/audit.md)
     * [Лицензии](sherpa-ai-server/rabota-v-sherpa-ai-server/licenzii.md)
     * [API](sherpa-ai-server/rabota-v-sherpa-ai-server/api.md)
+  * [Работа Sherpa AI Server в связке с Sherpa Designer](sherpa-ai-server/rabota-sherpa-ai-server-v-svyazke-s-sherpa-designer.md)
 * [Sherpa Process Discovery](sherpa-process-discovery/README.md)
   * [Системные требования](sherpa-process-discovery/sistemnye-trebovaniya.md)
   * [Диаграмма развертывания](sherpa-process-discovery/diagramma-razvertyvaniya/README.md)
