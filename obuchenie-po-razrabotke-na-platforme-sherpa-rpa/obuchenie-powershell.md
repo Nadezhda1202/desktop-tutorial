@@ -11,13 +11,13 @@ PowerShell обладает богатым набором средств для 
 Например для C# строка для получения информации о языке и настройках региона можно выполнить команду:
 
 ```
-system.Globalization.CultureInfo.GetCultureInfo("ru-RU")
+System.Globalization.CultureInfo.GetCultureInfo("ru-RU")
 ```
 
 В PowerShell такая команда будет выглядеть так:
 
 ```
-[system.Globalization.CultureInfo]::GetCultureInfo("ru-RU")
+[System.Globalization.CultureInfo]::GetCultureInfo("ru-RU")
 ```
 
 ## 2. Расширение предпроцессора Sherpa RPA для PowerShell
@@ -130,8 +130,6 @@ PowerShell поддерживает работу с любыми типами д
 Если запустить Робота и поставить его на паузу, появляется возможность работать с удаленной консолью (это контекст самого Робота, все команды выполняются в его стеке PowerShell), что дает возможность просматривать текущие переменные Робота, изменять их и проверять выражения с учетом введенных данных:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcbADAsss3iRaF1tahAWJxSJTrsrsd8tCmXEW5LjlUgOXzW4H1TZb2bHCpFfFi3r_Q8NIJknqh5n9eyluxS_HZQdJPFwVIfXWThZpp_robxg6HZg7d7maCXY8egfqII3y6z3AO9LQ?key=lj_Rcgf7GmeThGb8eC0j_g" alt=""><figcaption></figcaption></figure>
-
-> Если Робот поставлен на паузу, но скрипт висит в функции и ожидает выполнения, то следует завершить выполнение функции, а уже после этого вводить команды в удаленную консоль.
 
 Соответственно, управление в консоли происходит через два потока: локальный (“L”) и удаленный (“R”). При запуске и постановке Робота на паузу автоматически активируется удаленная консоль (в Роботе). Также возможно переключение между этими потоками, для этого требуется нажать на соответствующую кнопку: “L” или “R”, пока Робот стоит на паузе:
 
