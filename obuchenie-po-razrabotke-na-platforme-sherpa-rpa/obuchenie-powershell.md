@@ -32,9 +32,9 @@ Dim cultureInfo As System.Globalization.CultureInfo = System.Globalization.Cultu
 Dim cultureInfo As New System.Globalization.CultureInfo("ru-RU")
 ```
 
-## 2. Расширение предпроцессора Sherpa RPA для PowerShell
+## 2. Операторы сравнения и шаблоны в PowerShell
 
-Это расширение для PowerShell, которое добавляет новые команды и возможности. Оно помогает проще и быстрее работать с данными и автоматизировать задачи.&#x20;
+Эффективное взаимодействие с данными в PowerShell базируется на использовании операторов сравнения и шаблонов. Эти инструменты интегрированы в Sherpa RPA, расширяя возможности автоматизации.
 
 Работа с операторами сравнения и шаблонами:
 
