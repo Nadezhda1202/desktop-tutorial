@@ -32,9 +32,9 @@ Dim cultureInfo As System.Globalization.CultureInfo = System.Globalization.Cultu
 Dim cultureInfo As New System.Globalization.CultureInfo("ru-RU")
 ```
 
-## 2. Операторы сравнения и шаблоны в PowerShell
+## 2. Операторы сравнения в PowerShell
 
-Эффективное взаимодействие с данными в PowerShell базируется на использовании операторов сравнения и шаблонов. Эти инструменты интегрированы в Sherpa RPA, расширяя возможности автоматизации.
+Эффективное взаимодействие с данными в PowerShell базируется на использовании операторов сравнения. Эти инструменты интегрированы в Sherpa RPA, расширяя возможности автоматизации.
 
 Работа с операторами сравнения и шаблонами:
 
