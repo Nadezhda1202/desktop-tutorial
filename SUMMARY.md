@@ -791,7 +791,7 @@
       * [Установка Sherpa Coordinator на ОС Astra Linux](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-coordinator/ustanovka-sherpa-coordinator-na-os-astra-linux.md)
       * [Установка Sherpa Coordinator на RedOS](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-coordinator/ustanovka-sherpa-coordinator-na-redos.md)
     * [Установка Sherpa Robot](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot/README.md)
-      * [Установка Sherpa Robot на Windows](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot/ustanovka-sherpa-robot-i-sherpa-assistant-na-windows.md)
+      * [Установка Sherpa Robot на Windows](sherpa-robot-i-sherpa-assistant/ustanovka-sherpa-robot-i-sherpa-assistant/ustanovka-sherpa-robot-i-sherpa-assistant-na-windows.md)
       * [Установка Sherpa Robot Attended на Linux](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot/ustanovka-sherpa-robot-attended-na-linux/README.md)
         * [Установка Sherpa Robot Attended на Astra Linux](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot/ustanovka-sherpa-robot-attended-na-linux/ustanovka-sherpa-robot-attended-na-astra-linux.md)
         * [Установка Sherpa Robot Attended на RedOS](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot/ustanovka-sherpa-robot-attended-na-linux/ustanovka-sherpa-robot-attended-na-redos.md)

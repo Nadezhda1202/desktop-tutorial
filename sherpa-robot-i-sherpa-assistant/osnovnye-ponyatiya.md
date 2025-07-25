@@ -27,7 +27,7 @@
 
 Далее следуйте инструкциям по установке Sherpa Robot по ссылке:
 
-
+{% embed url="https://docs.sherparpa.ru/sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot" %}
 
 **Sherpa Assistant**, включая **Sherpa Robot,** требует регистрации Лицензии на каждый экземпляр программы.
 

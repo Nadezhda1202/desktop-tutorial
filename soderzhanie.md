@@ -19,7 +19,7 @@
 * [Sherpa Robot и Sherpa Assistant](sherpa-robot-i-sherpa-assistant/)
   * [Основные понятия](sherpa-robot-i-sherpa-assistant/osnovnye-ponyatiya.md)
   * [Установка Sherpa Robot и Sherpa Assistant](broken-reference)
-    * [Установка Sherpa Robot и Sherpa Assistant на Windows](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot/ustanovka-sherpa-robot-i-sherpa-assistant-na-windows.md)
+    * [Установка Sherpa Robot и Sherpa Assistant на Windows](sherpa-robot-i-sherpa-assistant/ustanovka-sherpa-robot-i-sherpa-assistant/ustanovka-sherpa-robot-i-sherpa-assistant-na-windows.md)
     * [Установка Sherpa Unattended Robot на Astra Linux](broken-reference)
     * [Установка Sherpa Unattended Robot на RedOS](broken-reference)
   * [Работа в Sherpa Assistant](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/)
