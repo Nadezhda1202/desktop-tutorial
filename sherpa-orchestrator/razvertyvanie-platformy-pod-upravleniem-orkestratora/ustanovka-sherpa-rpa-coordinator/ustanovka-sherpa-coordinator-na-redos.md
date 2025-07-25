@@ -1,111 +1,145 @@
 # Установка Sherpa Coordinator на RedOS
 
-**Важно!** _Для установки робота необходимо обладать правами sudo._&#x20;
+> Для установки необходимы права sudo
 
-[Ссылки на дистрибутивы можно найти здесь.](../../../ssylki-na-distributivy/distributivy-sherpa-rpa-linux.md)
-
-Если программа уже установлена, то перейдите к разделу [“Скачивание и распаковка Координатора” ](ustanovka-sherpa-coordinator-na-redos.md#skachivanie-i-raspakovka-koordinatora)для ее обновления.
+Если программа уже установлена, то перейдите к разделу [Скачивание и распаковка](ustanovka-sherpa-coordinator-na-redos.md#skachivanie-i-raspakovka-koordinatora) для ее обновления.
 
 ## Установка .NET Core 8 и Powershell
 
 Общие инструкции по установке приведены на сайте Microsoft:
 
-[https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-fedora](https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-fedora)
+{% embed url="https://learn.microsoft.com/ru-ru/dotnet/core/install/linux-fedora" %}
 
-[https://learn.microsoft.com/en-us/powershell/scripting/install/install-rhel?view=powershell-7.2](https://learn.microsoft.com/en-us/powershell/scripting/install/install-rhel?view=powershell-7.2)
+{% embed url="https://learn.microsoft.com/en-us/powershell/scripting/install/install-rhel?view=powershell-7.2" %}
 
-Для установки .NET Core 8 нажмите “Пуск”, выберите пункт “Системные”, а затем – “Терминал Fly”.&#x20;
+**Выполните в терминале:**
 
-Далее в терминале необходимо выполнить следующие команды: (для этого скопируйте поочередно скопируйте команды, вставьте в окно терминала и нажмите Enter):
+* Установите SDK .NET 8.0:
 
-`sudo dnf install -y dotnet-sdk-8.0`
+```
+sudo dnf install -y dotnet-sdk-8.0
+```
 
-`sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.4.2/powershell-7.4.2-1.rh.x86_64.rpm`
+* Установите PowerShell
 
-## Установка xfreerdp
+```
+sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.4.2/powershell-7.4.2-1.rh.x86_64.rpm
+```
 
-Для того, чтобы Координатор мог создавать удаленные подключения к Unattended роботам необходимо установить программу xfreerdp. Для установки выполните в терминале следующую команду:
+## Установка программы xfreerdp
 
-`sudo dnf install freerdp2`
+Чтобы Координатор смог создавать удаленные подключения к Unattended-роботам необходимо установить программу xfreerdp. Для этого необходимо выполнить команду:
+
+```
+sudo dnf install freerdp2
+```
 
 ## Скачивание и распаковка Координатора
 
-Выполните последовательно следующие команды:
+Для скачивания и распаковки Координатора необходимо выполнить ряд команд.
 
-`rm -f sherpa-coordinator.zip`
+**Выполните в терминале:**
 
-`wget https://sherparpa.ru/downloads/linux/get-coordinator.php -O sherpa-coordinator.zip`
+* Удалите файл sherpa-coordinator.zip:
 
-`sudo unzip -o sherpa-coordinator.zip -d /usr/lib`
+```
+rm -f sherpa-coordinator.zip
+```
 
-`sudo chmod a+x /usr/lib/sherpa-coordinator/sherpa-coordinator`
+* Загрузите файл sherpa-coordinator.zip:
 
-Также для установки или обновления Координатора до последней версии можно ввести терминале следующую команду (в ней собраны все вышеописанные команды):
+```
+wget https://sherparpa.ru/downloads/linux/get-coordinator.php -O sherpa-coordinator.zip
+```
 
-`rm -f sherpa-coordinator.zip && wget https://sherparpa.ru/downloads/linux/get-coordinator.php -O sherpa-coordinator.zip && sudo unzip -o sherpa-coordinator.zip -d /usr/lib && sudo chmod a+x /usr/lib/sherpa-coordinator/sherpa-coordinator`
+* Распакуйте ZIP-архив:
 
-### Первичная настройка Координатора
+```
+sudo unzip -o sherpa-coordinator.zip -d /usr/lib
+```
+
+* Дайте права на исполнение для файла sherpa-coordinator:
+
+```
+sudo chmod a+x /usr/lib/sherpa-coordinator/sherpa-coordinator
+```
+
+> Для установки или обновления Координатора до последней версии можно ввести в терминале эту команду. В ней собраны все выше описанные команды: `rm -f sherpa-coordinator.zip && wget https://sherparpa.ru/downloads/linux/get-coordinator.php -O sherpa-coordinator.zip && sudo unzip -o sherpa-coordinator.zip -d /usr/lib && sudo chmod a+x /usr/lib/sherpa-coordinator/sherpa-coordinator`
+
+## Первичная настройка
 
 Для автоматического запуска координатора необходимо создать пользователя и включить у него автоматический вход в систему.
 
-1. Создание нового пользователя&#x20;
+Для автоматического запуска Координатора необходимо создать Пользователя и включить у него автоматический вход в систему.
 
-Для удобства рекомендуется создать пользователя с именем “sherpacoordinator”.
+* Создайте нового Пользователя с именем sherpacoordinator;
+* Зайдите в "Центр управления" → "Управление пользователями".
+* "Пуск" → "Системные" → "Политика безопасности".&#x20;
+*   **Выполните в терминале:**
 
-Чтобы создать нового пользователя необходимо зайти в “Центр управления”, а затем – “Управление пользователями”.&#x20;
+    * Добавьте Пользователя sherpacoordinator в группу wheel:
 
-Затем выполните в терминале следующие команды:
+    `sudo usermod -aG wheel sherpacoordinator`
+*   Включите автозапуск у вновь созданной учетной записи.&#x20;
 
-`sudo usermod -aG wheel sherpacoordinator`
+    * Отредактируйте файл /etc/gdm/custom.conf:
 
-2. Включение автозапуска для созданного пользователя
+    `sudo mcedit /etc/gdm/custom.conf`
 
-Отредактируйте файл `/etc/gdm/custom.conf` с помощью команды:
+    * Внесите настройки в custom.conf
 
-`sudo mcedit /etc/gdm/custom.conf`
+    `[daemon]`
 
-`[daemon]`
+    `WaylandEnable=false`
 
-`WaylandEnable=false`
+    `TimedLoginEnable = true`
 
-`TimedLoginEnable = true`
+    `TimedLogin = sherpacoordinator`
 
-`TimedLogin = sherpacoordinator`
+    `TimedLoginDelay = 10`
+* Перезагрузите сервер.
 
-`TimedLoginDelay = 10`
+## Настройка Координатора
 
-Затем перезагрузите сервер.&#x20;
+Настройка производится в созданной ранее учетной записи:
 
-### Настройка Координатора
+* Создайте ярлык на автозагрузку Координатора,
+* Укажите сервер Оркестратора,
+* Укажите GUID Координатора в настройках сервера Координатора.
 
-Настройка производится в созданной ранее учетной записи пользователя “sherpacoordinator”. После того, как вход в систему был осуществлен под ранее созданной учетной записью пользователя необходимо создать ярлык для автозагрузки Координатора и указать сервер Оркестратора и GUID координатора в его настройках. Для этого выполните в терминале следующие команды:
+**Выполните в терминале:**
+
+* Измените права файла sherpa-coordinator:
 
 `sudo chmod a+x /usr/lib/sherpa-coordinator/sherpa-coordinator`
 
+* Запустите файл sherpa-coordinator:
+
 `/usr/lib/sherpa-coordinator/sherpa-coordinator`
 
-После первого запуска в окне терминала появится сообщение об ошибке. Необходимо указать настройки. Для указания настроек выполните в терминале команду:
+После первого запуска появится сообщение об ошибке. Необходимо указать настройки.
 
-`mcedit /home/sherpacoordinator/.config/sherpa-rpa-data/coordinator/setting.ini`
+*   **Выполните в терминале:**
 
-Затем, в открывшемся окне настроек укажите:
+    * Откройте файл `setting.ini` в редакторе `mcedit`, для редактирования настроек:
 
-* OrchestratorServer - сервер Оркестратора;
-* OrchestratorRobotGuid - GUID Координатора из Оркестратора.
+    `mcedit /home/sherpacoordinator/.config/sherpa-rpa-data/coordinator/setting.ini`
+* Укажите сервер Оркестратора:
+  * `OrchestratorServer` — сервер Оркестратора;
+  * `OrchestratorRobotGuid` — GUID Координатора из Оркестратора.
+* При необходимости можно изменить другие настройки:
+  * `OrchestratorTimeout` – время подключения к Оркестратору;
+  * `TimeResetHungSessions` – время в минутах по истечении которого Координатор будет прерывать зависшие сессии;
+  * `DesktopWidth` – ширина создаваемого RDP окна;
+  * `DesktopHeight` – высота создаваемого RDP окна.
+* Сохраните настройки.
+*   **Выполните в терминале:**
 
-При необходимости укажите дополнительные настройки:
+    * Создайте директорию autostart в папке конфигурации Пользователя:
 
-* OrchestratorTimeout – время подключения к Оркестратору;
-* TimeResetHungSessions – время в минутах по истечении которого координатор будет прерывать «зависшие» сессии;
-* DesktopWidth – ширина создаваемого RDP-окна;
-* DesktopHeight – высота создаваемого RDP-окна.
+    `mkdir $HOME/.config/autostart`
 
-Закройте окно и сохраните настройки.
+    * Скопируйте файл в папку автозагрузки текущего Пользователя:
 
-Далее необходимо скопировать ярлык из папки установки координатора в папку автозагрузки текущего пользователя, для этого выполните следующие команды:
-
-`mkdir $HOME/.config/autostart`
-
-`cp -f /usr/lib/sherpa-coordinator/sherpa-coordinator.desktop $HOME/.config/autostart`
-
-Перезагрузите сервер. Теперь в Оркестраторе статус Координатора должен быть “Готов”.
+    `cp -f /usr/lib/sherpa-coordinator/sherpa-coordinator.desktop $HOME/.config/autostart`
+* Перезагрузите сервер и после этого в Оркестраторе статус Координатора должен стать "Готов".
