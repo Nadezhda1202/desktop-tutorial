@@ -78,7 +78,7 @@ sudo apt install tesseract-ocr-rus
 sudo apt-get install -y libpython3.7-dev
 ```
 
-Если установка завершилась с ошибкой, то необходимо установить пакеты «Средства разработки». Это можно сделать в программе "Менеджер пакетов Synaptic".&#x20;
+Если установка завершилась с ошибкой, то необходимо установить пакеты "Средства разработки". Это можно сделать в программе "Менеджер пакетов Synaptic".&#x20;
 
 ## Скачивание и распаковка Робота
 
@@ -110,7 +110,7 @@ cd sherpa-robot && chmod +x Chrome/process-agent-host && chmod +x process-agent 
 
 > Для обновления Робота до последней версии можно ввести в терминале эту команду. В ней собраны все описанные выше команды: `rm -f sherpa-robot.zip && wget https://sherparpa.ru/downloads/linux/get.php -O sherpa-robot.zip && unzip -o sherpa-robot.zip && cd sherpa-robot && chmod +x Chrome/process-agent-host && chmod +x process-agent && chmod +x sherpa-assistant && cd ../`
 
-* Запустите Sherpa Assistant
+* Запустите Sherpa Assistant:
 
 ```
 ./sherpa-robot/sherpa-assistant

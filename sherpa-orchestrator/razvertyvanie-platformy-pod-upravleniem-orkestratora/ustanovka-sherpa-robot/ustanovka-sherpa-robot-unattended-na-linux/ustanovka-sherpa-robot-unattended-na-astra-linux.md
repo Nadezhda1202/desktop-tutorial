@@ -1,209 +1,229 @@
 # Установка Sherpa Robot Unattended на Astra Linux
 
-Для установки необходимы права sudo
+> Для установки необходимы права sudo
 
-&#x20;
-
-Если робот уже установлен, то перейдите к разделу Скачивание и распаковка робота для его обновления.
-
-&#x20;
+Если Робот уже установлен, то перейдите к разделу [Скачивание и распаковка Робота](ustanovka-sherpa-robot-unattended-na-astra-linux.md#skachivanie-i-raspakovka-robota) для его обновления.
 
 ### Установка .NET Core 8 и Powershell
 
 Общие инструкции по установке приведены на сайте Microsoft:
 
-[https://docs.microsoft.com/ru-ru/dotnet/core/install/linux-debian](https://docs.microsoft.com/ru-ru/dotnet/core/install/linux-debian)
+{% embed url="https://docs.microsoft.com/ru-ru/dotnet/core/install/linux-debian" %}
 
-[https://docs.microsoft.com/en-us/powershell/scripting/install/install-debian?view=powershell-7.2](https://docs.microsoft.com/en-us/powershell/scripting/install/install-debian?view=powershell-7.2)
+{% embed url="https://docs.microsoft.com/en-us/powershell/scripting/install/install-debian?view=powershell-7.2" %}
 
-&#x20;
+* Загрузите репозиторий Microsoft для Debian 10:
 
-_Выполняем в терминале:_
+<pre><code><strong>wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb 
+</strong></code></pre>
 
-wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+* Установите репозиторий Microsoft в систему:
 
-&#x20;
-
+```
 sudo dpkg -i packages-microsoft-prod.deb
+```
 
-&#x20;
+* Удалите временный файл установки:
 
+```
 rm packages-microsoft-prod.deb
+```
 
-&#x20;
+* Обновите список пакетов:
 
+```
 sudo apt-get update
+```
 
-&#x20;
+* Установите SDK .NET 8.0:
 
+```
 sudo apt-get install -y dotnet-sdk-8.0
+```
 
-&#x20;
+* Установите PowerShell:
 
+```
 sudo apt-get install -y powershell
+```
 
-&#x20;
+## Установка libgdiplus
 
-### Для работы эмуляции клавиатуры и мышки нужно установить библиотеку libgdiplus
+Для работы эмуляции клавиатуры и мышки нужно установить библиотеку libgdiplus. Для этого выполните в терминале:
 
-_Выполняем в терминале:_
-
+```
 sudo apt install libgdiplus
+```
 
-&#x20;
+Если Вы получили сообщение, что пакет не найден, то необходимо добавить репозиторий. Это можно сделать в программе "Менеджер пакетов Synaptic".
 
-Если Вы получили сообщение, что пакет не найден, то необходимо добавить репозиторий.
+```
+deb https://dl.astralinux.ru/astra/frozen/2.12_x86-64/2.12.45/repository stable main contrib non-free
+```
 
-Это можно сделать в программе "Менеджер пакетов Synaptic".
+## Установка tesseract
 
-deb https://dl.astralinux.ru/astra/frozen/2.12\_x86-64/2.12.45/repository stable main contrib non-free
+Для работы с tesseract выполните в терминале:
 
-&#x20;
-
-### Для работы с tesseract устанавливаем его.
-
-_Выполняем в терминале:_
-
+```
 sudo apt install tesseract-ocr-rus
+```
 
-&#x20;
+## Установка python
 
-### Для работы с питоном устанавливаем его.
+Для работы с python выполните в терминале:
 
-_Выполняем в терминале:_
-
+```
 sudo apt-get install -y libpython3.7-dev
+```
 
-&#x20;
+Если установка завершилась с ошибкой, то необходимо установить пакеты «Средства разработки». Это можно сделать в программе "Менеджер пакетов Synaptic".&#x20;
 
-Если установка завершилась с ошибкой, то необходимо установить пакеты «Средства разработки». Это можно сделать в программе "Менеджер пакетов Synaptic".
+## Установка сервера RDP
 
-&#x20;
+Для подключения к машине Координатора необходимо установить сервер xrdp.
 
-### Устанавливаем сервер RDP
+**Выполните в терминале:**
 
-Для подключения к этой машине координатора необходимо установить сервер xrdp.
+* Установите xrdp:
 
-_Выполняем в терминале:_
-
+```
 sudo apt-get install xrdp
+```
 
-&#x20;
+* Перезапустите xrdp:
 
+```
 sudo systemctl restart xrdp
+```
 
-&#x20;
+* Активируйте автоматический запуск xrdp при загрузке системы:
 
+```
 sudo systemctl enable xrdp --now
+```
 
-&#x20;
+* Перезагрузите систему:
 
+```
 sudo reboot
+```
 
-&#x20;
+## Скачивание и распаковка Робота
 
-### Скачивание и распаковка робота
+**Выполните в терминале:**
 
-_Выполняем в терминале:_
+* Удалите файл sherpa-robot.zip:
 
+```
 rm -f sherpa-robot.zip
+```
 
-&#x20;
+* Скачайте файл sherpa-robot.zip:
 
+```
 wget https://sherparpa.ru/downloads/linux/get-robot.php -O sherpa-robot.zip
+```
 
-&#x20;
+* Распакуйте ZIP-архив:
 
+```
 sudo unzip -o sherpa-robot.zip -d /usr/lib
+```
 
-&#x20;
+*   Перейдите в папку sherpa-robot и установите права на исполнение файлов:
 
-sudo chmod a+x /usr/lib/sherpa-robot/Chrome/install\_host.sh
+    * Сделайте скрипт install\_host.sh исполняемым:
 
-&#x20;
+    `sudo chmod a+x /usr/lib/sherpa-robot/Chrome/install_host.sh`
 
-sudo chmod a+x /usr/lib/sherpa-robot/Chrome/process-agent-host
+    * Сделайте файл process-agent-host исполняемым:
 
-&#x20;
+    `sudo chmod a+x /usr/lib/sherpa-robot/Chrome/process-agent-host`
 
-sudo chmod a+x /usr/lib/sherpa-robot/process-agent
+    * Сделайте файл process-agent исполняемым:
 
-&#x20;
+    `sudo chmod a+x /usr/lib/sherpa-robot/process-agent`
 
-sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant
+    * Сделайте файл sherpa-assistant исполняемым:
 
-&#x20;
+    `sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant`
 
-sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant-console
+    * Сделайте файл sherpa-assistant-console исполняемым:
 
-&#x20;
+    `sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant-console`
 
-Внимание. Для установки или обновления робота до последней версии можно ввести в терминале эту команду. В ней собраны все выше описанные команды:
+> Для установки или обновления Робота до последней версии можно ввести в терминале эту команду. В ней собраны все выше описанные команды: `rm -f sherpa-robot.zip && wget https://sherparpa.ru/downloads/linux/get-robot.php -O sherpa-robot.zip && sudo unzip -o sherpa-robot.zip -d /usr/lib && sudo chmod a+x /usr/lib/sherpa-robot/Chrome/install_host.sh && sudo chmod a+x /usr/lib/sherpa-robot/Chrome/process-agent-host && sudo chmod a+x /usr/lib/sherpa-robot/process-agent && sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant && sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant-console`
 
-&#x20;
+## Добавление Пользователей для запуска Unattended-роботов
 
-rm -f sherpa-robot.zip && wget https://sherparpa.ru/downloads/linux/get-robot.php -O sherpa-robot.zip && sudo unzip -o sherpa-robot.zip -d /usr/lib && sudo chmod a+x /usr/lib/sherpa-robot/Chrome/install\_host.sh && sudo chmod a+x /usr/lib/sherpa-robot/Chrome/process-agent-host && sudo chmod a+x /usr/lib/sherpa-robot/process-agent && sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant && sudo chmod a+x /usr/lib/sherpa-robot/sherpa-assistant-console
+**Выполните в терминале:**
 
-&#x20;
+* Запустите центр управления:&#x20;
 
-### Добавление пользователей для запуска Unattended Роботов
+```
+sudo fly-admin-center
+```
 
-Запускаем центр управления командой sudo fly-admin-center и далее заходим в «Безопасность» «Политика безопасности» или выбираем пункт в меню «Пуск» «Системные» «Политика безопасности».
+* Зайдите в "Безопасность" → "Политика безопасности" или выбираем пункт в меню "Пуск" → "Системные" → "Политика безопасности".
+*   Первичная настройка для:
 
-### &#x20;
+    * Добавления ярлыка для Sherpa Assistant,
+    * Добавления ярлыков в автозагрузку для Unattended-роботов,
+    * Указания сервера Оркестратора для Unattended-роботов,
+    * Указания GUID Роботов для учетных записей Unattended-роботов.
 
-### Первичная настройка
+    Предварительно необходимо создать учетные записи, на которых будут запускаться Unattended-роботы:
 
-Данная настройка может быть выполнена для:
+    * Сделайте файл post-configure исполняемым:
 
-1. Добавление ярлыка для Sherpa Assistant
-2. Добавление ярлыков в автозагрузку для Unattended роботов
-3. Указание сервера оркестратора для Unattended Роботов
-4. Указание GUID роботов для учетных записей Unattended роботов
+    `sudo chmod a+x /usr/lib/sherpa-robot/post-configure/post-configure`
 
-Предварительно необходимо создать учетные записи, на которых будут запускаться Unattended роботы.
+    * Запустите файл post-configure с правами администратора:
 
-&#x20;
+    `sudo /usr/lib/sherpa-robot/post-configure/post-configure`
 
-_Выполняем в терминале:_
-
-sudo chmod a+x /usr/lib/sherpa-robot/post-configure/post-configure
-
-&#x20;
-
-sudo /usr/lib/sherpa-robot/post-configure/post-configure
+Вы увидите главное меню с командами:
 
 <figure><img src="../../../../.gitbook/assets/2025-07-25_17-14-32.png" alt=""><figcaption></figcaption></figure>
 
-1. Команда создает ярлыки на Sherpa Assistant на рабочем столе, а так же в меню «Пуск» -> «Разработка»
-2. Команда удаляет ярлыки Sherpa Assistant
-3. Команда создает ярлык в автозагрузке у пользователя на запуск Unattended робота
-4. Команда удаляет ярлык на запуск Unattended робота
-5. Команда позволяет ввести сервер оркестратора и указать GUID роботов
+1. Команда создает ярлыки на Sherpa Assistant на рабочем столе, а так же в меню "Пуск" → "Разработка".
+2. Команда удаляет ярлыки Sherpa Assistant.
+3. Команда создает ярлык в автозагрузке у Пользователя на запуск Unattended-робота.
+4. Команда удаляет ярлык на запуск Unattended-робота.
+5. Команда позволяет ввести сервер Оркестратора и указать GUID Роботов.
 
-&#x20;
-
-Все команды могут выполняться как для всех учетных записей так и выборочно.
+Все команды могут выполняться или для всех учетных записей, или выборочно:
 
 <figure><img src="../../../../.gitbook/assets/2025-07-25_17-15-32.png" alt=""><figcaption></figcaption></figure>
 
-### Для работы робота с Yandex Browser необходимо установить в него плагин.
+## Установка Yandex Browser
 
-&#x20;
+Для работы Робота с Yandex Browser необходимо установить в него плагин.
 
 Данное действие нужно выполнять для каждой учетной записи отдельно.
 
-1. Заходим на учетную запись.
-2. Открываем браузер. Идем в раздел "Дополнения".
-3. Запускаем менеджер файлов и переходим в папку /usr/lib/sherpa-robot/Chrome
-4. Перетаскиваем файл plugin.crx в окно браузера. Добавляем расширение. Закрываем браузер.
-5. Запускаем окно терминала в текущей папке и выполняем ./install\_host.sh
-6. Запускаем браузер. Если значок плагина Sherpa RPA стал синим, значит плагин успешно установлен.
+* Откройте браузер и перейдите в раздел "Дополнения".
+* Запустите менеджер файлов и перейдите в папку:
 
-&#x20;
+```
+/usr/lib/sherpa-robot/Chrome
+```
 
-Так же плагин можно установить с сайта [https://chrome.google.com/webstore/detail/sherpa-rpa/bdnlfnchnkjeempadnmcgbbkbacffobl](https://chrome.google.com/webstore/detail/sherpa-rpa/bdnlfnchnkjeempadnmcgbbkbacffobl)
+* Перенесите файл plugin.crx в окно браузера.&#x20;
+* Добавьте расширение и закройте браузер.
+* Запустите окно терминала в текущей папке:
 
-&#x20;
+```
+./install_host.sh
+```
 
-И после этого выполнить пункты 4, 5, 6
+* Запустите браузер.&#x20;
+
+Если значок плагина Sherpa RPA стал синим, значит плагин успешно установлен.
+
+Так же плагин можно установить с сайта:&#x20;
+
+{% embed url="https://chrome.google.com/webstore/detail/sherpa-rpa/bdnlfnchnkjeempadnmcgbbkbacffobl" %}
+
+И после этого выполнить пункты 4, 5, 6.
