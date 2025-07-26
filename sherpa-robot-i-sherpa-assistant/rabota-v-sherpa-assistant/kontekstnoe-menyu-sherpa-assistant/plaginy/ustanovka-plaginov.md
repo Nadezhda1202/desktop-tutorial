@@ -15,13 +15,9 @@ Sherpa Assistant позволяет устанавливать необходи�
 
 Для выбора плагина, который необходимо установить выберите в трее нажмите правой кнопкой мыши на значок ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcEPTBk8l_G1EjEX5Rxr10a1fTypQEPXOQtFlRzh7qdJMSw0uyaVTZzukfnJEsDSwVV8LXI6-A0OM4TCYRCu0SCM_LDC1BeXHI21w6iaae_yEx44WqamyHPhSOtc2IplolYwM7jJqd_7F8Grcon6rWdfYLU?key=q_xQzUUhaPkGROzSsR-vTw) и, в контекстном меню, выберите пункт “Плагины”, а затем – нужный плагин.&#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdNLYvLWLykQze-DoBl_5M8krS4S5twrYBQovs_8oqYoJkJslwHTrldxcO-v0lH2i-uTqaAeW7O9e6zhYfWIyUJoMhN2JtCQrcTetQW78D1W2AovLpUxPPAI83vYt-ak5slqnKmLjPts8wbm1Jn2kbNCGGe?key=q_xQzUUhaPkGROzSsR-vTw" alt=""><figcaption></figcaption></figure>
-
 ## **Установка плагинов для браузеров**
 
 Для установки плагинов на браузеры достаточно открыть нужный браузер и вставить в адресную строку ссылку из буфера обмена, которая появится там после нажатия на нужный плагин, после чего установите плагин из магазина Google Chrome.&#x20;
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7JDyI1DIUNiC9BGJK3tCS6W9GI3DBDMMxRz1jL0c1WcCAoLelfgKuRnHcGVllsXMDaNdJY5SVs49sRzsETJh0SbK7Dd3pJjQh-svUhCXiqzwcXTtLTX2sw1OyjX8hMtUsGzIropnaOx1KBscFkEVcRm1J?key=q_xQzUUhaPkGROzSsR-vTw" alt=""><figcaption></figcaption></figure>
 
 ## **Установка плагина Java**
 
@@ -29,9 +25,7 @@ Sherpa Assistant позволяет устанавливать необходи�
 
 Для установки плагина Java запустите Sherpa Assistant от имени администратора, затем в трее нажмите правой кнопкой мыши на значок ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcEPTBk8l_G1EjEX5Rxr10a1fTypQEPXOQtFlRzh7qdJMSw0uyaVTZzukfnJEsDSwVV8LXI6-A0OM4TCYRCu0SCM_LDC1BeXHI21w6iaae_yEx44WqamyHPhSOtc2IplolYwM7jJqd_7F8Grcon6rWdfYLU?key=q_xQzUUhaPkGROzSsR-vTw) и, в контекстном меню, выберите пункт “Плагины”, а затем – "Установить плагин Java".
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeHmHthUiMEpc1MGFtHGRDDwEMopmGB5p--lsr39moqnwbG1Rz56xTDQOl0f26TI6sam4P0nH2KOZpNHpmyrQ7yVx9sobTkTB8mtXWx0JpLm1G_8ep2cTTfM3KWikUa6ZOvNY7SLiDAYo7EP0vwhEaG_NZP?key=q_xQzUUhaPkGROzSsR-vTw" alt=""><figcaption></figcaption></figure>
-
-**Важно!** _Плагин разработан компанией Oracle. Выбирая этот пункт, Вы его только включаете в папке, где установлена Java. Все следующие пути указаны исходя из папки установки Java. Если Java поставляется вместе с программой, то убедитесь, что она так же x86 и пути будут относительно Java в папке с установленной программой._
+> Плагин разработан компанией Oracle. Выбирая этот пункт, Вы его только включаете в папке, где установлена Java. Все следующие пути указаны исходя из папки установки Java. Если Java поставляется вместе с программой, то убедитесь, что она так же x86 и пути будут относительно Java в папке с установленной программой.
 
 Установка плагина заключается в следующих действиях:
 

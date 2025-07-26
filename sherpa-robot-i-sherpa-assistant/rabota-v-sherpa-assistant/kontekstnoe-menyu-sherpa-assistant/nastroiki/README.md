@@ -1,6 +1,12 @@
 # Настройки
 
-Пункт контекстного меню “Настройки…” позволяет открыть окно настроек. Окно “Настройки - Sherpa Assistant” содержит следующие вкладки:
+Пункт контекстного меню “Настройки…” позволяет открыть окно настроек.&#x20;
+
+<figure><img src="../../../../.gitbook/assets/2025-07-26_18-14-31 (2).png" alt=""><figcaption></figcaption></figure>
+
+Окно “Настройки - Sherpa Assistant” содержит следующие вкладки:
+
+<figure><img src="../../../../.gitbook/assets/изображение (242).png" alt=""><figcaption></figcaption></figure>
 
 * Основное;
 * Регистрация;
@@ -10,5 +16,3 @@
 * Сервисы;
 * Селекторы;
 * О программе.
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXegm071HFhwDn9RN7CZqs_xpH-ozrR2Ci-D2DQDrLWWCI4oCuHRJbkNMK-Pq7IusoQV4pL9eOC6a9Gqk7ENYjoJHJ-Se8J_RfeYLXAKyHEKxp5-t_VooDfluiew72ul7crB21QqO4ZTlqH-comM8jYjTHA?key=kJMbBxnbwHv9uZqMKDJj6w" alt=""><figcaption></figcaption></figure>
