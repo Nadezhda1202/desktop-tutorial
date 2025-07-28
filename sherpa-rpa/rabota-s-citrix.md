@@ -14,7 +14,7 @@
 
 На клиентском компьютере, с которого будет осуществляться подключение к Citrix, необходимо установить плагин Sherpa Native Citrix Plugin по следующей инструкции:
 
-
+{% embed url="https://docs.sherparpa.ru/sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/plaginy/ustanovka-plagina-native-citrix" %}
 
 ## Подключение и работа с Citrix
 
