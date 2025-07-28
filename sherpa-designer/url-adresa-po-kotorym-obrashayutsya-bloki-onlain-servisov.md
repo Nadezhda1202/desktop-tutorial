@@ -24,3 +24,8 @@
 
 {% embed url="https://docs.sherparpa.ru/sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/zapros-k-groqchat-groqchatrequest" %}
 
+{% embed url="https://docs.sherparpa.ru/sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/zapros-k-openrouter-openrouterchatrequest" %}
+
+Подробнее о подключении сторонних сервисов:
+
+{% embed url="https://docs.sherparpa.ru/sherpa-robot-i-sherpa-assistant/podklyuchenie-storonnikh-servisov" %}
