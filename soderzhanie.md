@@ -41,7 +41,7 @@
         * [Вкладка "О программе"](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/nastroiki/vkladka-o-programme.md)
       * [Плагины](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/plaginy/)
         * [Установка плагинов](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/plaginy/ustanovka-plaginov.md)
-          * [Работа с Citrix](sherpa-robot-i-sherpa-assistant/rabota-s-citrix.md)
+          * [Работа с Citrix](sherpa-rpa/rabota-s-citrix.md)
       * [Инструменты](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/instrumenty.md)
       * [Удаленная отладка](sherpa-robot-i-sherpa-assistant/rabota-v-sherpa-assistant/kontekstnoe-menyu-sherpa-assistant/udalennaya-otladka.md)
   * [Sherpa Assistant: ответы на часто задаваемые вопросы](sherpa-robot-i-sherpa-assistant/sherpa-assistant-otvety-na-chasto-zadavaemye-voprosy.md)
