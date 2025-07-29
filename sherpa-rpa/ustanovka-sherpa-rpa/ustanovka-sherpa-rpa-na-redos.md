@@ -117,7 +117,7 @@
 
 * Если Робот был установлен ранее, то вы увидите окно, оповещающее об этом. В нём вы сможете выбрать пункт "Установить" (для обновления Робота) или пункт "Удалить" (для удаления Робота);
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 *   Если установка происходит впервые, или в предыдущем окне вы выбрали пункт "Установить", то появится окно установщика. Вы сможете выбрать:
 
@@ -125,16 +125,16 @@
     * создание папки в меню "Пуск",
     * установку Робота для текущего Пользователя / для всех Пользователей;
 
-    <figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Затем нажать кнопку "Дальше";
 * Выбрать папку для установки Робота и нажать на кнопку "Дальше";
 
-<figure><img src="../../.gitbook/assets/изображение (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Далее появится окно, где будет виден процесс установки Робота;
 
-<figure><img src="../../.gitbook/assets/изображение (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Когда установка завершится, вы увидите окно, в котором сможете сразу запустить Sherpa Designer, нажав на кнопку "Запустить".
 
-<figure><img src="../../.gitbook/assets/изображение (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (8) (1).png" alt=""><figcaption></figcaption></figure>
