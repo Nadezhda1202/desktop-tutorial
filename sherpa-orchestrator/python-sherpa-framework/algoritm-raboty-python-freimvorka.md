@@ -96,45 +96,43 @@ print(heartbeat_results ['HasNewJob'])
     4. ProcessVersion,&#x20;
     5. Task.
 
-\
-Справочник значений ConsumeJobErrorCode:\
-\
-`ConsumeJobErrorCode = 0;  # нет ошибок`\
-`ConsumeJobErrorCode = 101;  # робот с указанным GUID не найден`\
-`ConsumeJobErrorCode = 102;  # новая работа не найдена`\
-\
-Пример вызова:\
-\
-`import requests`\
-`import base64`\
-`import json`\
-\
-`from requests.packages.urllib3.exceptions import InsecureRequestWarning`\
-`requests.packages.urllib3.disable_warnings(InsecureRequestWarning)`\
-\
-`host = 'http://192.168.1.111:4500' #хост оркестратора`\
-`robot_guid = 'da8bc2f0-8065-4385-b867-405e66b8e151' #GUID робота`\
-\
-`headers = {`\
-&#x20;   `'Authorization': 'Basic ' + base64.b64encode(robot_guid.encode('utf-8')).decode('utf-8')`\
-`}`\
-\
-`cnj = {`\
-&#x20;   `'RobotGUID': robot_guid   #GUID робота`\
-`}`\
-\
-`r = requests.post(host + '/api/robot/consumeNextJob', data=cnj, headers=headers, verify=False)`\
-`consume_result = json.loads(r.text)`\
-`print(consume_result['ConsumeJobErrorCode'])`\
-`print(consume_result['ErrorText'])`\
-`new_job = json.loads(consume_result['Job'])` \
-`job_guid = new_job['GUID']`\
-`process_version = json.loads(consume_result['ProcessVersion'])` \
-`python_script_name = process_version['Name']   #Условимся, что имя скрипта робота, который необходимо запустить, передаётся в названии версии процесса`\
-`task = json.loads(consume_result[' Task '])` \
+    Справочник значений ConsumeJobErrorCode:\
+    \
+    `ConsumeJobErrorCode = 0;  # нет ошибок`\
+    `ConsumeJobErrorCode = 101;  # робот с указанным GUID не найден`\
+    `ConsumeJobErrorCode = 102;  # новая работа не найдена`\
+    \
+    Пример вызова:\
+    \
+    `import requests`\
+    `import base64`\
+    `import json`\
+    \
+    `from requests.packages.urllib3.exceptions import InsecureRequestWarning`\
+    `requests.packages.urllib3.disable_warnings(InsecureRequestWarning)`\
+    \
+    `host = 'http://192.168.1.111:4500' #хост оркестратора`\
+    `robot_guid = 'da8bc2f0-8065-4385-b867-405e66b8e151' #GUID робота`\
+    \
+    `headers = {`\
+    &#x20;   `'Authorization': 'Basic ' + base64.b64encode(robot_guid.encode('utf-8')).decode('utf-8')`\
+    `}`\
+    \
+    `cnj = {`\
+    &#x20;   `'RobotGUID': robot_guid   #GUID робота`\
+    `}`\
+    \
+    `r = requests.post(host + '/api/robot/consumeNextJob', data=cnj, headers=headers, verify=False)`\
+    `consume_result = json.loads(r.text)`\
+    `print(consume_result['ConsumeJobErrorCode'])`\
+    `print(consume_result['ErrorText'])`\
+    `new_job = json.loads(consume_result['Job'])` \
+    `job_guid = new_job['GUID']`\
+    `process_version = json.loads(consume_result['ProcessVersion'])` \
+    `python_script_name = process_version['Name']   #Условимся, что имя скрипта робота, который необходимо запустить, передаётся в названии версии процесса`\
+    `task = json.loads(consume_result[' Task '])` \
 
-
-2. В случае успешного получения новой Работы из Оркестратора выполнить HTTP PUT запрос к скрипту `/api/job/update` Оркестратора. Передать в параметрах GUID полученной Работы Робота (guid) и новый статус Работы `Status_In_Progress`.\
+3. В случае успешного получения новой Работы из Оркестратора выполнить HTTP PUT запрос к скрипту `/api/job/update` Оркестратора. Передать в параметрах GUID полученной Работы Робота (guid) и новый статус Работы `Status_In_Progress`.\
    \
    Справочник значений статусов Работ:\
    \
@@ -171,10 +169,10 @@ print(heartbeat_results ['HasNewJob'])
    `r = requests.put(host + '/api/job/update', data=job, headers=headers, verify=False)`\
    `print(r.text)`\
 
-3. Приступить к выполнению Python-скрипта Робота с именем, равным `python_script_name`. По возможности периодически повторять запросы к скрипту `/api/robot/heartbeat` с корректным значением `JobGUID` и `Status =  3 (Status_Working)`. \
+4. Приступить к выполнению Python-скрипта Робота с именем, равным `python_script_name`. По возможности периодически повторять запросы к скрипту `/api/robot/heartbeat` с корректным значением `JobGUID` и `Status =  3 (Status_Working)`. \
    \
    Рекомендуется отправлять этот запрос не чаще раза в 10 секунд. В случае получения в ответ статуса `HeartbeatErrorCode == 10` необходимо немедленно прекратить (прервать) выполнение Python-скрипта Робота. \
    \
    В случае получения в ответ статуса `HeartbeatErrorCode == 20` необходимо выполнить корректное завершение Python-скрипта Робота.
-4. После завершения Python-скрипта Робота выполнить HTTP PUT запрос к скрипту `/api/job/update` Оркестратора. Передать в параметрах GUID текущей Работы Робота (guid) и новый статус Работы в зависимости от результата её завершения согласно справочнику, приведенному выше.
-5. Затем выполнить HTTP POST запрос к скрипту `/api/robot/heartbeat` Оркестратора со статусом `Status =  2 (Status_Ready)` и перейти к шагу 2 алгоритма фреймворка.
+5. После завершения Python-скрипта Робота выполнить HTTP PUT запрос к скрипту `/api/job/update` Оркестратора. Передать в параметрах GUID текущей Работы Робота (guid) и новый статус Работы в зависимости от результата её завершения согласно справочнику, приведенному выше.
+6. Затем выполнить HTTP POST запрос к скрипту `/api/robot/heartbeat` Оркестратора со статусом `Status =  2 (Status_Ready)` и перейти к шагу 2 алгоритма фреймворка.
