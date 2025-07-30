@@ -752,6 +752,7 @@
     * [Крестики-нолики](sherpa-designer/primery-robotov/krestiki-noliki.md)
   * [Настройка запуска Робота через Планировщик Windows](sherpa-designer/nastroika-zapuska-robota-cherez-planirovshik-windows.md)
   * [Перенос роботов с Windows на Linux](sherpa-designer/perenos-robotov-s-windows-na-linux.md)
+  * [Работа Attended роботов на виртуальных машинах](sherpa-designer/rabota-attended-robotov-na-virtualnykh-mashinakh.md)
   * [Sherpa Designer: ответы на часто задаваемые вопросы](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/README.md)
     * [Настройка входных и выходных параметров в свойствах проекта](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/nastroika-vkhodnykh-i-vykhodnykh-parametrov-v-svoistvakh-proekta.md)
 * [Sherpa IDP (Шаблонизатор)](shablonizator/README.md)
