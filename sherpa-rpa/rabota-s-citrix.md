@@ -48,7 +48,7 @@
 Схема взаимодействия компонентов для автоматизации приложений Citrix c\
 помощью Роботов Sherpa RPA:
 
-<figure><img src="../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
   В хорошем качестве схему можно посмотреть здесь:
 

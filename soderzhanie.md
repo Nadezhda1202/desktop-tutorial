@@ -301,7 +301,7 @@
       * [Работа в связке с Sherpa Designer](sherpa-ai-server/rabota-v-sherpa-ai-server/dokumenty/rabota-v-svyazke-s-sherpa-designer.md)
     * [Аккаунты](sherpa-ai-server/rabota-v-sherpa-ai-server/akkaunty.md)
     * [Пользователи](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/)
-      * [Авторизация пользователей](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei.md)
+      * [Авторизация пользователей](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei/)
     * [Роли](sherpa-ai-server/rabota-v-sherpa-ai-server/roli.md)
     * [Аудит](sherpa-ai-server/rabota-v-sherpa-ai-server/audit.md)
     * [Лицензии](sherpa-ai-server/rabota-v-sherpa-ai-server/licenzii.md)
