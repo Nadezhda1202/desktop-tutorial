@@ -56,40 +56,18 @@ _Таблица 2 – Элементы пользовательского инт
 
 3.1. Запуск робота через триггеры
 
-Необходимо перейти на экран “Триггеры“ и настроить запуск робота во вкладке “Роботы“ [https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/triggery#vkladka-roboty](https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/triggery#vkladka-roboty) .
+Необходимо перейти на экран “Триггеры” и настроить запуск робота во вкладке “Роботы”:&#x20;
 
-3.2. Запуск робота через очереди
+{% embed url="https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/triggery#vkladka-roboty" %}
 
-Необходимо перейти на экран “Очереди“ и настроить запуск задачи [https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/ocheredi](https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/ocheredi) .
+3.2. Запуск робота через работы
+
+Необходимо перейти на экран “Работы” и настроить запуск:
+
+{% embed url="https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/raboty" %}
 
 3.3. Запуск робота через API
 
-Необходимо использовать /api/robot/setStatus. Установить статус робота по его GUID.
+Через API запуск робота можно осуществить путём создания работы или же добавления в очередь задачи, для которой настроен триггер на запуск данного робота при поступлении новой задачи:
 
-`Эндпоинт: /api/robot/setStatus.`
-
-`Метод: PUT.`
-
-`Авторизация: обязательна.`
-
-`Параметры:`
-
-`GUID (обязательно): GUID Робота;`
-
-`STATUS (обязательно): статус для установки.`
-
-_Пример запроса:_
-
-_` ```json `_
-
-_`{`_
-
-_`"GUID": "554ab883-1f82-48e1-bb12-5049002e7d70",`_
-
-_`"Status": 1,`_
-
-_`}`_
-
-_` ``` `_
-
-Подробнее о методах по ссылке: [https://docs.sherparpa.ru/sherpa-orchestrator/api](https://docs.sherparpa.ru/sherpa-orchestrator/api)
+{% embed url="https://docs.sherparpa.ru/sherpa-orchestrator/api" %}
