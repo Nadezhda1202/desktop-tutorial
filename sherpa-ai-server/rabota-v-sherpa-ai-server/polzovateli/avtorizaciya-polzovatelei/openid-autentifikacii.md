@@ -16,7 +16,7 @@ oAuthTokenUri="https://OpenID.url/token"
 oAuthUserInfoUri="https://OpenID.url/info"
 ```
 
-При запросе токена Оркестратор передает параметр: `redirect_uri`.
+При запросе токена передается параметр: `redirect_uri`.
 
 Если необходимо указать Callback URL вручную, то укажите:
 
