@@ -967,7 +967,7 @@
       * [Авторизация Пользователей](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei/README.md)
         * [Локальная авторизация](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei/lokalnaya-avtorizaciya.md)
         * [LDAP-аутентификация](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei/ldap-autentifikaciya.md)
-        * [OpenID-аутентификации](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei/openid-autentifikacii.md)
+        * [OpenID-аутентификация](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei/openid-autentifikaciya.md)
     * [Роли](sherpa-ai-server/rabota-v-sherpa-ai-server/roli.md)
     * [Аудит](sherpa-ai-server/rabota-v-sherpa-ai-server/audit.md)
     * [Лицензии](sherpa-ai-server/rabota-v-sherpa-ai-server/licenzii.md)
