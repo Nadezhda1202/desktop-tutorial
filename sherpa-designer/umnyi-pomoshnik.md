@@ -36,7 +36,7 @@
 
 
 
-2. ### Умный помощник в редакторе выражений
+2. ### Умный помощник в Sherpa Regex
 
 Откройте проект в Sherpa Designer, найдите иконку “Открыть Sherpa Regex” в меню “Дополнительно”: ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdKlKM3iYtFJyZghKcupbkACpbqbJX9Sehs9xwfLhOfQyvD-WoVafBpK9SYmI4J_aOvdteFgzn131mo4uce5_XmaS79QgRTEpfAo-P_kk0oIoNJr6MIY9ntn3VLHL1h5mHey3gLyg?key=2frHalbXRpccMssNXygBgA) , и дважды щелкните по ней левой кнопкой мыши.
 
