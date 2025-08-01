@@ -23,7 +23,7 @@ SSL сертификаты играют важную роль в обеспеч�
 
 1. Скопируйте корневой сертификат (rootCA) в каталог:
 
-&#x20;  `bash   $ sudo cp /path/to/your/ca-certificates.crt /opt/SherpaOrchestrator/backend/config/certs/`&#x20;
+&#x20;  `bash   $ sudo cp /path/to/your/ca-certificates.crt /opt/sais/oais/backend/config/certs/`&#x20;
 
 2. В файле `docker-compose.yml` раскомментируйте строку:
 
@@ -33,7 +33,7 @@ SSL сертификаты играют важную роль в обеспеч�
 
 Если вы планируете использовать Триггеры с запуском по электронной почте, необходимо настроить сертификаты для IMAP-сервера. Для этого скопируйте сертификаты IMAP в директорию:
 
-&#x20;  `bash   $ sudo cp /path/to/imap/certs/* /opt/SherpaOrchestrator/backend/config/certs/imap_certs/`&#x20;
+&#x20;  `bash   $ sudo cp /path/to/imap/certs/* /opt/sais/oais/backend/config/certs/imap_certs/`&#x20;
 
 ### Установка Sherpa AI Server и настройка сертификатов
 
@@ -41,9 +41,9 @@ SSL сертификаты играют важную роль в обеспеч�
 
 1. Скопируйте сгенерированные сертификаты в нужную директорию:
 
-&#x20;  `bash   $ sudo cp /path/to/generated/certs/orchestrator.crt /opt/SherpaOrchestrator/backend/config/certs/`
+&#x20;  `bash   $ sudo cp /path/to/generated/certs/orchestrator.crt /opt/sais/oais/backend/config/certs/`
 
-&#x20;  `$ sudo cp /path/to/generated/certs/orchestrator.key /opt/SherpaOrchestrator/backend/config/certs/`&#x20;
+&#x20;  `$ sudo cp /path/to/generated/certs/orchestrator.key /opt/sais/oais/backend/config/certs/`&#x20;
 
 2. Скопируйте файл конфигурации и перезапустите nginx:
 
