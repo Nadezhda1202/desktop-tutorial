@@ -78,7 +78,7 @@
     * [Главная панель](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/)
       * [Блоки](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/bloki/)
         * [Редактор блоков](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/bloki/redaktor-blokov.md)
-      * [Проект](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/proekt.md)
+      * [Проект](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/proekt/)
       * [Библиотека](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/biblioteka.md)
     * [Центральная рабочая область](sherpa-designer/rabota-v-sherpa-designer/centralnaya-rabochaya-oblast.md)
     * [Панели свойств и переменных и работа с ними](sherpa-designer/rabota-v-sherpa-designer/paneli-svoistv-i-peremennykh-i-rabota-s-nimi/)

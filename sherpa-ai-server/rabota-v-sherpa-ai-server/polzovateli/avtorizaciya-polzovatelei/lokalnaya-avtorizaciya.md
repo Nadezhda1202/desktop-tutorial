@@ -2,9 +2,9 @@
 
 Для создания Пользователя с локальной авторизацией необходимо заполнить чекбокс “Локальная” в форме создания нового Пользователя, а затем в соответствующих полях указать логин аккаунта и пароль к нему:
 
-<figure><img src="../../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Также дополнительно можно заполнить поля:
 
