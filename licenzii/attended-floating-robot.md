@@ -6,15 +6,15 @@
 
 ### 1.1. Локальная активация
 
-Запустите Sherpa Assistant, если он не был запущен. Правой кнопкой мыши кликните на иконку Sherpa Assistant в трее: ![](<../.gitbook/assets/изображение (11).png>).
+Запустите Sherpa Assistant, если он не был запущен. Правой кнопкой мыши кликните на иконку Sherpa Assistant в трее: ![](<../.gitbook/assets/изображение (11) (1).png>).
 
 В контекстном меню выберите “Настройки…”:
 
-<figure><img src="../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне нажмите на вкладку “Регистрация”. Введите ключ продукта, который получили в поле “Введите лицензионный ключ продукта”:
 
-<figure><img src="../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нажмите на кнопку Активация. Sherpa Assistant проверит ключ продукта и предоставит дату и время, до которого действует Лицензия зеленым шрифтом под полем “Введите лицензионный ключ продукта”.
 
@@ -22,23 +22,23 @@
 
 Экран “Лицензии” содержит таблицу “Лицензии”:
 
-<figure><img src="../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Для активации созданной Лицензии необходимо нажать кнопку “Активировать“ и в открывшемся окне выбрать один из двух типов активации:
 
-<figure><img src="../.gitbook/assets/изображение (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 1.2.1.       Автоматическая
 
 При выборе автоматической активации нажать на кнопку ОК.
 
-<table data-header-hidden><thead><tr><th width="85.7166748046875" valign="top"></th><th width="625.0665283203125"></th></tr></thead><tbody><tr><td valign="top"><div><figure><img src="../.gitbook/assets/изображение (5) (1) (1) (1) (1) (1).png" alt="" width="43"><figcaption></figcaption></figure></div></td><td>Автоматическая активация возможна только в том случае, если Оркестратор имеет открытый доступ в Интернет.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="85.7166748046875" valign="top"></th><th width="625.0665283203125"></th></tr></thead><tbody><tr><td valign="top"><div><figure><img src="../.gitbook/assets/изображение (5) (1) (1) (1) (1) (1) (1).png" alt="" width="43"><figcaption></figcaption></figure></div></td><td>Автоматическая активация возможна только в том случае, если Оркестратор имеет открытый доступ в Интернет.</td></tr></tbody></table>
 
 #### 1.2.2.       Ручная
 
 При выборе ручной активации появляется код запроса, который нужно передать вендору для подтверждения ручной активации. В ответ на код запроса вам будет передан код ответа, его необходимо ввести в поле Код ответа и нажать на кнопку ОК:
 
-<figure><img src="../.gitbook/assets/изображение (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Лицензия будет активирована, и в колонке “Истекает” изменится дата и время истечения Лицензии.
 
@@ -50,9 +50,9 @@
 
 Оба робота должны быть добавлены в таблицу “Роботы” на экране “Роботы“.
 
-<figure><img src="../.gitbook/assets/изображение (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Справа от строки с именем робота, которого нужно отвязать от Оркестратора, нажмите на иконку <img src="../.gitbook/assets/изображение (8) (1) (1) (1) (1).png" alt="" data-size="line"> и измените поле “Лицензия“. Далее сохраните изменения нажатие кнопки “ОК“ и создайте нового робота через кнопку “Создать“.
+Справа от строки с именем робота, которого нужно отвязать от Оркестратора, нажмите на иконку <img src="../.gitbook/assets/изображение (8) (1) (1) (1) (1) (1).png" alt="" data-size="line"> и измените поле “Лицензия“. Далее сохраните изменения нажатие кнопки “ОК“ и создайте нового робота через кнопку “Создать“.
 
 Процесс создания нового робота подробно описан по ссылке: [https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/roboty#sozdanie-novogo-robota](https://docs.sherparpa.ru/sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/roboty#sozdanie-novogo-robota)
 
@@ -62,11 +62,11 @@ Attended Floating разрешает запускать роботов на ви
 
 Необходимо перейти на экран “Работы”. Данный экран содержит таблицу “Работы”:
 
-<figure><img src="../.gitbook/assets/изображение (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Нажмите на кнопку “Создать” над таблицей "Работы" и заполните открывшуюся форму:
 
-<figure><img src="../.gitbook/assets/изображение (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ·         поле “Робот”. Выберите из выпадающего списка нужного робота;
 
@@ -82,7 +82,7 @@ Attended Floating разрешает запускать роботов на ви
 
 Для новой работы после сохранения по умолчанию будет указан статус “В ожидании”. Как только освободится робот, для которого была назначена данная работа, он приступит к ее выполнению, запустит сценарий соответствующего процесса, выполнит его и, в зависимости от результата работы, может меняться статус работы в колонке “Статус”:
 
-<figure><img src="../.gitbook/assets/изображение (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.1. Запуск робота вручную пользователем двойным кликом по файлу робота
 

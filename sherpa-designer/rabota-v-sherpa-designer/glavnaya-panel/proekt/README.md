@@ -20,7 +20,7 @@
 
 <table data-header-hidden><thead><tr><th width="57" valign="top"></th><th width="193" valign="top"></th><th width="314" valign="top"></th></tr></thead><tbody><tr><td valign="top"><strong>№ п/п</strong></td><td valign="top"><strong>Элемент интерфейса</strong></td><td valign="top"><strong>Описание</strong></td></tr><tr><td valign="top">1.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-19-34.png" alt=""> </td><td valign="top">Позволяет сделать выбранную диаграмму главной в проекте.</td></tr><tr><td valign="top">2.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-28-04.png" alt=""></td><td valign="top">Позволяет добавить в проект выбранную диаграмму в проект.</td></tr><tr><td valign="top">3.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-28-54.png" alt=""></td><td valign="top">Позволяет добавить в проект новую диаграмму.</td></tr><tr><td valign="top">4.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-29-14.png" alt=""></td><td valign="top">Позволяет добавить новую папку в проект.</td></tr><tr><td valign="top">5.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-29-52.png" alt=""></td><td valign="top">Позволяет вырезать выбранную диаграмму или папку.</td></tr><tr><td valign="top">6.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-30-14.png" alt=""></td><td valign="top">Позволяет копировать выбранную диаграмму или папку.</td></tr><tr><td valign="top">7.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-30-42.png" alt=""></td><td valign="top">Позволяет вставить ранее вырезанную или скопированную диаграмму или папку.</td></tr><tr><td valign="top">8.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-31-10.png" alt=""></td><td valign="top">Позволяет удалить выбранную диаграмму или папку.</td></tr><tr><td valign="top">9.</td><td valign="top">Кнопка <img src="../../../../.gitbook/assets/2025-08-05_20-31-40.png" alt=""></td><td valign="top">Позволяет переименовать выбранную диаграмму или папку.</td></tr><tr><td valign="top">10.</td><td valign="top">Виртуальная папка “Ссылки” <img src="../../../../.gitbook/assets/2025-08-05_20-27-00.png" alt=""></td><td valign="top">Содержит ссылки на готовые сборки библиотек (файлы DLL), а также позволяет подключать свои.</td></tr></tbody></table>
 
-<figure><img src="../../../../.gitbook/assets/изображение (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Ссылки
 
@@ -28,11 +28,11 @@
 
 Для добавления новой ссылки необходимо нажать правой кнопкой мыши на пункте “Ссылки” и выбрать “Добавить ссылку”.
 
-<figure><img src="../../../../.gitbook/assets/изображение (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 После чего откроется окно “Менеджер ссылок”, которое позволяет выбрать необходимые сборки (файлы DLL), предоставляемые Framework или же добавить свою сборку.
 
-<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [Использование ссылок на примере подключения своей библиотеки на С# для использования в проекте продемонстрировано здесь.](https://sherparpa.ru/ucontent/?07)
 
@@ -44,7 +44,7 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcPIcQrV_kT6ZR1RfZ79tyiT4HtI7CUnS5X4B2sFAMaySR_li_TX3WPpl5Uo2Pp260FmyURlHBJB-7etgEocwHxsh5RZliWUh1KLFX09iIPBg6h5Laf0X4uzCyz53vwSjY39TF-DgoSKuYZMK15ZvDdJ0Ux?key=hkb4d-2cPaGQ51ygcyhvzQ" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/изображение (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Меню “Добавить”
 
@@ -58,4 +58,4 @@
 
 <table data-header-hidden><thead><tr><th width="53"></th><th width="187"></th><th width="388"></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Опция</strong></td><td><strong>Описание</strong></td></tr><tr><td>1.</td><td>пункт “Установить диаграмму как главную”</td><td>Позволяет установить выбранную диаграмму как главную.</td></tr><tr><td>2.</td><td>пункт “Вырезать”</td><td>Позволяет вырезать выбранный фай проекта. </td></tr><tr><td>3.</td><td>пункт “Копировать”</td><td>Позволяет копировать выбранный файл проекта. </td></tr><tr><td>4.</td><td>пункт “Удалить”</td><td>Позволяет удалить выбранный файл проекта.  </td></tr><tr><td>5.</td><td>пункт “Переименовать”</td><td>Позволяет переименовать выбранный файл проекта.  </td></tr><tr><td>6.</td><td>пункт “Показать файл в проводнике”</td><td>Показывает путь к выбранному файлу на Вашем компьютере.</td></tr></tbody></table>
 
-<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
