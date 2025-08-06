@@ -13,7 +13,7 @@
 * 2 vCore
 * 4 Гб RAM
 * SSD / HDD 5 Гб свободного места
-* Windows 10, Windows 11 или Windows Server 2012 – 2022 или Linux (Debian, Ubuntu, AstraLinux)
+* Windows 10-11 х 64 или Windows Server 2012 – 2022 или Linux (Debian, Ubuntu, AstraLinux)
 * .NET Framework 4.8+
 * PowerShell 5.1+
 
@@ -22,6 +22,6 @@
 * 4 vCore
 * 8 Гб RAM
 * SSD / HDD 10 Гб свободного места
-* Windows 10, Windows 11 или Windows Server 2012 – 2022
+* Windows 10-11  х 64 или Windows Server 2012 – 2022
 * .NET Framework 4.8+
 * PowerShell 5.1+
