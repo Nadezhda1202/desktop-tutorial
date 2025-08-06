@@ -2,9 +2,9 @@
 
 Для создания Пользователя с методом входа в систему “LDAP-аутентификация” необходимо заполнить чекбокс “Использовать LDAP аутентификацию”, а затем заполнить поле “Пользователи LDAP”:
 
-<figure><img src="../../../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Также дополнительно можно заполнить поля:
 

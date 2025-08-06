@@ -8,7 +8,7 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeV_URh_Hbzg0m8KRLEmINVbD3ZSziwPIaZzfwBl8a887aSpdjqgn-I3PefhZ9or00oXoi-K8wiB2nOfXh99Y2lcBHmr3XnGUupJ8sAKUVqPA27adnS_J4qAUGJ1Y_OL2tnCgu0EPhu8HfDjmckpGb0g-g?key=hkb4d-2cPaGQ51ygcyhvzQ" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Замена осуществляется во **вкладке “Заменить”**.
 

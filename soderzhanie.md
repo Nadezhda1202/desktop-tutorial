@@ -321,7 +321,7 @@
     * [Чат](sherpa-ai-server/rabota-v-sherpa-ai-server/chat.md)
     * [История чатов](sherpa-ai-server/rabota-v-sherpa-ai-server/istoriya-chatov.md)
     * [Ассистенты](sherpa-ai-server/rabota-v-sherpa-ai-server/assistenty.md)
-    * [Документы](sherpa-ai-server/rabota-v-sherpa-ai-server/dokumenty/)
+    * [Документы](sherpa-ai-server/rabota-v-sherpa-ai-server/dokumenty.md)
     * [Аккаунты](sherpa-ai-server/rabota-v-sherpa-ai-server/akkaunty.md)
     * [Пользователи](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/)
     * [Авторизация пользователей](sherpa-ai-server/rabota-v-sherpa-ai-server/polzovateli/avtorizaciya-polzovatelei/)

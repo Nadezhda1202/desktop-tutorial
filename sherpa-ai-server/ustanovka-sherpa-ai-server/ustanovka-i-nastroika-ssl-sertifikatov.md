@@ -8,14 +8,20 @@ SSL сертификаты играют важную роль в обеспеч�
 
 1. Откройте конфигурационный файл `domain.conf`:
 
-&#x20;  `bash $ sudo nano ./oais/backend/config/domain.conf`
+```
+bash $ sudo nano ./oais/backend/config/domain.conf
+```
 
 2. В файле найдите и замените все упоминания домена `orchestrator.sherparpa.ru` на ваш собственный домен. Убедитесь, что вы сделали изменения во всех четырех указанных местах, после чего сохраните файл.
 3. Переименуйте сертификат и ключ для вашего домена:
 
-&#x20;  `bash   $ sudo mv /path/to/your/certificate.crt ./backend/config/certs/orchestrator.crt`
+```
+bash   $ sudo mv /path/to/your/certificate.crt ./backend/config/certs/orchestrator.crt
+```
 
-&#x20;  `$ sudo mv /path/to/your/private.key ./backend/config/certs/orchestrator.key`
+```
+$ sudo mv /path/to/your/private.key ./backend/config/certs/orchestrator.key
+```
 
 ### Настройка TLS для протокола LDAPS (опционально)
 
@@ -23,17 +29,23 @@ SSL сертификаты играют важную роль в обеспеч�
 
 1. Скопируйте корневой сертификат (rootCA) в каталог:
 
-&#x20;  `bash   $ sudo cp /path/to/your/ca-certificates.crt /opt/sais/oais/backend/config/certs/`&#x20;
+```
+bash   $ sudo cp /path/to/your/ca-certificates.crt /opt/sais/oais/backend/config/certs/ 
+```
 
 2. В файле `docker-compose.yml` раскомментируйте строку:
 
-&#x20;  `yaml   - ./backend/config/certs/ca-certificates.crt:/etc/ssl/certs/ca-certificates.crt:ro`
+```
+yaml   - ./backend/config/certs/ca-certificates.crt:/etc/ssl/certs/ca-certificates.crt:ro
+```
 
 ### Настройка сертификатов для IMAP-сервера (опционально)
 
 Если вы планируете использовать Триггеры с запуском по электронной почте, необходимо настроить сертификаты для IMAP-сервера. Для этого скопируйте сертификаты IMAP в директорию:
 
-&#x20;  `bash   $ sudo cp /path/to/imap/certs/* /opt/sais/oais/backend/config/certs/imap_certs/`&#x20;
+```
+bash   $ sudo cp /path/to/imap/certs/* /opt/sais/oais/backend/config/certs/imap_certs/ 
+```
 
 ### Установка Sherpa AI Server и настройка сертификатов
 
@@ -41,12 +53,20 @@ SSL сертификаты играют важную роль в обеспеч�
 
 1. Скопируйте сгенерированные сертификаты в нужную директорию:
 
-&#x20;  `bash   $ sudo cp /path/to/generated/certs/orchestrator.crt /opt/sais/oais/backend/config/certs/`
+```
+bash   $ sudo cp /path/to/generated/certs/orchestrator.crt /opt/sais/oais/backend/config/certs/
+```
 
-&#x20;  `$ sudo cp /path/to/generated/certs/orchestrator.key /opt/sais/oais/backend/config/certs/`&#x20;
+```
+$ sudo cp /path/to/generated/certs/orchestrator.key /opt/sais/oais/backend/config/certs/ 
+```
 
 2. Скопируйте файл конфигурации и перезапустите nginx:
 
-&#x20;  `bash   $ sudo cp ./backend/config/domain.conf /etc/nginx/sites-available/default`
+```
+bash   $ sudo cp ./backend/config/domain.conf /etc/nginx/sites-available/default
+```
 
-&#x20;  `$ sudo systemctl restart nginx`
+```
+$ sudo systemctl restart nginx
+```

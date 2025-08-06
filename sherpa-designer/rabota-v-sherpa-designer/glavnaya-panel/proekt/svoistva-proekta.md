@@ -6,4 +6,4 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfdEpJEY7fLLvx9AMuZ9jvlHaVn0FGBiwlTi9A262WSTuMeXiACj76cErNwhL1GvOFcqehAsM4v6SPlALMu9V4ys_X1xx0CHUKIJSctKgc75enUH_t6rL4cdzSv3Na8gbT7uudPjb71q3iG4cU3Ytt3Arcv?key=hkb4d-2cPaGQ51ygcyhvzQ" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/изображение (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (4) (1).png" alt=""><figcaption></figcaption></figure>

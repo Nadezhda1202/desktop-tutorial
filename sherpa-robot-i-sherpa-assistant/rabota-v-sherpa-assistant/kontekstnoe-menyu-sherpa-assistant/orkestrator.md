@@ -14,7 +14,7 @@
 
 В случае успешного подключения появится оповещение:"Подключено".
 
-<figure><img src="../../../.gitbook/assets/изображение (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Также для настройки доступны следующие опции:
 
