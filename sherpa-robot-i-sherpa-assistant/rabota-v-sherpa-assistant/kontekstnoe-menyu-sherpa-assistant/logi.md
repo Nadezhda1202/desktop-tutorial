@@ -4,6 +4,6 @@
 
 <figure><img src="../../../.gitbook/assets/2025-07-26_18-14-31.png" alt=""><figcaption></figcaption></figure>
 
-Логи, в свою очередь, сохраняются в отдельные папки с указанием даты сохранения.
+Логи, в свою очередь, сохраняются в отдельные папки с указанием даты сохранения:
 
-![](https://sherparpa.ru/wp-content/uploads/2024/03/kntkstmenyulogi.png)
+<figure><img src="../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>

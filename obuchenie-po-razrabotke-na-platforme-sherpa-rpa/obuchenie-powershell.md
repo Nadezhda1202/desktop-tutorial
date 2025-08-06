@@ -118,7 +118,7 @@ PowerShell поддерживает работу с любыми типами д
 
 Обратите внимание на `$script:` , данное выражение говорит о том, что переменная `$test2` создана в области видимости всего скрипта, и к ней можно обращаться за пределами блока.
 
-<figure><img src="../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
