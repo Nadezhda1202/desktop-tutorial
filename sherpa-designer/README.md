@@ -12,12 +12,12 @@ Sherpa Desigher предоставляет следующие возможнос
 
 ## Системные требования для установки **Sherpa Designer** <a href="#sistemnye-trebovaniya-dlya-ustanovki-sherpa-designer" id="sistemnye-trebovaniya-dlya-ustanovki-sherpa-designer"></a>
 
-| **Минимальные системные требования:**                                   | **Рекомендуемые системные требования:**                              |
-| ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Операционная система: Windows 7 и выше или Windows Server 2008R2 и выше | Операционная система: Windows 10 / 11 или Windows Server 2012 и выше |
-| Процессор: 1.4GHz                                                       | Процессор: 3GHz x 2 ядра                                             |
-| Оперативная память: 2 GB                                                | Оперативная память: 4 GB                                             |
-| Microsoft .NET Framework 4.8+ PowerShell 5.1+                           | Microsoft .NET Framework 4.8+ PowerShell 5.1+                        |
+| **Минимальные системные требования:**                                    | **Рекомендуемые системные требования:**                              |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| Операционная система: Windows 10 и выше или Windows Server 2008R2 и выше | Операционная система: Windows 10 / 11 или Windows Server 2012 и выше |
+| Процессор: 1.4GHz                                                        | Процессор: 3GHz x 2 ядра                                             |
+| Оперативная память: 2 GB                                                 | Оперативная память: 4 GB                                             |
+| Microsoft .NET Framework 4.8+ PowerShell 5.1+                            | Microsoft .NET Framework 4.8+ PowerShell 5.1+                        |
 
 ## Системные требования для Sherpa Designer для Linux <a href="#sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux" id="sistemnye-trebovaniya-dlya-sherpa-rpa-dlya-linux"></a>
 
