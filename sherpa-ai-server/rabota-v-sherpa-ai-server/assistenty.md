@@ -8,9 +8,7 @@
 
 На вкладке "Ассистент" Пользователи могут настраивать параметры своего Ассистента.&#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXegjdYwi3o7JLssqQreoCO2MdDBCBBHUgcVUYl0DeTxpg9XJ8pNgLHnqjrqi20Aa7Ud_tPpvkYyAjkSDSx2K525YzGpOGMarGeQqKr3ckEc9IrBlAw7qenL1NKwXFCGeV8_6Iq2hA?key=Hb7G-FPmer7p6HUzSC3wN-LH" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdIcJsZB7ggdNAHF-IygOewdeRnkg4NZq8sFioFBlsxp8RvEFRAjtd_RaMQbQjynrbcj5DQV8Iw_BGkxpcjnNVQOr7-tsn9Izgk8kEuDoO41wHo2R2QuHLktbparIzOI04MOzNDAg?key=Hb7G-FPmer7p6HUzSC3wN-LH" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2025-08-07_18-04-02.png" alt=""><figcaption></figcaption></figure>
 
 Включает следующие поля:
 
