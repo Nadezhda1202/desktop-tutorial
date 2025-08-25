@@ -1038,6 +1038,7 @@
 * [Академия Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/README.md)
   * [Обучающий курс по разработке на Платформе Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
   * [Обучение PowerShell](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchenie-powershell.md)
+  * [Список команд для Sherpa Designer](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/spisok-komand-dlya-sherpa-designer.md)
 * [Видео с примерами работы платформы Sherpa RPA](video-s-primerami-raboty-platformy-sherpa-rpa.md)
 * [Ссылки на дистрибутивы](ssylki-na-distributivy/README.md)
   * [Дистрибутивы Sherpa RPA (Windows)](ssylki-na-distributivy/distributivy-sherpa-rpa-windows.md)
