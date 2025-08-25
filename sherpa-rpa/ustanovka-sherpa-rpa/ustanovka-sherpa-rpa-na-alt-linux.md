@@ -45,7 +45,17 @@
 
 `apt-get update`
 
-## 2. Установка библиотеки libgdiplu**s** <a href="#id-2.-ustanovka-biblioteki-libgdiplus" id="id-2.-ustanovka-biblioteki-libgdiplus"></a>
+## 2. Установка языковых моделей для Tesseract OCR <a href="#id-2.-ustanovka-biblioteki-libgdiplus" id="id-2.-ustanovka-biblioteki-libgdiplus"></a>
+
+Если вы планируете использовать Tesseract OCR или функцию автоматического распознавания угла поворота страницы в Шаблонизаторе, то для улучшения качества результата выполните следующие действия:
+
+Скачайте архив и распакуйте его в папку:
+
+`wget` [`https://sherparpa.ru/downloads/traineddata.zip`](https://sherparpa.ru/downloads/traineddata.zip) `-O traineddata.zip`
+
+`unzip -o traineddata.zip -d /usr/share/tesseract/tessdata`
+
+## 3. Установка библиотеки libgdiplu**s** <a href="#id-2.-ustanovka-biblioteki-libgdiplus" id="id-2.-ustanovka-biblioteki-libgdiplus"></a>
 
 Для работы эмуляции клавиатуры и мышки установите библиотеку libgdiplus.
 
@@ -53,7 +63,7 @@
 
 `apt-get install libgdiplus` .
 
-## &#x20;3. Скачивание и запуск установщика
+## &#x20;4. Скачивание и запуск установщика
 
 **Выполните в терминале:**
 
@@ -98,7 +108,7 @@
 
 <figure><img src="../../.gitbook/assets/изображение (217).png" alt=""><figcaption></figcaption></figure>
 
-## 4. Установка плагина в Yandex Browser
+## 5. Установка плагина в Yandex Browser
 
 Для работы Робота с Yandex Browser необходимо установить в него плагин:
 
