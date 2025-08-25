@@ -49,9 +49,11 @@
 
 Если вы планируете использовать Tesseract OCR или функцию автоматического распознавания угла поворота страницы в Шаблонизаторе, то для улучшения качества результата выполните следующие действия:
 
-Скачайте архив и распакуйте его в папку:
+* Скачайте архив
 
 `wget` [`https://sherparpa.ru/downloads/traineddata.zip`](https://sherparpa.ru/downloads/traineddata.zip) `-O traineddata.zip`
+
+* Распакуйте его в папку
 
 `unzip -o traineddata.zip -d /usr/share/tesseract/tessdata`
 

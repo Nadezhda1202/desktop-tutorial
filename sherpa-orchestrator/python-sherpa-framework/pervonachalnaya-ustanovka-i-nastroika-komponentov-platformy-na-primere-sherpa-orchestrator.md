@@ -8,7 +8,7 @@
 
 После этого войти в редактирование записи, скопировать GUID данного робота-координатора.
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Шаг 2
 

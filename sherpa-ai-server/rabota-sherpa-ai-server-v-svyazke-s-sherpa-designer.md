@@ -6,7 +6,7 @@
 [mashinnoe-obuchenie-machine-learning](../sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/)
 {% endcontent-ref %}
 
-После создания папки для добавления документов в Sherpa AI Server с помощью GUID папки можно добавить ее в диаграмму Робота. Для получения GUID папки нажмите на кнопку ![](<../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)  ("Редактировать") в строке выбранной папки:
+После создания папки для добавления документов в Sherpa AI Server с помощью GUID папки можно добавить ее в диаграмму Робота. Для получения GUID папки нажмите на кнопку ![](<../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)  ("Редактировать") в строке выбранной папки:
 
 <figure><img src="../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

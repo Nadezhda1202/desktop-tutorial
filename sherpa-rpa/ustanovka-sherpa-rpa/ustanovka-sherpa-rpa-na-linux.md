@@ -66,6 +66,16 @@
 
 `sudo apt install tesseract-ocr-rus`
 
+Если вы планируете использовать Tesseract OCR или функцию автоматического распознавания угла поворота страницы в Шаблонизаторе, то для улучшения качества результата выполните следующие действия:
+
+* Скачайте архив
+
+`wget` [`https://sherparpa.ru/downloads/traineddata.zip`](https://sherparpa.ru/downloads/traineddata.zip) `-O traineddata.zip`
+
+* Распакуйте его в папку
+
+`sudo unzip -o traineddata.zip -d /usr/share/tesseract-ocr/4.00/tessdata`
+
 ## 5. Установка Python
 
 Для работы с Python выполните в терминале следующую команду:
