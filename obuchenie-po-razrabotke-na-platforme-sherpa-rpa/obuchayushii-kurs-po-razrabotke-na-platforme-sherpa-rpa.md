@@ -50,21 +50,21 @@
 
 Вам будут доступны записанные куратором видеоуроки (общей длительностью не менее 5 часов).
 
-Чтобы заранее ознакомиться с платформой и её особенностями, рекомендуется ознакомиться с видеоматериалами на YouTube.&#x20;
+Чтобы заранее ознакомиться с платформой и её особенностями, рекомендуется ознакомиться с видеоматериалами:&#x20;
 
 ### Вводные уроки
 
 * Быстрый старт
 
-{% embed url="https://www.youtube.com/watch?v=OOjwBw76Fzw" %}
+{% embed url="https://vkvideo.ru/playlist/-199871630_1/video-199871630_456239053?linked=1" %}
 
 * Работа с MS Word
 
-{% embed url="https://www.youtube.com/watch?v=gwX3ZMR02Dc" %}
+{% embed url="https://vkvideo.ru/playlist/-199871630_1/video-199871630_456239052?linked=1" %}
 
 * Работа с переменными и выражениями
 
-{% embed url="https://www.youtube.com/watch?v=cySmnug2KTU" %}
+{% embed url="https://vkvideo.ru/playlist/-199871630_1/video-199871630_456239050?linked=1" %}
 
 ## Основная часть обучения
 
@@ -81,7 +81,7 @@
 * Инструментами отладки сценариев: режимом отладки, проходом сценария по шагам и точками останова;
 * Библиотекой сценариев и демо проектов:&#x20;
 
-{% embed url="https://youtu.be/PfqGNkYH2iI" %}
+{% embed url="https://rutube.ru/video/private/814401e6a797dcf6b78a28ed036b8e6a/?p=PMBoHFoRoLVCH7UnVdIqPw" %}
 
 ### Часть 2
 
@@ -94,7 +94,7 @@
 
 Также мы подробно разберем несколько демонстрационных проектов.
 
-{% embed url="https://youtu.be/MLvt_pKaA5U" %}
+{% embed url="https://rutube.ru/video/private/533655562a30254d094fa03aadc18234/?p=9YGQjMR_J1BNGedKhYIlRw" %}
 
 ### Часть 3
 
@@ -105,7 +105,7 @@
 * обработкой ошибок и исключительных ситуаций,&#x20;
 * отладкой проекта.
 
-{% embed url="https://youtu.be/CTvYyf105Ng" %}
+{% embed url="https://rutube.ru/video/private/cc217c0e0662575add86da29c0312762/?p=0qlhV32d5RtE-4G1jIK9fA" %}
 
 ### Часть 4
 
@@ -113,19 +113,23 @@
 
 * автоматизацией RDP,&#x20;
 * SAP,&#x20;
-* структурой и технологией организации проектов,
+* структурой и технологией организации проектов.
 
-{% embed url="https://youtu.be/5_v9S0YlPl0" %}
+{% embed url="https://rutube.ru/video/private/078dabcc5d4a0c4a94bd0c9cdbf773b4/?p=Rqa94VbyigwBuaF7bKyN0Q" %}
 
-* Sherpa IDP (Шаблонизатором).
+* Sherpa IDP (Шаблонизатором):
 
-{% embed url="https://youtu.be/Zo8LiW1eZdk" %}
+1. Создание шаблона справки
 
-{% embed url="https://youtu.be/UcwHRT-xlXI" %}
+{% embed url="https://rutube.ru/video/private/1f1fe40d36ff545601752c0767643750/?p=mZftgzszfXWALsSvRM5M4A" %}
 
-{% embed url="https://youtu.be/2ngqBRB4eoo" %}
+2. Создание шаблона УПД
 
-{% embed url="https://sherparpa.ru/ucontent/?04" %}
+{% embed url="https://rutube.ru/video/private/45db69256b4eee19a9fa48d63531ae71/?p=8xjKfbVz4RxBR_-AEv0ikg" %}
+
+3. Создание шаблона счета на оплату
+
+{% embed url="https://rutube.ru/video/private/6bfb7018548a78dcd66e90211d9c688f/?p=szjn4LwMssUs-TKuVp31fg" %}
 
 ## Тестовые задания
 
