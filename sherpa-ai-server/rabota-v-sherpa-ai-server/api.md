@@ -44,7 +44,7 @@
 
 По клику на иконку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-aqpnIbv0y24wAoXIMcS0SCIZtQ3ttBrV8lnZw5ciOIhyT4H4tR1OZXqSS6N8wJHuZ8nMCTiE5YbwYDI5hPoxncZIRjH6WYi5-PZfmOretSWmz9BmrnZe1isbcMfKHhw95N5mFQ?key=uiwU7hKhsXZnEihZUEsDW2IP) справа от нужного метода, раскрывается соответствующая страница:
 
-#### 1. Создание новой папки
+1\. Создание новой папки
 
 * Эндпоинт: /api/folders/create
 * Метод: POST;
@@ -59,7 +59,7 @@ Description: Описание для новой папки.
 
 <table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td><p>```json</p><p>   {</p><p>   "Name": "New Folder 1",</p><p>   }</p><p>   ```</p></td><td><p>  [</p><p>   "guid": "16f94238-ede9-435b-a001-1489b32e7dc2",  </p><p>   ] </p></td></tr></tbody></table>
 
-#### 2. Получение информации о папке по GUID
+2\. Получение информации о папке по GUID
 
 * Эндпоинт: /api/folders/read/{guid}&#x20;
 * Метод: GET;
@@ -101,7 +101,7 @@ Description: Описание для новой папки.
 
 <table data-header-hidden><thead><tr><th width="300"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td><p>```json</p><p>   {</p><p>   "Guid": "554ab883-1f82-48e1-bb12-5049002e7d70",</p><p>   "Name": "New Folder Name",</p><p>   }</p><p>   ```</p></td><td>  [] </td></tr></tbody></table>
 
-#### 5. Создание нового файла
+5\. Создание нового файла
 
 * Эндпоинт: /api/files/create&#x20;
 * Метод: POST;
