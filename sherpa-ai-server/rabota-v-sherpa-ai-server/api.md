@@ -307,7 +307,7 @@ content (обязательно): Текст сообщения.
 * Авторизация: обязательна;
 * Параметры:
 
-RobotGUID: GUID Робота;
+RobotGUID: GUID;
 
 ProcessVersionGUID: GUID версии Процесса;
 
