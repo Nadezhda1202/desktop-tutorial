@@ -22,11 +22,11 @@
 
 Пример:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdstHkRLAWjhCfGu-kLmXrFcC8SUHqd5v2jye1q4JEw2Ap_ZJYKPQ5kyglQRVnevaFZgDsFNSuM0moxOmo1Si5Lt6WXtWZ0gku6Jb17fR8i-CI927pe7sAbcWm1URxMDOhpLuMANQ?key=uiwU7hKhsXZnEihZUEsDW2IP" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed (1).png" alt=""><figcaption></figcaption></figure>
 
 “Bearer” — тип токена,
 
-“Y2Y5M2U3OGUtMDk1ZC00MGNjLTkwNWUtZTYyNjUwMTg5YjU2” — сам токен, который сервер будет использовать для идентификации Пользователя.
+“Y2Y5M2U3OGUtMDk1ZC00MGNjLTkwNWUtZTYyNjUwM\_\_\_\_\_\_\_” — сам токен, который сервер будет использовать для идентификации Пользователя.
 
 Запросы к API осуществляются с обязательной передачей API Key, который хранится в настройках Учетной записи. Подробные примеры запросов приведены в разделе по каждому блоку отдельно.
 
