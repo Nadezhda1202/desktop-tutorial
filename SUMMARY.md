@@ -1037,7 +1037,7 @@
     * [Схема работы с Yandex Vision](bezopasnost/opisanie-obmena-dannymi-s-servisom-yandex-vision/skhema-raboty-s-yandex-vision.md)
     * [Схема работы платформы Sherpa RPA c Yandex Vision через VPN](bezopasnost/opisanie-obmena-dannymi-s-servisom-yandex-vision/skhema-raboty-platformy-sherpa-rpa-c-yandex-vision-cherez-vpn.md)
 * [Академия Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/README.md)
-  * [Обучающий курс по разработке на Платформе Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
+  * [Базовый обучающий курс по разработке на Платформе Sherpa RPA](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchayushii-kurs-po-razrabotke-na-platforme-sherpa-rpa.md)
   * [Обучение PowerShell](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/obuchenie-powershell.md)
   * [Список команд для Sherpa Designer](obuchenie-po-razrabotke-na-platforme-sherpa-rpa/spisok-komand-dlya-sherpa-designer.md)
 * [Видео с примерами работы платформы Sherpa RPA](video-s-primerami-raboty-platformy-sherpa-rpa.md)
