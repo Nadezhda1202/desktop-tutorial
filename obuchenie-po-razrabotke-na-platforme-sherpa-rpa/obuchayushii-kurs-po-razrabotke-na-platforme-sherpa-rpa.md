@@ -213,7 +213,7 @@
 
 По любым вопросам можно писать нам:
 
-* на электронную почту [info@sherprpa.ru](mailto:info@sherprpa.ru) ;
+* на электронную почту [info@sherparpa.ru](mailto:info@sherparpa.ru) ;
 * в специальный телеграм-чат, созданный в процессе обучения;
 * в чат разработчиков Sherpa RPA:&#x20;
 
