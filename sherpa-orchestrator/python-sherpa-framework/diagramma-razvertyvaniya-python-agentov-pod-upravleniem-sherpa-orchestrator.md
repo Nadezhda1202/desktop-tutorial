@@ -1,8 +1,8 @@
-# Диаграмма развертывания Python-агентов под управлением Sherpa Orchestrator + Sherpa AI Server
+# Диаграмма развертывания Python-агентов под управлением Sherpa Orchestrator
 
 <figure><img src="../../.gitbook/assets/изображение (250).png" alt=""><figcaption></figcaption></figure>
 
-Полноценная диаграмма с Sherpa AI Server доступна по ссылке:
+Полноценная диаграмма доступна по ссылке:
 
 {% file src="../../.gitbook/assets/Диаграмма развертывания Python-агентов под управлением Sherpa Orchestrator + Sherpa AI Server.pdf" %}
 

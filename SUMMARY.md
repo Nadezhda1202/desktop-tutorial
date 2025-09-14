@@ -946,7 +946,7 @@
     * [Пример вызова API на языке Python](sherpa-orchestrator/api/primer-vyzova-api-na-yazyke-python.md)
   * [Python Sherpa Framework](sherpa-orchestrator/python-sherpa-framework/README.md)
     * [Системные требования](sherpa-orchestrator/python-sherpa-framework/sistemnye-trebovaniya.md)
-    * [Диаграмма развертывания Python-агентов под управлением Sherpa Orchestrator + Sherpa AI Server](sherpa-orchestrator/python-sherpa-framework/diagramma-razvertyvaniya-python-agentov-pod-upravleniem-sherpa-orchestrator-+-sherpa-ai-server.md)
+    * [Диаграмма развертывания Python-агентов под управлением Sherpa Orchestrator](sherpa-orchestrator/python-sherpa-framework/diagramma-razvertyvaniya-python-agentov-pod-upravleniem-sherpa-orchestrator.md)
     * [Конфигурация сети](sherpa-orchestrator/python-sherpa-framework/konfiguraciya-seti.md)
     * [Первоначальная установка и настройка компонентов платформы (на примере Sherpa Orchestrator)](sherpa-orchestrator/python-sherpa-framework/pervonachalnaya-ustanovka-i-nastroika-komponentov-platformy-na-primere-sherpa-orchestrator.md)
     * [Алгоритм работы Python-фреймворка](sherpa-orchestrator/python-sherpa-framework/algoritm-raboty-python-freimvorka.md)
