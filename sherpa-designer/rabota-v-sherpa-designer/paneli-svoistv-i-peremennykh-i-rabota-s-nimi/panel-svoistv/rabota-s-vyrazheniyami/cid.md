@@ -47,4 +47,4 @@ $attachment.IsInline = $true
 $email.SendAndSaveCopy()
 ```
 
-<figure><img src="../../../../../.gitbook/assets/изображение.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/изображение (5).png" alt=""><figcaption></figcaption></figure>
