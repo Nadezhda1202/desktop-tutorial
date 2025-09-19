@@ -419,7 +419,7 @@ thread\_id: Идентификатор чата.
 
 * Пример:
 
-<table data-header-hidden><thead><tr><th width="364"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td><p>```json</p><p>   {</p><p>    "assistant_id": 1,</p><p>   "messages": [</p><p>        {</p><p>        "content": "Привет, как дела?",</p><p>        "role": "user",</p><p>        "name": "Иван"</p><p>        },</p><p>        {</p><p>        "content": "Все хорошо, спасибо!",</p><p>        "role": "system",</p><p>        "name": "Система"</p><p>        }</p><p>    ]</p><p>   "model": "/model-store/meta-llama/Meta-Llama-3-8B-Instruct",</p><p>   "temperature": 0.7,</p><p>   "assistant_id": 1,</p><p>   "thread_id": 200</p><p>    }</p><p>    ```</p></td><td>[]</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="364"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td><p>```json</p><p>   {</p><p>   "messages": [</p><p>        {</p><p>        "content": "Привет, как дела?",</p><p>        "role": "user",</p><p>        "name": "Иван"</p><p>        },</p><p>        {</p><p>        "content": "Все хорошо, спасибо!",</p><p>        "role": "system",</p><p>        "name": "Система"</p><p>        }</p><p>    ]</p><p>   "model": "/model-store/meta-llama/Meta-Llama-3-8B-Instruct",</p><p>   "temperature": 0.7,</p><p>   "assistant_id": 1,</p><p>   "thread_id": 200</p><p>    }</p><p>    ```</p></td><td>[]</td></tr></tbody></table>
 
 ### &#x20;4. Получение информации о текущей используемой модели
 
