@@ -394,12 +394,14 @@ enable\_subfolders (обязательно): Включение подпапок
 
 <table data-header-hidden><thead><tr><th width="357"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td><p>```json</p><p>   {</p><p>   "text_for_search": "пример текста",</p><p>   "n_top": 5,</p><p>   "files_ids": "[\"123e4567-e89b-12d3-a456-426614174000\", \"123e4567-e89b-12d3-a456-426614174001\"]",  </p><p>   "folder_ids": "[\"123e4567-e89b-12d3-a456-426614174002\", \"123e4567-e89b-12d3-a456-426614174003\"]",  </p><p>    "enable_subfolders": 1</p><p>    }</p><p>    ```</p></td><td>  [] </td></tr></tbody></table>
 
-3\. Получение ответа от нейросети
+### 3. Получение ответа от нейросети
 
 * Эндпоинт: /api/threads/message
 * Метод: POST;
 * Авторизация: обязательна;
 * Параметры:
+
+assistant\_id (обязательно): Идентификатор ассистента;
 
 messages (обязательно): Массив объектов, каждый из которых представляет сообщение;
 
@@ -415,9 +417,9 @@ model (обязательно): Строка, указывающая путь к
 
 * Пример:
 
-<table data-header-hidden><thead><tr><th width="364"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td><p>```json</p><p>   {</p><p>   "messages": [</p><p>        {</p><p>        "content": "Привет, как дела?",</p><p>        "role": "user",</p><p>        "name": "Иван"</p><p>        },</p><p>        {</p><p>        "content": "Все хорошо, спасибо!",</p><p>        "role": "system",</p><p>        "name": "Система"</p><p>        }</p><p>    ]</p><p>   "model": "/model-store/meta-llama/Meta-Llama-3-8B-Instruct",</p><p>   "temperature": 0.7,</p><p>    }</p><p>    ```</p></td><td>[]</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="364"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td><p>```json</p><p>   {</p><p>    "assistant_id": 1,</p><p>   "messages": [</p><p>        {</p><p>        "content": "Привет, как дела?",</p><p>        "role": "user",</p><p>        "name": "Иван"</p><p>        },</p><p>        {</p><p>        "content": "Все хорошо, спасибо!",</p><p>        "role": "system",</p><p>        "name": "Система"</p><p>        }</p><p>    ]</p><p>   "model": "/model-store/meta-llama/Meta-Llama-3-8B-Instruct",</p><p>   "temperature": 0.7,</p><p>    }</p><p>    ```assistant_id=1</p></td><td>[]</td></tr></tbody></table>
 
-&#x20;4\. Получение информации о текущей используемой модели
+### &#x20;4. Получение информации о текущей используемой модели
 
 * Эндпоинт: /api/threads/models
 * Метод: GET;
@@ -427,7 +429,7 @@ model (обязательно): Строка, указывающая путь к
 
 <table data-header-hidden><thead><tr><th width="255"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td>/api/threads/models</td><td><p>```json</p><p>      {</p><p>      "object": "list",</p><p>      "data": [</p><p>           {</p><p>           "id": "/model-store/meta-llama/Meta-Llama-3-8B-Instruct",    "object": "model",</p><p>           "created": 1735113788,</p><p>           "owned_by": "vllm",</p><p>           "root": "/model-store/meta-llama/Meta-Llama-3-8B-Instruct",</p><p>           "parent": null,</p><p>           "permission": [</p><p>                {</p><p>                "id": "modelperm-d7ddf889e9aa423b9949d1cdc551ff21",</p><p>                "object": "model_permission",</p><p>                "created": 1735113788,</p><p>                "allow_create_engine": false,</p><p>                "allow_sampling": true,</p><p>                "allow_logprobs": true,</p><p>                "allow_search_indices": false,</p><p>                "allow_view": true,</p><p>                "allow_fine_tuning": false,</p><p>                "organization": "*",</p><p>                "group": null,</p><p>                "is_blocking": false</p><p>                }</p><p>           ]</p><p>           }</p><p>      ]</p><p>      }</p><p>      ```</p></td></tr></tbody></table>
 
-5\. Получение сообщения от Ассистента
+### 5. Получение сообщения от Ассистента
 
 * Эндпоинт: /api/threads/getUpdates
 * Метод: GET;
@@ -442,7 +444,7 @@ offset: Идентификатор сообщения, с которого не�
 
 <table data-header-hidden><thead><tr><th width="249"></th><th></th></tr></thead><tbody><tr><td>Запрос</td><td>Ответ</td></tr><tr><td>/api/threads/getUpdates?assistant_id=1&#x26;offset=0</td><td><p>```json</p><p>   {</p><p>   "error": "Licensing error: license is absent, expired, not activated or limits are reached"</p><p>    }</p><p>  </p><p>   или</p><p>  </p><p>   {</p><p>   "result": 1,</p><p>   "data": [</p><p>        {</p><p>        "id": "1195",</p><p>        "thread_id": "221",</p><p>        "created": "2024-09-11 09:08:48",</p><p>        "updated": "2024-09-11 09:08:48",</p><p>        "content": "{\"type\":\"text\",\"text\":{\"value\":\"привет\",\"annotations\":[]}}",</p><p>        "role": "user",</p><p>        "account_id": "1",</p><p>        "is_deleted": "0",</p><p>        "folder_id": "[]",</p><p>        "file_id": "[]",</p><p>        "update_id": null</p><p>        },</p><p>        {</p><p>        "id": "1196",</p><p>        "thread_id": "221",</p><p>        "created": "2024-09-11 09:08:49",</p><p>        "updated": "2024-09-11 09:08:49",</p><p>        "content": "{\"type\":\"text\",\"text\":{\"value\":\"Привет! Рад видеть вас! Как я могу помочь вам сегодня?\",\"annotations\":[]}}",</p><p>        "role": "assistant",</p><p>        "account_id": "1",</p><p>        "is_deleted": "0",</p><p>        "folder_id": null,</p><p>        "file_id": null,</p><p>        "update_id": null</p><p>        }</p><p>        ]</p><p>   }</p><p>   ```</p></td></tr></tbody></table>
 
-&#x20;6\. Отправка сообщения в чат
+### &#x20;6. Отправка сообщения в чат
 
 * Эндпоинт: /api/threads/chat
 * Метод: POST;
