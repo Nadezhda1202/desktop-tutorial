@@ -62,7 +62,7 @@
 
 На вкладке "Telegram бот" пользователи могут интегрировать своего Ассистента с платформой Telegram, что открывает новые возможности для взаимодействия.
 
-<figure><img src="../../.gitbook/assets/изображение (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/изображение (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Токен Telegram-бота**
 

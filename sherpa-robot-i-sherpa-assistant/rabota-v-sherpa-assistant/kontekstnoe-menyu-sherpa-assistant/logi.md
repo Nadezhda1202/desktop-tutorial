@@ -6,4 +6,4 @@
 
 Логи, в свою очередь, сохраняются в отдельные папки с указанием даты сохранения:
 
-<figure><img src="../../../.gitbook/assets/изображение (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/изображение (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
