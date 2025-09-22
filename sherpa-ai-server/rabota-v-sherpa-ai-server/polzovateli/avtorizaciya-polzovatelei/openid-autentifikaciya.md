@@ -2,7 +2,7 @@
 
 Для создания Пользователя с методом входа в систему “OpenID-аутентификация” необходимо заполнить чекбокс “Использовать OpenID аутентификацию”, а затем заполнить поле “oAuth id”:
 
-<figure><img src="../../../../.gitbook/assets/изображение (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/2025-07-30_15-33-13.png" alt=""><figcaption></figcaption></figure>
 

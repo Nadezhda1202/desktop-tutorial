@@ -28,11 +28,11 @@
 
 Для добавления новой ссылки необходимо нажать правой кнопкой мыши на пункте “Ссылки” и выбрать “Добавить ссылку”.
 
-<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 После чего откроется окно “Менеджер ссылок”, которое позволяет выбрать необходимые сборки (файлы DLL), предоставляемые Framework или же добавить свою сборку.
 
-<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [Использование ссылок на примере подключения своей библиотеки на С# для использования в проекте продемонстрировано здесь.](https://sherparpa.ru/ucontent/?07)
 
@@ -44,7 +44,7 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcPIcQrV_kT6ZR1RfZ79tyiT4HtI7CUnS5X4B2sFAMaySR_li_TX3WPpl5Uo2Pp260FmyURlHBJB-7etgEocwHxsh5RZliWUh1KLFX09iIPBg6h5Laf0X4uzCyz53vwSjY39TF-DgoSKuYZMK15ZvDdJ0Ux?key=hkb4d-2cPaGQ51ygcyhvzQ" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/изображение (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Меню “Добавить”
 
@@ -58,4 +58,4 @@
 
 <table data-header-hidden><thead><tr><th width="53"></th><th width="187"></th><th width="388"></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Опция</strong></td><td><strong>Описание</strong></td></tr><tr><td>1.</td><td>пункт “Установить диаграмму как главную”</td><td>Позволяет установить выбранную диаграмму как главную.</td></tr><tr><td>2.</td><td>пункт “Вырезать”</td><td>Позволяет вырезать выбранный фай проекта. </td></tr><tr><td>3.</td><td>пункт “Копировать”</td><td>Позволяет копировать выбранный файл проекта. </td></tr><tr><td>4.</td><td>пункт “Удалить”</td><td>Позволяет удалить выбранный файл проекта.  </td></tr><tr><td>5.</td><td>пункт “Переименовать”</td><td>Позволяет переименовать выбранный файл проекта.  </td></tr><tr><td>6.</td><td>пункт “Показать файл в проводнике”</td><td>Показывает путь к выбранному файлу на Вашем компьютере.</td></tr></tbody></table>
 
-<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/изображение (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
