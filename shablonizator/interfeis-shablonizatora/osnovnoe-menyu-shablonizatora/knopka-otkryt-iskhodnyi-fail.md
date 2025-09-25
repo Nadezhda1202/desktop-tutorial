@@ -1,7 +1,14 @@
 # Кнопка "Открыть исходный файл"
 
-Шаблонизатор позволяет выбрать и открыть ранее сохраненный сканированный документ, который будет использоваться в качестве образца при создании шаблона для распознавания роботом определенного типа документа.
+Кнопка "Открыть исходный файл" позволяет выбрать и открыть ранее сохраненный сканированный документ, который будет использоваться в качестве образца при создании шаблона для распознавания Роботом определенного типа документа.
 
-Файл может быть представлен в одном из форматов: .pdf, .png, .jpeg, .jpg. Файл .pdf может быть многостраничным.
+Файл может быть представлен в одном из форматов:&#x20;
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdG9bsGx1zamwvOUCb1v9Eo1degsK0JkuWpb9AJkIo9TnBrgvFegEfOk_0rTZlRbErn7I7LP9HdoGifGVuDkt-5KzoohsGOZDPYcZQ_ttBUx9JWIwv30Zx6xFQXc0fbkDRbomRutoY78vhsza1idCYbD5M?key=MBC6hVHKTrgfBdJNL64AXQ" alt=""><figcaption></figcaption></figure>
+* `.pdf`,&#x20;
+* `.png`,&#x20;
+* `.jpeg`,&#x20;
+* `.jpg`.&#x20;
+
+Файл `.pdf` может быть многостраничным.
+
+<figure><img src="../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
