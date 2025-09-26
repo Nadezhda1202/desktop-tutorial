@@ -4,7 +4,7 @@
 
 После нажатия на кнопку открывается окно “Результат полного сканирования”, в котором отображаются распознанные данные из документа в виде заполненной таблицы.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
 Режим работы:
 
