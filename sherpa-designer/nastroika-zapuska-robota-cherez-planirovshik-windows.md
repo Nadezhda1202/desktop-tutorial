@@ -57,3 +57,9 @@
 Затем изменить сценарий/аргументы/рабочую папку в соответствующих полях:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfvfi4v95YzJ8bT6ftpCEA1ZnxkTavGlQ9-22S3E90FiSNDVYX3qRuYvr6at4951g4zcKF6xtvRZZWgwyCJCmVU9hzc54CKCoycpQPI68bpo-PvfjzuA5Robwu-2zEgcEeC9XgTnQ?key=dRp2CEeBqzGR5-j7pLpY76m1" alt=""><figcaption></figcaption></figure>
+
+## Видео
+
+Запуск Робота через Планировщик Windows продемонстрирована в следующем видео:
+
+{% embed url="https://sherparpa.ru/ucontent/?03" %}
