@@ -16,7 +16,7 @@
 
 {% embed url="https://sherparpa.ru/ucontent/?06" %}
 
-* **Работа с консолью в Sherpa Designer при отладка проектов**
+* **Работа с консолью в Sherpa Designer при отладке проектов**
 
 {% embed url="https://sherparpa.ru/ucontent/?02" %}
 
