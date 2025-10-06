@@ -138,7 +138,7 @@
 
 **Обрабатывать все страницы** — параметр, позволяющий включить обработку всех страниц в документе. Этот режим не делает проверку якоря LastPage.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Склеивать блоки**
 

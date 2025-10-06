@@ -26,11 +26,41 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7KeURziSoCP7sRoIngSynAJQyeGMBjHHnDD5_CS1KiblAV6wQQohDLQHTpGErZ_ZeL8hGnIJgFi0eAZtHilZzAgXo0gDSpX9FrXseggejULTv44RQLdkH_s-YlS7RtA2I3cATxQ?key=dRp2CEeBqzGR5-j7pLpY76m1" alt=""><figcaption></figcaption></figure>
 
-4.1. Откроется окно “Создать простую задачу”. Последовательно заполняйте поля во вкладках “Создание простой задачи”, “Триггер” и “Действие”, нажимая на кнопку “Далее”. В появившейся вкладке “Запуск программы” нажмите на кнопку “Обзор…”:
+4.1. Откроется окно “Создать простую задачу”. Последовательно заполняйте поля во вкладках:&#x20;
+
+* “Создание простой задачи”:
+
+<figure><img src="../.gitbook/assets/создание простой задачи.png" alt=""><figcaption></figcaption></figure>
+
+* “Триггер”:
+
+<figure><img src="../.gitbook/assets/триггер задачи.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/триггер ежедневно.png" alt=""><figcaption></figcaption></figure>
+
+* “Действие”:
+
+<figure><img src="../.gitbook/assets/выберите действие.png" alt=""><figcaption></figcaption></figure>
+
+В появившейся вкладке “Запуск программы” нажмите на кнопку “Обзор…”:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfEmyKX8Ib9aJBU0JIJoaG00FP05LxxPXFoWrg9AYBNr7ATklpXOuNDWFk1lQZfb9yQhDxtyb_2CA4JPOUJJ3NWojEPO9QSfRPLxl-N4LYAi99oexC6PrBzSltdlnO3Su9fUCIymA?key=dRp2CEeBqzGR5-j7pLpY76m1" alt=""><figcaption></figcaption></figure>
 
 Найдите проект (Робота), сохраненный на Рабочем столе, кликните на него левой кнопкой мыши и нажмите на кнопку “Открыть”.
+
+Добавьте в аргументы ProcessAgent.exe для запуска Робота. Для этого нажмите правой кнопкой мышки на&#x20;
+
+<figure><img src="../.gitbook/assets/2025-10-06_18-37-31.png" alt=""><figcaption></figcaption></figure>
+
+Найдите файл ProcessAgent.exe:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+И скопируйте путь к нему: `...\AppData\Roaming\Sherpa RPA\Robot\ProcessAgent.exe`
+
+Вставьте скопированный путь в поле "Добавить аргументы (необязательно)":
+
+<figure><img src="../.gitbook/assets/параметры (1).png" alt=""><figcaption></figcaption></figure>
 
 4.2. Нажмите на кнопку “Далее”, проверьте описание задачи и затем нажмите на кнопку “Готово”.
 
@@ -42,7 +72,7 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFzWzi8A-bPDu0Y1TV4gJOs5B4KjkMxhMwkMts1FMfc_hTwhuBB1DrZ_pMVWJaHy7mMcYetxjSjVqXjQq_CR19ecrxqEFC5XR9CTH0Opd35oRXMwnl328w6ubQyAFK22SVWwDLiA?key=dRp2CEeBqzGR5-j7pLpY76m1" alt=""><figcaption></figcaption></figure>
 
-5.1. Во всплывающем окне “Каким образом вы хотите открыть этот файл” нажмите на “Sherpa RPA Robot” и подтвердите свой выбор нажатием на кнопку “ОК”:
+5.1. Если откроется всплывающее окно “Каким образом вы хотите открыть этот файл”, то нажмите на “Sherpa RPA Robot” и подтвердите свой выбор нажатием на кнопку “ОК”:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcSwHJSrwbFbCVoIkbDp5OSBcF2VR8yoyAb4GI-ThPlY0FiK2EdiSIABQ7yXnnCHVz6GUfktZH_YS3QRD2XOeFOqrIQMF9DImvipuat_4pRQul5Uou3uVRVfWDcZevDRevIFBrL?key=dRp2CEeBqzGR5-j7pLpY76m1" alt=""><figcaption></figcaption></figure>
 
