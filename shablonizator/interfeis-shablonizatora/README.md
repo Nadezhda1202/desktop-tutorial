@@ -15,3 +15,7 @@
 1. [Основное меню ](osnovnoe-menyu-shablonizatora/)(верхняя панель).
 2. [Центральная рабочая область Шаблонизатора](centralnaya-rabochaya-oblast-shablonizatora.md) – область для работы с шаблоном обрабатываемого документа.
 3. [Панель настроек](panel-nastroek-shablonizatora/).
+
+## Видео с демонстрацией работы Шаблонизатора
+
+{% embed url="https://sherparpa.ru/ucontent/?04" %}
