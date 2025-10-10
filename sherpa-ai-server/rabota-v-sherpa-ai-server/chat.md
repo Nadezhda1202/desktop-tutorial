@@ -70,7 +70,7 @@
 
 > Создание папок осуществляется с помощью пункта меню "Документы" на левой панели.
 
-Чтобы добавить текстовый файл с компьютера, нажмите кнопку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdv94_HT3ZZm0hgsE0n8wPWnGdrmJe65cU8RtAGL640lN-VBCU6O22XwIYA5CRjx0i5gRmgY4v0HPPvdgjGKxXNwKV56MBdq9Z8i4Lt59Cp99T_DhtxQourF7l3safx1saCRgSZHQ?key=jXxpQJRYkQW6F4d0HoRgIxP1) и в открывшемся окне выберите нужный файл (поддерживаются любые форматы текстовых файлов) и нажмите кнопку “Открыть”:
+Чтобы добавить текстовый файл с компьютера, нажмите кнопку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdv94_HT3ZZm0hgsE0n8wPWnGdrmJe65cU8RtAGL640lN-VBCU6O22XwIYA5CRjx0i5gRmgY4v0HPPvdgjGKxXNwKV56MBdq9Z8i4Lt59Cp99T_DhtxQourF7l3safx1saCRgSZHQ?key=jXxpQJRYkQW6F4d0HoRgIxP1) и в открывшемся окне выберите нужный файл (поддерживаются любые форматы текстовых файлов: `.doc`, `.docx`, `.xls`, `.xslx`, `.txt`, `.pdf`) и нажмите кнопку “Открыть”:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfx5KeLp6wLVj_I8tR6FrL7rwWKdC0RN4p4jwO-QqIOI1xtr8Vguazys040j1HwOjw9RBqoC88FVEeFNSBt061PvVBT8MG_TuFUQeA_bcY2tQ1PkEj2qY6EzKqU5alHK4wXtj72aA?key=jXxpQJRYkQW6F4d0HoRgIxP1" alt=""><figcaption></figcaption></figure>
 
