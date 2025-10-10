@@ -6,31 +6,19 @@
 
 ### 1. Открытие конструктора Дашбордов
 
-Для того, чтобы открыть конструктор Дашбордов:
+Для того чтобы открыть конструктор Дашбордов, войдите в свою учетную запись в меню "Разделы" ("Sections"), и перейдите в раздел "Обзор" ("Dashboard");
 
-* Войдите в свою учетную запись. В меню Разделы (Sections) и перейдите в раздел Обзор (Dashboard);
+<figure><img src="../../../.gitbook/assets/example dashboard.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfq1o9AELKJC54bYOD7NwabCe5Osgb08LP3DiZ3JZccnTXMp78itG8QOyGL-6tFT7oi9SjVDjnMlr1fntusGbw7-K4EOmSyjbzYhY5tbefV40wRaJIQ7UoM6bQC909PJpbpLR5v?key=nCUpXC2iKtVeq12Xi8RnWuyw" alt=""><figcaption></figcaption></figure>
-
-* Нажмите вкладку Настройка панелей (Customize Dashboards);
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd-QTxw5LUZeUUjNT2XTYd6lBT1GM3ccm3-2QfFifx4x7SUt4eW8G0h6x-ulQlcf3BKZeolkAyW32hN7fENfUze3wVnMkD6s6Sv4gu5SWQOfZt8_olfWMNjlYbAt57JW8djfSbSRw?key=nCUpXC2iKtVeq12Xi8RnWuyw" alt=""><figcaption></figcaption></figure>
+Нажмите вкладку "Настройка панелей" ("Customize Dashboards");
 
 ### 2. Создание нового Дашборда
 
 Для того, чтобы создать новый Дашборд:
 
-* Нажмите кнопку “Создать”:
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdB01EKVhUyOkuBjNcjsVHQmGTgOLwD7yTJMs9OFCq8vLHURPCmyDzWMmPrUxVxKmYrXoEC7aw6EnIHAtQDoSX5RyPRxQgGKlupu16z7HqguBnSZRh8vGHFs5aeX8Be7S5vg6AqyQ?key=nCUpXC2iKtVeq12Xi8RnWuyw" alt=""><figcaption></figcaption></figure>
-
-* Введите название вашего Дашборда в поле “Имя\*”. Заполните при необходимости поля “Описание” и “Папка доступа”. Нажмите кнопку ОК.
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdMmUeqK1lpgZhLL7QhwJilnZVovXmXDuTifh-oyDtkxbx9WnszpPc89ld30INzn6xjMRhpHGp8_lFrNMijjzxNNDi54PSm9OuKc51NiULleglSUuB_R13xur50eR_dTPbpG6B__w?key=nCUpXC2iKtVeq12Xi8RnWuyw" alt=""><figcaption></figcaption></figure>
-
-* Кликните на иконку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcBLWuaq-irFxozIXHcVo6SV5Trjze-T7najtIXGeJl7w63SdbA-3iV5ivp1HTAQBn-4G7VvPdGsYeBLwSWKwS-dF9tqaU8MgDLIfA-6IKFCFBY-Pt6y3uBVz2l7E1X5XR9DH0K?key=nCUpXC2iKtVeq12Xi8RnWuyw) (Дизайнер формы):
-
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd02EUvw3rf6EBkkPiRpuig2KvLMhucgW3SLZg5-DCTO9fro50yDP-3w3MwrSH2NSug1K_j1tVKumJdKTZwQoqMyXqX-clY9JLokUPWBrW2qGWpGXJ_aZTdRatDg9MPUmqi-SEQUw?key=nCUpXC2iKtVeq12Xi8RnWuyw" alt=""><figcaption></figcaption></figure>
+* Нажмите кнопку “Создать”.
+* Введите название вашего Дашборда в поле “Имя\*”. Заполните при необходимости поле “Описание”. Нажмите кнопку ОК.
+* Кликните на иконку ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcBLWuaq-irFxozIXHcVo6SV5Trjze-T7najtIXGeJl7w63SdbA-3iV5ivp1HTAQBn-4G7VvPdGsYeBLwSWKwS-dF9tqaU8MgDLIfA-6IKFCFBY-Pt6y3uBVz2l7E1X5XR9DH0K?key=nCUpXC2iKtVeq12Xi8RnWuyw) (Дизайнер формы).
 
 Теперь вы можете приступить к добавлению Виджетов.
 
@@ -38,33 +26,7 @@
 
 В меню конструктора найдите панель с доступными виджетами. Для этого нажмите на иконку всплывающего меню:
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeE-u_n00CO5lIf9iZz2WIytyscagyEHSybD2xq_QcvSP1u5_sD6hsPdRquEWdb0Yn0_DUdzpF2nDjrfz7PpU_LIJ0a6_N1-4-x2h9Uw3ysMZGqcvZTjWFtcC1ziRY10M7ysamNPA?key=nCUpXC2iKtVeq12Xi8RnWuyw" alt=""><figcaption></figcaption></figure>
-
-Выберите один из доступных вариантов виджетов:
-
-* Число (Number) – для отображения отдельных значений;
-
-[Построить Number](number.md)
-
-* Столбчатая диаграмма (Bar Chart) – для представления данных в виде столбцов;
-
-[Построить Bar Chart](bar-chart.md)
-
-* Круговая диаграмма (Pie Chart) – для визуализации процентного соотношения;
-
-[Построить Pie Chart](pie-chart.md)
-
-* Линейный график (Line Chart) – для анализа данных во времени;
-
-[Построить Line Chart](line-chart.md)
-
-* Временная шкала (Time Line) – для отображения событий в хронологическом порядке;
-
-[Построить Time Line](time-line.md)
-
-* Таблица (Table) – для отображения данных в виде строк и столбцов.
-
-[Построить Table](table.md)
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Во всплывающем окне можно воспользоваться следующими иконками в правом верхнем углу:
 
@@ -73,6 +35,26 @@
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXffgHVzO_yRACh32tEO3L0GdcE38VbnOtCP5O-lPj3t-V0mYacY2piDLmpwLcw71UwJjAyp2qydt8fCMQXDdjWDkgMoMUD0YMhJ8BowbIUmTd3xgb8UCnsfetz_weyNSIPWct3kWQ?key=nCUpXC2iKtVeq12Xi8RnWuyw) – Редактировать виджет;
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXczSjkZdWmkpIex-u5K_jzJYa_1jw5OcrxQJR1_vZ_LV1zRrbeDjilcvy9J153XsTXvQfZklZ9EPIRUkbuSwvQAjEwP2LEW4UKgY0m0X7BB3S0Z_Ki1kNrNoy2KCBT8BcspoNeqUA?key=nCUpXC2iKtVeq12Xi8RnWuyw) – Удалить виджет.
+
+В окне "Настройки виджета" есть возможность выбрать параметры для настройки внешнего вида Дашборда.
+
+<figure><img src="../../../.gitbook/assets/image_2025-10-09_13-26-08.png" alt=""><figcaption></figcaption></figure>
+
+### **Общие поля**
+
+* **“Название виджета \*”** – текстовое поле, заполняется вручную с клавиатуры;
+* **“Режим”** – всплывающий список, в котором нужно выбрать режим создания запроса для виджета:&#x20;
+
+| **Название**       | **Описание**                                                                                                                                                                                                                                                                                       |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Режим конструктора | Позволяет собрать запрос из отдельных блоков. В каждом блоке (Объединение таблиц, Фильтры, Ряды виджета, Группировка по, Сортировка, Количество строк) есть возможность настроить нужные команды для работы с данными, арифметические и логические команды, операторы сравнения.                   |
+| Продвинутый режим  | <p>Позволяет ввести запрос вручную в поле SQL:</p><p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcd7OIaI1R6U2xJuYuo33WaYxtzln9tYAyEjwgkaFQvmWk9805MgjR88D_8QBjGAHjvMQvGc2LJSshFRdlLNMIMSC0Bnxvufy0eEUv9QIz2KAfRGIeFykHpvaX7g_W6kqH1KqmPQg?key=nCUpXC2iKtVeq12Xi8RnWuyw" alt=""></p> |
+
+* **“Таблицы”** – всплывающий список со всеми доступными таблицами базы данных.
+
+Пример запроса, введенного вручную:
+
+<figure><img src="../../../.gitbook/assets/image_2025-10-09_13-27-35.png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Управление Дашбордами и доступом
 

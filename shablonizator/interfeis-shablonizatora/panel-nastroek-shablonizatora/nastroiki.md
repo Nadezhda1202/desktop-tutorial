@@ -138,19 +138,19 @@
 
 **Обрабатывать все страницы** — параметр, позволяющий включить обработку всех страниц в документе. Этот режим не делает проверку якоря LastPage.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Склеивать блоки**
 
 **Склеивать блоки** — параметр, позволяющий склеивать рядом стоящие блоки в один блок.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Разделить блоки**
 
 **Разделить блоки** — параметр, позволяющий разделить блоки, содержащие пробелы, на блоки без пробелов.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Игнорировать ошибки якорей**
 

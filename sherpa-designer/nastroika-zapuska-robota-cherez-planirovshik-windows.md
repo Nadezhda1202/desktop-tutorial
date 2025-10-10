@@ -50,7 +50,7 @@
 
 В открывшейся папке найти файл ProcessAgent.exe:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Скопировать путь к нему. Вставить скопированный путь (заключенный в кавычки) в поле "Программа или сценарий" во вкладке "Запуск программы".&#x20;
 
