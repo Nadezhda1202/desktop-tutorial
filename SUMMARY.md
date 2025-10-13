@@ -726,6 +726,8 @@
       * [Лемматизация текста (LemmatizationText)](sherpa-designer/spravochnik-blokov/analiz-tekstov-nlp-text-analysis/lemmatizaciya-teksta-lemmatizationtext.md)
       * [Извлечь части речи POS (ExtractPartsSpeech)](sherpa-designer/spravochnik-blokov/analiz-tekstov-nlp-text-analysis/izvlech-chasti-rechi-pos-extractpartsspeech.md)
       * [Извлечь сущности NER (ExtractEntities)](sherpa-designer/spravochnik-blokov/analiz-tekstov-nlp-text-analysis/izvlech-sushnosti-ner-extractentities.md)
+    * [Учетные данные и безопасность](sherpa-designer/spravochnik-blokov/uchetnye-dannye-i-bezopasnost/README.md)
+      * [Генерация TOTP](sherpa-designer/spravochnik-blokov/uchetnye-dannye-i-bezopasnost/generaciya-totp.md)
   * [URL-адреса по которым обращаются блоки онлайн-сервисов](sherpa-designer/url-adresa-po-kotorym-obrashayutsya-bloki-onlain-servisov.md)
   * [Примеры Роботов](sherpa-designer/primery-robotov/README.md)
     * [1С Приходная накладная](sherpa-designer/primery-robotov/1s-prikhodnaya-nakladnaya.md)
