@@ -8,7 +8,7 @@
 
 Для того чтобы открыть конструктор Дашбордов, войдите в свою учетную запись в меню "Разделы" ("Sections"), и перейдите в раздел "Обзор" ("Dashboard");
 
-<figure><img src="../../../.gitbook/assets/example dashboard.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/example dashboard.png" alt=""><figcaption></figcaption></figure>
 
 Нажмите вкладку "Настройка панелей" ("Customize Dashboards");
 
@@ -26,7 +26,7 @@
 
 В меню конструктора найдите панель с доступными виджетами. Для этого нажмите на иконку всплывающего меню:
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Во всплывающем окне можно воспользоваться следующими иконками в правом верхнем углу:
 
@@ -38,7 +38,7 @@
 
 В окне "Настройки виджета" есть возможность выбрать параметры для настройки внешнего вида Дашборда.
 
-<figure><img src="../../../.gitbook/assets/image_2025-10-09_13-26-08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image_2025-10-09_13-26-08.png" alt=""><figcaption></figcaption></figure>
 
 ### **Общие поля**
 
@@ -54,7 +54,7 @@
 
 Пример запроса, введенного вручную:
 
-<figure><img src="../../../.gitbook/assets/image_2025-10-09_13-27-35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image_2025-10-09_13-27-35.png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Управление Дашбордами и доступом
 
