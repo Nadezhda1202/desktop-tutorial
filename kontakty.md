@@ -6,7 +6,7 @@
 
 Вопросы, связанные с получением или обновлением лицензий, а также вопросы по обучению:
 
-[info@sherparpa.ru](mailto:info@sherparpa.ru)
+[academy@sherparpa.ru](mailto:academy@sherparpa.ru)
 
 Любые вопросы и комментарии по разработке роботов можно написать в телеграм-чат:
 
