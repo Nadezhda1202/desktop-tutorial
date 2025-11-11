@@ -1,79 +1,128 @@
----
-hidden: true
----
-
 # Циклы
 
-·         [Подробнее](https://fixmypc.ru/post/kak-rabotat-s-tsiklami-v-powershell-foreach-object-i-while-na-primerakh/)
+## Командлет ForEach-Object
 
-·         Отличительной чертой циклов в Powershell является их количество, всего их 7:
+Foreach-Object — командлет для обработки потоков данных.
 
-\*    Foreach-Object - команда;
+Foreach-Object применяется для построчной обработки элементов по мере их поступления во входной поток:
 
-\*    Foreach - выражение;
+```powershell
+ForEach-Object -InputObject (Get-Process) -Process { $_ }
+```
 
-\*    Foreach() - метод;
+```powershell
+Get-Process | ForEach-Object { $_.Name }
+Get-Process | % { $_.Name }                          # % — псевдоним ForEach-Object
+Get-Process | foreach { $_.Name }                    # alias ключевого слова foreach
+```
 
-\*    For - цикл;
+Операторы `break` и `continue` не работают с ForEach-Object, т.к. это не цикл в привычном понимании, а обработка объекта конвейером.
 
-\*    While - цикл;
+## Цикл Foreach
 
-\*    Do-While - цикл;
+Цикл Foreach — это цикл для обработки коллекций.
 
-\*    Do-Until - цикл.
+Цикл `foreach` итерируется по коллекции:
 
-·         ForEach-Object:
+```powershell
+foreach ($item in $array) {
+  # действия с $item
+}
+```
 
-\*    ForEach-Object -InputObject (Get-Process) -Process {$\_}
+Оператор `continue` пропускает оставшуюся часть текущей итерации и переходит к следующей.
 
-\*    Get-Process| ForEach-Object {$\_.Name}
+Оператор `break` полностью прерывает цикл.
 
-\*    Get-Process| % {$\_.Name}
+Для выхода из вложенных циклов можно использовать метку:
 
-\*    Get-Process| foreach {$\_.Name}
+```powershell
+:outer foreach ($i in $array1) {
+  foreach ($j in $array2) {
+    if (<условие>) { break outer }
+  }
+}
+```
 
-\*    Операторы break и continue не работают
+## Метод ForEach
 
-·         ForEach:
+Метод ForEach() в PowerShell — это метод коллекций (например, массивов, списков), который позволяет выполнить указанный скрипт или действие для каждого элемента коллекции. Он вызывается на объекте коллекции, принимает блок скрипта и последовательно применяет его к всем элементам, передавая текущий элемент в специальную переменную $PSItem (аналог $\_ в конвейерах).
 
-\*    foreach ($item in $array) {Scriptblock}
+```powershell
+$collection.ForEach({ 
+    # Здесь $PSItem - текущий элемент коллекции
+    Write-Output $PSItem 
+})
+```
 
-\*    Оператор continue минует выполнение оставшейся части скрипта после своего выполнения
+Этот метод удобен, когда надо выполнить действие для элементов коллекции без использования цикла foreach или командлета ForEach-Object.
 
-\*    В отличие от continue, break останавливает итерации полностью
+## Цикл For
 
-\*    Outer – если при вложенности циклов foreach нужно выйти из всех:
+Цикл For — классический итеративный цикл.
 
-:outer foreach ($item in $array) {foreach ($item in $array) {…. Break outer ……\}}
+Синтаксис похож на языки C-подобного типа:
 
-·         Метод ForEach:
+```powershell
+for (инициализация; условие; действие) {
+  # тело цикла
+}
+```
 
-\*    $collection.Foreach({$PSItem})
+Пример:
 
-·         For:
+```powershell
+for ($i = 1; $i -le 10; $i++) {
+  Write-Host $i
+}
+```
 
-\*    for (объект; условие; действие) {ScriptBlock}
+Оператор `continue` пропускает оставшуюся часть текущей итерации и переходит к следующей.
 
-\*    for ($i=1; $i -le 10; $i++) {Write-Host $i}
+Оператор `break` полностью прерывает цикл.
 
-\*    Операторы break и continue работают так же
+## Циклы While и Do-While
 
-·         While и Do While:
+Цикл While — это цикл с предусловием. While сначала проверяет условие, потом выполняет тело:
 
-\*    While ($a -le 10) { $a++} – сначала проверка, потом скрипт
+```powershell
+while ($a -le 10) {
+  $a++
+}
+```
 
-\*    Do{$i++} While($i -le 10) – сначала скрипт потом проверка
+Цикл Do-While — это цикл с постусловием. Do-While сначала выполняет тело, потом проверяет условие:
 
-\*    Повторяют скрипт пока условие выполняется
+```powershell
+do {
+  $i++
+} while ($i -le 10)
+```
 
-\*    Операторы break и continue работают так же
+Выполнение повторяется, пока условие истинно.&#x20;
 
-·         Do-Until:
+Оператор `continue` пропускает оставшуюся часть текущей итерации и переходит к следующей.
 
-\*    Do{$i++} Until($i -le 10) – сначала скрипт потом проверка
+Оператор `break` полностью прерывает цикл.
 
-\*    Повторяют скрипт пока условие НЕ выполняется
+## Цикл Do-Until
 
-\*    Операторы break и continue работают так же
+Цикл Do-Until выполняет тело, а затем проверяет условие на **ложь**:
 
-&#x20;
+```powershell
+do {
+  $i++
+} until ($i -le 10)
+```
+
+Он повторяет тело, пока условие **НЕ выполняется**.&#x20;
+
+Оператор `continue` пропускает оставшуюся часть текущей итерации и переходит к следующей.
+
+Оператор `break` полностью прерывает цикл.
+
+## Работа с циклами
+
+С примерами использования можно ознакомиться по ссылке:
+
+{% embed url="https://fixmypc.ru/post/kak-rabotat-s-tsiklami-v-powershell-foreach-object-i-while-na-primerakh/" %}
