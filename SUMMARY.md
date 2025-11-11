@@ -771,7 +771,7 @@
       * [Типы данных](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/powershell/tipy-dannykh.md)
       * [Циклы](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/powershell/cikly.md)
       * [Обработка исключений](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/powershell/obrabotka-isklyuchenii.md)
-      * [Прочее](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/powershell/prochee.md)
+      * [Дополнительно](sherpa-designer/sherpa-designer-otvety-na-chasto-zadavaemye-voprosy/powershell/dopolnitelno.md)
 * [Sherpa IDP (Шаблонизатор)](shablonizator/README.md)
   * [Интерфейс Шаблонизатора](shablonizator/interfeis-shablonizatora/README.md)
     * [Основное меню Шаблонизатора](shablonizator/interfeis-shablonizatora/osnovnoe-menyu-shablonizatora/README.md)
