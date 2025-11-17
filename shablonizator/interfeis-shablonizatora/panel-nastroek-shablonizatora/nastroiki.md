@@ -132,37 +132,37 @@
 
 **Обрабатывать PDF аннотации** — параметр, позволяющий включить обработку аннотаций PDF-файла.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Обрабатывать все страницы**
 
 **Обрабатывать все страницы** — параметр, позволяющий включить обработку всех страниц в документе. Этот режим не делает проверку якоря LastPage.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Склеивать блоки**
 
 **Склеивать блоки** — параметр, позволяющий склеивать рядом стоящие блоки в один блок.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Разделить блоки**
 
 **Разделить блоки** — параметр, позволяющий разделить блоки, содержащие пробелы, на блоки без пробелов.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Игнорировать ошибки якорей**
 
 **Игнорировать ошибки якорей** — параметр, позволяющий отключить генерацию ошибок, если якори (любые) не найдены. В этом случае, область якоря считается нулевой.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Удалить блоки превышающие размер**
 
 **Удалить блоки превышающие размер** — параметр, позволяющий удалить блоки превышающие указанный размер. Поле для ввода расположено рядом с наименованием параметра. Если указать одно число, то будут удалены блоки, у которых ширина или высота будут больше этого значения. Также, можно указать значения через запятую в формате: ширина, высота.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В качестве единицы измерения требуется указывать размер в пикселях.
 
@@ -170,7 +170,7 @@
 
 **Процент изображения для распознавания** — параметр, позволяющий указать процент изображения, который пойдет на распознавание OCR движком. Поле для ввода расположено рядом с наименованием параметра. Значение необходимо записывать как одно число или два числа через тире.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Например:&#x20;
 
@@ -182,7 +182,7 @@
 
 **Найти печать** — параметр, позволяющий включить поиск печатей на документе. В атрибуты будет добавлен ключ “Stamps”, который возвратит массив объектов StampItem со свойствами X, Y, Width, Height, PageIndex.
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Игнорировать водяные знаки**
 
