@@ -78,7 +78,7 @@
 
 ## Проверить обновление
 
-Для того, чтобы проверить обновление Робота и Дизайнера и скачать его с сайта, нужно выбрать пункт “Проверить обновление…” в меню Sherpa Assistant в иконке системного трея.
+Для того, чтобы проверить обновление Робота и Дизайнера, и скачать его с сайта, нужно выбрать пункт “Проверить обновление…” в меню Sherpa Assistant в иконке системного трея.
 
 <figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2F483167589-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpyvTUnAaOD3OMZ1w2jM6%252Fuploads%252FHTeqOFZRD6PZSFGgsDCi%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3D03dd5e98-b7d1-48ff-8eeb-5836794ee8d1&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=f2274aff&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
