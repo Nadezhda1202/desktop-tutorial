@@ -32,4 +32,4 @@
 
 В зависимости от результата Работы, может меняться статус Работы в колонке “Статус”.
 
-[Создание Работы на экране “Работы” описано здес&#x44C;_._](../nachalo-raboty-v-sherpa-orchestrator/sozdanie-raboty-s-vybrannymi-robotom-i-processom.md)\
+[Создание Работы на экране “Работы” описано здес&#x44C;_._](../nachalo-raboty-v-sherpa-orchestrator/sozdanie-raboty-s-vybrannymi-robotom-i-processom.md)<br>

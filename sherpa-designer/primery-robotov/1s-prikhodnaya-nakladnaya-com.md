@@ -77,8 +77,7 @@
 * Левая часть (левая искомая подстрока);
 * Правая часть (правая искомая подстрока).
 
-&#x20; \
-
+&#x20; <br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdbgtFp9b_Qkbrxe8dmeiQJelJd1i5DEORG5oXQCU-raN_eVtlmzQSo2WtQ3diDkDcBVHgkvHaZgNeTv5NSbFglLE7i0RS8B6bEiAKOIlbltsCd4xo_oGvt0q30MDfawZ5-g5RHdAZlbR7GwMkiRxfrPzU?key=bQm2vlFSc1CKSZLYW_fmrw" alt=""><figcaption></figcaption></figure>
 
@@ -119,13 +118,11 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXep-n0rhOQvCPWgs-uLuesS0v99taziW754WxbVvaeHnMI17YT5G-hw_hwbdMeS6rmZCnY5tRmEXeu0Xa-eAYqeDsvE9Yim1gAvkNshIEl7fO0rz3idj1hqMaDdGlE-4bAMSnjUsKAEam331GDV6jB_px6c?key=bQm2vlFSc1CKSZLYW_fmrw" alt=""><figcaption></figcaption></figure>
 
-13. **Блок “Конец”** (этим блоком завершается работа сценария или возврат диаграммы подпроцесса в основной процесс).\
-
+13. **Блок “Конец”** (этим блоком завершается работа сценария или возврат диаграммы подпроцесса в основной процесс).<br>
 
 **Диаграмма “ЗагрузкаДанныхИзXLSX”**
 
-\
-
+<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfJxv4Vr23qYtg-VbPmLFiBBQ2_1IydYgGq5f2fa4r-4pUjDDi6Io1qn9rpjLX7oqSBrC1E1M1-9ngncUkyjKDZodbbQZfZbyBilcBO7RdX433k6GxmJkzEyfD7KUYzlwfRb7mgbZIhQC0Zr9JxVhKXeI7I?key=bQm2vlFSc1CKSZLYW_fmrw" alt=""><figcaption></figcaption></figure>
 
@@ -214,8 +211,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcndOxoWNRKoMjjgj6e-oVm_KKlKVT1jEn85VxJJUhbZ115fAmdQOtTvwS3_aP1aUXYOQvcQ1oaIZMrc7PkUzzuWelIgsxnTpqBXu0jBlgRP1lB3G3dTaVu1cDix8SRrQ0VzGnbQTR9EDpbQEblayin-60?key=bQm2vlFSc1CKSZLYW_fmrw" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 12. **Блок “Записать в ячейку значение”** позволяет записать значение в ячейке таблице данных. В данном случае используется три таких блока для разных столбцов и значений. Для данного блока указаны следующие свойства:
 
@@ -236,8 +232,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 14. **Блок “Конец”** (этим блоком завершается работа сценария или возврат диаграммы подпроцесса в основной процесс).
 
-**Диаграмма “ДобавлениеНакладной”**\
-
+**Диаграмма “ДобавлениеНакладной”**<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeV-3lEIEF2fmmSTpKd2k7TvFBDDe43xw_cyl9GQtrKlVjqB4-dRbIYMwyNqojgs-LTsYcXEy83_ez6bcXWEXn3S9t-InCOB9YhiN37GOORX90fwTxTYDgHp2ehTx5arraD9S4lDejTo4fdD5-OScXrYwc?key=bQm2vlFSc1CKSZLYW_fmrw" alt=""><figcaption></figcaption></figure>
 

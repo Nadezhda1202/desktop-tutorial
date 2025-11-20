@@ -12,8 +12,7 @@
 
 **Основная диаграмма проекта**
 
-Основная диаграмма проекта выглядит так (для удобства блоки диаграммы пронумерованы):\
-
+Основная диаграмма проекта выглядит так (для удобства блоки диаграммы пронумерованы):<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4mza7KawzH7GKyk0AZBkpau0Ph9Cu4LbtQEV2-Tzv38QXyWCFc1e5f97L9sljKAcHwNrCMUAshFjsg66w-9_kMKiBK_Na3LqMRpPxx9Ac8ofF7_kqOowEby7F6glQ-bXk1G4_5xXsTcwJ8EBFC9lAZCAY?key=8s9Yh27gdK-ptPiMIt6tWA" alt=""><figcaption></figcaption></figure>
 
@@ -142,8 +141,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPpcj-1ygRYnfbkmuF8UXeJCp_dqIfrDWCEOgiMfm4_WiAxqZnf4Rpf7Qg_OyHjWbYKpDX9odLEp6XOZUK6Ci1XSJmWW-jgjJ6Za6nll9_nst5Y8xYgwi0Rh5MBnvEq2gHH6DL2RyBbujTLCLkUHIjWmgi?key=8s9Yh27gdK-ptPiMIt6tWA" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 1. **Блок “Старт”** (с этого блока начинается любая диаграмма).
 2. **Блок “Окно с сообщением”** позволяет показать пользователю модальное диалоговое окно с заданным заголовком, текстом и набором кнопок. Если используется окно с несколькими кнопками, блок позволяет записать в переменную текстовую константу, соответствующую нажатой пользователем кнопке. Для данного блока указаны следующие свойства:
@@ -172,8 +170,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXenQWTG9Dt6ypJRsm5YenomsXGMRRk5XKeJmMLazh1lkBOIlA4aUbd5fOCgZCWNfkb_e3YZgIqzgPJFYUMGnivpzKichB0IBQ82BP71BfuipvFh2v9WYHjQMdaie4IwQgt-g8i-mXy1zFPiZbuHjJBVhWAn?key=8s9Yh27gdK-ptPiMIt6tWA" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 6. **Блок “Условие”**  проверяет указанное условие на истинность, после чего выполнение сценария продолжается в сторону выхода “Да” (если условие выполняется) или в сторону выхода “Нет” (если условие не выполнилось).&#x20;
 

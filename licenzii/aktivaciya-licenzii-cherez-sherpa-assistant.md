@@ -6,8 +6,7 @@
 
 Запустите Sherpa Assistant, если он не был запущен. Правой кнопкой мыши кликните на иконку Sherpa Assistant в трее: ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfsUMhM7WxI39NnYX2kCW9uxYghDd8mNMncJjnd3P8Gl-OdgF4LhY6OK-IhhKWvaJjII3XM1sMHJWxNV9UQXwQup1r1RNLcMKcjOJzusMv15gBhL-GXmZGVRQur9Mcw71syZdMohw?key=zvmrdAoy5nJ1x_SgTsaWsP-p).
 
-В контекстном меню выберите “Настройки…”:\
-
+В контекстном меню выберите “Настройки…”:<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdhYeowstWkIhEhnpaAvGgGNzgVsK2VTquzpOqhMJ9jkGAGwvYFswbWE16EEITKjkqNyJAIO7kTzns_5LIe0qfFt4K9FuMG0P_faUpHn8R8DnUOojeTR4JV-tsMa9wJx2Dj8yU8EQ?key=zvmrdAoy5nJ1x_SgTsaWsP-p" alt=""><figcaption></figcaption></figure>
 

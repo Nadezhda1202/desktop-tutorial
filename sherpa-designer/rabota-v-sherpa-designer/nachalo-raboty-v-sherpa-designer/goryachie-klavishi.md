@@ -12,4 +12,4 @@
 
 <table data-header-hidden><thead><tr><th width="270"></th><th></th></tr></thead><tbody><tr><td><strong>Горячие клавиши</strong></td><td><strong>Команда</strong></td></tr><tr><td>F5</td><td>Пауза/Продолжить.</td></tr><tr><td>Shift+F5</td><td>Остановить.</td></tr><tr><td>Shift+F4</td><td>Отключиться от RDP-сессии.</td></tr></tbody></table>
 
-\
+<br>

@@ -68,8 +68,7 @@
 
 Рассмотрим подробнее блоки данной диаграммы (для удобства блоки пронумерованы):
 
-\
-
+<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdT3pT4lwpYgT0vKJDJt_LVnX61ro5c0MGyq5vsNxt8R7tDX_IBXNp1u2VvpaE6l0aBR0IsKbwov6qR73KauZOE6SSA_DLg4lcgWt9rDSIWDZKX6eWhacmN2X7xnCEh1ValEydEWNQSJ7MIyN2lZWpqtuyI?key=AUJ9n9XuDPP2hhhE8Kng6Q" alt=""><figcaption></figcaption></figure>
 

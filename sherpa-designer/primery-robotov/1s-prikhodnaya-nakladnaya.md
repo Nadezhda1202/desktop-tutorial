@@ -66,8 +66,7 @@
 
 * Имя файла;
 * Номер страницы (номер страницы, начиная с которого будет извлекаться текст из таблицы);
-* Номер таблицы на странице (номер таблицы на странице, текст из которой необходимо извлечь).\
-
+* Номер таблицы на странице (номер таблицы на странице, текст из которой необходимо извлечь).<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfw9PtDoCtSOf2BkuqjRmPZCh9FpYtbdHetJD4PR9p15PiR4xJQ2WVZJxAuTTHRugqjlDN0tVyiQvXdN4OucIEzOhB7hufKIuvGglWm7r77Fj7reK9ZsYwhx07kXRPlHh2PZ7rpkRcVxCqWMqRDdJCZy4VE?key=AmI7nHoqQRm-An8sktOWcA" alt=""><figcaption></figcaption></figure>
 
@@ -134,8 +133,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdohXtRjpKtoBbc74ngbGmNyu3px0T9l6N9pZTUhM10xW2TWRAnm1s54ddHiMUAz4C8Cmiw5Esy8P8Izku8i9_6SpqQmqn1i6lvGIWl0k5YIRPVfCK72ynZWqFnK5n-rufd2L96vH7uSzb34QjXQuhRQz8g?key=AmI7nHoqQRm-An8sktOWcA" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHrH25UBlyc0w0FX0g6O8FZNX--o7McX_9FgEsIRiLmrpo24H95OvkUn7BQ_B_5uO1gIpZt-TAr8lu2SJsBdbqRC3POdkwxqSjD9RGr2Pzu34zuwFTmyGdX0sO9QojFtBtCmjWALYdIZqMaFf2P08ts_Uu?key=AmI7nHoqQRm-An8sktOWcA" alt=""><figcaption></figcaption></figure>
 
@@ -243,8 +241,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 **Диаграмма "Добавление накладной"**
 
-После извлечения данных из PDF или Excel-документа робот создает приходную накладную в 1C. Данная диаграмма создана частично с помощью функции “Запись” Sherpa Designer. Подробнее о ней [здесь](../rabota-v-sherpa-designer/osnovnoe-menyu/panel-razrabotka/menyu-zapis/zapis-deistvii-polzovatelya/). \
-
+После извлечения данных из PDF или Excel-документа робот создает приходную накладную в 1C. Данная диаграмма создана частично с помощью функции “Запись” Sherpa Designer. Подробнее о ней [здесь](../rabota-v-sherpa-designer/osnovnoe-menyu/panel-razrabotka/menyu-zapis/zapis-deistvii-polzovatelya/). <br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXek15vPpqa9UbCU-EBCErxQP0bgXHKMxTDa8oS0ykg45LWnltd3-zRzSAEzo-tLop8T44wUCW8Xm5adGRFmgp-PKyCiFD3XTxoJarEyUFCv3FhDL7xaHtZG_vwjR83Gz4XzZmXjl4NNOYu9qvJH7fLORrg4?key=AmI7nHoqQRm-An8sktOWcA" alt=""><figcaption></figcaption></figure>
 

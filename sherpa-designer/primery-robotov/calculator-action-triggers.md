@@ -37,8 +37,7 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc1DMbMl9QcMqk_ouadOWWrCLCLD8xkOHkdIgZwlEMST3_D5Z0_5ulYTi8fVzg1_P1etVPtj_vNugtGtWXnhF7qMlhKur-EZca60_PSKxwZk16g-ikTzy80hm1qKAZnXu_05E3Yx8BVOYZ_LJDeB4Gusv66?key=2Kw34UXGjHk-7PKjgLzXFw" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 5. **Блок “Контролировать элемент”** проверяет, что элемент с указанным селектором находится в одном из указанных состояний. Для данного блока указаны следующие свойства:
 

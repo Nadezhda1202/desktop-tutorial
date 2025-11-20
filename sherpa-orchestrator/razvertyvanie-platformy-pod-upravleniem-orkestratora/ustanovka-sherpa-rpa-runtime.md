@@ -61,8 +61,7 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXc7Ef9SStdENXp-yEBoQ5_jYX_tTwivJyZI3JB84vfh-k3VFM9Id8bGY5-kguUq9N0DlS_CSk1_J6uuFDdmShO2WeE2M0CijaiaM7CpdmKRJe2THll1byt8qd-Q2myDYsfLfWUneQ?key=VMUG93e2rYGRb3dj-wST4aPm" alt=""><figcaption></figcaption></figure>
 
-5.  В поле “Домен сервера / IP” вставьте адрес вашего оркестратора, например: `https://ваш-домен-или-ip`.\
-
+5.  В поле “Домен сервера / IP” вставьте адрес вашего оркестратора, например: `https://ваш-домен-или-ip`.<br>
 
     <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXe_rrUOeb-1xaMiplUUByNO9lod37cEWJ9jKf_WkAbFiYy8wgNrPDxhvNMDYN_euMUpBnBWT1o0Ls2rXHnndJeDlDbarBvgN9kvuZNtDZP6V9G5qM3RGyLvsZiZZLpUeBtzXVzj1Q?key=VMUG93e2rYGRb3dj-wST4aPm" alt=""><figcaption></figcaption></figure>
 

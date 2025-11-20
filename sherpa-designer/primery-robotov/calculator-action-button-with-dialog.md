@@ -8,8 +8,7 @@
 2. После клика по созданной кнопке показывает  созданное в “Редакторе окон” модальное окно с подсказкой и ссылкой на калькулятор в Google Chrome
 3. После клика по ссылке запускает калькулятор в Google Chrome, а после клика по кнопке “Закрыть” – закрывает модальное окно.
 
-Диаграмма проекта выглядит так (для удобства блоки диаграммы пронумерованы):\
-
+Диаграмма проекта выглядит так (для удобства блоки диаграммы пронумерованы):<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd9Q74m933XbFrtWtKk1KK-0Hsr2tAFTuniCK3AhkpLwFUsKrNkS0Hyq7ZZmCMkEbneBUfkVddvXSGCERfFAeM8ShP3YTBXOlWbe95SHwKHBzekf1qDJozuothAeEcHB0lmuAo8TeS_tNNnY1pGlCiRNydF?key=DhcpajRIrlTxITYaT99gBQ" alt=""><figcaption></figcaption></figure>
 

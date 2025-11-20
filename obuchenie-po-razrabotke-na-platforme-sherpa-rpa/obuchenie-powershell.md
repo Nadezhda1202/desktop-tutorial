@@ -95,8 +95,7 @@ PowerShell поддерживает работу с любыми типами д
 
 * добавьте данные во вложенные списки, например, строку `"myval1"` в первый список и `"myval2"` во второй:&#x20;
 
-`$MyListInList[0].Add("myval1"); $MyListInList[1].Add("myval2");`\
-
+`$MyListInList[0].Add("myval1"); $MyListInList[1].Add("myval2");`<br>
 
 Обратите внимание, что в системе может быть включена опция "Локальные и глобальные переменные":
 
@@ -136,8 +135,7 @@ PowerShell поддерживает работу с любыми типами д
 
 <figure><img src="../.gitbook/assets/изображение (218).png" alt=""><figcaption></figcaption></figure>
 
-Когда Робот ещё не запущен, доступна только локальная консоль. Локальная консоль позволяет проверить команды, выражения и условия:\
-
+Когда Робот ещё не запущен, доступна только локальная консоль. Локальная консоль позволяет проверить команды, выражения и условия:<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXftLMOhzlZDMVl1ol-J_IcXwf_XCR2b7rVbZxkvIVBa7oxRrrydUqxBQ5ZliSZjl8RhIsffG5wpSi5qYCsN1eBnBMX0aISdExR7wzF5w5PWEw1G9SFdaCoPAiho5Ev0aZCuTDaIaQ?key=lj_Rcgf7GmeThGb8eC0j_g" alt=""><figcaption></figcaption></figure>
 

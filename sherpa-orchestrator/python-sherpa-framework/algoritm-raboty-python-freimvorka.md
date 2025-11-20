@@ -130,8 +130,7 @@ print(heartbeat_results ['HasNewJob'])
     `job_guid = new_job['GUID']`\
     `process_version = json.loads(consume_result['ProcessVersion'])` \
     `python_script_name = process_version['Name']   #Условимся, что имя скрипта робота, который необходимо запустить, передаётся в названии версии процесса`\
-    `task = json.loads(consume_result[' Task '])` \
-
+    `task = json.loads(consume_result[' Task '])` <br>
 3. В случае успешного получения новой Работы из Оркестратора выполнить HTTP PUT запрос к скрипту `/api/job/update` Оркестратора. Передать в параметрах GUID полученной Работы Робота (guid) и новый статус Работы `Status_In_Progress`.\
    \
    Справочник значений статусов Работ:\
@@ -167,8 +166,7 @@ print(heartbeat_results ['HasNewJob'])
    `}`\
    \
    `r = requests.put(host + '/api/job/update', data=job, headers=headers, verify=False)`\
-   `print(r.text)`\
-
+   `print(r.text)`<br>
 4. Приступить к выполнению Python-скрипта Робота с именем, равным `python_script_name`. По возможности периодически повторять запросы к скрипту `/api/robot/heartbeat` с корректным значением `JobGUID` и `Status =  3 (Status_Working)`. \
    \
    Рекомендуется отправлять этот запрос не чаще раза в 10 секунд. В случае получения в ответ статуса `HeartbeatErrorCode == 10` необходимо немедленно прекратить (прервать) выполнение Python-скрипта Робота. \

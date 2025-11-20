@@ -189,8 +189,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcjlem_r8ny4HqWMMVbqok1_l_k-AGdykATARUr6rLVEoWejcCAOtnnrxouIcSGKqj0R8CHMshKSu3o2yq-VnK9cZYZUxUfKp-o8SXf2fr1qH67G1Vg12v-THtFDhw_sB0LkWEASg?key=8OqHXqKR2hFCRM0MvJDUmXXN" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 5. **Блок “Условие”** проверяет указанное условие на истинность, после чего выполнение сценария продолжается в сторону выхода “Да” (если условие выполняется) или в сторону выхода “Нет” (если условие не выполнилось).&#x20;
 
@@ -210,8 +209,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeU-mLT0RT44FkTpX-hRFOPlvoooP7R_iUlvapgopTBToIirz2Drzzr-Sm8tVSSdhHtlUt-10_YCsSMEkHsyHnhWmqlCkRfwDMW067Ak3pfUFqcnAuTtU12EzLKsSsvd4ogrnmZQQ?key=8OqHXqKR2hFCRM0MvJDUmXXN" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 **Диаграмма “Игра окончена”**
 

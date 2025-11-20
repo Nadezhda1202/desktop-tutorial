@@ -42,8 +42,7 @@
 
 **Пример заполнения**
 
-\
-
+<br>
 
 | Название поля                        | Значение                                                                                                                                                                                                                  |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,4 +68,4 @@
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXddpl3lFOPjDFCaUGbOULyGr9Jym_Thit6Ki79PNrjREsSRinRgf6-3BfkKwOljKdeKWlX0JPstbPvsqWcasSe7Jbmu1ZoYyretOzQMhXkDsY1JrSiqtQqvNk2cEg-4AQFuv37P?key=lzUSXaqj8ytV3OdFGl0NhGc8)
 
-\
+<br>

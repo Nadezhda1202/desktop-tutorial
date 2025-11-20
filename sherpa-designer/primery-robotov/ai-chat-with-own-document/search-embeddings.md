@@ -12,8 +12,7 @@
 6. Открывает окно с ответом на запрос к GPT модели.
 7. После чего, открывает окно для ввода запроса и выполняет запрос пользователя.
 
-Диаграмма проекта выглядит так (для удобства блоки диаграммы пронумерованы):\
-
+Диаграмма проекта выглядит так (для удобства блоки диаграммы пронумерованы):<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdAqvEZJ3KaQ8H16JlSOkgr4TcJrdtl6crZpNYDSxGKyEm1LE53JK4sdDsjbIrFbQEN8ku8DPKnLpxvsRyTEgpBBhaP6erkURcmJb5CCRoTkccifsN8s-SU8M6C1Ypb19Ub2O00ASq0lC8-yKFDDxZLChY?key=A0aTFSxqdqslY-UYAcmeGA" alt=""><figcaption></figcaption></figure>
 

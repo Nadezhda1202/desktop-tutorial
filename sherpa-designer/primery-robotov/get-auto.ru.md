@@ -96,8 +96,7 @@ $Result > 5, то есть, если значение переменной $Resu
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAmcZ52wYR_FkFacoPcvGXlyOynlEM1gixBGHDPOQyaMAQm3GkegeIWv05ONHdezvBFB5niuM2bcTQTYn2lreY7eL6X4taxwiMK_JdRhLAotNiU-NzA1YYMqELLOxFaP531hdGJg?key=EEm2CmjYFTZ-lKSyfuFNo1ar" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcCGbshZFSIKnpjMWkSE9_tNLWO8bqiBRpNwdmm6sBeU1U4kTRYtCpNtOcdpkxMYcgeQfxtIFp80RA-dnRo3viwqM31-Zmk99nKblPqdVJEgX1HQX56iTAjZHnFrd4U5IVkyF-o?key=EEm2CmjYFTZ-lKSyfuFNo1ar" alt=""><figcaption></figcaption></figure>
 

@@ -61,13 +61,11 @@
 
 <figure><img src="../../.gitbook/assets/unknown (8).png" alt=""><figcaption></figcaption></figure>
 
-5\) Добавлена автоматическая генерация ошибки "The script aborted without the End block" при отсутствии завершающего блока "End" в сценарии.\
-
+5\) Добавлена автоматическая генерация ошибки "The script aborted without the End block" при отсутствии завершающего блока "End" в сценарии.<br>
 
 <figure><img src="../../.gitbook/assets/unknown (10).png" alt=""><figcaption></figcaption></figure>
 
-Это позволяет своевременно находить "обрывы" сценариев.\
-
+Это позволяет своевременно находить "обрывы" сценариев.<br>
 
 6\) Для запуска Sherpa Designer добавлены новые параметры командной строки, расширяющие возможности автоматизации обновлений:
 

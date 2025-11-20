@@ -51,8 +51,7 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXceR1s7kmf6Vl0XwLOzX6EaWAyqWcabGqdTyqQUypINmU9XGgrmSH7txMNSsI-98wtsA62BaTvFNpHXrGk4aiiZYSVa2Kc7an9Dsnc9_vI81xyVWfgnEY7irj2FXaDHggsCMrRzYA?key=Frh7bkTtqSiaXA6cD6bkJrdr" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 7.1 **Блок “Загрузить из CSV”** позволяет загрузить таблицу данных из CSV-документа. Для данного блока указаны следующие свойства:
 
@@ -156,8 +155,7 @@
 
 17. **Блок “Конец”** (этим блоком завершается работа сценария или возврат диаграммы подпроцесса в основной процесс).
 
-**Диаграмма “Настройки”**\
-
+**Диаграмма “Настройки”**<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdlKWGBEDR-6Af2TVeEvKUhVP6LlX1jrmeMy-J8VPfnKna0-yd1SzgGbGcluYufxe8PXuDE4X5afYBpdpXkIOegSTcM_bBLZ9G6xBdxwGgBM5U-7vzyo259li3ItWBp4VhLFdZF?key=Frh7bkTtqSiaXA6cD6bkJrdr" alt=""><figcaption></figcaption></figure>
 

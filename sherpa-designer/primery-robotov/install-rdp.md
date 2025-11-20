@@ -28,8 +28,7 @@
 6. 7\. и 8. **Блок “Конец”** (этим блоком завершается работа сценария или возврат диаграммы подпроцесса в основной процесс).
 
 **Диаграмма “Копировать файл на RDP”**\
-Данная диаграмма создана частично с помощью функции [“Запись” Sherpa Designer](../rabota-v-sherpa-designer/osnovnoe-menyu/panel-razrabotka/menyu-zapis/zapis-deistvii-polzovatelya/). Диаграмма демонстрирует процесс копирования из буфера обмена файла на RPD.\
-
+Данная диаграмма создана частично с помощью функции [“Запись” Sherpa Designer](../rabota-v-sherpa-designer/osnovnoe-menyu/panel-razrabotka/menyu-zapis/zapis-deistvii-polzovatelya/). Диаграмма демонстрирует процесс копирования из буфера обмена файла на RPD.<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXckWf1bRFPVJtjJxdNN8xR1zlPFdb6vKiXrEAfjiJEgv3xygTd2jSijVNUNSHaL3ZhOJwXJKW8fU3PmAjNx0ktvpBQOZ8kC_tsj-v-m3Chklw7GJ6NeKEMtCq6YyZMOKTqmwHVa?key=TMyE3Z4vpe5xrsGss5URen6M" alt=""><figcaption></figcaption></figure>
 

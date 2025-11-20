@@ -8,13 +8,11 @@
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfK_hzEpmRiy1wOMJ3OXyyN1NWEDEN-bM6CXe4a5_jx3ZHqPTw4UfYCrjOxtw6Ei9no2WkEE2LUnI1Nb6qthd1KruyHQtuoJBQrvJwteNIA8dznspavPDkMnYaOszjfllguQixwJw?key=FxLA9F3yW7bqYX87nSO7VZ4G" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfIR--E71HTQ2w7h1YnThKGJC6alvyeLUS2axzEchq2DvwWcExJz3ALfMShIR813Pwum3mIFaolquuy8_G3SDi_3HN7Hf1ybkB8yoc5xO8cjGUVFCrkfDto-sP9O4qB8FWaXGP4Bw?key=FxLA9F3yW7bqYX87nSO7VZ4G" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 1. **Блок “Старт”** (с этого блока начинается любая диаграмма).
 2. **Блок “Запустить Chrome”** позволяет запустить браузер Google Chrome. Для данного блока указаны следующие свойства:
