@@ -22,7 +22,7 @@
 
 Кнопка “**Тема**” позволяет переключить тему оформления интерфейса. Доступны светлая и темная темы. Светлая тема стоит по умолчанию.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Обновить диаграмму
 

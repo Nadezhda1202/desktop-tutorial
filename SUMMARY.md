@@ -97,6 +97,7 @@
         * [Свойства проекта](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/proekt/svoistva-proekta.md)
         * [Поиск и замена](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/proekt/poisk-i-zamena.md)
       * [Библиотека](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/biblioteka.md)
+      * [Автодизайнер](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/avtodizainer.md)
     * [Центральная рабочая область](sherpa-designer/rabota-v-sherpa-designer/centralnaya-rabochaya-oblast.md)
     * [Панели свойств и переменных и работа с ними](sherpa-designer/rabota-v-sherpa-designer/paneli-svoistv-i-peremennykh-i-rabota-s-nimi/README.md)
       * [Панель свойств](sherpa-designer/rabota-v-sherpa-designer/paneli-svoistv-i-peremennykh-i-rabota-s-nimi/panel-svoistv/README.md)

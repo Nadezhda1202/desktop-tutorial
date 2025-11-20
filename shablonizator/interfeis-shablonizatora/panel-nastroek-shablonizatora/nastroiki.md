@@ -144,7 +144,7 @@
 
 **Склеивать блоки** — параметр, позволяющий склеивать рядом стоящие блоки в один блок.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Разделить блоки**
 

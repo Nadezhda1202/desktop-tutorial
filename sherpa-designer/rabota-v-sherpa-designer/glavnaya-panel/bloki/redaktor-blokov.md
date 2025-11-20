@@ -6,11 +6,11 @@
 
 Пакетами можно обмениваться через файлы (вкладка “Локальные пакеты”) или через Оркестратор (вкладка “Удаленные пакеты”).&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Разработчик может создавать свои палитры блоков и использовать аналогичные палитры других разработчиков по согласованию.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Для создания нового блока необходимо нажать на кнопку ![](<../../../../.gitbook/assets/image (3).png>) после чего откроется окно “Редактор моих блоков”.
 
