@@ -2,7 +2,7 @@
 
 Меню “Инструменты” содержит основные функции для настройки интерфейса, актуализации элементов проектов.
 
-<figure><img src="../../../../.gitbook/assets/2025-11-20_23-25-39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2025-11-23_16-36-08.png" alt=""><figcaption></figcaption></figure>
 
 ## Русский (Россия)
 
