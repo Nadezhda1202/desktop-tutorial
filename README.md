@@ -18,9 +18,7 @@ coverY: 0
 [sherpa-process-discovery](sherpa-process-discovery/)
 {% endcontent-ref %}
 
-{% content-ref url="sherpa-ai-server/" %}
-[sherpa-ai-server](sherpa-ai-server/)
-{% endcontent-ref %}
+
 
 ## Продукты Sherpa RPA
 
@@ -31,6 +29,10 @@ coverY: 0
 {% embed url="https://docs.sherparpa.ru/sherpa-orchestrator" %}
 
 {% embed url="https://docs.sherparpa.ru/shablonizator" %}
+
+## Продукты Sherpa AI
+
+
 
 ## Ссылки, релизы и поддержка пользователей
 

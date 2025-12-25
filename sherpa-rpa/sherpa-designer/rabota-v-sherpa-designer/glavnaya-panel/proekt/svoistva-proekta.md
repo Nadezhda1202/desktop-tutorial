@@ -1,0 +1,71 @@
+# Свойства проекта
+
+Для вызова окна “Свойства проекта” необходимо:
+
+* нажать правой кнопкой мыши по папке проекта и выбрать пункт “Свойства проекта”.
+* открыть проект в Sherpa Designer и нажать на кнопку “Свойства проекта” ![](<../../../../../.gitbook/assets/image (174).png>) в [меню “Файл”](../../osnovnoe-menyu/panel-razrabotka/menyu-fail.md).
+
+## Окно “Свойства проекта”
+
+В окне свойств проекта есть возможность:
+
+* управления входными параметрами проекта во вкладке “Входные параметры”.
+
+<figure><img src="../../../../../.gitbook/assets/изображение (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+* управления всеми выходными параметрами, необходимыми для корректной передачи результатов работы проекта, во вкладке “Выходные параметры”.
+
+<figure><img src="../../../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
+
+* задания неизменяемых параметров проекта, таких как константы настроек, их типы и описание назначения каждого параметра, во вкладке “Настройки проекта”.
+
+<figure><img src="../../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+
+Настройки сохраняются не только на компьютере Пользователя (локально), но и системно — в Оркестраторе, если он используется.
+
+<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfEuAouCqaeiQj0Qt57v23EnEXZagTdF7t9Y7CAylKMGIrr3NeLC5mikDdgGtviOmX5xrnX2bsloV3rH4LKE6dGKhEdcaYJmg_78mb7Y45bmNJggb1kOv4FybiROuV8QxSgtJ97AQ%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=7442e944&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+Эти настройки доступны через блоки "Загрузить настройки проекта" и "Сохранить настройки проекта" в палитре "Оркестратор". Блок "Загрузить настройки проекта" возвращает переменную типа Словарь.
+
+<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXexnXkUyzyPgvPId3dZSewE0OMTmA_R50qIOSPIP9I76dk0OT1K0aTOdfthlW_rJluUo3aGlR5ktTkqlF1tDrYOTpzDYHyFScSmNIFJNSWJCEYecaIZhUFfihL2XA9j704in_1Z2w%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1e31ca7b&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXe8iU_cHMJ8n1DkSglhZLNJdxOMrEKiX3FsAeNfpHtq-1ejZo8ErD-AOOcai16aoeihtHaCq9ZqmmCFT26W_ygpSBhh2aRLnlCzdIFL65iN4j2TZPTPI-FTzAn-V0v3z-YqYLFGJA%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=4a4772e9&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+Подробное описание работы со словарем “Настройки проекта” доступно в Редакторе выражений:
+
+<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXd1JyAEAFf-8doygACKF1eePs1QkcAgDvBiUTxVsW1hlOqyILzyHr9oQ2qi73hmoCeM5Qe1QMDf3IdpRnCiQBSqYHxW2lBrAVpm8NeBs9CbN1KxhZQzGcEYnHGGyPd0kXEKQydyDQ%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=5ec2fb67&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+При выборе типа Credentials в Свойствах проекта во вкладке Настройки проекта можно передавать login и password:
+
+1. ![](https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXckMKSY1i7cM2D5L-7DpG5cZdiwI-qBrwDNIhk5RUI2FpOOv3BEyQk9_GF9b2a9Hbk_SnQaK6gR_7qicKG9G_GKZHI0s5q594TJ2itB-Dd4d4np71VquFj032d4_1XHxqozo9hQZQ%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q\&width=768\&dpr=4\&quality=100\&sign=1df16808\&sv=2)
+2. ![](https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfoY-a-3wc-S409cVkHgQovEFwXmKONae50JDV9TIi5U1XUDsyoNpLA4qq29ZShyhP1xmtmjwllXnu4I4LNxtTlrHmaW0wcP_V-783BVIK0f_uT4Q7tS2pU94DiKvIT9zVCVptdag%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q\&width=768\&dpr=4\&quality=100\&sign=e8bc0a9e\&sv=2)
+
+Настройки проекта в Оркестраторе сохраняются как соответствующий тип Ресурса - для логинов (login) и паролей (password) используются Реквизиты (Credentials), которые хранятся и передаются в зашифрованном виде, а для остальных типов настроек - Текст (Text). Их можно просмотреть через интерфейс Оркестратора во вкладке "Ресурсы":
+
+<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXcS3pYewuAAMnALENQJ9Hz7zEID8ZgiLaWVFmwzcyON9l0_x75aYwRf9XcB3W-rNNQ6yUYV5Hf4q3Jg_A2J2dgTs3W49PSjYNvl9-eQmBvMziWi8GeCL1J6WhQMheOGPTy8gobpbQ%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=2e69402d&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+А также значения констант можно увидеть в окне “Ресурс”, кликнув на иконку ![](https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfwkqNNnh8cO-gzSks8Nk_QyUKtnADNQ9Sg0RYHNHuhwTK5ddbzZP-e4yu_R5raxyfC-MQcvO9oDClD_s45HdkTh2U3SJ2f3NN3GEekM_Zjqwxb3e2qiXx-Rtgd6kHJoVFuMDVU%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q\&width=300\&dpr=4\&quality=100\&sign=3eb74ff6\&sv=2):
+
+<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfCLBnBCzsr6RW2_0gfyBIxpebwmCPlN-rZoxrbH45NTaUTVLp4bK1x2P5eZ2f_VUdrWZ_h82R2kpsL8RraOjKusK2nPlEr6pTigkbcBt_R9OFlGYAUeaFJ9N_vQColcncUrry0%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=2d358751&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+Когда Пользователь задает настройки на уровне проекта (константу, тип и описание), эти параметры можно использовать повторно в других проектах, если вы применяете одни и те же константы для ключей словаря. Это обеспечивает единообразие и облегчает управление.
+
+Однако важно понимать, что в настройках проекта доступны только указания констант, их типа и описания. Само значение константы задается отдельно при использовании или внедрении в автоматизацию.
+
+Например: Задавая константы “SMTP\_SERVER” и “SMTP\_EMAIL” Пользователь может прописать сервер и порт для SMTP, и потом так же использовать эти настройки с этими же ключами в словаре настроек в других проектах.
+
+* указания входных параметров, связанных с процессом отладки сценариев, во вкладке “Настройки отладки”.
+
+<figure><img src="../../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+
+Если в Свойствах проекта указаны входные параметры, то можно использовать “Настройки отладки” для указания значений параметров, которые будут использоваться при запуске проекта в режиме отладки. Установив значения входных параметров, можно запустить отладку проекта именно с этими входными параметрами.
+
+<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2F483167589-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpyvTUnAaOD3OMZ1w2jM6%252Fuploads%252Fu3L3obY75K0rzqwDDs6K%252F2025-07-08_22-23-24.png%3Falt%3Dmedia%26token%3Da4197709-9974-443e-a273-91e45594a312&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=11005912&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+* настройки автоматического выполнения сценариев и управления подключёнными модулями Python во вкладке “Автодизайнер”.
+
+<figure><img src="../../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+
+## Описание элементов интерфейса
+
+<table data-header-hidden><thead><tr><th width="70"></th><th width="229"></th><th></th></tr></thead><tbody><tr><td><strong>№</strong><br><strong>п/п</strong></td><td><strong>Элемент интерфейса</strong></td><td><strong>Описание</strong></td></tr><tr><td>1.</td><td>текстовое поле “Название робота”</td><td>Название Робота.</td></tr><tr><td>2.</td><td>текстовое поле “Версия робота”</td><td>Версия Робота.</td></tr><tr><td>3.</td><td>текстовое поле “Описание проекта”</td><td>Описание проекта.</td></tr><tr><td>4.</td><td>вкладка “Входные параметры”</td><td>Позволяет указать входные параметры проекта, если они были ранее указаны.</td></tr><tr><td>4.1.</td><td>кнопка “Добавить параметр”</td><td>Позволяет добавить входной параметр проекта.</td></tr><tr><td>4.2.</td><td>кнопка “Удалить параметр”</td><td>Позволяет удалить входной параметр проекта.</td></tr><tr><td>4.3.</td><td>кнопка “Переместить вверх” </td><td>Перемещает выбранный входной параметр вверх в списке.</td></tr><tr><td>4.4.</td><td>кнопка “Переместить вниз” </td><td>Перемещает выбранный входной параметр вниз в списке.</td></tr><tr><td>4.5.</td><td>колонка “Переменная”</td><td>Переменная проекта, которую можно выбрать из выпадающего списка.</td></tr><tr><td>4.6.</td><td>колонка “Тип”</td><td>Тип входного параметра проекта.</td></tr><tr><td>4.7.</td><td>колонка “Тип поля”</td><td>Тип поля входного параметра проекта.</td></tr><tr><td>4.8.</td><td>колонка “Название”</td><td>Название входного параметра проекта.</td></tr><tr><td>4.9.</td><td>колонка “Описание”</td><td>Описание входного параметра проекта.</td></tr><tr><td>4.10.</td><td>кнопка “Создать файл аргументов”</td><td>Формирует файл с аргументами на основе заданных параметров проекта.</td></tr><tr><td>5.</td><td>вкладка “Выходные параметры”</td><td>Позволяет указать выходные параметры проекта, если они были ранее указаны.</td></tr><tr><td>5.1.</td><td>кнопка “Добавить параметр”</td><td>Позволяет добавить выходной параметр проекта.</td></tr><tr><td>5.2.</td><td>кнопка “Удалить параметр”</td><td>Позволяет удалить выходной параметр проекта.</td></tr><tr><td>5.3.</td><td>кнопка “Переместить вверх” </td><td>Перемещает выбранный выходной параметр вверх в списке.</td></tr><tr><td>5.4.</td><td>кнопка “Переместить вниз” </td><td>Перемещает выбранный выходной параметр вниз в списке.</td></tr><tr><td>5.5.</td><td>колонка “Переменная”</td><td>Переменная проекта, которую можно выбрать из выпадающего списка.</td></tr><tr><td>5.6.</td><td>колонка “Тип”</td><td>Тип выходного параметра проекта.</td></tr><tr><td>5.7.</td><td>колонка “Тип поля”</td><td>Тип поля выходного параметра проекта.</td></tr><tr><td>5.8.</td><td>кнопка “Создать файл аргументов”</td><td>Формирует файл с аргументами на основе заданных параметров проекта.</td></tr><tr><td>6.</td><td>вкладка “Настройка проекта”</td><td>Позволяет указать неизменяемые параметры для проекта, такие как константы настроек, их типы и описание назначения каждого параметра.</td></tr><tr><td>6.1.</td><td>кнопка “Добавить новую строку”</td><td>Добавляет новую строку для ввода константы настройки.</td></tr><tr><td>6.2.</td><td>кнопка “Удалить строку”</td><td>Удаляет выбранную строку с константой.</td></tr><tr><td>6.3.</td><td>кнопка “Добавить уже существующие” </td><td>Позволяет добавить в список ранее созданные константы.</td></tr><tr><td>6.4.</td><td>кнопка “Сбросить значение” </td><td>Возвращает значение константы к умолчанию.</td></tr><tr><td>6.5.</td><td>кнопка “Переместить вверх” </td><td>Перемещает выбранную строку вверх по списку.</td></tr><tr><td>6.6.</td><td>кнопка “Переместить вниз” </td><td>Перемещает выбранную строку вниз по списку.</td></tr><tr><td>6.7.</td><td>колонка “Константа настройки”</td><td>Отображает имя константы настройки проекта.</td></tr><tr><td>6.8.</td><td>колонка “Тип”</td><td>Показывает тип константы (<code>Text</code> или <code>Credentials</code>).</td></tr><tr><td>6.9.</td><td>колонка “Описание (для пользователя)”</td><td>Содержит описание и цель использования константы для конечного пользователя.</td></tr><tr><td>7.</td><td>вкладка “Настройки отладки”</td><td>Позволяет указать входные параметры, связанные с процессом отладки сценариев.</td></tr><tr><td>7.1.</td><td>кнопка “Очистить”</td><td>Позволяет очистить все текущие значения параметров отладки.</td></tr><tr><td>7.2.</td><td>кнопка “Обновить”</td><td>Обновляет список или значения параметров отладки, применяя последние изменения.</td></tr><tr><td>7.3.</td><td>колонка “Имя”</td><td>Содержит названия входных параметров отладки.</td></tr><tr><td>7.4.</td><td>колонка “Тип”</td><td>Отображает тип каждого параметра.</td></tr><tr><td>7.5.</td><td>колонка “Значение”</td><td>Показывает текущие значения параметров, которые можно редактировать при необходимости.</td></tr><tr><td>7.6.</td><td>кнопка “Создать файл аргументов”</td><td>Формирует файл с аргументами на основе заданных параметров для использования в процессе отладки.</td></tr><tr><td>8.</td><td>вкладка “Автопилот”</td><td>Позволяет указать настройки, которые управляют автоматическим выполнением сценариев, а также список подключенных модулей Python.</td></tr><tr><td>8.1.</td><td>вкладка “Основные настройки”</td><td>Содержит параметры, управляющие поведением автозапуска.</td></tr><tr><td>8.1.1.</td><td>чекбокс “Разрешено запускать без подтверждения пользователем входных параметров”</td><td>Позволяет запускать сценарии автоматически без необходимости подтверждения параметров пользователем.</td></tr><tr><td>8.1.2.</td><td>чекбокс “Запретить вывод входных параметров в чат”</td><td>Запрещает отображать входные параметры сценария в чате, обеспечивая конфиденциальность.</td></tr><tr><td>8.1.3.</td><td>чекбокс “Запретить вывод выходных параметров в чат”</td><td>Запрещает отображать выходные параметры сценария в чате, обеспечивая конфиденциальность.</td></tr><tr><td>8.1.4.</td><td>кнопка “Создать файл аргументов”</td><td>Формирует файл с аргументами для автоматического запуска сценариев.</td></tr><tr><td>8.2.</td><td>вкладка “Модули Python”</td><td>Отображает список подключенных модулей Python, используемых для расширения функциональности.</td></tr></tbody></table>
