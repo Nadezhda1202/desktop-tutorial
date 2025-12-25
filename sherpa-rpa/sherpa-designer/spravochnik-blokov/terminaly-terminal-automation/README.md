@@ -1,2 +1,0 @@
-# Терминалы (Terminal Automation)
-

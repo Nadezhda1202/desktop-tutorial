@@ -1,2 +1,0 @@
-# Базы данных (Database Automation)
-

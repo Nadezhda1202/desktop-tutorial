@@ -1,2 +1,0 @@
-# Текст (String Automation)
-

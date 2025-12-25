@@ -55,4 +55,4 @@
 * “Создано” (дата и время создания Лицензии);
 * “Обновлена” (дата и время обновления Лицензии).
 
-Подробнее о работе в Sherpa AI Server можно узнать по [ссылке](../sherpa-ai/sherpa-ai-server/rabota-v-sherpa-ai-server/).
+Подробнее о работе в Sherpa AI Server можно узнать по [ссылке](../sherpa-ai-server/rabota-v-sherpa-ai-server/).

@@ -1,2 +1,0 @@
-# Word (Word Automation)
-

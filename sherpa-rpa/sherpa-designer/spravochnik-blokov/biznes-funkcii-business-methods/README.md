@@ -1,2 +1,0 @@
-# Бизнес-функции (Business Methods)
-

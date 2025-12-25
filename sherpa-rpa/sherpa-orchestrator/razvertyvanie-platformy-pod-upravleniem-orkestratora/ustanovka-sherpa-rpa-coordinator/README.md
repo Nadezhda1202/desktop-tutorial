@@ -1,2 +1,0 @@
-# Установка Sherpa RPA Coordinator
-

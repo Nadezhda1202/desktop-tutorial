@@ -1,2 +1,0 @@
-# Машинное обучение (Machine Learning)
-

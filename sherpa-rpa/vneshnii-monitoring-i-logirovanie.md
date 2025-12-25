@@ -4,11 +4,11 @@
 
 1. **Логирование через Sherpa Orchestrator**
 
-Для логирования через Оркестратор можно использовать дашборд [“Обзор”](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/)
+Для логирования через Оркестратор можно использовать дашборд [“Обзор”](../sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/obzor/)
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeQCRJAA1PHYXHBm5ZIsscF_Gs4Dzj8dfhlL6rdwUK6bs9-G4wxIusmj25S3rGw2NQ8N9o0YAw2y28Wp3uQb4FpHHwlJMSns4LXoqEe7Zbsa2zpwHD2LwKFqXCh7TXUaWiP0egxpNyTDc2kpBNd_8XCGlXc?key=C_lgKCFrykmgl4Vl7La7Tg" alt=""><figcaption></figcaption></figure>
 
-или экран [“Сообщения Роботов”](sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/soobsheniya-robotov.md), который на экране “Пользователи” позволяет настроить для каждого отдельного пользователя email-уведомления о событиях роботов с определенным уровнем тревожности.
+или экран [“Сообщения Роботов”](../sherpa-orchestrator/rabota-v-sherpa-orchestrator/ekrany/soobsheniya-robotov.md), который на экране “Пользователи” позволяет настроить для каждого отдельного пользователя email-уведомления о событиях роботов с определенным уровнем тревожности.
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqOci2IXHPbpfQhJaLy0I5U6RfsiO6cZe2SchLwhURmv7iAoalBCjkpK2QOIMYuGAyt27TCvWi18UsZPqih5QLHBWkyJFVsHiBPwMTpX4xdUoo8yxzL-j6g9Kq81Tn-m7rrBVaR6BH1F88uSi5CqEH1qU?key=iiDSKcUE6eu6BlxEUq3Jmg" alt=""><figcaption></figcaption></figure>
 

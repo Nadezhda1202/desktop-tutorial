@@ -18,21 +18,37 @@ coverY: 0
 [sherpa-process-discovery](sherpa-process-discovery/)
 {% endcontent-ref %}
 
-
+{% content-ref url="sherpa-ai/" %}
+[sherpa-ai](sherpa-ai/)
+{% endcontent-ref %}
 
 ## Продукты Sherpa RPA
 
-{% embed url="https://docs.sherparpa.ru/sherpa-robot-i-sherpa-assistant" %}
+{% content-ref url="sherpa-robot-i-sherpa-assistant/" %}
+[sherpa-robot-i-sherpa-assistant](sherpa-robot-i-sherpa-assistant/)
+{% endcontent-ref %}
 
-{% embed url="https://docs.sherparpa.ru/sherpa-designer" %}
+{% content-ref url="shablonizator/" %}
+[shablonizator](shablonizator/)
+{% endcontent-ref %}
 
-{% embed url="https://docs.sherparpa.ru/sherpa-orchestrator" %}
+{% content-ref url="sherpa-designer/" %}
+[sherpa-designer](sherpa-designer/)
+{% endcontent-ref %}
 
-{% embed url="https://docs.sherparpa.ru/shablonizator" %}
+{% content-ref url="sherpa-orchestrator/" %}
+[sherpa-orchestrator](sherpa-orchestrator/)
+{% endcontent-ref %}
 
 ## Продукты Sherpa AI
 
+{% content-ref url="sherpa-ai-server/" %}
+[sherpa-ai-server](sherpa-ai-server/)
+{% endcontent-ref %}
 
+{% content-ref url="sherpa-autopilot/" %}
+[sherpa-autopilot](sherpa-autopilot/)
+{% endcontent-ref %}
 
 ## Ссылки, релизы и поддержка пользователей
 
