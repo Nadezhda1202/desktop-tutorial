@@ -1024,6 +1024,7 @@
     * [Работа Sherpa AutoPilot](sherpa-autopilot/rabota-sherpa-autopilot.md)
 * [Релизы](obnovleniya/README.md)
   * [Обновления Sherpa Designer](obnovleniya/obnovleniya-sherpa-designer/README.md)
+    * [Версия 1.42](obnovleniya/obnovleniya-sherpa-designer/versiya-1.42.md)
     * [Версия 1.41](obnovleniya/obnovleniya-sherpa-designer/versiya-1.41.md)
     * [Версия 1.40](obnovleniya/obnovleniya-sherpa-designer/versiya-1.40.md)
     * [Версия 1.33](obnovleniya/obnovleniya-sherpa-designer/versiya-1.33.md)
