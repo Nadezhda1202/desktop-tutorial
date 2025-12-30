@@ -749,6 +749,7 @@
         * [Запрос к Sherpa AI Server](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/zapros-k-sherpa-ai-server-sherpaaiserverrequest.md)
         * [AI Server. Получить сообщения](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/ai-server.-poluchit-soobsheniya-sherpaaireceivemessages.md)
         * [AI Server. Отправить сообщение](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/ai-server.-otpravit-soobshenie-sherpaaisendmessage.md)
+        * [AI Server. Reranker](sherpa-rpa/sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/ai-server.-reranker.md)
         * [Синтезировать речь Yandex](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/sintezirovat-rech-yandex-yandexsynthesizespeech.md)
         * [Распознать речь Yandex](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/raspoznat-rech-yandex-yandexrecognizespeech.md)
         * [Синтезировать речь Whisper](sherpa-designer/spravochnik-blokov/mashinnoe-obuchenie-machine-learning/sintezirovat-rech-whisper-whispersynthesizespeech.md)
