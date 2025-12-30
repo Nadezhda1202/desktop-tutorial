@@ -19,7 +19,7 @@
 
 <figure><img src="../../.gitbook/assets/unknown (15).png" alt=""><figcaption></figcaption></figure>
 
-Сертификат извлекается из системного хранилища по уникальному отпечатку (thumbprint), после чего используется в запросах к оркестратору.
+Сертификат извлекается из **системного хранилища** (Windows) или **из файла сертификата** (Linux) по уникальному отпечатку (thumbprint), после чего используется в запросах к Оркестратору.
 
 Подробная документация: [https://learn.microsoft.com/ru-ru/dotnet/api/system.security.cryptography.x509certificates.x509certificate2?view=net-8.0](https://learn.microsoft.com/ru-ru/dotnet/api/system.security.cryptography.x509certificates.x509certificate2?view=net-8.0)
 
