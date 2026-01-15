@@ -11,21 +11,29 @@
 
 * управления входными параметрами проекта во вкладке “Входные параметры”.
 
+### Вкладка "Входные параметры"
+
 <figure><img src="../../../../.gitbook/assets/изображение (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * управления всеми выходными параметрами, необходимыми для корректной передачи результатов работы проекта, во вкладке “Выходные параметры”.
+
+### Вкладка "Выходные параметры"
 
 <figure><img src="../../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
 
 * задания неизменяемых параметров проекта, таких как константы настроек, их типы и описание назначения каждого параметра, во вкладке “Настройки проекта”.
 
-<figure><img src="../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
+### Вкладка "Настройка проекта"
 
-Настройки сохраняются не только на компьютере Пользователя (локально), но и системно — в Оркестраторе, если он используется.
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfEuAouCqaeiQj0Qt57v23EnEXZagTdF7t9Y7CAylKMGIrr3NeLC5mikDdgGtviOmX5xrnX2bsloV3rH4LKE6dGKhEdcaYJmg_78mb7Y45bmNJggb1kOv4FybiROuV8QxSgtJ97AQ%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=7442e944&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+Настройки, доступные на вкладке "Пользовательские настройки", сохраняются не только на компьютере Пользователя (локально), но и системно — в Оркестраторе, если он используется.
 
-Эти настройки доступны через блоки "Загрузить настройки проекта" и "Сохранить настройки проекта" в палитре "Оркестратор". Блок "Загрузить настройки проекта" возвращает переменную типа Словарь.
+#### Вкладка "Пользовательские настройки"
+
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Также пользовательские настройки доступны через блоки "Загрузить настройки проекта" и "Сохранить настройки проекта" в палитре "Оркестратор". Блок "Загрузить настройки проекта" возвращает переменную типа Словарь.
 
 <figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXexnXkUyzyPgvPId3dZSewE0OMTmA_R50qIOSPIP9I76dk0OT1K0aTOdfthlW_rJluUo3aGlR5ktTkqlF1tDrYOTpzDYHyFScSmNIFJNSWJCEYecaIZhUFfihL2XA9j704in_1Z2w%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=1e31ca7b&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
@@ -35,7 +43,7 @@
 
 <figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXd1JyAEAFf-8doygACKF1eePs1QkcAgDvBiUTxVsW1hlOqyILzyHr9oQ2qi73hmoCeM5Qe1QMDf3IdpRnCiQBSqYHxW2lBrAVpm8NeBs9CbN1KxhZQzGcEYnHGGyPd0kXEKQydyDQ%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=5ec2fb67&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-При выборе типа Credentials в Свойствах проекта во вкладке Настройки проекта можно передавать login и password:
+При выборе типа Credentials в Свойствах проекта во вкладке "Настройки проекта" можно передавать login и password:
 
 1. ![](https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXckMKSY1i7cM2D5L-7DpG5cZdiwI-qBrwDNIhk5RUI2FpOOv3BEyQk9_GF9b2a9Hbk_SnQaK6gR_7qicKG9G_GKZHI0s5q594TJ2itB-Dd4d4np71VquFj032d4_1XHxqozo9hQZQ%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q\&width=768\&dpr=4\&quality=100\&sign=1df16808\&sv=2)
 2. ![](https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfoY-a-3wc-S409cVkHgQovEFwXmKONae50JDV9TIi5U1XUDsyoNpLA4qq29ZShyhP1xmtmjwllXnu4I4LNxtTlrHmaW0wcP_V-783BVIK0f_uT4Q7tS2pU94DiKvIT9zVCVptdag%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q\&width=768\&dpr=4\&quality=100\&sign=e8bc0a9e\&sv=2)
@@ -48,13 +56,23 @@
 
 <figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfCLBnBCzsr6RW2_0gfyBIxpebwmCPlN-rZoxrbH45NTaUTVLp4bK1x2P5eZ2f_VUdrWZ_h82R2kpsL8RraOjKusK2nPlEr6pTigkbcBt_R9OFlGYAUeaFJ9N_vQColcncUrry0%3Fkey%3DI5kD5wbBMNC3jCGTCEOQ8Q&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=2d358751&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-Когда Пользователь задает настройки на уровне проекта (константу, тип и описание), эти параметры можно использовать повторно в других проектах, если вы применяете одни и те же константы для ключей словаря. Это обеспечивает единообразие и облегчает управление.
+> Когда Пользователь задает настройки на уровне проекта (константу, тип и описание), эти параметры можно использовать повторно в других проектах, если вы применяете одни и те же константы для ключей словаря. Это обеспечивает единообразие и облегчает управление.
 
-Однако важно понимать, что в настройках проекта доступны только указания констант, их типа и описания. Само значение константы задается отдельно при использовании или внедрении в автоматизацию.
+> Однако важно понимать, что в настройках проекта доступны только указания констант, их типа и описания. Само значение константы задается отдельно при использовании или внедрении в автоматизацию.
 
 Например: Задавая константы “SMTP\_SERVER” и “SMTP\_EMAIL” Пользователь может прописать сервер и порт для SMTP, и потом так же использовать эти настройки с этими же ключами в словаре настроек в других проектах.
 
+Параметр “Общая задержка выполнения блоков”, доступная во вкладке “Дополнительные параметры”, позволяет указать общую задержку перед выполнением каждого блока проекта в миллисекундах.
+
+#### Вкладка "Дополнительные параметры"
+
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+> Данный параметр может быть полезен для общего замедления работы Робота, например для целей отладки или адаптации сценария к быстродействию целевой машины.
+
 * указания входных параметров, связанных с процессом отладки сценариев, во вкладке “Настройки отладки”.
+
+### Вкладка "Настройки отладки"
 
 <figure><img src="../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,6 +81,8 @@
 <figure><img src="https://docs.sherparpa.ru/~gitbook/image?url=https%3A%2F%2F483167589-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FpyvTUnAaOD3OMZ1w2jM6%252Fuploads%252Fu3L3obY75K0rzqwDDs6K%252F2025-07-08_22-23-24.png%3Falt%3Dmedia%26token%3Da4197709-9974-443e-a273-91e45594a312&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=11005912&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 * настройки автоматического выполнения сценариев и управления подключёнными модулями Python во вкладке “Автодизайнер”.
+
+### Вкладка "Автодизайнер"
 
 <figure><img src="../../../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 

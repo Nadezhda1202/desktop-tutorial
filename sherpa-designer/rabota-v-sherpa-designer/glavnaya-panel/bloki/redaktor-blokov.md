@@ -2,19 +2,19 @@
 
 Интерфейс Sherpa Designer позволяет создавать свои блоки, а также объединять их в палитры. Блоки и палитры созданные пользователем можно объединять в пакеты с помощью инструмента “Менеджер пакетов”.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Пакетами можно обмениваться через файлы (вкладка “Локальные пакеты”) или через Оркестратор (вкладка “Удаленные пакеты”).&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Разработчик может создавать свои палитры блоков и использовать аналогичные палитры других разработчиков по согласованию.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-Для создания нового блока необходимо нажать на кнопку ![](<../../../../.gitbook/assets/image (3).png>) после чего откроется окно “Редактор моих блоков”.
+Для создания нового блока необходимо нажать на кнопку ![](<../../../../.gitbook/assets/image (3) (1).png>) после чего откроется окно “Редактор моих блоков”.
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="60"></th><th width="209"></th><th></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Элемент интерфейса</strong></td><td><strong>Описание</strong></td></tr><tr><td><ol><li></li></ol></td><td>меню “Файл”</td><td></td></tr><tr><td>1.1.</td><td>пункт “Удалить все блоки”</td><td>Позволяет удалить все блоки в редакторе блоков.</td></tr><tr><td>1.2.</td><td>пункт “Открыть файл…”</td><td>Позволяет открыть файл формата .xaml для загрузки блоков.</td></tr><tr><td>1.3.</td><td>пункт “Добавить из файла…”</td><td>Позволяет добавить из файла формата .xaml блоки в текущий пакет.</td></tr><tr><td>1.4.</td><td>пункт “Сохранить”</td><td>Позволяет сохранить созданный блок или сохранить изменения в отредактированном блоке. Также, для сохранения можно воспользоваться сочетанием клавиш Ctrl + S.</td></tr><tr><td>1.5.</td><td>пункт “Экспортировать в файл…”</td><td>Позволяет сохранить текущий пакет блоков в отдельный файл формата .xaml.</td></tr><tr><td>1.6.</td><td>пункт “Закрыть окно”</td><td>Позволяет закрыть окно “Редактор моих блоков”.</td></tr><tr><td><ol start="2"><li></li></ol></td><td>меню “Правка”</td><td></td></tr><tr><td>2.1</td><td>“Корректировать имена блоков”</td><td>Позволяет корректировать  внутренние имена блоков по необходимому стандарту робота, а также исключить дубликаты блоков. Может потребоваться если вы импортировали блоки из какой либо внешней палитры.</td></tr><tr><td>3.</td><td>кнопка “Сохранить”</td><td>Позволяет сохранить созданный блок или сохранить изменения в отредактированном блоке. Также, для сохранения можно воспользоваться сочетанием клавиш Ctrl + S.</td></tr><tr><td>4.</td><td>кнопка “Экспортировать файл”</td><td>Позволяет сохранить текущий пакет блоков в отдельный файл формата .xaml.</td></tr><tr><td>5.</td><td>область “Блоки”</td><td>Позволяет создавать блоки и управлять ими.</td></tr><tr><td>6.</td><td>область “Атрибуты”</td><td>Отображает атрибуты выбранного блока.</td></tr><tr><td>7.</td><td>область “Свойства”</td><td>Отображает свойства выбранного блока.</td></tr><tr><td>8.</td><td>область “Код блока”</td><td>Отображает код блока.</td></tr></tbody></table>
 
@@ -22,9 +22,9 @@
 
 **Область “Блоки”** позволяет управлять вашими блоками: создавать и удалять их, копировать, вставлять и перемещать внутри списка.
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<table data-header-hidden><thead><tr><th width="59"></th><th width="199"></th><th></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Элемент интерфейса</strong></td><td><strong>Описание</strong></td></tr><tr><td>1.</td><td>кнопка <img src="../../../../.gitbook/assets/image (6).png" alt=""></td><td>Позволяет добавить новый блок.</td></tr><tr><td>2.</td><td>кнопка <img src="../../../../.gitbook/assets/image (7).png" alt=""></td><td>Позволяет удалить выбранный блок.</td></tr><tr><td>3.</td><td>кнопка <img src="../../../../.gitbook/assets/image (8).png" alt=""></td><td>Позволяет скопировать выбранный блок в буфер обмена.</td></tr><tr><td>4.</td><td>кнопка <img src="../../../../.gitbook/assets/image (9).png" alt=""></td><td>Позволяет вставить скопированный ранее блок из буфера обмена.</td></tr><tr><td>5.</td><td>кнопка <img src="../../../../.gitbook/assets/image (10).png" alt=""></td><td>Позволяет переместить выбранный блок вверх по списку.</td></tr><tr><td>6.</td><td>кнопка <img src="../../../../.gitbook/assets/image (11).png" alt=""></td><td>Позволяет переместить выбранный блок вниз по списку.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="59"></th><th width="199"></th><th></th></tr></thead><tbody><tr><td><strong>№ п/п</strong></td><td><strong>Элемент интерфейса</strong></td><td><strong>Описание</strong></td></tr><tr><td>1.</td><td>кнопка <img src="../../../../.gitbook/assets/image (6) (1).png" alt=""></td><td>Позволяет добавить новый блок.</td></tr><tr><td>2.</td><td>кнопка <img src="../../../../.gitbook/assets/image (7) (1).png" alt=""></td><td>Позволяет удалить выбранный блок.</td></tr><tr><td>3.</td><td>кнопка <img src="../../../../.gitbook/assets/image (8) (1).png" alt=""></td><td>Позволяет скопировать выбранный блок в буфер обмена.</td></tr><tr><td>4.</td><td>кнопка <img src="../../../../.gitbook/assets/image (9) (1).png" alt=""></td><td>Позволяет вставить скопированный ранее блок из буфера обмена.</td></tr><tr><td>5.</td><td>кнопка <img src="../../../../.gitbook/assets/image (10) (1).png" alt=""></td><td>Позволяет переместить выбранный блок вверх по списку.</td></tr><tr><td>6.</td><td>кнопка <img src="../../../../.gitbook/assets/image (11) (1).png" alt=""></td><td>Позволяет переместить выбранный блок вниз по списку.</td></tr></tbody></table>
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd94H2Lyrr9cwMCAMJQGWsVqEEuCreUwVdxWDACIMAAmR7UtQPqcUwhLNWSDBOB9UbtwHeUerGe1MvgJxYgcatXvapwLneF58gi8cg48gLAKaLpACmPfooyODd7lEzfP8-XH2zXsAkaPIsaM_uMDNjSTdua?key=7jQBbYjIJfyxVOeIFCSE-Q" alt=""><figcaption></figcaption></figure>
 
@@ -34,7 +34,7 @@
 
 Чтобы изменить атрибут блока необходимо дважды кликнуть левой кнопкой мыши по полю с текущим значением атрибута и ввести в данное поле новое значение:
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Чтобы изменить атрибут “Изображение”, также необходимо нажать на кнопку  ![](<../../../../.gitbook/assets/image (14).png>) справа от поля с текущим значением атрибута. В открывшемся окне выбрать изображение, либо нажать на кнопку “Загрузить изображение из файла” и загрузить нужное изображение.
 

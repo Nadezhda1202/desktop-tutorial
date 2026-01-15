@@ -2,4 +2,4 @@
 
 **Кнопка “Проверить”** позволяет проверить корректность отображения табличной части, из которой будут импортироваться данные.
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

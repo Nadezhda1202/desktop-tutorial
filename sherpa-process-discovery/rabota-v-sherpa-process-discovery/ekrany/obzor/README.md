@@ -26,7 +26,7 @@
 
 В меню конструктора найдите панель с доступными виджетами. Для этого нажмите на иконку всплывающего меню:
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Во всплывающем окне можно воспользоваться следующими иконками в правом верхнем углу:
 
