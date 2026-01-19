@@ -23,6 +23,26 @@
 * _Пример:_
   * `DiagramDesigner.exe -updatepackage "файловая система" "myproject.sherpa"`
 
+### 4. Обновление всех удаленных пакетов при запуске
+
+* _Команда:_ `-updateremotepackages`
+* _Пример:_
+  * `DiagramDesigner.exe -updateremotepackages "myproject.sherpa"`
+
+### 5. Обновление всех блоков в проекте
+
+* _Команда:_ `-updateallpackages`
+* _Пример:_
+  * `DiagramDesigner.exe -updateallpackages "myproject.sherpa"`
+
+### 6. Обновление только указанного пакета по имени
+
+* _Команда:_ `-updatepackage "имя пакета"`
+* _Пример:_
+  * `DiagramDesigner.exe -updatepackage "файловая система" "myproject.sherpa"`
+
+> Внимание: После выполнения обновлений Sherpa Designer не сохраняет проект автоматически. Для сохранения изменений необходимо вручную нажать кнопку "Сохранить".
+
 ### Использование несколько команд одновременно
 
 * _Пример:_

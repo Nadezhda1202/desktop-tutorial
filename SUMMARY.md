@@ -147,6 +147,7 @@
           * [Умножение текста на число](sherpa-designer/rabota-v-sherpa-designer/paneli-svoistv-i-peremennykh-i-rabota-s-nimi/primery-ispolzovaniya-peremennoi-i-raboty-s-vyrazheniyami/umnozhenie-teksta-na-chislo.md)
       * [Нижняя центральная панель](sherpa-designer/rabota-v-sherpa-designer/nizhnyaya-centralnaya-panel/README.md)
         * [Работа с логом робота](sherpa-designer/rabota-v-sherpa-designer/nizhnyaya-centralnaya-panel/rabota-s-logom-robota.md)
+        * [Глобальные и локальные переменные](sherpa-rpa/sherpa-designer/rabota-v-sherpa-designer/nizhnyaya-centralnaya-panel/globalnye-i-lokalnye-peremennye.md)
       * [Руководство по веб-селекторам](sherpa-designer/rabota-v-sherpa-designer/rukovodstvo-po-veb-selektoram/README.md)
         * [Ручной поиск CSS-селекторов в браузере](sherpa-designer/rabota-v-sherpa-designer/rukovodstvo-po-veb-selektoram/ruchnoi-poisk-css-selektorov-v-brauzere.md)
         * [Ручной поиск CSS-селекторов с помощью Sherpa Explorer](sherpa-designer/rabota-v-sherpa-designer/rukovodstvo-po-veb-selektoram/ruchnoi-poisk-css-selektorov-s-pomoshyu-sherpa-explorer.md)
@@ -1089,4 +1090,3 @@
   * [Дистрибутивы Sherpa RPA (Windows)](ssylki-na-distributivy/distributivy-sherpa-rpa-windows.md)
   * [Дистрибутивы Sherpa RPA (Linux)](ssylki-na-distributivy/distributivy-sherpa-rpa-linux.md)
 * [Контакты](kontakty.md)
-* [Change Log](change-log.md)
