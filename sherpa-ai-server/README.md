@@ -53,8 +53,124 @@ Sherpa AI Server обладает широким спектром возможн
 
 ·         массовое копирование правок документов, отслеживание и поддержка изменений нормативной документации.
 
-## Рекомендации к системным характеристикам компьютера
+## Требования к серверу Sherpa AI Server
 
-При развертывании Sherpa AI Server на GPU рекомендуется использовать компьютеры со следующими характеристиками:
+### Системные требования
 
-<table data-header-hidden><thead><tr><th width="236"></th><th width="339"></th></tr></thead><tbody><tr><td>Процессор</td><td>от 8 ядер</td></tr><tr><td>Оперативная память</td><td>от 32 Гб (рекомендуется удвоенное значение от объема доступной видеопамяти)</td></tr><tr><td>Место на диске</td><td>от 150 Гб</td></tr><tr><td>Операционная система</td><td>Docker-совместимый Linux, рекомендуется Ubuntu 22+, однако возможна установка и на других дистрибутивах</td></tr><tr><td>Программное обеспечение</td><td>Docker, Docker Compose, NVIDIA Docker Toolkit (nvidia-docker2) на хост-системе, чтобы обеспечить доступ контейнера к GPU хоста. Можно установить отдельно или в составе NVIDIA CUDA Toolkit</td></tr><tr><td>Объем видеопамяти</td><td>больше 24 Гб </td></tr><tr><td>Требования к видеокарте</td><td><p>Compute Capability не ниже 8.0 </p><p>(уточнить для конкретной видеокарты можно по следующей ссылке: </p><p>https://developer.nvidia.com/cuda-gpus).</p></td></tr><tr><td>Совместимые модели видеокарт</td><td><strong>Примечание</strong>: <em>При наличии в контуре видеокарт уровня Tesla A100 рекомендуется использовать их. При отсутствии в контуре таких видеокарт рекомендуется собрать систему из альтернативных видеокарт - см. ниже.</em></td></tr><tr><td>NVIDIA Data Center Products</td><td>NVIDIA A100, NVIDIA L40, NVIDIA H100</td></tr><tr><td>NVIDIA RTX Desktop</td><td>RTX A6000, RTX 6000</td></tr><tr><td>NVIDIA RTX Mobile</td><td>RTX A100</td></tr></tbody></table>
+* **ОС**: рекомендуется Ubuntu 20.04+, однако с другими дистрибутивами Linux как правило не возникает никаких проблем, совместимость была проверена с RedOS, AstraLinux, AltLinux, Debian
+* **CPU**: x86\_64 с AVX2
+* **RAM**: 16 ГБ минимум, 32 ГБ+ рекомендуется
+* **Диск**: 100 ГБ+ свободного места
+* **GPU**: NVIDIA с CUDA 11.8+ (рекомендуется)
+* **Сеть**: Стабильное интернет-соединение
+* **Доступ**: sudo права для установки
+
+**Важно:**
+
+* Установка занимает часы из-за скачивания моделей ИИ (10-50 ГБ)
+* После установки интернет не требуется
+
+### Подготовка сервера
+
+#### Проверка ресурсов
+
+Далее используется синтаксис Ubuntu, если команда не подходит, вам необходимо изменить синтаксис в зависимости от вашей ОС
+
+```bash
+# Проверьте системные ресурсы
+df -h          # Дисковое пространство
+free -h        # Оперативная память
+nvidia-smi     # GPU (если установлена)
+```
+
+#### Установка базовых инструментов
+
+```bash
+# Обновите систему и установите инструменты
+sudo apt update
+sudo apt install -y ca-certificates curl tar
+```
+
+### Установка Docker (пропустить если установлено)
+
+Sherpa AIServer работает в Docker-контейнерах.
+
+#### Установка Docker CE
+
+```bash
+# Добавьте официальный GPG-ключ Docker
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Добавьте репозиторий Docker
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Установите Docker
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+#### Настройка и проверка
+
+```bash
+# Добавьте пользователя в группу docker (опционально)
+sudo usermod -aG docker $USER
+
+# Проверьте установку
+docker --version
+docker compose version
+```
+
+**Ожидаемый результат:** Docker успешно запускает тестовый контейнер.
+
+### Установка GPU поддержки (NVIDIA + Toolkit) (пропустить если установлено)
+
+Если на сервере есть NVIDIA GPU, установите драйверы и Container Toolkit:
+
+#### Установка драйверов NVIDIA
+
+```bash
+# Очистите старые драйверы и установите новые
+sudo apt purge 'nvidia-*'
+sudo apt autoremove
+sudo apt install -y nvidia-driver-580
+
+# Перезагрузите сервер
+sudo reboot
+```
+
+#### Проверка GPU
+
+```bash
+# После перезагрузки проверьте GPU
+nvidia-smi
+```
+
+**Ожидаемый вывод:**
+
+```
+NVIDIA-SMI 580.xx.xx
+Driver Version: 580.xx.xx
+```
+
+#### Установка NVIDIA Container Toolkit
+
+```bash
+# Добавьте репозиторий и установите toolkit
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | \
+  sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit.gpg
+
+curl -fsSL https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+  sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit.gpg] https://#g' | \
+  sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+
+sudo apt update
+sudo apt install -y nvidia-container-toolkit
+
+# Настройте Docker для GPU
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+```

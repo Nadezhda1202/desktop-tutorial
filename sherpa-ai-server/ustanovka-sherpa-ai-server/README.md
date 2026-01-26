@@ -1,184 +1,470 @@
 # Установка Sherpa AI Server
 
-Перед установкой программных продуктов платформы Sherpa RPA ознакомьтесь с системными требованиями к компьютеру.
+### Распаковка клиентских файлов
 
-Схема взаимодействия между компонентами Sherpa AI Server.
+На этом этапе вы распакуете архив с клиентскими файлами и подготовите систему к установке.
 
-<figure><img src="../../.gitbook/assets/Sherpa-AI-server-cpu-installation.png" alt=""><figcaption></figcaption></figure>
+#### Распаковка архива с клиентскими файлами
 
-Установка производится по инструкции представленной ниже.
-
-> Для установки Sherpa AI Server необходимо обладать правами администратора.&#x20;
-
-Для Docker-контейнеров, использующих CUDA, необходимо установить:
-
-* драйверы NVIDIA GPU на хост-системе;
-* пакет NVIDIA Docker Toolkit (nvidia-docker2) на хост-системе, чтобы обеспечить доступ контейнера к GPU хоста;
-* среду разработки CUDA Toolkit внутри контейнера (она уже установлена).
-
-> Если в системе установлены Docker и Docker-compose, следует сразу перейти в раздел “Установка CUDA”.
-
-## Установка Docker и Docker-compose
-
-Для корректной установки Docker и Docker-compose необходимо установить обновления системы Linux OS.&#x20;
-
-Далее, в терминале, необходимо выполнить следующую команду (для этого скопируйте скопируйте команду, вставьте ее в окно терминала и нажмите Enter):
-
-<table data-header-hidden><thead><tr><th width="207.25" valign="bottom">Действие</th><th width="244.916748046875" valign="bottom">Команда</th></tr></thead><tbody><tr><td valign="bottom">Update Linux OS</td><td valign="bottom">$ sudo apt update</td></tr></tbody></table>
-
-Затем установите Docker, для этого скачайте установочный файл на сайте по ссылке: [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/compose/install/other/) и выполните в терминале поочередно следующие команды:
-
-<table data-header-hidden><thead><tr><th width="457.666748046875" valign="bottom"></th></tr></thead><tbody><tr><td valign="bottom">$ sudo apt install docker.io -y</td></tr><tr><td valign="bottom">$ sudo systemctl enable docker</td></tr><tr><td valign="bottom">$ sudo systemctl start docker</td></tr></tbody></table>
-
-Следующим шагом необходимо установить Docker Compose, для этого перейдите по ссылке: [https://docs.docker.com/compose/install/other/](https://docs.docker.com/compose/install/other/) , после этого выполните в терминале поочередно следующие команды:
-
-<table data-header-hidden><thead><tr><th width="443" valign="bottom"></th></tr></thead><tbody><tr><td valign="bottom">$ sudo apt install curl -y</td></tr><tr><td valign="bottom">$ LATEST_COMPOSE_VERSION=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)</td></tr><tr><td valign="bottom">$ sudo curl -L "https://github.com/docker/compose/releases/download/${LATEST_COMPOSE_VERSION}/docker-compose-$(uname -s | tr '[:upper:]' '[:lower:]')-$(uname -m | tr '[:upper:]' '[:lower:]')" -o /usr/local/bin/docker-compose</td></tr><tr><td valign="bottom">$ sudo chmod +x /usr/local/bin/docker-compose</td></tr></tbody></table>
-
-## Установка NVIDIA GPU drivers
-
-**Примечание:** _если в системе уже установлены NVIDIA drivers (CUDA version >= 12.2) и NVIDIA Docker Toolkit (nvidia-docker2), то можно сразу перейти в раздел “Установка Приложения”._
-
-Для установки NVIDIA GPU drivers выполните в терминале поочередно следующие команды:
-
-```
-sudo apt update && sudo apt upgrade
-sudo apt install nvidia-driver-535
-sudo reboot
+```bash
+# Найдите и распакуйте архив (автоматически выбирается самая свежая версия)
+tar -xvzf "$(ls client_files_*.tgz | sort -V | tail -n 1)"
 ```
 
-Затем проведите проверку с помощью команды:
+**Что делает эта команда:**
+
+* `ls client_files_*.tgz` - находит все файлы архивов
+* `sort -V` - сортирует версии естественно (1.0 < 1.1 < 1.10)
+* `tail -n 1` - выбирает самый свежий файл
+* `tar -xvzf` - распаковывает архив с выводом содержимого
+
+**Ожидаемый результат:** Будет создана директория `sh_scripts/` с исполняемыми скриптами и другие необходимые файлы.
+
+#### Подготовка скриптов к выполнению
+
+```bash
+# Перейдите в директорию со скриптами
+cd sh_scripts/
+
+# Сделайте все скрипты исполняемыми
+chmod +x *.sh
+
+# Вернитесь в корневую директорию проекта
+cd ..
+```
+
+**Что делают эти команды:**
+
+* `chmod +x *.sh` - устанавливает права исполнения для всех shell-скриптов
+* Это необходимо для запуска скриптов в следующих этапах установки
+
+#### Структура распакованного архива:
+
+После распаковки вы должны увидеть следующие файлы и директории:
+
+* `sh_scripts/` - директория с установочными скриптами
+  * `download_all_latest_docker_images.sh` - скрипт для скачивания Docker-образов
+  * `load_all_docker_images.sh` - скрипт для загрузки образов в Docker
+  * `extract_models.sh` - скрипт для распаковки моделей ИИ
+  * `extract_llama.sh` - скрипт для распаковки LLM-моделей
+* `docker-compose.yml` - конфигурация Docker Compose для клиентской установки
+* `.env` - файл с переменными окружения для настройки системы
+
+#### Проверка успешности распаковки:
+
+```bash
+# Проверьте содержимое директории
+ls -la
+
+# Убедитесь, что скрипты исполняемые
+ls -la sh_scripts/*.sh
+```
+
+### Выполнение скриптов для разархивации
+
+#### Загрузка Docker-образов
+
+```bash
+# Запустите скрипт загрузки Docker-образов
+sudo ./sh_scripts/load_all_docker_images.sh
+```
+
+**Что делает скрипт:**
+
+1. Загружает все Docker-образы из скачанных .tar.gz файлов
+2. Импортирует образы в локальный Docker registry
+3. Проверяет успешность загрузки
+
+#### Распаковка моделей ИИ
+
+```bash
+# Запустите скрипт распаковки основных моделей
+sudo ./sh_scripts/extract_models.sh
+```
+
+**Что делает скрипт:**
+
+1. Распаковывает модель Whisper для распознавания речи
+2. Распаковывает модель BGE Reranker для улучшения поиска
+3. Распаковывает модели для генерации эмбеддингов
+4. Создает необходимые директории
+5. Проверяет успешность распаковки
+
+```bash
+# Запустите скрипт распаковки LLM модели
+sudo ./sh_scripts/extract_llama.sh
+```
+
+**Что делает скрипт:**
+
+1. Распаковывает модель Llama 3 для языкового моделирования
+2. Удаляет префикс `model-store/` из путей файлов
+3. Помещает файлы непосредственно в директорию моделей
+4. Проверяет содержимое после распаковки
+
+#### Структура директорий после распаковки(примерная):
 
 ```
+./whisper/
+└── models/
+    ├── base.pt
+    └── ...
+
+./bge_reranker/
+└── models/
+    └── bge-reranker-large/
+        ├── config.json
+        ├── model.bin
+        └── ...
+
+./embed-server/app/
+└── model-store/
+    └── sentence-transformers/
+        └── paraphrase-multilingual-MiniLM-L12-v2/
+            ├── config.json
+            ├── pytorch_model.bin
+            └── ...
+
+./llm-server/models/
+├── meta-llama/
+│   └── Meta-Llama-3-8B-Instruct/
+│       ├── config.json
+│       ├── model-00001-of-00004.safetensors
+│       ├── model-00002-of-00004.safetensors
+│       └── ...
+└── tokenizer.json
+```
+
+### Настройка конфигурации системы
+
+Sherpa AI Server требует настройки переменных окружения в файле `.env` перед запуском.
+
+#### Открытие файла конфигурации
+
+```bash
+# Откройте файл .env в текстовом редакторе
+nano ./.env
+```
+
+Или используйте любой текстовый редактор:
+
+```bash
+# Vim
+vim ./.env
+
+# VS Code (если установлен)
+code ./.env
+```
+
+#### Основные параметры конфигурации
+
+**Настройки основного сервера (aiserver):**
+
+```bash
+# IP-адрес сервера (измените на ваш статический IP)
+HOST_IP=127.0.0.1
+
+# Доменное имя (измените на ваш домен)
+NGINX_DOMAIN_NAME=aiserver.sherparpa.ru
+
+# Максимальная длина сообщений (в токенах)
+MAX_TOKENS_MESSAGE=32000
+```
+
+**Настройки базы данных PostgreSQL:**
+
+```bash
+# Пароль PostgreSQL (УСТАНОВИТЕ СВОЙ БЕЗОПАСНЫЙ ПАРОЛЬ)
+POSTGRES_PASSWORD=password
+```
+
+**Настройки LLM сервера:**
+
+**Выбор модели ИИ:** Выберите одну из доступных моделей, раскомментировав нужную строку и закомментировав остальные:
+
+```bash
+# === ВЫБОР МОДЕЛИ ИИ ===
+# Раскомментируйте ТОЛЬКО ОДНУ из моделей ниже:
+
+# Llama 3.1 модель (рекомендуется для общего использования)
+LLM_COMPLETION_MODEL_NAME=/model-store/meta-llama/Meta-Llama-3-8B-Instruct
+LLM_CHAT_TEMPLATE=examples/tool_chat_template_llama3.1_json.jinja
+LLM_TOOL_CALL_PARSER=llama3_json
+
+# Qwen модель (альтернативная модель)
+# LLM_COMPLETION_MODEL_NAME=/model-store/Qwen3-30B-A3B-AWQ
+# LLM_TOOL_CALL_PARSER=hermes
+
+# OCR модель (специализированная для распознавания текста)
+# LLM_COMPLETION_MODEL_NAME=/model-store/olmOCR-2-7B-1025-FP8
+
+# === КОНЕЦ ВЫБОРА МОДЕЛИ ===
+
+```
+
+#### Безопасность и пароли
+
+**Критически важно:** Измените все пароли по умолчанию на надежные:
+
+```bash
+# Генерация надежных паролей
+openssl rand -base64 32
+
+# Или используйте pwgen, если установлен
+pwgen -s 32 1
+```
+
+**Рекомендации по паролям:**
+
+* Минимум 32 символа
+* Используйте буквы, цифры и специальные символы
+* Не используйте словарные слова
+* Храните пароли в безопасном месте
+
+#### Проверка конфигурации
+
+После редактирования файла `.env` проверьте корректность настроек:
+
+```bash
+# Проверьте синтаксис файла
+cat .env | grep -v '^#' | grep '=' | wc -l
+
+# Проверьте наличие обязательных переменных
+grep -E "(POSTGRES_PASSWORD|HOST_IP|NGINX_DOMAIN_NAME)" .env
+```
+
+#### Создание резервной копии
+
+```bash
+# Создайте резервную копию настроек
+cp .env .env.backup
+
+```
+
+**Важно:** Без правильной настройки `.env` файла система не запустится корректно.
+
+#### Копирование SSL-сертификатов
+
+Для обеспечения безопасного HTTPS-соединения необходимо скопировать SSL-сертификаты в директорию `./oais/backend/config/certs/`:
+
+```bash
+# Создайте директорию для сертификатов (если не существует)
+mkdir -p ./oais/backend/config/certs/
+
+# Скопируйте ваши SSL-сертификаты
+# Замените на пути к вашим реальным сертификатам
+cp /path/to/your/certificate.crt ./oais/backend/config/certs/aiserver.crt
+cp /path/to/your/private.key ./oais/backend/config/certs/aiserver.key
+
+# Или если у вас wildcard сертификат:
+cp /path/to/your/wildcard.crt ./oais/backend/config/certs/aiserver.crt
+cp /path/to/your/wildcard.key ./oais/backend/config/certs/aiserver.key
+```
+
+**Требования к сертификатам:**
+
+* Сертификат должен быть в формате `.crt` или `.pem`
+* Приватный ключ должен быть в формате `.key`
+* Имена файлов должны быть `aiserver.crt` и `aiserver.key`
+
+**Важно:** Убедитесь что сертификаты имеют правильные права доступа:
+
+```bash
+# Установите правильные права на сертификаты
+chmod 644 ./oais/backend/config/certs/*.crt
+chmod 600 ./oais/backend/config/certs/*.key
+```
+
+**ВНИМАНИЕ**: получить сертификаты необходимо у администратора сети либо в вашем корпоративном центре сертификации, в случае отсутствия данных пунктов вы можете воспользоваться статьей получения сертификатов
+
+### Запуск системы
+
+После завершения всех подготовительных этапов можно запустить Sherpa AIServer. Система будет работать в фоновом режиме как набор Docker-контейнеров.
+
+**Важно:** Клиент получает файл `docker-compose.yml`, который содержит конфигурацию всех сервисов. Убедитесь, что вы используете именно этот файл для запуска системы.
+
+#### Запуск всех сервисов
+
+```bash
+# Запустите базовые сервисы в фоновом режиме
+docker compose up -d
+```
+
+**Что делает эта команда:**
+
+* `docker compose` - использует Docker Compose для управления контейнерами
+* `up` - создает и запускает все сервисы из docker-compose.yml
+* `-d` - запускает контейнеры в detached режиме (фоновом)
+
+**Ожидаемое время запуска:** 2-5 минут, в зависимости от производительности системы.
+
+#### Запуск сервисов с дополнительными функциями
+
+В файле `docker-compose.client.yml` некоторые сервисы имеют profiles и запускаются только при явном указании:
+
+```bash
+# Запуск с сервисом распознавания речи Whisper
+docker compose --profile whisper up -d
+
+# Запуск с сервисом переранжирования BGE Reranker
+docker compose --profile reranker up -d
+
+# Запуск всех сервисов (Whisper + BGE Reranker + базовые)
+docker compose --profile full up -d
+```
+
+**Важно:** Учитывайте объем доступной видеопамяти (VRAM) на вашей системе. Если у вас ограниченный объем VRAM, запускайте только необходимые сервисы с соответствующими профилями. При недостатке памяти система может работать нестабильно или не запуститься вовсе.
+
+**Доступные profiles:**
+
+* `whisper` - включает сервис распознавания речи (порт 3005)
+* `reranker` - включает сервис переранжирования результатов поиска (порт 8001)
+* `full` - включает все дополнительные сервисы (Whisper + BGE Reranker)
+
+**Важно:** Без указания profiles сервисы Whisper и BGE Reranker не запустятся. Выберите нужный profile в зависимости от ваших требований к функциональности.
+
+#### Проверка статуса контейнеров
+
+```bash
+# Проверьте статус всех запущенных контейнеров
+docker compose ps
+
+# Или используйте docker ps для детальной информации
+docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+```
+
+**Ожидаемый вывод (зависит от выбранного profile):**
+
+**Базовые сервисы (без profiles):**
+
+```
+NAME                    STATUS              PORTS
+aiserver                Up 2 minutes        0.0.0.0:443->443/tcp, 0.0.0.0:80->80/tcp, 0.0.0.0:4500->4500/tcp
+aiserver-db             Up 2 minutes        0.0.0.0:3306->3306/tcp
+aiserver-pg             Up 2 minutes        0.0.0.0:5432->5432/tcp
+aiserver-embed          Up 2 minutes        0.0.0.0:3004->443/tcp
+aiserver-llm-server     Up 2 minutes        0.0.0.0:3003->8000/tcp
+aiserver-code_interpreter Up 2 minutes        0.0.0.0:3001->3001/tcp
+```
+
+**С profile `whisper` (добавляется):**
+
+```
+aiserver-whisper        Up About a minute   0.0.0.0:3005->8000/tcp
+```
+
+**С profile `reranker` (добавляется):**
+
+```
+aiserver-bge_reranker   Up About a minute   0.0.0.0:8001->8000/tcp
+```
+
+**С profile `full` (добавляются оба):**
+
+```
+aiserver-whisper        Up About a minute   0.0.0.0:3005->8000/tcp
+aiserver-bge_reranker   Up About a minute   0.0.0.0:8001->8000/tcp
+```
+
+Все запущенные контейнеры должны иметь статус "Up" и показывать открытые порты.
+
+#### Проверка логов контейнеров
+
+```bash
+# Посмотрите логи основного сервера
+docker compose logs aiserver
+
+# Посмотрите логи всех сервисов
+docker compose logs
+
+# Мониторинг логов в реальном времени
+docker compose logs -f aiserver
+```
+
+**Проверка на ошибки:**
+
+* Ищите сообщения об ошибках подключения к базам данных
+* Проверьте загрузку моделей ИИ
+* Убедитесь в корректности SSL сертификатов
+
+#### Проверка доступности сервисов
+
+**Проверка основного веб-интерфейса:**
+
+```bash
+# Проверьте HTTP доступность (замените на ваш домен)
+curl -I http://aiserver.sherparpa.ru
+
+# Проверьте HTTPS доступность (замените на ваш домен)
+curl -I https://aiserver.sherparpa.ru
+
+# Ожидаемый ответ: HTTP/2 200 или перенаправление на /login
+```
+
+**Проверка сервисов ИИ:**
+
+````bash
+# Проверьте LLM сервер
+curl -X POST "http://localhost:3003/v1/completions" \
+  -H "Content-Type: application/json" \
+  -d '{"model": "meta-llama/Meta-Llama-3-8B-Instruct", "prompt": "Hello", "max_tokens": 10}'
+
+### Проверка подключения к базам данных
+
+```bash
+
+# Проверьте подключение к PostgreSQL
+docker compose exec aiserver-pg psql -U postgres -d postgres -c "SELECT version();"
+````
+
+#### Тестирование основных функций
+
+**Веб-интерфейс:**
+
+1. Откройте браузер и перейдите на `https://aiserver.sherparpa.ru`
+2. Должна открыться страница входа в систему
+3. Проверьте возможность регистрации/входа
+
+#### Управление системой
+
+**Остановка системы:**
+
+```bash
+# Остановите все сервисы (с учетом запущенных profiles)
+docker compose down
+
+# Остановите с удалением volumes (осторожно!)
+docker compose down -v
+```
+
+**Перезапуск сервисов:**
+
+```bash
+# Перезапустите конкретный сервис
+docker compose restart aiserver
+
+# Перезапустите все запущенные сервисы
+docker compose restart
+
+# Перезапустите сервисы с определенным profile
+docker compose --profile whisper restart aiserver-whisper
+```
+
+**Просмотр ресурсов:**
+
+```bash
+# Проверьте использование ресурсов
+docker stats
+
+# Проверьте использование GPU
 nvidia-smi
 ```
 
-## Установка NVIDIA Docker Toolkit (nvidia-docker2) online
+#### Возможные проблемы при запуске:
 
-Для установки NVIDIA Docker Toolkit (nvidia-docker2) online выполните в терминале поочередно следующие команды:
+* **Контейнеры не запускаются**: Проверьте логи с `docker compose logs`
+* **Проблемы с SSL**: Убедитесь в корректности сертификатов
+* **Ошибки подключения к БД**: Проверьте переменные окружения в `.env`
+* **GPU проблемы**: Проверьте настройки CUDA\_VISIBLE\_DEVICES
 
-```
-sudo apt-get purge -y nvidia-docker
-distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
-curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
-curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
-sudo apt-get update
-sudo apt-get install -y nvidia-docker2
-sudo systemctl restart docker
-```
-
-## Установка NVIDIA Container Toolkit online
-
-Для установки NVIDIA Container Toolkit online выполните в терминале поочередно следующие команды:
-
-1. Настройка продакшн-репозитория:
-
-```
-curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
-&& curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
-sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
-sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
-```
-
-2. При необходимости настройки репозитория для использования экспериментальных пакетов:
-
-```
-sed -i -e '/experimental/ s/^#//g' /etc/apt/sources.list.d/nvidia-container-toolkit.list
-```
-
-3. Для обновления списка пакетов из репозитория:
-
-```
-sudo apt-get update
-```
-
-4. Для установки пакетов NVIDIA Container Toolkit:
-
-```
-sudo apt-get install -y nvidia-container-toolkit
-```
-
-## Установка CUDA offline
-
-Для установки CUDA offline скачайте архивы файлов (\~3,5Gb), доступные по следующий ссылкам:
-
-```
-https://sherparpa.ru/downloads/private/SherpaAIServer/cuda-offline-install.tar.gz
-https://sherparpa.ru/downloads/private/SherpaAIServer/nvidia-graphics-drivers-535_535.129.03.orig-amd64.tar.gz
-```
-
-При необходимости обновите драйвер NVIDIA, выполнив в терминале следующие команды:
-
-```
-tar -xzvf nvidia-graphics-drivers-535_535.129.03.orig-amd64.tar.gz --strip-components=1
-sudo bash NVIDIA-Linux-x86_64-535.129.03.run
-```
-
-Затем распакуйте ранее скачанный архив, это можно сделать с помощью следующей команды:
-
-```
-tar -xzvf cuda-offline-install.tar.gz
-```
-
-Для установки CUDA repository package используйте команду:
-
-```
-sudo dpkg -i cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
-```
-
-Переместите pin с помощью команды:
-
-```
-sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
-```
-
-Скопируйте GPG keyring, используя команду:
-
-```
-sudo cp /var/cuda-repo-ubuntu2004-11-8-local/cuda-*-keyring.gpg /usr/share/keyrings/
-```
-
-Для запуска установщика приложение используйте следующие команду:
-
-```
-cd /var/cuda-repo-ubuntu2004-11-8-local/
-sudo dpkg -i *.deb
-```
-
-Последним шагом в установке CUDA offline является обновление переменных окружения, для этого используйте следующую команду:
-
-```
-echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
-source ~/.bashrc
-```
-
-## Установка приложения
-
-Для установки приложения необходимо поочередно выполнить следующие действия:
-
-<table data-header-hidden><thead><tr><th width="271"></th><th></th></tr></thead><tbody><tr><td>Перейти в папку приложения:</td><td><code>$ cd /opt</code></td></tr><tr><td>Создать папку проекта</td><td><code>$ sudo mkdir -p /opt/sais</code>​</td></tr><tr><td>Перейти в папку</td><td><code>$ cd /opt/sais</code></td></tr><tr><td>Скопировать модель</td><td><p><code>$ sudo mkdir -p /opt/sais/model-store/meta-llama</code></p><p><code>$ cp Meta-Llama-3-8B-Instruct-Q4_K_S.gguf  /opt/sais/model-store/meta-llama</code></p></td></tr><tr><td>Распаковать архивы (5-10 минут)</td><td><p><code>$ sudo tar -xf sais20CPU-20250425.tar.gz</code></p><p> <code>sudo tar -xf sentence-transformers-model.tar.gz</code></p></td></tr></tbody></table>
-
-<figure><img src="../../.gitbook/assets/root.png" alt=""><figcaption></figcaption></figure>
-
-| <p>*если у текущего пользователя &#x3C;username></p><p>нет разрешений для docker group</p> | `$ sudo usermod -aG docker <username>`                                                                                                                                                                                                                                                   |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Распакуйте docker images                                                                   | `$ sudo docker load --input sais20CPU-images.tar`                                                                                                                                                                                                                                        |
-| Сделайте вcе сценарии в директории исполняемыми                                            | `$ sudo find ./*.sh -type f \| sudo xargs chmod +x`                                                                                                                                                                                                                                      |
-| Установите права на конфиг для mysql                                                       | `$ sudo chmod 0444 /opt/`[`sais`](https://sherparpa.ru/downloads/private/SherpaAIServer/sais-cpu.tar.gz)`/oais/backend/config/my.cnf`                                                                                                                                                    |
-| Настройте Доменное имя                                                                     | <p><code>$ sudo nano ./oais/backend/config/domain.conf</code></p><p> </p><p>Замените в этом файле домен "exampledomain" на свой во всех местах и сохраните файл (3 изменения).</p>                                                                                                       |
-| Настройте окружения                                                                        | <p>Задайте IP-сервер в файле окружения. Для этого задайте IP-сервер в файле ./client-files/.env и установите параметр HOST_IP=ВАШ.IP</p><p> </p>                                                                                                                                         |
-| Создайте общую сеть, выполнив в терминале следующую команду                                | `$ sudo docker network create --driver bridge --subnet 172.18.0.0/16 llm-net`                                                                                                                                                                                                            |
-| Настройте сертификаты                                                                      | Переименуйте сертификат и ключ для своего домена в orchestrator.crt и orchestrator.key соответственно и скопируйте их в "./oais/backend/config/certs".                                                                                                                                   |
-| Выполните запуск контейнеров                                                               | `$ sudo sh ./run.sh`                                                                                                                                                                                                                                                                     |
-| Создайте базу данных                                                                       | <p><code>$ docker exec -it orchestrator-db mysql -u root -e "CREATE DATABASE IF NOT EXISTS orchestrator CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci"</code></p><p># Если стандартный пароль от базы меняли на свой, то нужно после root добавить <code>-p</code> и свой пароль.</p> |
-| Выполните обновление базы данных                                                           | `$ sudo sh ./oais/migrate.sh`                                                                                                                                                                                                                                                            |
-
-| Выполните проверку | `$ docker stats` |
-| ------------------ | ---------------- |
-
-<figure><img src="../../.gitbook/assets/docker.png" alt=""><figcaption></figcaption></figure>
-
-| При необходимости удалите архивы для экономии места           | `$ rm  <file_name>`                                                                                                                                                                                                                                                                                                  |
-| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| На этом установка завершена, и приложение доступно в браузере | <p>Требуется 5-7 минут на загрузку контейнера языковой модели ( llm-server):</p><p>CPU %  ~ 0%  MEM USAGE > 5 Gib<br>После этого можно переходить по ссылке:<br><a href="http://host:3001/">https://&#x3C;host_url></a>(web interface)</p>                                                                           |
-| Выполните активацию AI Server                                 | <p>Перейдите в браузере по url адресу:<br> &#x3C;доменное_АИ_сервера>/setup.php</p><p>и если IP адрес отображается верно нажмите на кнопку “Отправить”.</p><p></p><p>В ответе скрипта будет указан GUID АИ сервера, который необходимо записать вместе с регистрационными данными для дальнейшего использования.</p> |
+После успешного запуска и тестирования системы установка Sherpa AI Server завершена.
