@@ -74,7 +74,7 @@
         * [Меню "Правка"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-pravka.md)
         * [Меню "Диаграмма"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-diagramma.md)
         * [Меню "Параметры"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-parametry.md)
-        * [Меню "Инструменты"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty.md)
+        * [Меню "Инструменты"](sherpa-rpa/sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty/)
     * [Главная панель](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/)
       * [Блоки](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/bloki/)
         * [Редактор блоков](sherpa-designer/rabota-v-sherpa-designer/glavnaya-panel/bloki/redaktor-blokov.md)
