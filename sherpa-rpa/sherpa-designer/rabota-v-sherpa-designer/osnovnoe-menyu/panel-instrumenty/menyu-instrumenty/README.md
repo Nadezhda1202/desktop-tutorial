@@ -18,7 +18,7 @@
 
 Подробнее про PDD-файл:
 
-
+{% embed url="https://docs.sherparpa.ru/sherpa-rpa/sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty/dokument-process-design-document-pdd" %}
 
 * Флаг "Сокращенную версию (без ИИ)", который включает создание обобщенной версии документации без использования искусственного интеллекта.
 * Флаг "Полную версию (с ИИ)" (будет доступен в следующих версиях).
