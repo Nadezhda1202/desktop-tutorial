@@ -59,7 +59,7 @@ sudo apt install -y ca-certificates curl tar
 
 ### Установка Docker (пропустить если установлено)
 
-Sherpa AIServer работает в Docker-контейнерах.
+Sherpa AI Server работает в Docker-контейнерах.
 
 #### Установка Docker CE
 
