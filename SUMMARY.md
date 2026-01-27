@@ -1073,8 +1073,6 @@
   * [Обновления Sherpa AI Server](obnovleniya/obnovleniya-sherpa-ai-server/README.md)
     * [Версия 2.2.0](obnovleniya/obnovleniya-sherpa-ai-server/versiya-2.2.0/README.md)
       * [Инструкция по миграции MySQL → PostgreSQL](obnovleniya/obnovleniya-sherpa-ai-server/versiya-2.2.0/instrukciya-po-migracii-mysql-postgresql.md)
-    * [Версия 2.1.0](obnovleniya/obnovleniya-sherpa-ai-server/versiya-2.1.0.md)
-    * [Версия 2.0.0](obnovleniya/obnovleniya-sherpa-ai-server/versiya-2.0.0.md)
 * [Лицензии](licenzii/README.md)
   * [Attended робот](licenzii/attended-robot.md)
   * [Attended Floating робот](licenzii/attended-floating-robot.md)
