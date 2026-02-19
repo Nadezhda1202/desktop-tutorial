@@ -12,7 +12,7 @@
 
 Подробная информация:
 
-
+{% embed url="https://docs.sherparpa.ru/sherpa-rpa/sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty/sozdanie-pdd-knopkoi-dokumentirovat..." %}
 
 ## Полная проверка блоков
 
