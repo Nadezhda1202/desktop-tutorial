@@ -5,11 +5,11 @@
 1. Реализован визуальный редактор шаблонов в Sherpa IDP (Шаблонизаторе) для роботов на ОС Linux.
 2. Во всех OCR-блоках Sherpa Designer, а также в Sherpa IDP (Шаблонизаторе), добавлена поддержка движка “ContentReader”.
 
-<figure><img src="../../.gitbook/assets/unknown (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. В палитру “Машинное обучение” добавлен блок “AI Server. Reranker” для работы с Sherpa AI Server.&#x20;
 
-<figure><img src="../../.gitbook/assets/unknown (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Реранкер - это модель с определенным алгоритмом, который вычисляет релевантность каждого из переданных в списке документов или чанков относительно заданного вопроса и тем самым повышает качество векторно-семантического поиска документов по технологии RAG.
 
@@ -17,7 +17,7 @@
 
 Настройка выполняется через параметр “Отпечаток (Thumbprint) сертификата для подключения к оркестратору (при необходимости)” на вкладке “Оркестратор” в Sherpa Assistant.
 
-<figure><img src="../../.gitbook/assets/unknown (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сертификат извлекается из **системного хранилища** (Windows) или **из файла сертификата** (Linux) по уникальному отпечатку (thumbprint), после чего используется в запросах к Оркестратору.
 
@@ -25,11 +25,11 @@
 
 5. Реализована запись селекторов при работе в режиме удаленной отладки. Данный механизм упрощает удаленную диагностику и отладку Unattended-роботов.
 
-<figure><img src="../../.gitbook/assets/unknown (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 6. В свойства проекта добавлен новый параметр “Общая задержка выполнения блоков”. Для его настройки необходимо перейти в окно “Свойства проекта”, открыть вкладку “Настройки проекта” и перейти в раздел “Дополнительные параметры”.&#x20;
 
-<figure><img src="../../.gitbook/assets/unknown (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 Данная функция позволяет указать общую задержку перед выполнением каждого блока проекта в миллисекундах.&#x20;
 
@@ -39,27 +39,27 @@
 
 Блок “Создать текстовый ресурс” позволяет создать текстовый ресурс.
 
-<figure><img src="../../.gitbook/assets/unknown (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 Блок “Создать ресурс с учетными данными” позволяет создать ресурс с учетными данными.
 
-<figure><img src="../../.gitbook/assets/unknown (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 Блок “Создать работу” позволяет создать работу с указанным процессом и для указанного робота.
 
-<figure><img src="../../.gitbook/assets/unknown (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 Блок “Обновить работу” позволяет обновить работу с указанным процессом и для указанного робота.
 
-<figure><img src="../../.gitbook/assets/unknown (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 8. В блок “Бот. Редактирование сообщения” добавлено свойство “Кнопки”, которое позволяет заменить или добавить кнопки у сообщения.
 
-<figure><img src="../../.gitbook/assets/unknown (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 9. В палитре “Машинное обучение” в блоки “Запрос к ChatGPT”, “Запрос к Claude”, “Запрос к GroqChat”, “Запрос к OpenRouter” добавлено свойство “Схема ответа”.&#x20;
 
-<figure><img src="../../.gitbook/assets/unknown (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 В данном свойстве есть возможность указать JSON схему, которая описывает какому формату должен соответствовать ответ данной модели.
 

@@ -120,6 +120,7 @@
           * [Меню "Правка"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-pravka.md)
           * [Меню "Диаграмма"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-diagramma.md)
           * [Меню "Проект"](sherpa-rpa/sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty/README.md)
+            * [Создание PDD кнопкой «Документировать...»](sherpa-rpa/sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty/sozdanie-pdd-knopkoi-dokumentirovat....md)
             * [Документ Process Design Document (PDD)](sherpa-rpa/sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty/dokument-process-design-document-pdd.md)
           * [Меню "Параметры"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-parametry.md)
           * [Меню "Инструменты"](sherpa-designer/rabota-v-sherpa-designer/osnovnoe-menyu/panel-instrumenty/menyu-instrumenty-1.md)

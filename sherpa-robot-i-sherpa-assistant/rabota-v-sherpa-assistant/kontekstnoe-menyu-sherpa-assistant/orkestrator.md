@@ -14,11 +14,11 @@
 
 В случае успешного подключения появится оповещение: "Подключено".
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Поддержка дополнительной аутентификации Роботов при подключении к Оркестратору на Windows и Linux выполняется через параметр "Отпечаток (Thumbprint) сертификата Х.509 для подключения к оркестратору (при необходимости)".
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Сертификат извлекается из системного хранилища (Windows) или из файла сертификата (Linux) по уникальному отпечатку (thumbprint), после чего используется в запросах к Оркестратору.
 
