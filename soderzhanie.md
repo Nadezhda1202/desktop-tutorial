@@ -229,7 +229,7 @@
       * [Установка Sherpa Robot Unattended на Linux](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-robot/ustanovka-sherpa-robot-unattended-na-linux/)
     * [Установка Sherpa RPA Runtime](sherpa-orchestrator/razvertyvanie-platformy-pod-upravleniem-orkestratora/ustanovka-sherpa-rpa-runtime.md)
   * [Установка Sherpa Orchestrator](sherpa-orchestrator/ustanovka-sherpa-orchestrator/)
-    * [Установка и настройка SSL сертификатов](sherpa-orchestrator/ustanovka-sherpa-orchestrator/ustanovka-i-nastroika-ssl-sertifikatov.md)
+    * [Установка и настройка SSL сертификатов](sherpa-rpa/sherpa-orchestrator/ustanovka-sherpa-orchestrator/s-ispolzovaniem-docker/ustanovka-i-nastroika-ssl-sertifikatov.md)
   * [Работа в Sherpa Orchestrator](sherpa-orchestrator/rabota-v-sherpa-orchestrator/)
     * [Начало работы в Sherpa Orchestrator](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/)
       * [Настройки Оркестратора](sherpa-orchestrator/rabota-v-sherpa-orchestrator/nachalo-raboty-v-sherpa-orchestrator/nastroiki-orkestratora.md)
