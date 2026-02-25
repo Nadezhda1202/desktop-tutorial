@@ -110,7 +110,7 @@ cp -r ./backend/config ./backend/config_backup
 cp -r ./backend/config/certs ./certs_backup
 
 # Распакуйте файлы обновления
-tar -xvzf "$(ls orchestrator_docker_update_*.tar.gz | sort -V | tail -n 1)"
+tar -xvzf "$(ls orchestrator_docker_update_*.tgz | sort -V | tail -n 1)"
 
 # Сделайте скрипты исполняемыми
 chmod +x sh_scripts/*.sh
@@ -134,7 +134,7 @@ sudo ./sh_scripts/load_all_docker_images.sh
 
 **Распаковка и подготовка:**
 
-* `tar -xvzf "$(ls orchestrator_docker_update_*.tar.gz | sort -V | tail -n 1)"` - распаковывает свежие файлы обновления
+* `tar -xvzf "$(ls orchestrator_docker_update_*.tgz | sort -V | tail -n 1)"` - распаковывает свежие файлы обновления
 * `chmod +x sh_scripts/*.sh` - делает скрипты исполняемыми
 * `cp -r ./certs_backup/* ./backend/config/certs/` - восстанавливает сертификаты
 
