@@ -112,6 +112,9 @@ cp -r ./backend/config/certs ./certs_backup
 # Распакуйте файлы обновления
 tar -xvzf "$(ls orchestrator_docker_update_*.tgz | sort -V | tail -n 1)"
 
+# Скопируйте дефолтную конфигурацию nginx (если ее нет)
+cp -r ./backend/config/default/nginx ./backend/config/nginx
+
 # Сделайте скрипты исполняемыми
 chmod +x sh_scripts/*.sh
 
