@@ -42,7 +42,7 @@ scp *.tar.gz user@target-server:/path/to/installation/directory/
 # Подключитесь к серверу
 ssh user@target-server
 
-# Перейдите в директорию с файлами
+# Перейдите в директорию с файлами (обычно это opt/SherpaOrchestrator)
 cd /path/to/installation/directory
 
 # Проверьте наличие всех файлов
@@ -100,7 +100,7 @@ docker compose down
 ### 4. Загрузка Docker образов
 
 ```bash
-# Создайте бэкап файла .env
+# Создайте бэкап файла .env (если он есть)
 cp .env .env.backup
 
 # Создайте бэкап конфигурации
@@ -144,7 +144,29 @@ sudo ./sh_scripts/load_all_docker_images.sh
 
 </details>
 
-### 5. Проверка переменных окружения
+### 5. Выбор конфигурации БД и проверка переменных окружения
+
+```bash
+# Обновите конфигурацию docker-compose в зависимости от используемой БД
+
+# Для MySQL (рекомендуется)
+cp build/docker/docker-compose-mysql.yml docker-compose.yml
+
+# ИЛИ для PostgreSQL
+cp build/docker/docker-compose-pg.yml docker-compose.yml
+```
+
+<details>
+
+<summary>💡 Комментарии к выбору конфигурации БД</summary>
+
+**cp build/docker/docker-compose-mysql.yml docker-compose.yml** - выбирает конфигурацию для MySQL\
+**cp build/docker/docker-compose-pg.yml docker-compose.yml** - выбирает конфигурацию для PostgreSQL
+
+* В рабочем каталоге должен быть итоговый файл `docker-compose.yml`
+* Выберите только один вариант в зависимости от используемой базы данных
+
+</details>
 
 ```bash
 # Откройте файл .env для проверки
