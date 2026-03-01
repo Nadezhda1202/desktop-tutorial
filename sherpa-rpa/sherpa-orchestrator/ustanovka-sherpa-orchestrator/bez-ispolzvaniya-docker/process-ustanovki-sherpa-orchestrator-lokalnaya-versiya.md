@@ -441,6 +441,16 @@ database_dbname=orchestrator
 
 </details>
 
+#### Настройка phinx.php (миграции БД)
+
+Файл `backend/config/phinx.php` используется Phinx для выполнения миграций. Пароль в нём должен совпадать с паролем БД из config.ini:
+
+```bash
+sudo nano /opt/SherpaOrchestrator/backend/config/phinx.php
+```
+
+В секции `environments` в блоке используемой БД (например, `orchestrator` или `mysql`) параметр `'pass'` должен совпадать с `database_password` из config.ini. Иначе миграции при установке или обновлении завершатся ошибкой.
+
 ### Активация конфигурации Nginx
 
 ```bash

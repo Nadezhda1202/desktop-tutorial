@@ -282,6 +282,21 @@ database_dbname_archive=orchestrator_archive
 
 **Важно:** Если вы изменили пароли в файле `.env` (MYSQL\_ROOT\_PASSWORD или POSTGRES\_PASSWORD), убедитесь что соответствующие пароли в config.ini совпадают!
 
+#### Настройка phinx.php (миграции БД)
+
+Файл `backend/config/phinx.php` используется Phinx для выполнения миграций при запуске контейнера. Пароли в нём должны совпадать с паролями в `.env` и `config.ini`:
+
+```bash
+sudo nano backend/config/phinx.php
+```
+
+В секции `environments` задайте те же пароли, что и в config.ini:
+
+* Для **MySQL**: в блоке `'mysql'` параметр `'pass'` должен совпадать с `MYSQL_ROOT_PASSWORD` из `.env` (по умолчанию `mysql-password`).
+* Для **PostgreSQL**: в блоке `'pgsql'` параметр `'pass'` должен совпадать с `POSTGRES_PASSWORD` из `.env` (по умолчанию `postgres-password`).
+
+Если пароли не совпадают, миграции при старте контейнера завершатся ошибкой.
+
 <details>
 
 <summary>💡 Комментарии к настройке config.ini</summary>
@@ -302,6 +317,7 @@ database_dbname_archive=orchestrator_archive
 **Важно:**
 
 * Пароли базы данных должны точно совпадать с паролями в файле .env
+* Те же пароли нужно указать в **backend/config/phinx.php** (поля `pass` в секциях `mysql` и `pgsql`) — иначе миграции при запуске контейнера не выполнятся
 * Если используете PostgreSQL - раскомментируйте соответствующие строки и закомментируйте MySQL
 * Сохраните файл после внесения изменений (Ctrl+O, Enter, Ctrl+X)
 

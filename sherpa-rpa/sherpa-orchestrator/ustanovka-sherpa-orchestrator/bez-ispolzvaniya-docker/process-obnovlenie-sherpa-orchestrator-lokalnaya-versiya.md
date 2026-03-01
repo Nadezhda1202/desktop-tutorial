@@ -106,10 +106,12 @@ sudo chown -R www-data:www-data /opt/SherpaOrchestrator
 sudo chmod -R 775 /opt/SherpaOrchestrator
 ```
 
+**Важно:** После восстановления проверьте, что в `backend/config/phinx.php` указаны те же пароли БД, что и в `config.ini` (параметр `'pass'` в секции `environments`). Иначе миграции при обновлении базы данных завершатся ошибкой.
+
 ### Обновление базы данных
 
 ```bash
-# Проверьте настройки подключения в phinx.php
+# Проверьте настройки подключения в phinx.php (пароли должны совпадать с config.ini)
 sudo nano backend/config/phinx.php
 
 # Выполните миграции базы данных

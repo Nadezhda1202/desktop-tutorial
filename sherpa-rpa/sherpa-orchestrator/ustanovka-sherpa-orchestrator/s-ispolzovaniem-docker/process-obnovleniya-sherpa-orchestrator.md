@@ -202,6 +202,21 @@ cat .env | grep -v '^#' | grep '=' | wc -l
 
 </details>
 
+#### Проверка config.ini и phinx.php
+
+Если при установке вы меняли пароли в `.env` (MYSQL\_ROOT\_PASSWORD или POSTGRES\_PASSWORD), убедитесь, что те же пароли указаны в:
+
+* **backend/config/config.ini** — параметры `database_password` (и при использовании PostgreSQL — соответствующие настройки);
+* **backend/config/phinx.php** — в секции `environments` параметр `'pass'` в блоке `'mysql'` или `'pgsql'` (должны совпадать с паролями из `.env` и config.ini).
+
+Иначе миграции при запуске контейнеров могут завершиться ошибкой.
+
+```bash
+# При необходимости отредактируйте конфигурацию
+nano backend/config/config.ini
+nano backend/config/phinx.php
+```
+
 ### 6. Запуск контейнеров
 
 ```bash
