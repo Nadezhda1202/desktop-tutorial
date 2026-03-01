@@ -82,7 +82,7 @@ sudo mv /opt/SherpaOrchestrator /opt/SherpaOrchestrator_backup_$(date +%Y%m%d_%H
 sudo mkdir /opt/SherpaOrchestrator
 
 # Найдите и распакуйте архив обновления (автоматически выбирается самая свежая версия)
-tar -xvzf "$(ls orchestrator_local_update_*.tar.gz | sort -V | tail -n 1)"
+tar -xvzf "$(ls orchestrator_local_update_*.tgz | sort -V | tail -n 1)"
 
 
 # Перейдите в директорию приложения

@@ -15,10 +15,10 @@ tar -xvzf "$(ls orchestrator_docker_update_*.tgz | sort -V | tail -n 1)"
 
 <summary>💡 Комментарии к распаковке архива</summary>
 
-**tar -xvzf "$(ls orchestrator\_docker\_update\_\*.tar.gz | sort -V | tail -n 1)"** - распаковывает архив с обновлением
+**tar -xvzf "$(ls orchestrator\_docker\_update\_\*.tgz | sort -V | tail -n 1)"** - распаковывает архив с обновлением
 
 * `tar -xvzf` - распаковывает архив с подробным выводом
-* `ls orchestrator_docker_update_*.tar.gz` - находит все файлы архивов обновлений
+* `ls orchestrator_docker_update_*.tgz` - находит все файлы архивов обновлений
 * `sort -V` - сортирует версии естественно (1.0 < 1.1 < 1.10)
 * `tail -n 1` - выбирает самый свежий файл
 
