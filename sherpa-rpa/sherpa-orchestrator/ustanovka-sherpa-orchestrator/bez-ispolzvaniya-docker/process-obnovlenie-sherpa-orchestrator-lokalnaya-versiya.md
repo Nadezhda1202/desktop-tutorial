@@ -47,7 +47,7 @@ cp -r /opt/SherpaOrchestrator/backend/logs /opt/SherpaOrchestrator/backend/logs_
 cd /opt
 
 # Скачайте архив с обновлением
-orch_local_update_*.tar.gz
+orchestrator_local_update_*.tgz
 
 ```
 

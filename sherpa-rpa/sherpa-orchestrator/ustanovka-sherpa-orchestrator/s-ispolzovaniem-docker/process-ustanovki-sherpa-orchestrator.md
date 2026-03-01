@@ -8,7 +8,7 @@
 
 ```bash
 # Найдите и распакуйте архив обновления (автоматически выбирается самая свежая версия)
-tar -xvzf "$(ls orchestrator_docker_update_*.tar.gz | sort -V | tail -n 1)"
+tar -xvzf "$(ls orchestrator_docker_update_*.tgz | sort -V | tail -n 1)"
 ```
 
 <details>

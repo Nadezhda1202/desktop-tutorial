@@ -86,7 +86,7 @@ sudo apt -y upgrade
 cd /opt
 
 # Найдите и распакуйте архив обновления (автоматически выбирается самая свежая версия)
-tar -xvzf "$(ls orch_local_update_*.tar.gz | sort -V | tail -n 1)"
+tar -xvzf "$(ls orchestrator_local_update_*.tgz | sort -V | tail -n 1)"
 
 # Перейдите в директорию с распакованными файлами
 cd SherpaOrchestrator
