@@ -171,7 +171,7 @@ cp docker-compose-pg.yml docker-compose.yml
 
 </details>
 
-Если версия оркестратора равно или меньше v141856 необходимо строку с cache.bin через volume в docker-compose orchestrator
+Если версия оркестратора равно или меньше v141856 необходимо строку с cache.bin добавить в docker-compose.yml orchestrator volume&#x20;
 
 ```
 - ./backend/config/cache.bin:/opt/SherpaOrchestrator/backend/app/cache.bin
