@@ -153,18 +153,18 @@ sudo ./sh_scripts/load_all_docker_images.sh
 # Обновите конфигурацию docker-compose в зависимости от используемой БД
 
 # Для MySQL (рекомендуется)
-cp build/docker/docker-compose-mysql.yml docker-compose.yml
+cp docker-compose-mysql.yml docker-compose.yml
 
 # ИЛИ для PostgreSQL
-cp build/docker/docker-compose-pg.yml docker-compose.yml
+cp docker-compose-pg.yml docker-compose.yml
 ```
 
 <details>
 
 <summary>💡 Комментарии к выбору конфигурации БД</summary>
 
-**cp build/docker/docker-compose-mysql.yml docker-compose.yml** - выбирает конфигурацию для MySQL\
-**cp build/docker/docker-compose-pg.yml docker-compose.yml** - выбирает конфигурацию для PostgreSQL
+**cp docker-compose-mysql.yml docker-compose.yml** - выбирает конфигурацию для MySQL\
+**cp docker-compose-pg.yml docker-compose.yml** - выбирает конфигурацию для PostgreSQL
 
 * В рабочем каталоге должен быть итоговый файл `docker-compose.yml`
 * Выберите только один вариант в зависимости от используемой базы данных
