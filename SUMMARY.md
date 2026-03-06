@@ -1067,6 +1067,8 @@
       * [Версия 1.12b](obnovleniya/obnovleniya-sherpa-designer/arkhiv-obnovlenii/versiya-1.12b.md)
       * [Добавлена поддержка Telegram](obnovleniya/obnovleniya-sherpa-designer/arkhiv-obnovlenii/dobavlena-podderzhka-telegram.md)
   * [Обновления Sherpa Orchestrator](obnovleniya/obnovleniya-sherpa-orchestrator/README.md)
+    * [Версия 141858](obnovleniya/obnovleniya-sherpa-orchestrator/versiya-141858.md)
+    * [Версия 141857](obnovleniya/obnovleniya-sherpa-orchestrator/versiya-141857.md)
     * [Версия 141856](obnovleniya/obnovleniya-sherpa-orchestrator/versiya-141856.md)
     * [Версия 141855](obnovleniya/obnovleniya-sherpa-orchestrator/versiya-141855.md)
     * [Версия 141854](obnovleniya/obnovleniya-sherpa-orchestrator/versiya-141854.md)
